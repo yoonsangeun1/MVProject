@@ -2,12 +2,42 @@
 
 /*공지사항 css*/
 
-#boardWap_table{
+#bNotice_wrap{   /*body 안 전체 div*/
+	width:1500px;
+	border:1px solid;
+	height:700px;
+}
+
+#bNotice_update{	/*왼쪽 업데이트 ul,li 포함*/
+	float:left;
+	display:inline-block;	
+	width:250px;
+	height:100px;
+	margin:30px 50px 0px 10px;
+}
+
+#bNotice_update h3{/*왼쪽 업데이트 h3 설정*/
+	margin-left:10px;
+	width:90px; height:30px;
+}
+
+ul{
+	border:1px solid black;
+	list-style:square;
+	padding-bottom:30px;
+}
+
+li{
+	padding-top:30px;
+}
+
+#bNotice_table{
 	width:900px;
 	height:500px;
 	text-ailgn:center;
 	border-top:1px solid grey;
 	border-bottom:1px solid black;
+	margin-top:30px;
 }
 
 th, td{
@@ -39,14 +69,6 @@ a:hover{ /*마우스 오버 시*/
 	text-decoration:underline;
 }
 
-thead{
-	font-weight:150;
-}
-
-thead{
-	font-size:30px;
-}
-
 #no, #author, #time, #hit{
 	font-family:Arial;
 	font-size:17px;
@@ -73,34 +95,15 @@ thead{
 	width:150px;
 }
 
-#searchButton{ /*검색 버튼에 마우스 가져다 댈 시 손가락 모양으로 바뀜*/
+#bNotice_search{   /*하위 검색창 div*/
+	width:300px;
+	float:center; 
+ margin:30px auto; 
+	 height:35px;
+}
+
+#bNotice_searchButton{ /*검색 버튼에 마우스 가져다 댈 시 손가락 모양으로 바뀜*/
 	height:30px;
 	cursor:pointer;
 }
-
-#left_update{	/**/
-	float:left;
-	display:inline-block;	
-	width:250px;
-	height:100px;
-	margin-right:50px;
-}
-
-ul{
-	border:1px solid black;
-	list-style:square;
-	padding-bottom:30px;
-}
-
-li{
-	padding-top:30px;
-}
-
-#bottm_search{   /*하위 검색창 div*/
-	float:left;
-	display:inline;
-	width:900px; height:35px;
-	margin-top:25px;
-}
-
 
