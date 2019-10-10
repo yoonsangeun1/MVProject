@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*공지사항 css*/
+
+#boardWap_table{
+	width:900px;
+	height:500px;
+	text-ailgn:center;
+	border-top:1px solid grey;
+	border-bottom:1px solid black;
+}
+
+th, td{
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+	padding:10px;
+}
+
+#link{ /*하이퍼링크 밑줄 없애기*/
+	color:black;
+	text-decoration:none;
+}
+
+#link:hover{ /*게시글 마우스 오버 시*/
+	text-decoration:underline;
+}
+
+#link:visited{ /*이미 한번 다녀갔던 링크*/
+	color:grey;
+}
+
+a{
+	font-weiht:100;
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{ /*마우스 오버 시*/
+	text-decoration:underline;
+}
+
+thead{
+	font-weight:150;
+}
+
+thead{
+	font-size:30px;
+}
+
+#no, #author, #time, #hit{
+	font-family:Arial;
+	font-size:17px;
+	text-align:center;
+}
+
+#no{
+	width:100px;
+}
+
+#title{
+	width:400px;
+}
+
+#author{
+	width:100px;
+}
+
+#time{
+	width:200px;
+}
+
+#hit{
+	width:150px;
+}
+
+#searchButton{ /*검색 버튼에 마우스 가져다 댈 시 손가락 모양으로 바뀜*/
+	height:30px;
+	cursor:pointer;
+}
+
+#left_update{	/**/
+	float:left;
+	display:inline-block;	
+	width:250px;
+	height:100px;
+	margin-right:50px;
+}
+
+ul{
+	border:1px solid black;
+	list-style:square;
+	padding-bottom:30px;
+}
+
+li{
+	padding-top:30px;
+}
+
+#bottm_search{   /*하위 검색창 div*/
+	float:left;
+	display:inline;
+	width:900px; height:35px;
+	margin-top:25px;
+}
+
+
