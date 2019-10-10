@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* admin.jsp ui 작업 */
+#admin_total{/* 총 테두리 */
+	width:860px;							/* div폭 */
+	height:600px;							/* div높이 */
+	border:1px solid black;					/* 테두리 선두께를 1픽셀, 실선 solid, 테두리 선색을 빨강 */
+	margin-left:auto; margin-right:auto;	/* div 수평중 정렬 */
+	margin-top:30px;						/* div바깥 상단 여백 */
+	border-radius:15px;						/* css3에서 추가된 속성으로 테두리를 둥글게 처리 */
+	box-shadow:10px 10px 10px grey;			/* css3에서 추가된 속성으로 div그림자 효과 */
+	
+}
+#admin_left_menu{/* 왼쪽 총 메뉴 div */
+	width:180px; height:580px; border:1px solid blue;
+	margin:10px 0px 0px 10px;				/* 시계방향으로 위, 오른쪽, 아래쪽, 왼쪽 바깥여백을 설정 */
+	border-radius:15px;
+	float:left;
+	
+}
+#admin_info{/* 관리자 정보, 사진, 이름 출력되는 div */
+	width:160px; height:220px; border:1px solid red;
+	margin:10px 0px 0px 10px; border-radius:15px;
+}
+#admin_info img{/* 등록된 관리자 사진 */
+	margin:10px 5px 0px 20px;
+}
+#admin_info ul{/* 관리자 정보 */
+	list-style:none;
+	
+}
+#admin_menu{/* 관리 메뉴 */
+	width:160px; height:200px; border:1px solid red;
+	margin:10px 10px 0px 10px; border-radius:15px;
+	float:left;								/* div는 가로줄 전체를 차지하는 블록요소 태그이다. 이것을 내용물 크기만큼만 차지하는 인라인 요소
+											태그로 바꿔주는 css속성이다. 그래야만 복수개의 div가 수평정렬된다. */
+}
+#admin_menu ul{/* 관리 메뉴 항목 */
+	list-style:none;
+	text-align:center;
+}
+#admin_logout{/* 로그아웃 */
+	width:160px; height:100px; border:1px solid red;
+	margin:10px 10px 0px 10px; border-radius:15px;
+	float:left;
+}
+#admin_logout ul{
+	list-style:none;
+	text-align:center;
+}
+#admin_dashboard{/* 대시보드 */
+	width:600px; height:50px; border:1px solid blue;
+	margin:10px 10px 0px 10px; border-radius:15px;
+	float:left;	
+}
+#admin_change_item{/* 변경되는 항목 */
+	width:600px; height:515px; border:1px solid blue;
+	margin:10px 10px 0px 10px; border-radius:15px;
+	float:left;
+}
+#change_01{/* 변경 항목 1 */
+	width:580px; height:140px; border:1px solid red;
+	margin:10px 10px 0px 10px; border-radius:15px;
+	float:left;
+}
+#change_02{/* 변경 항목 2 */
+	width:580px; height:130px; border:1px solid red;
+	margin:10px 10px 0px 10px; border-radius:15px;
+	float:left;
+}
+#header_menu{
+	float:left; height:180px; width:400px; border:1px solid red; border-radius:15px;
+	margin:10px 0px 0px 10px;
+}
+#header_menu ul li{
+	list-style:none;						/* 목록앞 점 없앰 */
+	display:inline;							/* 블록요소 태그를 인라인 요소태그로 바꾸는 속성=> 목록 수직정렬이 수평정렬로 바꿔짐. */
+	margin-top:140px;						/* 바깥 상단여백 설정 */
+	padding:0px 30px;						/* 상하 안여백은 0픽셀, 좌우 안여백을 동시에 30픽셀로 지정 */
+}
+#header_menu ul{
+	margin-top:140px;						/* 바깥 상단여백 설정 */
+}
+a:link{
+	text-decoration: none;					/* 하이퍼링크 된 곳 밑줄선 없앰 */
+}
+a:active{/* 하이퍼링크 된 곳 클릭하는 순간 밑줄선 없앰 */
+	text-decoration: none;
+}
+a:visited{/* 한번이라도 클릭한 곳 밑줄선 없앰 */
+	text-decoration: none;
+}
+a:hover{/* 하이퍼링크 된 곳 마우스 오버시 밑줄선 생김 */
+	text-decoration: underline;
+}
+#right_menu{
+	float:left; width:164px; height:180px; border:1px solid red; border-radius:15px;
+	margin:10px 0px 0px 10px;
+}
+#right_menu ul li{
+	list-style:none; float:left;/* 목록 수직정렬을 수평정렬로 바꿈 */
+	padding:0px 7px; font-size:10px;
+}
+#main_cont{
+	width:840px; height:630px; border:1px solid blue;
+	border-radius:15px; margin:10px 0px 0px 10px;
+}
+#main_cont .cont_title{
+    margin:280px 0px 0px 340px;	
+}
+#footer{
+	width:840px; height:86px; border:1px solid blue;
+	border-radius:15px; margin:10px 0px 0px 10px;
+}
+#footer .footer_title{
+	margin:33px 0px 0px 100px;
+	font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
