@@ -1,0 +1,33 @@
+@charset "UTF-8";
+#background{
+	width:900px; height:350px;
+	border:2px solid green;
+}
+#info div:hover{
+	height:400px;
+}
+#info_profile{
+	width:900px; height:100px;
+	border:2px solid red;
+	transition:height 1.3s;
+	background: #4679f0;
+}
+#profile{
+	text-align:center;
+	width:200px; height:200px;
+	border:2px solid blue;
+	border-radius:300px;
+	position: absolute;
+	top: 150px;
+	left: 15px;
+}
+
+#profile_scrap{
+	width:900px; height:600px;
+	border:2px solid green;
+	position: absolute;
+	top: 460px;
+	z-index: -1;
+}
+
+
