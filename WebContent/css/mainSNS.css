@@ -1,14 +1,12 @@
 @charset "UTF-8";
-#SNS_main_back{
-	background-color: #4a2ed3;
-}
 #SNS_main_left{
 	float:left;	
 	text-align:center;
-	text-decoration:none
+	text-decoration:none;
 }
 #SNS_main_left h3{
     transition: transform 0.3s;
+    background: white;
 }
 
 #SNS_main_left h3:hover {
@@ -16,7 +14,7 @@
     text-decoration:none;
 }
 #SNS_main_mid{
-	float:left;	
+	float:left;
 }
 #SNS_main_right{
 	
@@ -26,24 +24,28 @@
 	width:200px; height: 150px; border:2px solid green;
 	margin:0px 0px 0px 10px;
 	padding:2px 10px;
+    background: white;
 }
 #left_menu{
 	width : 200px; height : 600px;   border:2px solid green;
 	margin:10px 0px 0px 10px;
 	padding:2px 10px;
 	float:left;
+	background: white;
 }
 /* 중간 */
 #mid_pad {
 	width : 750px; height: 300px; border:2px solid red;
 	margin:0px 0px 10px 10px;
 	padding:10px 10px;
+	background: white;
 }
 #mid_scrap {
 	width : 750px; height: 600px; border:2px solid red;
 	margin:0px 0px 10px 10px;
 	padding:10px 10px;
 	float:left;
+	background: white;
 }
 #mid_left{
 	width:590px;	height: 290px;
@@ -51,6 +53,7 @@
 	border:2px solid red;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	background: white;
 }
 
 #mid_right{
@@ -59,6 +62,7 @@
 	border:2px solid red;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	background: white;
 }
 
 /* 오른쪽 */
@@ -67,16 +71,19 @@
 	margin:0px 0px 0px 10px;
 	padding:2px 10px;
 	float:left;
+	background: white;
 }
 #right_etc{
 	width:450px; height:300px; border:2px solid blue;
 	margin:10px 0px 0px 10px;
 	padding:2px 10px;
 	float:left;
+	background: white;
 }
 #right_etc2{
 	width:450px; height:300px; border:2px solid blue;
 	margin:10px 0px 0px 10px;
 	padding:2px 10px;
 	float:left;
+	background: white;
 }
