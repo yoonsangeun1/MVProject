@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/*board 폴더 이벤트 css 적용*/
+
+#bEvent_body{ /*Event 전체 div*/
+	margin-top:50px;
+	width:2000px;
+	height:2000px;
+	border:1px solid blue;
+}
+
+#bEvent_update{	/*왼쪽 업데이트 ul,li 포함*/
+	float:left;
+	display:inline-block;	
+	width:200px;
+	height:67px;
+	margin:80px 50px 0px 10px;
+}
+
+#bEvent_update h3{/*왼쪽 업데이트 h3 설정*/
+	margin-left:10px;
+	width:90px; height:30px;
+}
+
+ul{
+	border:1px solid black;
+	list-style:square;
+	padding-bottom:30px;
+}
+
+li{
+	padding-top:30px;
+}
+
+#bEvent_header{ /*이벤트 헤더 이벤트 글자 들어가는 곳*/
+	float:left;
+	width:700px;
+	height:40px;
+	margin-top:40px;
+}
+
+#bEvent_header .bEvent{ /*이벤트 글자*/
+	float:left;
+	font-size:28px;
+	font-weight:20px;
+}
+
+#bEvent_content{ /*이벤트 목록 전체 div*/
+	width:1200px;
+	height:2000px;
+	float:left;
+	margin-top:69px;
+}
+
+#bEvent_list{ /*이벤트 목록 list div*/
+	width:1200px;
+	height:auto;
+	float:left;
+}
+
+a{
+	text-decoration:none;
+}
+
+a,div,span{
+	display:inline-block;
+}
+
+.events{ /*한줄 이벤트 전체*/
+	width:1200px;
+	margin-bottom:20px;
+	box-shadow:0 10px 30px 2px rgba(0,0,0,.1);
+	clear:both;
+}
+
+
+
+
+
+
+
+
