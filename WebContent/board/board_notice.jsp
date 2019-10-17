@@ -15,7 +15,7 @@
 			<h3>업데이트</h3>
 			<ul>
 				<li><a href="board_notice.jsp">공지사항</a></li>
-				<li><a href="#">이벤트</a></li>
+				<li><a href="board_event.jsp">이벤트</a></li>
 			</ul>
 		</div>
 
@@ -121,19 +121,32 @@
 			</tbody>
 		</table>
 		
-		<div id="pagination"> <%--페이지 순번 --%>
+		<div id="bNotice_pagination"> <%--페이지 순번 --%>
 		 <a href="board_notice.jsp">첫페이지</a>
+		 <a href="board_notice.jsp">&lt;&lt;</a>
+		 <a href="board_notice.jsp">1</a>
+		 <a href="board_notice.jsp">2</a>
+		 <a href="board_notice.jsp">3</a>
+		 <a href="board_notice.jsp">4</a>
+		 <a href="board_notice.jsp">5</a>
+		 <a href="board_notice.jsp">6</a>
+		 <a href="board_notice.jsp">7</a>
+		 <a href="board_notice.jsp">8</a>
+		 <a href="board_notice.jsp">9</a>
+		 <a href="board_notice.jsp">10</a>
+		 <a href="board_notice.jsp">&gt;&gt;</a>
+		 <a href="board_notice.jsp">끝페이지</a>
 		</div>
 
 		<div id="bNotice_search">
 			<form><%--검색 콤보박스,텍스트필드,버튼 넣음 --%>
 
-				<select name="search" style="height: 29px;">
+				<select name="bNotice_searchcombo" id="bNotice_searchcombo">
 					<option value="title">제목</option>
 					<option value="body">내용</option>
 					<option value="title_body">제목+내용</option>
 					<option value="author">글쓴이</option>
-				</select> <input name="searchtext" size="20" style="height: 23px;" />
+				</select> <input name="bNotice_searchtext" id="bNotice_searchtext" size="20"/>
 				<%--텍필 추가 --%>
 				<input type="button" value="검색" id="bNotice_searchButton" />
 			</form>
