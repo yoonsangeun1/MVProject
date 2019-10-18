@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+/* 배우모집 css */
+
+#bActors_container{ /*전체 div*/
+	width:1300px;
+	height:1650px;
+}
+
+#bActors_community{ /*왼쪽  페이지 div*/
+	width:250px;
+	height:300px;
+	float:left;
+	padding-left:15px;
+	display:inline-block;
+}
+#bActors_community h3{ /*커뮤니티 h3*/
+	width:90px;
+	height:30px;
+	margin-top:10px;
+	padding-top:15px;
+	padding-left:15px;
+}
+
+a{
+	display:inline-block;
+	color:black;
+	text-decoration:none;
+}
+
+a:link{ /*방문 전 */
+	color:black;
+}
+
+a:visited{/*방문 후*/
+	color:black;
+}
+
+a:hover{ /*하이퍼링크 마우스 오버 시*/
+	text-decoration:underline;
+}
+
+ul{
+	border:1px solid black;
+	list-style:square;
+}
+
+li{
+	margin:10px 0px;
+	padding:10px 0px;
+}
+
+#bActors_panel{ /*연기자 프로필 주의사항*/
+	display:inline-block;
+	width:835px;
+	height:135px;
+	padding:15px;
+	border:1px solid black;
+	border-radius:5px;
+	font-size:14px;
+	margin-left:20px;
+	margin-top:74px;
+}
+
+#bActors_panel h3{
+	margin-left:5px;
+}
+
+#bActors_panelbody{ /*주의사항 글*/
+	background-color:#fcf8e3;
+	border-color:#faebcc;
+	color:#8a6d3b;
+	padding:15px;
+}
+
+#bActors_board{ /*오른쪽(센터) 전체 div*/
+	width:1024px;
+	height:1300px;
+	margin-left:265px;
+}
+
+#bActors_list{ /*배우 목록들 div*/
+	display:inline-block;
+	float:left;
+	width:auto;
+	height:1300px;
+}
+
+
+
+#bActors_model{ /*배우들 네모 전체div*/
+	margin:10px 5px 5px 18px;
+	padding:5px;
+	width:14%;
+	height:220px;
+	float:left;
+	border:1px solid #ccc;
+
+}
+
+img{
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+
+#character{ /*캐릭터 이미지*/
+	display:inline;
+	max-height:16px;
+}
+
+#bActors_name{ /*배우 이름*/
+	padding:5px;
+	margin-top:10px;
+	text-align:center;
+}
+
+#bActors_page{ /*하단 페이지 이동 div */
+	width:900px;
+	height:30px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#bActors_page a{
+	padding: 0px 7px;
+	color:#999;
+	font-size:17px;
+}
+
+#bActors_search{ /*검색 구간 전체 div */
+	width:66%;
+	display:inline-block;
+	float:left;
+	margin-left:37%;
+}
+
+#bActors_combo{ /*검색 구간 콤보박스*/
+	float:left;
+	display:inline-block;
+	width:auto; height:31px;
+	padding:6px 12px;
+	font-size:12px;
+	color:#a5a5a5;
+	border:1px solid #ccc;
+	border-radius:4px;
+	margin-right:3px;
+}
+
+#bActors_input{ /*텍필 ,버튼 통합 div*/
+	display:inline-table;
+}
+
+#search_text{ /*텍필 */
+	height:17px;
+	padding:6px 12px;
+	font-size:12px;
+	color:#a5a5a5;
+	border:1px solid #ccc;
+	border-radius:4px;
+	display:table-cell;
+	float:left;
+}
+
+#btn{ /*버튼 div*/
+	width:auto;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#search_btn{/*버튼*/
+	height:30px;
+	color:#333;
+	background-color:#fff;
+	border-color:#ccc;
+}
+
+
+#clear{
+	clear:both;
+}
+
