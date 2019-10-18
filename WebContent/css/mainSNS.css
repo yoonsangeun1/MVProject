@@ -1,17 +1,24 @@
 @charset "UTF-8";
-#SNS_main_left{
-	float:left;	
-	text-align:center;
-	text-decoration:none;
+#SNS_Wrap{
+	width:1510px; height:1080px;
+	margin:0 auto;
+	line-height: 1em;
+	position: relative;
 }
-#SNS_main_left h3{
+#SNS_Wrap h3{
     transition: transform 0.3s;
     background: white;
 }
 
-#SNS_main_left h3:hover {
+#SNS_Wrap h3:hover {
     transform: scale(1.2);
     text-decoration:none;
+}
+#SNS_main_left{
+	position:relative;
+	float:left;	
+	text-align:center;
+	text-decoration:none;
 }
 #SNS_main_mid{
 	float:left;
