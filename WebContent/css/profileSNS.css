@@ -30,4 +30,6 @@
 	z-index: -1;
 }
 
-
+.textEvent{
+	float:left;
+}
