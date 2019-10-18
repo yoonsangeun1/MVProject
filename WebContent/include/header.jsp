@@ -6,6 +6,9 @@
 <title>메인 화면</title>
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+<link rel="stylesheet" type="text/css" href="../css/board_notice.css" />
+<link rel="stylesheet" type="text/css" href="../css/board_actor.css" />
+<link rel="stylesheet" type="text/css" href="../css/board_event.css" />
 </head>
 <body>
 	<div id="main_wrap">

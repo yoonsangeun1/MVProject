@@ -1,13 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="../css/board_notice.css" />
-<%--head안에 넣으니 노란표시 안남, 2번째 줄에 넣었더니 노란표시 뜸 --%>
-<meta charset="UTF-8">
-<title>공지사항</title>
-</head>
-<body>
+<%@ include file="../include/header.jsp"%>
 
 	<div id="bNotice_wrap"> <%--전체 body div묶음 --%>
 		<div id="bNotice_update">
@@ -154,5 +146,4 @@
 		
 	</div> <%--body 안에 있는 전체를 씌운 div --%>
 
-</body>
-</html>
+<%@ include file="../include/footer.jsp"%>
