@@ -51,6 +51,7 @@ th, td{
 }
 
 #link:hover{ /*게시글 마우스 오버 시*/
+	color:black;
 	text-decoration:underline;
 }
 
@@ -64,9 +65,19 @@ a{
 	text-decoration:none;
 }
 
+a:link{ /*방문 전 */
+	color:black;
+}
+
+a:visited{/*방문 후*/
+	color:black;
+}
+
 a:hover{ /*마우스 오버 시*/
 	text-decoration:underline;
 }
+
+
 
 #no, #author, #time, #hit{
 	font-family:Arial;

@@ -4,7 +4,7 @@
 
 #bEvent_body{ /*Event 전체 div*/
 	margin-top:50px;
-	width:2000px;
+	width:1500px;
 	height:2000px;
 	border:1px solid blue;
 }
@@ -17,7 +17,7 @@
 	margin:80px 50px 0px 10px;
 }
 
-#bEvent_update h3{/*왼쪽 업데이트 h3 설정*/
+#bEvent_update h3{ /*왼쪽 업데이트 h3 설정*/
 	margin-left:10px;
 	width:90px; height:30px;
 }
@@ -39,7 +39,7 @@ li{
 	margin-top:40px;
 }
 
-#bEvent_header .bEvent{ /*이벤트 글자*/
+#bEvent_header .bEvent{ /*상위 이벤트 글자*/
 	float:left;
 	font-size:28px;
 	font-weight:20px;
@@ -62,8 +62,16 @@ a{
 	text-decoration:none;
 }
 
-a,div,span{
+a,div,span{ /*display:inline-block 넣어줌으로써 글씨부분 하이퍼링크 들어감*/
 	display:inline-block;
+}
+
+a:link{ /*방문 전 */
+	color:black;
+}
+
+a:visited{/*방문 후*/
+	color:black;
 }
 
 .events{ /*한줄 이벤트 전체*/
