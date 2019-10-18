@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+div {
+	 margin-left:auto; margin-right:auto;
+}
+/* 하이퍼링크 css 적용 */
+a:link { 
+color: blue;
+text-decoration: none;
+}
+a:active {
+text-decoration: none;
+}
+a:visited {
+color: green;
+text-decoration: none;
+}
+a:hover {
+color: blue; text-decoration: underline; 
+}
+
+
+#main_wrap {
+	width: 1200px; 
+	margin:0px; margin-left:auto; margin-right:auto;
+	min-height:1024px;/*최소높이*/
+}
+
+/* 헤더 첫번째 메뉴바 */
+#header_menu1 { /* 헤더 첫번째 메뉴바 */
+	width: 1200px;	height: 70px;
+	text-align: left;
+	float: center;
+	display: inline-block;
+}
+#header_menu1 nav { /* 메뉴바 목록 */
+	float: left;
+	
+	margin-left: auto; margin-right: auto;
+}
+#header_menu1 nav ul { /* 메뉴바 목록 */
+	float: left;
+	list-style: none; /* 목록 앞 점 없애기 */
+	padding: 0px; margin: 0px 0px;;
+}
+#header_menu1 nav ul li {
+	float: left;	margin: auto 20px; /* 상하 바깥여백 , 좌우 바깥여백 */
+	display: relative;
+}
+
+/* 헤더 두번째 메뉴바 */
+#header_menu2 { 
+	width: 1200px;	height: 60px;
+	text-align: left;
+	float: center;
+}
+#header_menu2 nav { /* 메뉴바 목록 */
+	float: left;
+	margin: auto auto;
+}
+#header_menu2 nav ul { /* 메뉴바 목록 */
+	float: left;
+	list-style: none; /* 목록 앞 점 없애기 */
+	padding: 0px;
+}
+#header_menu2 nav ul li {
+	float: left;	margin: auto 20px; /* 상하 바깥여백 , 좌우 바깥여백 */
+	display: relative;
+}
+
+/* 푸터 메뉴바 */
+#subcategory_bar { 
+	width: 1200px;	height: 50px;
+	text-align: left;
+	float: center;
+	color: #282828;
+    fill: #282828;
+}
+#subcategory_bar nav { /* 메뉴바 목록 */
+	float: left;
+	margin: 15px 0px;
+}
+#subcategory_bar nav ul { /* 메뉴바 목록 */
+	float: left;
+	list-style: none; /* 목록 앞 점 없애기 */
+	width: 785px; height: 20px;
+	margin: auto 10px;
+	padding: 0px;
+}
+#subcategory_bar nav ul li {
+	float: left;	margin-right: 10px;
+	text-decoration: 10px;
+}
+
+
+#global_footer {
+	float: left;
+}
+section {
+	display: inline-block;
+	width: 250px; height: 160px;
+	padding: 0px; margin: 0px;
+}
+#footer_about,#footer_help,#footer_hello,#footer_more {
+	margin: 10px;
+}
+#footer_container h4{
+	float: left;
+	width: 180px; height: 20px;
+	text-align: left;
+	margin: 10px;
+}
+
+#footer_container ul {
+	float: left;
+	margin: 10px; padding: 0px; list-style: none;
+	width: 180px; height: 140px;
+	text-align: left;
+}
+
+#footer_container ul li {
+	float: center;
+}
+#footer_policy ul {
+	float: left;
+	margin: 0px; padding: 0px; list-style: none;
+	text-align: center;
+}
+#footer_policy ul li{
+	float: left;
+	margin-right: 10px;
+}
+
+#footer_moving {
+	margin-left: 10px;
+	display: inline-block;
+	float: left;
+	height: 25px;
+}
+#footer_sns {
+	margin-right: 10px;
+	display: inline-block;
+	float: right;
+	height: 25px;
+}
+#footer_policy {
+	margin-left: 10px;
+}
+
+/* ui 깨짐 현상 막기 위함 */
+.clear {
+	clear: both;
+}
+
+.before {
+	content: " ";	display: table;
+}
