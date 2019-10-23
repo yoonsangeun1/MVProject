@@ -3,40 +3,74 @@
 /*board 폴더 이벤트 css 적용*/
 
 #bEvent_body{ /*Event 전체 div*/
-	margin-top:50px;
-	width:1500px;
-	height:2000px;
-	border:1px solid blue;
-}
-
-#bEvent_update{	/*왼쪽 업데이트 ul,li 포함*/
+	width:1198px;
+	height:auto;
 	float:left;
-	display:inline-block;	
-	width:200px;
-	height:67px;
-	margin:80px 50px 0px 10px;
+	min-height:1024px;
+	border:1px solid;
 }
 
-#bEvent_update h3{ /*왼쪽 업데이트 h3 설정*/
-	margin-left:10px;
-	width:90px; height:30px;
+#bEvent_update{	/*업데이트 전체*/
+	background:#25da2f;
+	position:relative;	
+	height:250px;
 }
 
-ul{
-	border:1px solid black;
-	list-style:square;
-	padding-bottom:30px;
+.bEvent_update_tit{ /*업데이트 h1 div*/
+	padding-top:47px;
 }
 
-li{
-	padding-top:30px;
+.bEvent_update_tit h1{/*왼쪽 업데이트 h1 설정*/
+	font-size:40px;
+ 	color:#fff;
+ 	font-weight:400;
+ 	margin-bottom:20px;
+ 	line-height:1;
+}
+
+.bEvent_update_list{
+	width:1200px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+.bEvent_update_list ul{
+	width:100%;
+	list-style:none;
+}
+
+.bEvent_update_list li{
+	border-right:1px solid #67c07c;
+	border-color:#6bc680;
+	border-bottom:1px solid #000;
+	float:left;
+	width:24.9%;
+}
+
+.bEvent_update_list .bEvent_update_list_event a{ /*이벤트 배경,글자색*/
+	color:#000; /*블랙*/
+	background:#fff; /*화이트*/
+}
+
+.bEvent_update_list a{
+	background-color:#76dc90;
+	height:80px;
+	color:#fff;
+	line-height:80px;
+	font-size:18px;
+	position:relative;
+	background:rgba(255,255,255,.2);
+	display:block;
+	text-align:center;
+	text-decoration:none;
 }
 
 #bEvent_header{ /*이벤트 헤더 이벤트 글자 들어가는 곳*/
 	float:left;
-	width:700px;
-	height:40px;
-	margin-top:40px;
+	width:100%;
+	padding:20px;
+	box-sizing:border-box;
 }
 
 #bEvent_header .bEvent{ /*상위 이벤트 글자*/
@@ -45,33 +79,22 @@ li{
 	font-weight:20px;
 }
 
-#bEvent_content{ /*이벤트 목록 전체 div*/
-	width:1200px;
-	height:2000px;
-	float:left;
-	margin-top:69px;
-}
-
 #bEvent_list{ /*이벤트 목록 list div*/
 	width:1200px;
 	height:auto;
 	float:left;
 }
 
-a{
-	text-decoration:none;
-}
-
-a,div,span{ /*display:inline-block 넣어줌으로써 글씨부분 하이퍼링크 들어감*/
+#bEvent_list a{
 	display:inline-block;
 }
 
-a:link{ /*방문 전 */
-	color:black;
+#bEvent_list div{
+	display:inline-block;
 }
 
-a:visited{/*방문 후*/
-	color:black;
+#bEvent_list span{
+	display:inline-block;
 }
 
 .events{ /*한줄 이벤트 전체*/
@@ -79,6 +102,73 @@ a:visited{/*방문 후*/
 	margin-bottom:20px;
 	box-shadow:0 10px 30px 2px rgba(0,0,0,.1);
 	clear:both;
+}
+
+#bEvent_pagination{ /*하단 페이지 이동 div */
+	width:1200px;
+	height:50px;
+	margin-top:20px;
+	text-align:center;
+}
+
+#bEvent_pagination a{
+	padding: 0px 7px;
+	color:#999;
+	font-size:17px;
+	text-decoration:none;
+}
+
+#bEvent_pagination a:link{/*방문 전*/
+	color:#999;
+}
+
+#bEvent_pagination a:visited{/*방문 후*/
+	color:#999;
+}
+
+#bEvent_pagination a:hover{/*마우스 오버 시*/
+	text-decoration:underline;
+}
+
+#bEvent_search{ /*검색 구간 전체 div */
+	width:1200px;
+	height:50px;
+	display:inline-block;
+	text-align:center;
+}
+
+#bEvent_combo{ /*검색 구간 콤보박스*/
+	display:inline-block;
+	width:auto; height:31px;
+	padding:6px 12px;
+	font-size:12px;
+	color:#a5a5a5;
+	border:1px solid #ccc;
+	border-radius:4px;
+}
+
+#bEvent_input{ /*텍필 ,버튼 통합 div*/
+	display:inline-table;
+}
+
+#search_text{ /*텍필 */
+	height:17px;
+	padding:6px 12px;
+	font-size:12px;
+	color:#a5a5a5;
+	border:1px solid #ccc;
+	border-radius:4px;
+	display:table-cell;
+	float:left;
+}
+
+#search_btn{/*버튼*/
+	width:50px;
+	height:30px;
+	color:#333;
+	margin-left:3px;
+	border-radius:4px;
+	border-color:#ccc;
 }
 
 

@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
+<%@ include file="../include/header.jsp"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,15 +9,32 @@
 </head>
 <body>
  <div id="bActors_container"> <%--전체 div --%>
-  <div id="bActors_community"> <%--왼쪽 배우 모집  --%>
-    <h3>커뮤니티</h3> <%--커뮤니티 h3 --%>
-   <ul>
-    <li><a href="../board.actors.jsp">배우 모집</a></li>
-    <li><a href="#">시나리오 공모</a></li>
-    <li><a href="#">자유게시판</a></li>
-   </ul>
-  </div> <%--왼쪽 배우 모집  --%>
-  
+ 
+  <div id="bActors_community"> <%--왼쪽 업데이트 사항. 공지,이벤트 등 div --%>
+		 <div class="bActors_community_tit"> <%--업데이트--%>
+		  	<h1>커뮤니티</h1>
+		 </div> <%--업데이트 --%>
+		 
+		  <div class="bActors_community_list"> <%--업데이트 밑에 리스트들 div --%>
+		   <ul>
+		   
+		    <li class="bActors_community_list_actors">
+		     <a href="board_actors.jsp">배우모집</a>
+		    </li>
+		    
+		    <li>
+		     <a href="#">시나리오 공모</a>
+		    </li>
+		    
+		    <li>
+		     <a href="#">자유게시판</a>
+		    </li>
+	    
+		   </ul>
+		  </div> <%--업데이트 밑에 리스트들 div --%>
+		
+		</div> <%--커뮤니티 배우모집,시나리오 공모 등 div --%>
+		
   <div id="bActors_panel" > <%--연기자 프로필 주의사항 --%>
    <h3>연기자 프로필</h3>
     <div id="bActors_panelbody"> <%--주의사항 글 --%>
@@ -28,7 +46,7 @@
     </div> <%--주의사항 글 --%>
   </div> <%--연기자 프로필 주의사항 --%>
   
-  <div id=bActors_board> <%--오른쪽(센터?) 전체 감쌀 div --%>
+
    <div id="bActors_list"> <%-- 배우 목록들 --%>
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
@@ -403,11 +421,10 @@
    
   </div> <%--검색 구간 전체 div --%>
    
-  </div> <%--오른쪽(센터?) 전체 감쌀 div --%>
- </div> <%--전체 div --%>
-</body>
-</html>
+  </div> <%--프로필 전체 감쌀 div --%>
 
+
+<%@ include file="../include/footer.jsp"%>
 
 
 

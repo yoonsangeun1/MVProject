@@ -4,10 +4,13 @@
 <head>
 <meta charset="UTF-8">
 <title>메인 화면</title>
+<%--메인화면 css --%>
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+
+<%--board css --%>
 <link rel="stylesheet" type="text/css" href="../css/board_notice.css" />
-<link rel="stylesheet" type="text/css" href="../css/board_actor.css" />
+<link rel="stylesheet" type="text/css" href="../css/board_actors.css" />
 <link rel="stylesheet" type="text/css" href="../css/board_event.css" />
 </head>
 <body>
