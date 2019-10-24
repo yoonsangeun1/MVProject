@@ -37,6 +37,13 @@
 					<li><a href="../admin/admin_funding.jsp">펀딩 관리</a></li>
 					<li><a href="../admin/admin_board.jsp">게시글 관리</a></li>
 					<li><a href="../admin/admin_movie.jsp">영화 관리</a></li>
+					<li><a href="#">DASHBOARD</a></li>
+					<li><a href="#">GENERAL</a></li>
+					<li><a href="#">------------</a></li>
+					<li><a href="../admin/admin_member.jsp">회원 관리</a></li>
+					<li><a href="../admin/admin_funding.jsp">펀딩 관리</a></li>
+					<li><a href="../admin/admin_board.jsp">게시글 관리</a></li>
+					<li><a href="#">영화 관리</a></li>
 				</ul>
 			</div>
 
@@ -59,4 +66,5 @@
 		<div id="admin_notice">
 			<input type="button" value="버튼1" />
 			<input type="button" value="버튼2" />
+			<h3>알림</h3>
 		</div>
