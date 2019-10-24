@@ -3,7 +3,6 @@
 <!DOCTYPE html>							<%-- 공모전 jsp --%>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../css/board_contest.css" />
 <%--head안에 넣으니 노란표시 안남, 2번째 줄에 넣었더니 노란표시 뜸 --%>
 <meta charset="UTF-8">
 <title>시나리오 공모</title>

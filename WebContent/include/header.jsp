@@ -10,8 +10,12 @@
 
 <%--board css --%>
 <link rel="stylesheet" type="text/css" href="../css/board_notice.css" />
-<link rel="stylesheet" type="text/css" href="../css/board_actors.css" />
 <link rel="stylesheet" type="text/css" href="../css/board_event.css" />
+<link rel="stylesheet" type="text/css" href="../css/board_faq.css" />
+<%-- 여기에 qna css 넣어야함 --%>
+<link rel="stylesheet" type="text/css" href="../css/board_actors.css" />
+<link rel="stylesheet" type="text/css" href="../css/board_contest.css" />
+<link rel="stylesheet" type="text/css" href="../css/board_free.css" />
 </head>
 <body>
 	<div id="main_wrap">

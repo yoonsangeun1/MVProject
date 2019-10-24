@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>배우 모집</title>
-<link rel="stylesheet" type="text/css" href="../css/board_actors.css" />
 </head>
 <body>
  <div id="bActors_container"> <%--전체 div --%>

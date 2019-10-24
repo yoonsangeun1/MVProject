@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>이벤트</title>
-<link rel="stylesheet" type="text/css" href="../css/board_event.css">
 </head>
 <body>
  <div id=bEvent_body> <%--전체를 둘러쌀 div --%>
@@ -27,7 +26,7 @@
 		    </li>
 		    
 		    <li>
-		     <a href="#">FAQ</a>
+		     <a href="board_faq.jsp">FAQ</a>
 		    </li>
 		    
 		    <li>

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* FAQ css */
+
+#bFaq_body{
+	width:1200px;
+	height:auto;
+	min-height:1024px;
+	float:left;
+}
+
+#bFaq_update{	/*업데이트 전체*/
+	background:#25da2f;
+	position:relative;	
+	height:250px;
+}
+
+.bFaq_update_tit{ /*업데이트 h1 div*/
+	padding-top:47px;
+}
+
+.bFaq_update_tit h1{/* 업데이트 h1 설정*/
+	font-size:40px;
+ 	color:#fff;
+ 	font-weight:400;
+ 	margin-bottom:20px;
+ 	line-height:1;
+}
+
+.bFaq_update_list{
+	width:1200px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+.bFaq_update_list ul{
+	width:100%;
+	list-style:none;
+}
+
+.bFaq_update_list li{
+	border-right:1px solid #67c07c;
+	border-color:#6bc680;
+	border-bottom:1px solid #000;
+	float:left;
+	width:24.9%;
+}
+
+.bFaq_update_list .bFaq_update_list_faq a{ /*이벤트 배경,글자색*/
+	color:#000; /*블랙*/
+	background:#fff; /*화이트*/
+}
+
+.bFaq_update_list a{
+	background-color:#76dc90;
+	height:80px;
+	color:#fff;
+	line-height:80px;
+	font-size:18px;
+	position:relative;
+	background:rgba(255,255,255,.2);
+	display:block;
+	text-align:center;
+	text-decoration:none;
+}
+
+
+
+
+
+

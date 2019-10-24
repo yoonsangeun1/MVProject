@@ -3,8 +3,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../css/board_notice.css" />
-<%--head안에 넣으니 노란표시 안남, 2번째 줄에 넣었더니 노란표시 뜸 --%>
 <meta charset="UTF-8">
 <title>공지사항</title>
 </head>
@@ -12,7 +10,7 @@
 
 	<div id="bNotice_wrap"> <%--전체 body div묶음 --%>
 	
-		<div id="bNotice_update"> <%--왼쪽 업데이트 사항. 공지,이벤트 등 div --%>
+		<div id="bNotice_update"> <%-- 업데이트 사항. 공지,이벤트 등 div --%>
 		 <div class="bNotice_update_tit"> <%--업데이트--%>
 		  	<h1>업데이트</h1>
 		 </div> <%--업데이트 --%>
@@ -29,7 +27,7 @@
 		    </li>
 		    
 		    <li>
-		     <a href="#">FAQ</a>
+		     <a href="board_faq.jsp">FAQ</a>
 		    </li>
 		    
 		    <li>
@@ -39,7 +37,7 @@
 		   </ul>
 		  </div> <%--업데이트 밑에 리스트들 div --%>
 		
-		</div> <%--왼쪽 업데이트 사항. 공지,이벤트 등 div --%>
+		</div> <%-- 업데이트 사항. 공지,이벤트 등 div --%>
 
 		<table id="bNotice_table" cellspacing="0">
 			<thead>
