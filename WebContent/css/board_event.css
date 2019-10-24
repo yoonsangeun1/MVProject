@@ -5,8 +5,8 @@
 #bEvent_body{ /*Event 전체 div*/
 	width:1198px;
 	height:auto;
-	float:left;
 	min-height:1024px;
+	float:left;
 	border:1px solid;
 }
 
@@ -102,6 +102,28 @@
 	margin-bottom:20px;
 	box-shadow:0 10px 30px 2px rgba(0,0,0,.1);
 	clear:both;
+}
+
+#bEvent_writing{ /*글 쓰기 버튼 div*/
+	width:1200px;
+	height:50px;
+	float:left;
+}
+
+#bEvent_writing_btn{ /*글 쓰기 버튼*/
+	float:right;
+	width:50px;
+	height:30px;
+	border-radius:4px;
+	margin-right:5px;
+	cursor:pointer;
+	color:#fff;
+	background-color:#5cb85c;
+	border-color:#4cae4c;
+}
+
+#bEvent_writing_btn:hover{ /*오버 시*/
+	background-color:#008000;
 }
 
 #bEvent_pagination{ /*하단 페이지 이동 div */

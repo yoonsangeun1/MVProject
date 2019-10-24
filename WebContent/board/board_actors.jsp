@@ -23,11 +23,11 @@
 		    </li>
 		    
 		    <li>
-		     <a href="#">시나리오 공모</a>
+		     <a href="board_contest.jsp">시나리오 공모</a>
 		    </li>
 		    
 		    <li>
-		     <a href="#">자유게시판</a>
+		     <a href="board_free.jsp">자유게시판</a>
 		    </li>
 	    
 		   </ul>
@@ -382,9 +382,18 @@
          	정한수
        </a>
       </div> <%--배우들 성함 --%>
-    </div> <%--배우들 네모 전체 div --%>
+    </div> <%--배우들 네모 전체 div --%>  
+   </div> <%-- 배우 목록들 --%> 
+   
+   <div> <%-- 밑 전체 div --%>
+    <div id="bActors_writing"> <%-- 글 쓰기 폼 div --%>
+     <form method="get" action="#">
+      <input type="button" id="bActors_writing_btn" name="bActors_writing_btn"
+      value="글 쓰기" />
+     </form>
+    </div> <%-- 글 쓰기 폼 div --%>
     
-    <div id="clear"></div>
+        <div id="clear"></div>
     
     <div id="bActors_page"> <%--페이지 순번 --%>
 		 <a href="board_actors.jsp">첫페이지</a>
@@ -403,7 +412,6 @@
 		 <a href="board_actors.jsp">끝페이지</a>
 		</div> <%--페이지 순번 --%>
     
-   </div> <%-- 배우 목록들 --%> 
 		
   <div id="bActors_search"> <%--검색 구간 전체 div --%>
    <select name="bActors_combo" id="bActors_combo">
@@ -422,7 +430,7 @@
   </div> <%--검색 구간 전체 div --%>
    
   </div> <%--프로필 전체 감쌀 div --%>
-
+ </div> <%-- 밑 전체 div --%>
 
 <%@ include file="../include/footer.jsp"%>
 

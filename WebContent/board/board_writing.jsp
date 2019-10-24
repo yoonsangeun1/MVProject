@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
+<%@ include file="../include/header.jsp"%>
 <!DOCTYPE html>				<%--글쓰기 페이지 --%>
 <html>
 <head>
@@ -35,6 +36,7 @@
    </form>
   </div> <%--글쓰기 페이지 div --%>
  </div> <%--안쪽 전체 div --%>
-</div>
-</body>
-</html>
+</div> <%--바깥 전체 div --%>
+
+<%@ include file="../include/footer.jsp"%>
+

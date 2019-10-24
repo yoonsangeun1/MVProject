@@ -143,6 +143,15 @@
 			</tbody>
 		</table>
 		
+	<div id="bNotice_writing"> <%-- 글 쓰기 폼 div --%>
+     <form method="get" action="#">
+      <input type="button" id="bNotice_writing_btn" name="bNotice_writing_btn"
+      value="글 쓰기" />
+     </form>
+    </div> <%-- 글 쓰기 폼 div --%>
+		
+		<div style="clear:both";></div>
+		
 		<div id="bNotice_pagination"> <%--페이지 순번 --%>
 		 <a href="board_notice.jsp">첫페이지</a>
 		 <a href="board_notice.jsp">&lt;&lt;</a>

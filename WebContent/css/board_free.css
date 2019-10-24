@@ -1,38 +1,26 @@
 @charset "UTF-8";
 
-/*공지사항 css*/
+/*자유게시판 css*/
 
-a, abbr, acronym, applet, article, aside, audio, b, big, blockquote, body, button,
-canvas, caption, center, cite, code, dd ,del, details, dfn, div, dl, dt, em, embed,
-fieldset, figcaption, figure, footer,form, h1, h2, h3, h4, h5, h6, header, hgroup,
-html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object,
-ol, output, p, pre, q, ruby, s, samp, section, select, smail, span, strike, strong,
-sub, sumary, sup, table, tbody, td, textarea, tfoot, th, thred, time, tr, u, ul, var,
-video{
-	margin:0;
-	padding:0;
-	border:0;
-	vertical-align:baseline;
-}
-
-#bNotice_wrap{   /*body 안 전체 div*/
+#bFree_wrap{   /*body 안 전체 div*/
 	width:1200px;
 	height:auto;
 	min-height:1024px;
 	border:1px solid;
 }
 
-#bNotice_update{	/*업데이트 전체*/
+#bFree_community{	/*커뮤니티 전체*/
+	width:1200px;
 	background:#25da2f;
 	position:relative;	
 	height:250px;
 }
 
-.bNotice_update_tit{ /*업데이트 h1 div*/
+.bFree_community_tit{ /*커뮤니티 h1 div*/
 	padding-top:47px;
 }
 
-.bNotice_update_tit h1{/*왼쪽 업데이트 h1 설정*/
+.bFree_community_tit h1{/* 커뮤니티 h1 설정*/
 	font-size:40px;
  	color:#fff;
  	font-weight:400;
@@ -40,27 +28,27 @@ video{
  	line-height:1;
 }
 
-.bNotice_update_list{
+.bFree_community_list{ /*커뮤니티 밑 목록들 div*/
 	width:100%;
 	position:absolute;
 	bottom:0;
 	left:0;
 }
 
-.bNotice_update_list ul{
+.bFree_community_list ul{
 	width:100%;
 	list-style:none;
 }
 
-.bNotice_update_list li{
+.bFree_community_list li{
 	border-right:1px solid #67c07c;
 	border-color:#6bc680;
 	border-bottom:1px solid #000;
 	float:left;
-	width:24.9%;
+	width:33.25%;
 }
 
-.bNotice_update_list a{
+.bFree_community_list a{
 	background-color:#76dc90;
 	height:80px;
 	color:#fff;
@@ -73,12 +61,12 @@ video{
 	text-decoration:none;
 }
 
-.bNotice_update_list_notice a{
+.bFree_community_list_free a{
 	color:#000;
 	background:#fff;
 }
 
-#bNotice_table{
+#bFree_table{
 	width:900px;
 	height:500px;
 	border-top:1px solid grey;
@@ -90,7 +78,7 @@ video{
 	box-sizing:border-box;
 }
 
-#bNotice_table th, td{
+#bFree_table th, td{
 	border-top:1px solid grey;
 	padding:10px;
 }
@@ -152,19 +140,19 @@ video{
 	width:100px;
 }
 
-#bNotice_writing{/*글 쓰기 버튼 div*/
+#bFree_writing{ /*글 쓰기 div*/
 	width:1200px;
 	height:50px;
 	float:left;
 }
 
-#bNotice_writing form{
+#bFree_writing form{
 	width:1200px;
 	height:auto;
 	float:left;
 }
 
-#bNotice_writing_btn{/*글 쓰기 버튼 div*/
+#bFree_writing_btn{ /*글 쓰기 버튼*/
 	float:right;
 	width:50px;
 	height:30px;
@@ -177,43 +165,43 @@ video{
 	border-color:#4cae4c;
 }
 
-#bNotice_writing_btn:hover{ /*오버 시*/
+#bFree_writing_btn:hover{/*오버 시*/
 	background-color:#008000;
 }
 
-#bNotice_pagination{ /*하단 페이지 이동 div */
+#bFree_pagination{ /*하단 페이지 이동 div */
 	width:1200px;
 	height:50px;
 	margin-top:20px;
 	text-align:center;
 }
 
-#bNotice_pagination a{
+#bFree_pagination a{
 	padding: 0px 7px;
 	color:#999;
 	font-size:17px;
 	text-decoration:none;
 }
 
-#bNotice_pagination a:link{/*방문 전*/
+#bFree_pagination a:link{/*방문 전*/
 	color:#999;
 }
 
-#bNotice_pagination a:visited{/*방문 후*/
+#bFree_pagination a:visited{/*방문 후*/
 	color:#999;
 }
 
-#bNotice_pagination a:hover{/*마우스 오버 시*/
+#bFree_pagination a:hover{/*마우스 오버 시*/
 	text-decoration:underline;
 }
 
-#bNotice_search{ /*검색 구간 전체 div */
+#bFree_search{ /*검색 구간 전체 div */
 	width:1200px;
 	display:inline-block;
 	text-align:center;
 }
 
-#bNotice_combo{ /*검색 구간 콤보박스*/
+#bFree_combo{ /*검색 구간 콤보박스*/
 	display:inline-block;
 	width:auto; height:31px;
 	padding:6px 12px;
@@ -223,7 +211,7 @@ video{
 	border-radius:4px;
 }
 
-#bNotice_input{ /*텍필 ,버튼 통합 div*/
+#bFree_input{ /*텍필 ,버튼 통합 div*/
 	display:inline-table;
 }
 
@@ -246,6 +234,4 @@ video{
 	border-radius:4px;
 	border-color:#ccc;
 }
-
-
 
