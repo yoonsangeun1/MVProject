@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,12 +12,12 @@
 			<div id="SNS_main_left">
 				<div id="left_profile">
 					<h3>
-						<a href="SNS_Profile.html">프로필</a>
+						<a href="SNS_Profile.jsp">프로필</a>
 					</h3>
 				</div>
 				<div id="left_menu">
 					<h3>
-						<a href="mola.html">메인 커뮤니티</a>
+						<a href="mola.jsp">왼쪽 메뉴</a>
 					</h3>
 				</div>
 			</div>
@@ -26,17 +27,17 @@
 						<h3>게시물 작성</h3>
 					</div>
 					<div id="mid_right">
-						<input type="button" value="작성버튼" />
+						<input type="button" value="작성" />
 					</div>
 				</div>
 				<div id="mid_scrap">
-					<h3>게시글 보기</h3>
+					<h3>뭐였지</h3>
 				</div>
 			</div>
 			<div id="SNS_main_right">
 				<div id="right_profile">
 					<h3>
-						<a href="SNS_Profile.html">프로필 계정 설정</a>
+						<a href="SNS_Profile.jsp">프로필 설정</a>
 					</h3>
 				</div>
 				<div id="right_etc">

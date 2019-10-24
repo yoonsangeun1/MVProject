@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,10 +8,10 @@
 <link rel="stylesheet"  type="text/css" href="../css/profileSNS.css" />
 <body>
 	<div id="background">
-		<h3>배경화면</h3>
+		<h3>게시물 작성</h3>
 	</div>
 	<div id="profile">
-		<h3>프로필 사진</h3>	
+		<h3>프로필 사진</h3>
 	</div>
 	<div id="info">
 		<div id="info_profile">
@@ -18,7 +19,7 @@
 		</div>
 	</div>
 	<div id="profile_scrap">
-		<h3>게시글</h3>
+		<h3>프로필 설정</h3>
 	</div>
 </body>
 </html>

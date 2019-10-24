@@ -8,6 +8,7 @@
 #SNS_Wrap h3{
     transition: transform 0.3s;
     background: white;
+    display: inline-block;
 }
 
 #SNS_Wrap h3:hover {
