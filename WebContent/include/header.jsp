@@ -6,9 +6,11 @@
 <title>메인 화면</title>
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+<!-- 
 <link rel="stylesheet" type="text/css" href="../css/board_notice.css" />
 <link rel="stylesheet" type="text/css" href="../css/board_actor.css" />
 <link rel="stylesheet" type="text/css" href="../css/board_event.css" />
+-->
 </head>
 <body>
 	<div id="main_wrap">
@@ -21,24 +23,25 @@
 				<nav>
 					<ul>
 						<%--메뉴구성은 ul li블록요소 태그 --%>
-						<li><a href="#">Project</a></li>
-						<li><a href="#">Movies</a></li>
-						<li><div id="header_logo">
-								<a href="index.jsp"><img src="../images/moving.png"
-									alt="로고 이미지" width="180" height="50" align="center" /></a>
+						<li class="hMenu_left"><a href="#">Project</a></li>
+						<li class="hMenu_left"><a href="#">Movies</a></li>
+						<li class="hMenu_Center"><div id="header_logo">
+								<a href="#"><img src="../images/logo.png" alt="로고 이미지"
+									width="150" height="25" /></a>
 							</div></li>
-						<li><input name="header_searchbar" size="10">&nbsp;&nbsp;<img
-							src="../images/search.png" alt="검색 이미지" width="20" height="20"
-							align="center" /></li>
-						<li><a href="#">SNS</a></li>
-						<li><a href="#">Login</a></li>
+						<li class="hMenu_right"><input name="header_searchbar"
+							size="10">&nbsp;&nbsp;<img src="../images/search.png"
+							alt="검색 이미지" width="20" height="20" /></li>
+						<li class="hMenu_right"><a href="#">SNS</a></li>
+						<li class="hMenu_right"><a href="#">Login</a></li>
 					</ul>
 				</nav>
 			</div>
 
+
 			<%-- 상단 메뉴 두번째  category_bar --%>
 			<div id="header_menu2">
-				<nav>
+				<nav id="menu_bar">
 					<ul>
 						<li><a href="#">All</a></li>
 						<li><a href="#">Documentaries</a></li>
@@ -46,9 +49,12 @@
 						<li><a href="#">Animation</a></li>
 						<li><a href="#">Action</a></li>
 						<li><a href="#">Romance</a></li>
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Romance</a></li>
+						<li><a href="#">Action</a></li>
 					</ul>
 				</nav>
 			</div>
 
+			<div class="border_bottom20"></div>
 			<div class="clear"></div>
-			<hr/>
