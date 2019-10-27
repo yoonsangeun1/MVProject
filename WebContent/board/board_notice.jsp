@@ -1,15 +1,43 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ include file="../include/header.jsp"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>공지사항</title>
+</head>
+<body>
 
 	<div id="bNotice_wrap"> <%--전체 body div묶음 --%>
-		<div id="bNotice_update">
-			<%--왼쪽 업데이트 사항. 공지,이벤트 등? --%>
-			<h3>업데이트</h3>
-			<ul>
-				<li><a href="board_notice.jsp">공지사항</a></li>
-				<li><a href="board_event.jsp">이벤트</a></li>
-			</ul>
-		</div>
+	
+		<div id="bNotice_update"> <%-- 업데이트 사항. 공지,이벤트 등 div --%>
+		 <div class="bNotice_update_tit"> <%--업데이트--%>
+		  	<h1>업데이트</h1>
+		 </div> <%--업데이트 --%>
+		 
+		  <div class="bNotice_update_list"> <%--업데이트 밑에 리스트들 div --%>
+		   <ul>
+		   
+		    <li class="bNotice_update_list_notice">
+		     <a href="board_notice.jsp">공지사항</a>
+		    </li>
+		    
+		    <li>
+		     <a href="board_event.jsp">이벤트</a>
+		    </li>
+		    
+		    <li>
+		     <a href="board_faq.jsp">FAQ</a>
+		    </li>
+		    
+		    <li>
+		     <a href="#">QnA</a>
+		    </li>
+		    
+		   </ul>
+		  </div> <%--업데이트 밑에 리스트들 div --%>
+		
+		</div> <%-- 업데이트 사항. 공지,이벤트 등 div --%>
 
 		<table id="bNotice_table" cellspacing="0">
 			<thead>
@@ -113,6 +141,15 @@
 			</tbody>
 		</table>
 		
+	<div id="bNotice_writing"> <%-- 글 쓰기 폼 div --%>
+     <form method="get" action="#">
+      <input type="button" id="bNotice_writing_btn" name="bNotice_writing_btn"
+      value="글 쓰기" />
+     </form>
+    </div> <%-- 글 쓰기 폼 div --%>
+		
+		<div style="clear:both";></div>
+		
 		<div id="bNotice_pagination"> <%--페이지 순번 --%>
 		 <a href="board_notice.jsp">첫페이지</a>
 		 <a href="board_notice.jsp">&lt;&lt;</a>
@@ -130,20 +167,22 @@
 		 <a href="board_notice.jsp">끝페이지</a>
 		</div>
 
-		<div id="bNotice_search">
-			<form><%--검색 콤보박스,텍스트필드,버튼 넣음 --%>
-
-				<select name="bNotice_searchcombo" id="bNotice_searchcombo">
-					<option value="title">제목</option>
-					<option value="body">내용</option>
-					<option value="title_body">제목+내용</option>
-					<option value="author">글쓴이</option>
-				</select> <input name="bNotice_searchtext" id="bNotice_searchtext" size="20"/>
-				<%--텍필 추가 --%>
-				<input type="button" value="검색" id="bNotice_searchButton" />
-			</form>
-		</div>
-		
+		  <div id="bNotice_search"> <%--검색 구간 전체 div --%>
+   <select name="bNotice_combo" id="bNotice_combo">
+    <option value="title_content">제목+내용</option>
+    <option value="title">제목</option>
+    <option value="content">내용</option>
+    <option value="user_name">이름</option>
+    <option value="tag">태그</option>
+   </select>
+   
+   <div id="bNotice_input"> <%--텍필,버튼 --%>
+    <input id="search_text" name="search_text" size="20" />
+    <input type="submit" id="search_btn" value="검색" />
+   </div> <%--텍필,버튼 --%>
+   
+  </div> <%--검색 구간 전체 div --%>
+  
 	</div> <%--body 안에 있는 전체를 씌운 div --%>
 
 <%@ include file="../include/footer.jsp"%>

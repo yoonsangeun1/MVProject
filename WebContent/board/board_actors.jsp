@@ -1,22 +1,39 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
+<%@ include file="../include/header.jsp"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>배우 모집</title>
-<link rel="stylesheet" type="text/css" href="../css/board_actors.css" />
 </head>
 <body>
  <div id="bActors_container"> <%--전체 div --%>
-  <div id="bActors_community"> <%--왼쪽 배우 모집  --%>
-    <h3>커뮤니티</h3> <%--커뮤니티 h3 --%>
-   <ul>
-    <li><a href="../board.actors.jsp">배우 모집</a></li>
-    <li><a href="#">시나리오 공모</a></li>
-    <li><a href="#">자유게시판</a></li>
-   </ul>
-  </div> <%--왼쪽 배우 모집  --%>
-  
+ 
+  <div id="bActors_community"> <%--왼쪽 업데이트 사항. 공지,이벤트 등 div --%>
+		 <div class="bActors_community_tit"> <%--업데이트--%>
+		  	<h1>커뮤니티</h1>
+		 </div> <%--업데이트 --%>
+		 
+		  <div class="bActors_community_list"> <%--업데이트 밑에 리스트들 div --%>
+		   <ul>
+		   
+		    <li class="bActors_community_list_actors">
+		     <a href="board_actors.jsp">배우모집</a>
+		    </li>
+		    
+		    <li>
+		     <a href="board_contest.jsp">시나리오 공모</a>
+		    </li>
+		    
+		    <li>
+		     <a href="board_free.jsp">자유게시판</a>
+		    </li>
+	    
+		   </ul>
+		  </div> <%--업데이트 밑에 리스트들 div --%>
+		
+		</div> <%--커뮤니티 배우모집,시나리오 공모 등 div --%>
+		
   <div id="bActors_panel" > <%--연기자 프로필 주의사항 --%>
    <h3>연기자 프로필</h3>
     <div id="bActors_panelbody"> <%--주의사항 글 --%>
@@ -28,7 +45,7 @@
     </div> <%--주의사항 글 --%>
   </div> <%--연기자 프로필 주의사항 --%>
   
-  <div id=bActors_board> <%--오른쪽(센터?) 전체 감쌀 div --%>
+
    <div id="bActors_list"> <%-- 배우 목록들 --%>
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
@@ -364,9 +381,18 @@
          	정한수
        </a>
       </div> <%--배우들 성함 --%>
-    </div> <%--배우들 네모 전체 div --%>
+    </div> <%--배우들 네모 전체 div --%>  
+   </div> <%-- 배우 목록들 --%> 
+   
+   <div> <%-- 밑 전체 div --%>
+    <div id="bActors_writing"> <%-- 글 쓰기 폼 div --%>
+     <form method="get" action="#">
+      <input type="button" id="bActors_writing_btn" name="bActors_writing_btn"
+      value="글 쓰기" />
+     </form>
+    </div> <%-- 글 쓰기 폼 div --%>
     
-    <div id="clear"></div>
+        <div id="clear"></div>
     
     <div id="bActors_page"> <%--페이지 순번 --%>
 		 <a href="board_actors.jsp">첫페이지</a>
@@ -385,7 +411,6 @@
 		 <a href="board_actors.jsp">끝페이지</a>
 		</div> <%--페이지 순번 --%>
     
-   </div> <%-- 배우 목록들 --%> 
 		
   <div id="bActors_search"> <%--검색 구간 전체 div --%>
    <select name="bActors_combo" id="bActors_combo">
@@ -403,11 +428,10 @@
    
   </div> <%--검색 구간 전체 div --%>
    
-  </div> <%--오른쪽(센터?) 전체 감쌀 div --%>
- </div> <%--전체 div --%>
-</body>
-</html>
+  </div> <%--프로필 전체 감쌀 div --%>
+ </div> <%-- 밑 전체 div --%>
 
+<%@ include file="../include/footer.jsp"%>
 
 
 
