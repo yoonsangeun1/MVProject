@@ -1,8 +1,10 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
 
 			<div class="clear"></div>
-
-			<hr />
-			<div id="global_footer">
+			<%-- 구분선 --%>
+			<div class="border_bottom20"></div>
+			
+			<div id="global_footer_wrap">
 				<%-- 하단 메뉴 : 장르  이름 나중에 바꾸기 subcategory_bar --%>
 				<section id="subcategory_bar">
 					<nav>
@@ -20,7 +22,9 @@
 					</nav>
 				</section>
 
-				<hr />
+				<%-- 구분선 --%>
+				<div class="border_bottom20"></div>
+			
 				<!-- <div class="bafore"> </div>  -->
 
 				<div id="footer_container">
@@ -84,8 +88,8 @@
 				</div>
 
 				<div class="clear"></div>
-				<br />
-				<hr />
+				<%-- 구분선 --%>
+				<div class="border_bottom20"></div>
 
 
 				<div id="footer_policy">
