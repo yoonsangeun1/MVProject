@@ -8,45 +8,78 @@
 <link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
 <body>
 	<div id="SNS_All"><!-- 배경화면 전체 지정 -->
+	<div id="test">테스트</div>
 		<div id="SNS_Wrap"><!-- 오브젝트 항목 래핑 -->
 			<div id="SNS_main_left"><!-- 좌측 메뉴 -->
 				<div id="SNS_left_title">
-					<img id=src="" alt="프로필 사진">
-					<h2>사용자 이름</h2>
+					<img src="../images/member_profile.png" width=30px height=30px alt="프로필 사진">
+					<div id="SNS_Profile_Name">사용자 이름</div>
 				</div>
 				<br/>
 				<ul id="SNS_ul1"><!-- 좌측 메뉴 생성 -->
-					<li><a href="">프로필</a></li>
-					<li><a href="">즐겨찾기</a></li>
-					<li><a href="">메신저</a></li>
-					<li><a href="">영상</a></li>
-					<li><a href="">페이지</a></li>
-					<li><a href="">그룹</a></li>
-					<li><a href="">이벤트</a></li>
-					<li><a href="">저장한 게시글</a></li>
+					<li><a href="SNS_Profile.jsp">프로필</a></li>
+					<li><a href="#">즐겨찾기</a></li>
+					<li><a href="#">메신저</a></li>
+					<li><a href="#">영상</a></li>
+					<li><a href="#">페이지</a></li>
+					<li><a href="#">그룹</a></li>
+					<li><a href="#">이벤트</a></li>
+					<li><a href="#">저장한 게시글</a></li>
 				</ul>
 			</div>
 			<div id="SNS_main_mid"><!-- 중간 글쓰기, 글보기 -->
+			<form method="post" action="#" onsubmit="#">
 				<div id="mid_pad">
 					<div id="mid_left">
 						<textarea id="SNS_main_text" rows="14" cols="40" placeholder="오늘은 어떤 기분을 남기고 싶으신가요?"></textarea>
 					</div>
 					<div id="mid_right">
 						<input type="submit" id="SNS_Buttons" value="작성" />
-						<input type="button" id="SNS_Buttons" value="사진 올리기"/>
-						<input type="button" id="SNS_Buttons" value="동영상 올리기"/>
+							<div class="SNS_File">
+								<label for="SNS_Buttons_File">사진 올리기</label>
+								<input type="file" id="SNS_Buttons_File">							
+							</div>
+							<div class="SNS_File">
+								<label for="SNS_Buttons_File">동영상 올리기</label>
+								<input type="file" id="SNS_Buttons_File">
+							</div>
 						<input type="reset" id="SNS_Buttons" value="비우기"/>
 					</div>
 				</div>
+				</form>
 				<div id="mid_scrap">
-					<h3>뭐였지</h3>
+					<ul id="SNS_Content_ul">
+						<li>
+							<div id="SNS_Content">
+								<img src="../images/member_profile.png" width="30" height="30" alt="프로필 사진">
+									<div id="SNS_Content_info">
+										<div id="SNS_Content_Title">박진우</div>
+										<div id="SNS_Content_Writer">1시간 전</div>	
+									</div>
+									<input id="SNS_Option_Button" type="button" value="..." style="float:right;">
+								<div id="SNS_Content_Image">
+									<img alt="사진" src="../images/sns_photo.gif">
+								</div>							
+								<div id="SNS_Content_Cont">훈내폭발 #김래원 을 만날 시간🤗<br/>
+															오늘 밤 11시10분 가장 특별한 인터뷰❣<br/>
+															SBS 접속! 무비월드 채널 고정🤩<br/>
+															
+															↓예매는 아래에서↓<br/>
+															✔CGV <a href="https://bit.ly/2mvBz2B">https://bit.ly/2mvBz2B</a><br/>
+															✔메가박스 <a href="https://bit.ly/2ms0dAV">https://bit.ly/2ms0dAV</a><br/>
+															✔씨네큐 <a href="https://bit.ly/2m7DUjI">https://bit.ly/2m7DUjI</a><br/>
+															
+															#한국영화_박스오피스1위 #거침없는_현실로맨스<br/>
+															#가장보통의연애 #절찬상영중</div>
+							</div>
+							
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div id="SNS_main_right"><!-- 우측 프로필, 뉴스, 기타 -->
 				<div id="right_profile">
-					<h3>
-						<a href="SNS_Profile.jsp">프로필 접속</a>
-					</h3>
+					<h3><a href="SNS_Profile.jsp">프로필 접속</a></h3>
 				</div>
 				<div id="right_etc">
 					<div id="SNS_right_title">
