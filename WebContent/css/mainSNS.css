@@ -1,358 +1,96 @@
 @charset "UTF-8";
-/* 전체 항목 표준화 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
-	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
-	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
-	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
-	output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial,
-		sans-serif, "맑은 고딕", "나눔고딕 ExtraBold", "나눔고딕", "함초롬바탕";
-	font-size: inherit;
-	font-weight: inherit;
-	vertical-align: baseline;
-	font-size: inherit;
-	font-weight: inherit;
-	box-sizing: border-box;
-}
-
-a:link {
-	color: black;
-	text-decoration: none;
-}
-
-a:visited {
-	color: black;
-	text-decoration: none;
-}
-
-#SNS_All {
-	background-color: #f2f0fb;
-	align-items: center;
-}
-
-#SNS_Wrap { /* 전체 스타일 설정 */
-	width: 1200px;
-	height: 1080px;
-	box-sizing: border-box;
-	margin: auto auto;
+#SNS_Wrap{
+	width:1510px; height:1080px;
+	margin:0 auto;
 	line-height: 1em;
 	position: relative;
-	background-color: rgba(255, 255, 255, 0);
-	align-items: center;
-	padding: 0px 30px;
+}
+#SNS_Wrap h3{
+    transition: transform 0.3s;
+    background: white;
 }
 
-#SNS_Wrap h3 {
-	transition: transform 0.3s;
-	display: inline-block;
-}
-/*
 #SNS_Wrap h3:hover {
     transform: scale(1.2);
-}*/
-/* 왼쪽 메뉴 열거 */
-#SNS_Profile_Name{
-	font-size: 20px;
+    text-decoration:none;
+}
+#SNS_main_left{
+	position:relative;
+	float:left;	
+	text-align:center;
+	text-decoration:none;
+}
+#SNS_main_mid{
 	float:left;
-	padding-left: 2px;
-	padding-top: 5px;
 }
-#SNS_ul1 {
-	list-style: none;
-	font-size: 18px;
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	line-height: 45px;
-}
-#SNS_ul1 a{
-	color:white;
-}
-/* 오른쪽 메뉴 열거 */
-#SNS_ul2 {
-	list-style: none;
-	font-size: 15px;
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	line-height: 25px;
-}
-#SNS_ul2 li{
-	font-size: 15px;
-	text-align: left;
-	line-height: 25px;
-	border-bottom: 1px solid;
-   border-color: #f2f0fb;
-   margin-bottom: 5px;
-}
-
-#SNS_Content_ul {
-	width: 536px;
-	margin-top: 10px;
-	list-style: none;
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	float: left;
-}
-#SNS_Content_ul img{
-	float: left;
-}
-#SNS_Content_Title {
-	float: left;
+#SNS_main_right{
 	
 }
-#SNS_Content_Writer {
-	float: left;
+/* 왼쪽 */
+#left_profile{
+	width:200px; height: 150px; border:2px solid green;
+	margin:0px 0px 0px 10px;
+	padding:2px 10px;
+    background: white;
 }
-#SNS_main_text { /* 텍스트 에리어 */
-	resize: none;
-	font-size: 15px;
-	border: none;
-}
-
-#SNS_main_text:focus {
-	outline: none;
-}
-
-#SNS_main_left { /* 왼쪽 전체 */
-	width: 180px;
-	height: 600px;
-	color:white;
-	text-align: center;
-	position: relative;
-	float: left;
-	text-decoration: none;
-	margin: 5px 5px 5px 0px;
-	padding: 2px 10px 10px 10px;
-	/*border:2px solid green;*/
-	box-sizing: border-box;
-	float: left;
-}
-
-#SNS_main_mid {
-	float: left;
-}
-
-#SNS_main_right {
-	margin: 5px 0px 5px 5px;
+#left_menu{
+	width : 200px; height : 600px;   border:2px solid green;
+	margin:10px 0px 0px 10px;
+	padding:2px 10px;
+	float:left;
+	background: white;
 }
 /* 중간 */
-#mid_pad { /* 중간 위 영역 */
-	width: 640px;
-	height: 300px;
-	border: 1px solid #e8e8e8;
-	box-sizing: border-box;
-	margin: 5px 5px 5px 5px;
-	padding: 2px 2px 2px 2px;
+#mid_pad {
+	width : 750px; height: 300px; border:2px solid red;
+	margin:0px 0px 10px 10px;
+	padding:10px 10px;
+	background: white;
+}
+#mid_scrap {
+	width : 750px; height: 600px; border:2px solid red;
+	margin:0px 0px 10px 10px;
+	padding:10px 10px;
+	float:left;
+	background: white;
+}
+#mid_left{
+	width:590px;	height: 290px;
+	float:left;
+	border:2px solid red;
+	margin-right: 10px;
+	margin-bottom: 10px;
 	background: white;
 }
 
-#mid_scrap { /* 중간 아래 */
-	width: 640px;
-	min-height: 600px;
-	height: auto;
-	border: 1px solid #e8e8e8;
-	margin: 5px 5px 5px 5px;
-	padding: 10px 2px 10px 10px;
+#mid_right{
+	width:130px; height:290px;
+	float:left;
+	border:2px solid red;
+	margin-right: 10px;
+	margin-bottom: 10px;
 	background: white;
-	float: left;
-	box-sizing: border-box;
-	overflow: auto;
-}
-
-#mid_left { /*게시물 작성 영역*/
-	width: 510px;
-	height: 280px;
-	border: 1px solid #e8e8e8;
-	margin: 5px 5px 5px 5px;
-	padding: 5px 5px 5px 5px;
-	background: white;
-	float: left;
-	box-sizing: border-box;
-}
-#mid_right { /*확인 버튼 영역*/
-	width: 100px;
-	height: 280px;
-	float: left;
-	border: 1px solid #e8e8e8;
-	margin: 5px 5px 5px 5px;
-	margin-bottom: 0px;
-	background: white;
-	box-sizing: border-box;
 }
 
 /* 오른쪽 */
-#right_profile {
-	width: 300px;
-	height: 150px;
-	border: 1px solid #e8e8e8;
-	padding: 10px 10px 10px 10px;
-	margin: 5px 0px 5px 5px;
-	float: left;
-	background: white;
-}
-
-#right_etc {
-	width: 300px;
-	height: auto;
-	border: 1px solid #e8e8e8;
-	padding: 10px 10px 10px 10px;
-	margin: 5px 0px 5px 5px;
-	float: left;
-	background: #eae6fa ;
-}
-
-#right_etc2 {
-	width: 300px;
-	height: auto;
-	border: 1px solid #e8e8e8;
-	margin: 5px 0px 5px 5px;
-	padding: 10px 10px 10px 10px;
-	float: left;
-	background: white;
-}
-
-#SNS_left_title {
-	color:white;
-	width: 250px;
-	height: 30px;
-	padding-top: 10px;
-	margin-bottom: 10px;
-	/*border: 2px solid green;*/
-} 	
-#SNS_left_title h2{
-	padding-top: 7px;
-	padding-left: 10px;
-	font-size: 14px;
-}
-
-#SNS_left_title img {
-	float: left;
-}
-
-#SNS_left_title h2 {
-	float: left;
-}
-
-#SNS_right_title { /* 오른쪽 제목 영역 */
-	margin-bottom: 10px;
-}
-
-#SNS_Buttons {
-	background-color: #6a67ce;
-	width: 100px;
-	height: 70px;
-	cursor: pointer;
-	border-radius: .25em;
-	color: white;
-	outline: none;
-	border: 1px solid #d4cff3;
-	font-size: 15px;
-}
-.SNS_File {/* 파일 올리기 버튼 */
-	width: 98px;
-	height: 70px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align:center;
-	background-color: #6a67ce;
-	border-radius: .25em;
-	cursor: pointer;
-	-webkit-transition: background-color 0.2s;
-	transition: background-color 0.2s;
-	font-size: 15px;
-	border: 1px solid #d4cff3;
-}
-.SNS_File label {
-	word-spacing: 1px;
-	display: flex;
-	color: #fff;
-	font-size: 15px;
-}
-
-.SNS_File input[type="file"] {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: 0px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	border: 0;
-}
-
-#SNS_Buttons_File {
-	display: inline-block;
-	padding: .5em .75em;
-	color: #fff;
-	font-size: inherit;
-	line-height: normal;
-	vertical-align: middle;
-	background-color: #6a67ce;
-	cursor: pointer;
-	border: 1px solid #6a67ce;
-	border-radius: .25em;
-	-webkit-transition: background-color 0.2s;
-	transition: background-color 0.2s;
-}
-#SNS_Content{
-	
-}
-#SNS_Content_info{
-	margin-left: 10px;
-	display: flex;
-	flex-direction: column;
-	float: left;
-}
-/* 작성자, 제목, 내용을 표시한다. */
-#SNS_Content_Title {
-	font-size: 15px;
-	margin-top: 5px;
+#right_profile{
+	width:450px; height:150px; border:2px solid blue;
+	margin:0px 0px 0px 10px;
+	padding:2px 10px;
 	float:left;
+	background: white;
 }
-
-#SNS_Content_Writer {
-	margin-top: 2px;
-	font-size: 12px;
+#right_etc{
+	width:450px; height:300px; border:2px solid blue;
+	margin:10px 0px 0px 10px;
+	padding:2px 10px;
+	float:left;
+	background: white;
 }
-
-#SNS_Content_Cont {
-	font-size: 16px;
-	line-height: 22px;
-	margin-top: 10px;
-	margin-right: 5px;
-	padding-left: 5px;
-	float: left;
-}
-
-#SNS_Content_Image img {
-	width: 530px;
-	height: 320px;
-	font-size: 16px;
-	margin-top: 10px;
-	margin-right: 5px;
-}
-.SNS_Border{
-   width: auto;
-   height: 0px;
-   border-bottom: 1px solid;
-   border-color: #E8E8E8;
-   margin-bottom: 30px;
-}
-#SNS_Option_Button{
-	margin-right: 7px;
-}
-#test{
-	width: 1200px;
-	height: 50px;
-	background: #6a67ce;
-	margin-right: auto;
-	margin-left: auto;
+#right_etc2{
+	width:450px; height:300px; border:2px solid blue;
+	margin:10px 0px 0px 10px;
+	padding:2px 10px;
+	float:left;
+	background: white;
 }
