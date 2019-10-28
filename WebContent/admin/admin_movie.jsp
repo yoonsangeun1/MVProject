@@ -65,12 +65,13 @@
 				<td></td>
 			</tr>
 		</table>
-	<div id="aMovie_upLoad">
+		<div id="aMovie_upLoad">
 		
-	</div>
+		</div>
 	
-	<div id="aMovie_board">
+		<div id="aMovie_board">
 	
+		</div>
 	</div>
 </div>
 <%@ include file="../include/admin_footer.jsp"%>
