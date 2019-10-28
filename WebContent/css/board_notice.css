@@ -13,6 +13,10 @@ video{
 	padding:0;
 	border:0;
 	vertical-align:baseline;
+	font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial,
+      sans-serif, "맑은 고딕", "나눔고딕 ExtraBold", "나눔고딕", "함초롬바탕";
+   font-size: inherit;
+   font-weight: inherit;
 }
 
 #bNotice_wrap{   /*body 안 전체 div*/
@@ -166,7 +170,7 @@ video{
 
 #bNotice_writing_btn{/*글 쓰기 버튼 div*/
 	float:right;
-	width:50px;
+	width:60px;
 	height:30px;
 	border-radius:4px;
 	margin-top:10px;

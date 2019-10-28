@@ -1,14 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>무무끼리</title>
-</head>
-<link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
-<body>
+<%@ include file="../include/sns_header.jsp"%>
+
 	<div id="SNS_All"><!-- 배경화면 전체 지정 -->
-	<div id="test">테스트</div>
 		<div id="SNS_Wrap"><!-- 오브젝트 항목 래핑 -->
 			<div id="SNS_main_left"><!-- 좌측 메뉴 -->
 				<div id="SNS_left_title">
