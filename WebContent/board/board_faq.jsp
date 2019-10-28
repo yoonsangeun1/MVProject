@@ -39,7 +39,18 @@
 		
 		</div> <%--왼쪽 업데이트 사항. 공지,이벤트 등 div --%>
  
+   <div id="bFaq_cont"> <%--상단 업데이트 제외 전체 div --%>
+ 	<div id="bFaq_tap"> <%-- 문의 내용 탭 div --%>
+ 	 <input id="bFaq_tap_no1" type="button" onclick="#">이용 문의
+ 	 <input id="bFaq_tap_no2" type="button" onclick="#">펀딩 문의
+ 	 <input id="bFaq_tap_no3" type="button" onclick="#">결제 문의
+ 	</div>
  
+
+ 
+ 
+ 
+ </div> <%--상단 업데이트 제외 전체 div --%>
 </div> <%--FAQ 전체 div --%>
 
 

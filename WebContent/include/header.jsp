@@ -6,11 +6,23 @@
 <title>메인 화면</title>
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <link rel="stylesheet" type="text/css" href="../css/header.css" />
-<!-- 
-<link rel="stylesheet" type="text/css" href="../css/board_notice.css" />
-<link rel="stylesheet" type="text/css" href="../css/board_actor.css" />
-<link rel="stylesheet" type="text/css" href="../css/board_event.css" />
--->
+<%--board css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/board_notice.css" /> <%--공지사항--%>
+<link rel="stylesheet" type="text/css" href="../css/board_event.css" />  <%--이벤트--%>
+<link rel="stylesheet" type="text/css" href="../css/board_faq.css" />    <%--FAQ--%>
+<link rel="stylesheet" type="text/css" href="../css/board_actors.css" /> <%--배우 모집--%>
+<link rel="stylesheet" type="text/css" href="../css/board_contest.css" /><%--시나리오 모집--%>
+<link rel="stylesheet" type="text/css" href="../css/board_free.css" />   <%--자유게시판--%>
+<%-- member css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/member_login.css" />   <%--로그인폼--%>
+
+<%-- funding css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/funding_list.css" /> <%--펀딩리스트 --%>
+<link rel="stylesheet" type="text/css" href="../css/funding_write.css" /> <%--펀딩 글 작성 --%>
+
+<%-- sns css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
+
 </head>
 <body>
 	<div id="main_wrap">
