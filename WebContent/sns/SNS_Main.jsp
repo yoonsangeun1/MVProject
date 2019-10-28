@@ -12,12 +12,11 @@
 		<div id="SNS_Wrap"><!-- 오브젝트 항목 래핑 -->
 			<div id="SNS_main_left"><!-- 좌측 메뉴 -->
 				<div id="SNS_left_title">
-					<img src="../images/member_profile.png" width=30px height=30px alt="프로필 사진">
-					<div id="SNS_Profile_Name">사용자 이름</div>
+					<img id="SNS_Profile_Picture" src="../images/member_profile.png" width=30px height=30px alt="프로필 사진">
+					<div id="SNS_Profile_Name"><a href="SNS_Profile.jsp">박진우</a></div>
 				</div>
 				<br/>
 				<ul id="SNS_ul1"><!-- 좌측 메뉴 생성 -->
-					<li><a href="SNS_Profile.jsp">프로필</a></li>
 					<li><a href="#">즐겨찾기</a></li>
 					<li><a href="#">메신저</a></li>
 					<li><a href="#">영상</a></li>
