@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#mLogin_wrap {
+	height: auto;
+	width: 1200px;
+	align-items: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+#mLogin_container {
+	display: inline-block;
+	height: 560px;
+	width: 400px;
+}
+#mLogin_container section h2 {
+	line-height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+}
