@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/** 배너 작업 */
+body {
+	margin: 0px;
+}
+#carousel_section {
+	width: 1200px;
+	min-height: 1024px;
+	height: auto;
+	background-color: gray;
+}
+#carousel_section > ul {
+	margin: 0px;
+	padding: 0px;
+	width: 500px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+#carousel_section > ul > li {
+	list-style: none;
+	width: 500px;
+	height: 300px;
+	position: absolute;
+}
+#carousel_section > ul > li > img {
+	list-style: none;
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+}
