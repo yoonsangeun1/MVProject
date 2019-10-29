@@ -28,6 +28,10 @@
 		    <li>
 		     <a href="board_free.jsp">자유게시판</a>
 		    </li>
+		    
+		    <li>
+		     <a href="#">QnA</a> <%--QnA 작업해야 됨 --%>
+		    </li>
 	    
 		   </ul>
 		  </div> <%--업데이트 밑에 리스트들 div --%>
@@ -386,10 +390,8 @@
    
    <div> <%-- 밑 전체 div --%>
     <div id="bActors_writing"> <%-- 글 쓰기 폼 div --%>
-     <form method="get" action="#">
       <input type="button" id="bActors_writing_btn" name="bActors_writing_btn"
       value="글 쓰기" />
-     </form>
     </div> <%-- 글 쓰기 폼 div --%>
     
         <div id="clear"></div>

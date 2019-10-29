@@ -3,15 +3,15 @@
 /*board 폴더 이벤트 css 적용*/
 
 #bEvent_body{ /*Event 전체 div*/
-	width:1198px;
+	width:1200px;
 	height:auto;
 	min-height:1024px;
 	float:left;
-	border:1px solid;
+	border:1px #e8e8e8;
 }
 
 #bEvent_update{	/*업데이트 전체*/
-	background:#25da2f;
+	background:#6a67ce;
 	position:relative;	
 	height:250px;
 }
@@ -45,7 +45,7 @@
 	border-color:#6bc680;
 	border-bottom:1px solid #000;
 	float:left;
-	width:24.9%;
+	width:33.3%;
 }
 
 .bEvent_update_list .bEvent_update_list_event a{ /*이벤트 배경,글자색*/
@@ -60,7 +60,7 @@
 	line-height:80px;
 	font-size:18px;
 	position:relative;
-	background:rgba(255,255,255,.2);
+	background:#b3a9eb;
 	display:block;
 	text-align:center;
 	text-decoration:none;
