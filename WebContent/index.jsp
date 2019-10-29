@@ -8,6 +8,7 @@
 
 <title>영화를 움직이다! MOVING</title>
 <link rel="stylesheet" type="text/css" href="./css/index.css" />
+<link rel="stylesheet" type="text/css" href="./css/init.css" />
 
 <script src="./js/jquery.js"></script>
 <script src="./js/slide.js"></script>

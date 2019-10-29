@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <title>영화를 움직이다! MOVING</title>
+<link rel="stylesheet" type="text/css" href="./css/init.css" />
 <link rel="stylesheet" type="text/css" href="./css/aboutMoving.css" />
 <script src="./js/jquery.js"></script>
 </head>

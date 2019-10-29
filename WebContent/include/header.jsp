@@ -4,6 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>메인 화면</title>
+<link rel="stylesheet" type="text/css" href="../css/init.css" />
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <link rel="stylesheet" type="text/css" href="../css/header.css" />
 <%--board css 추가 --%>
