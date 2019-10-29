@@ -5,12 +5,11 @@
 		<div id="SNS_Wrap"><!-- 오브젝트 항목 래핑 -->
 			<div id="SNS_main_left"><!-- 좌측 메뉴 -->
 				<div id="SNS_left_title">
-					<img src="../images/member_profile.png" width=30px height=30px alt="프로필 사진">
-					<div id="SNS_Profile_Name">사용자 이름</div>
+					<div id="SNS_Profile_Name"><a href="SNS_Profile.jsp">박진우</a></div>
+					<img id="SNS_Profile_Picture" src="../images/member_profile.png" width=30px height=30px alt="">
 				</div>
 				<br/>
 				<ul id="SNS_ul1"><!-- 좌측 메뉴 생성 -->
-					<li><a href="SNS_Profile.jsp">프로필</a></li>
 					<li><a href="#">즐겨찾기</a></li>
 					<li><a href="#">메신저</a></li>
 					<li><a href="#">영상</a></li>
@@ -44,7 +43,7 @@
 					<ul id="SNS_Content_ul">
 						<li>
 							<div id="SNS_Content">
-								<img src="../images/member_profile.png" width="30" height="30" alt="프로필 사진">
+								<img src="../images/member_profile.png" width="40" height="40" alt="프로필 사진">
 									<div id="SNS_Content_info">
 										<div id="SNS_Content_Title">박진우</div>
 										<div id="SNS_Content_Writer">1시간 전</div>	
@@ -63,9 +62,33 @@
 															✔씨네큐 <a href="https://bit.ly/2m7DUjI">https://bit.ly/2m7DUjI</a><br/>
 															
 															#한국영화_박스오피스1위 #거침없는_현실로맨스<br/>
-															#가장보통의연애 #절찬상영중</div>
+															#가장보통의연애 #절찬상영중
+									<div id="SNS_Cont_Move">
+										903명이 이 영화를 후원하여 302,445,180원이 모였습니다! 
+									</div>
+									<div id="SNS_Cont_Option">
+										<div id="SNS_Cont_Option_Move">
+											무브!
+										</div>
+										<div id="SNS_Cont_Option_Share">
+											공유하기
+										</div>
+										<div id="SNS_Cont_Option_Funding">
+											펀딩하기
+										</div>
+									</div>
+								</div>
+								<div id="SNS_Comment">
+									<img id="SNS_Profile_Picture" src="../images/member_profile.png" width=30px height=30px alt="">
+									<h3>박진우</h3><h4>귀엽네요 물론 사람이요</h4>
+									<br/>
+									<img id="SNS_Profile_Picture" src="../images/member_profile.png" width=30px height=30px alt="">
+									<h3>양용준</h3><h4>믓지네</h4>
+									<br/>
+									<img id="SNS_Profile_Picture" src="../images/member_profile.png" width=30px height=30px alt="">
+									<h3>송현범</h3><h4>트윅스가 춤도 출 줄 아네</h4>
+								</div>
 							</div>
-							
 						</li>
 					</ul>
 				</div>
