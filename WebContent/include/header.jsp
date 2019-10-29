@@ -23,6 +23,13 @@
 <%-- sns css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
 
+<%-- banner css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/aboutMoving.css" />
+
+<%-- script 추가 --%>
+<script src="./js/jquery.js"></script>
+<script src="./js/slide.js"></script>
+<script src="./js/move_banner.js"></script>
 </head>
 <body>
 	<div id="main_wrap">
@@ -66,7 +73,7 @@
 						<li><a href="#">Action</a></li>
 					</ul>
 				</nav>
-			</div>
+			</div>	
 
 			<div class="border_bottom20"></div>
 			<div class="clear"></div>

@@ -10,11 +10,9 @@
 	<div class="mainRight_quick" style="position:fixed; z-index:3;">
 		<div class="quickmenu1">
 			<button class="go_Support_btn" onclick="#">후원하기</button>
-				<input type="button" id="go_Support_btn" value="후원하기" 
-					onclick="#" height="50"/>
 		</div>
 		<div class="quickmenu2">
-			<h4>이벤트</h4>
+			<button class="go_Event_btn" onclick="#">후원하기</button>
 		</div>
 
 		<div class="quickmenu3">

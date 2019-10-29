@@ -1,13 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title></title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../css/index.css" />
-</head>
-<body>
+
 	<div id="bannermain_wrap">
 		<%-- 반복적 css적용은 class // 하나하나 css적용은 id --%>
 		<div id="home">
@@ -57,5 +49,3 @@
 	</div>
 
 	<div class="clear"></div>
-</body>
-</html>
