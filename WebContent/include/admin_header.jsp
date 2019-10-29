@@ -4,7 +4,12 @@
 <head>
 <meta charset="UTF-8">
 <title>관리자 페이지</title>
+<script src="../js/jquery.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/admin_index.css" />
+<link rel="stylesheet" type="text/css" href="../css/admin_member.css" />
+<link rel="stylesheet" type="text/css" href="../css/admin_funding.css" />
+<link rel="stylesheet" type="text/css" href="../css/admin_board.css" />
+<link rel="stylesheet" type="text/css" href="../css/admin_movie.css" />
 </head>
 <body>
 	<%-- 전체를 아우르는 div레이아웃 --%>
@@ -16,7 +21,7 @@
 
 			<!-- 관리자 정보, 사진, 이름 -->
 			<div id="admin_info">
-				<a href="#"> <img src="../images/admin_profile.jpg" width="120"
+				<a href="#"> <img src="../images/moving.png" width="120"
 					height="160" alt="등록된 사진이 없습니다." />
 				</a>
 				<ul>
@@ -29,13 +34,13 @@
 				<ul>
 					<!-- ul li태그로 메뉴구성 -->
 					<li><a href="../admin_index.jsp">HOME</a></li>
-					<li><a href="#">DASHBOARD</a></li>
-					<li><a href="#">GENERAL</a></li>
-					<li><a href="#">------------</a></li>
+					<li><a href="../admin/admin_dashboard.jsp">DASHBOARD</a></li>
+					<li><a href="../admin/admin_general.jsp">GENERAL</a></li>
+					<li>------------</li>
 					<li><a href="../admin/admin_member.jsp">회원 관리</a></li>
 					<li><a href="../admin/admin_funding.jsp">펀딩 관리</a></li>
 					<li><a href="../admin/admin_board.jsp">게시글 관리</a></li>
-					<li><a href="#">영화 관리</a></li>
+					<li><a href="../admin/admin_movie.jsp">영화 관리</a></li>
 				</ul>
 			</div>
 
@@ -56,5 +61,6 @@
 
 		<!-- 알림  -->
 		<div id="admin_notice">
-			<h3>알림</h3>
+			<input type="button" value="버튼1" />
+			<input type="button" value="버튼2" />
 		</div>
