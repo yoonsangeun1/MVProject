@@ -45,7 +45,7 @@
 	border-color:#6bc680;
 	border-bottom:1px solid #000;
 	float:left;
-	width:33.25%;
+	width:25%;
 }
 
 .bContest_community_list a{
@@ -78,7 +78,7 @@
 	box-sizing:border-box;
 }
 
-#bContest_table th, td{
+#bContest_table th, #bContest_table td{
 	border-top:1px solid grey;
 	padding:10px;
 }

@@ -30,10 +30,6 @@
 		     <a href="board_faq.jsp">FAQ</a>
 		    </li>
 		    
-		    <li>
-		     <a href="#">QnA</a>
-		    </li>
-		    
 		   </ul>
 		  </div> <%--업데이트 밑에 리스트들 div --%>
 		
