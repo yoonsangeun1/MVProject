@@ -1,21 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%-- HEADER 호출 --%>
-<<<<<<< HEAD:WebContent/aboutMoving.jsp
-<%@ include file="./include/header.jsp"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>영화를 움직이다! MOVING</title>
-<link rel="stylesheet" type="text/css" href="./css/init.css" />
-<link rel="stylesheet" type="text/css" href="./css/aboutMoving.css" />
-<script src="./js/jquery.js"></script>
-</head>
-<body>
-=======
 <%@ include file="../include/header.jsp"%>
 
->>>>>>> 1ff1a785f2393f4bcdb62a00c40e8c9b007d1d99:WebContent/banner/aboutMoving.jsp
 	<div id="aboutMoving_wrap">
 
 		<%--퀵메뉴 호출 --%>
