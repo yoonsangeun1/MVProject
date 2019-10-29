@@ -5,9 +5,7 @@
 <meta charset="UTF-8">
 <title>메인 화면</title>
 <link rel="stylesheet" type="text/css" href="./css/index.css" />
-<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="./css/init.css" />
-=======
 <link rel="stylesheet" type="text/css" href="./css/header.css" />
 <%--board css 추가 --%>
 <link rel="stylesheet" type="text/css" href="./css/board_notice.css" /> <%--공지사항--%>
@@ -25,7 +23,6 @@
 
 <%-- sns css 추가 --%>
 <link rel="stylesheet" type="text/css" href="./css/mainSNS.css" />
->>>>>>> 1ff1a785f2393f4bcdb62a00c40e8c9b007d1d99
 
 <%-- banner css 추가 --%>
 <link rel="stylesheet" type="text/css" href="./css/aboutMoving.css" />
