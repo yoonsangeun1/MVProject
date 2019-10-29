@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+#aboutMoving_wrap {
+	/* div 폭 */
+	width:1200px;
+	
+	/* div 최소 높이 1024px로 설정 */
+	min-height:1024px; 
+	
+	/* div테두리 설정 */
+	border:3px solid red;
+	border-radius:15px;
+	
+	/* div 좌우 중앙 정렬 */
+	margin-left: auto; margin-right: auto; 
+}
+
+
+
+#amMain_wrap {
+	width:1200px; /* 메인배너 너비 */
+	min-height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	text-align: center;
+	background-image: url(../images/waves.gif);
+}
+.amChange_title {
+	color:red;
+}
+.amChange_cont {
+	font-family : sans-serif;
+	margin:10px;
+	line-height:1.6;
+}
+
+#amChange_wrap {
+	width:1200px; /* 메인배너 너비 */
+	min-height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	text-align: center;
+	background-image: url(../images/waves.gif);
+}
+
+#amWhySupport_wrap{
+	width:1200px; /* 메인배너 너비 */
+	min-height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	text-align: center;
+	background-image: url(../images/waves.gif);
+}
+
+.support_btn {
+	width:200px;
+	height:50px;
+    text-align: center;
+    background-color:#6a67ce;	
+}
+#amPrecautions_wrap {
+	float:left;
+	width:1200px; /* 메인배너 너비 */
+	min-height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	text-align: center;
+	background-image: url(../images/waves.gif);
+}
+
+.amPrecautions_title {
+	color:red;
+}
+
+#amRegularSupport_wrap {
+	width:1200px; /* 메인배너 너비 */
+	min-height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	text-align: center;
+	background-image: url(../images/waves.gif);
+}
+
+#amFAQ_wrap{
+	width:1200px; /* 메인배너 너비 */
+	min-height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	text-align: center;
+	background-image: url(../images/waves.gif);	
+}
+
+#amMovingsStory_wrap {
+	width:1200px; /* 메인배너 너비 */
+	min-height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	text-align: center;
+	background-image: url(../images/waves.gif);
+}
+
+#amBrandNews_wrap {
+	width:1200px; /* 메인배너 너비 */
+	min-height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	text-align: center;
+	background-image: url(../images/waves.gif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
