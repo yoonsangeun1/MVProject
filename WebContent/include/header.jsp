@@ -21,9 +21,9 @@
 <link rel="stylesheet" type="text/css" href="../css/funding_list.css" /> <%--펀딩리스트 --%>
 <link rel="stylesheet" type="text/css" href="../css/funding_write.css" /> <%--펀딩 글 작성 --%>
 
-<%-- sns css 추가 --%>
+<%-- sns css 추가
 <link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
-
+ --%>
 </head>
 <body>
 	<div id="main_wrap">
