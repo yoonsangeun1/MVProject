@@ -1,1 +1,238 @@
+<<<<<<< HEAD
 @charset "UTF-8";
+=======
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+   blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+   em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+   b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+   details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+   output, ruby, section, summary, time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial,
+      sans-serif, "맑은 고딕", "나눔고딕 ExtraBold", "나눔고딕", "함초롬바탕";
+   font-size: inherit;
+   font-weight: inherit;
+   vertical-align: baseline;
+   
+   
+}
+
+/* HEADER */
+
+#header_right {
+	text-align:right;
+}
+
+#header_logo {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+/* 배너  */
+
+#bannermain_wrap {
+	width:1206px; /* div폭 */
+	min-height:1024px;
+	border:3px solid red;
+	text-align: center; /* 글자가운데 정렬 */
+	margin-left: auto;
+	margin-right: auto; /* div 좌우 중앙 정렬 */
+	margin-top:30px; /* div바깥상단 여백 */
+}
+
+.main_banner {
+	float:left;
+	width:1200px; /* 메인배너 너비 */
+	height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	 text-align: center;
+	
+}
+
+
+.slider_banners { /*메인배너 이미지 설정 */
+	float:left;
+	width:1201px; /* 메인배너 너비 */
+	height:400px; /* 메인배너 높이 */
+	overflow : hidden;
+	position : relative; /* 이미지를 겹침 */
+	min-height:400px;
+	z-index:1;
+}
+
+.slider_button {
+	width:1200px;
+	margin-top : 165px;
+	position:absolute;
+	z-index:2;
+}
+
+.prev_btn {
+	float:left;
+	background-image: url(../images/prev_icon.png);
+	width:61px;
+	height:71px;
+}
+
+.next_btn {
+	float:right;
+	background-image: url(../images/next_icon.png);
+	width:61px;
+	height:71px;
+}
+
+.mainRight_quick {
+    position: fixed;
+    padding-top: 5px;
+    border:1px solid green;
+    width:100px; /* 퀵메뉴 너비 */
+	height:170px; /* 퀵메뉴 높이 */
+    top: 150px;
+    right: 50px;
+    font-size:13px;
+}
+.mainRight_quick .quickmenu1 {
+    border: 1px solid ;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size:20px;
+	
+}
+
+.mainRight_quick .quickmenu2 {
+	border: 1px solid;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size:20px;
+	
+}
+
+.quickmenu3 {
+  	border: 1px solid;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size:20px;
+}
+
+.top_btn {
+	width:100px;
+	width:100px;
+	height:30px;
+    text-align: center;
+    background-color:red;
+   
+}
+
+.clear {
+	clear:both;
+}
+
+#biMoving_wrap { 
+	float:left;
+	width:1200px; /* 메인배너 너비 */
+	height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	background-color:#8785d8;
+	 text-align: center;
+} 
+
+
+
+#biSns_wrap { 
+
+	width:1200px; /* 메인배너 너비 */
+	height:400px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	background-color:#9d8ce2;
+}
+
+#biProject_wrap {
+	width:1200px; /* 메인배너 너비 */
+	height:400px; /* 메인배너 높이 */
+	border:3px solid green;
+	border-radius:15px;
+	font-size:30px;
+	background-color :#b3a9eb;
+}
+
+.biProject_logo {
+}
+
+.biProject_text {
+	
+}
+
+#biProject_actorButton {
+	
+}
+
+#biSupport_wrap { 
+	float:left;
+	width:1200px; /* 메인배너 너비 */
+	height:150px; /* 메인배너 높이 */
+	border:3px solid black;
+	border-radius:15px;
+	font-size:30px;
+	background-color:#60afff;
+	text-align: center;
+} 
+.biSupport_logo {
+	widh:300px;
+}
+.biSupport_button {
+	height:50px;
+}
+
+#biTeaser_wrap{ /* 메인배너 css설정 */
+	width:1200px; /* 메인배너 너비 */
+	height:400px; /* 메인배너 높이 */
+	border:3px solid yellow;
+	border-radius:15px;
+	font-size:30px;
+	background-color :#d4cff3;
+}
+
+.biTeaser_logo {
+	margin:10px 0px 0px 10px;
+}
+.biTeaser_text {
+	
+}
+
+#teaser_play {
+	width:500px;
+	height:200px;
+}
+#biTeaser_button {
+	height:30px;
+	backgrond-color:red;
+}
+
+#biBoard_wrap{ /* 메인배너 css설정 */
+	width:1200px; /* 메인배너 너비 */
+	height:400px; /* 메인배너 높이 */
+	border:3px solid orange;
+	border-radius:15px;
+	font-size:30px;
+	background-color:#eae6fa;
+}
+
+#biStatistics_wrap{ /* 메인배너 css설정 */
+	width:1200px; /* 메인배너 너비 */
+	height:400px; /* 메인배너 높이 */
+	border:3px solid red;
+	border-radius:15px;
+	font-size:30px;
+	background-color:#f2f0fb;
+}
+>>>>>>> origin/hyeonbeomsong
