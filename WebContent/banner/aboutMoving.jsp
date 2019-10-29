@@ -1,5 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%-- HEADER 호출 --%>
+<<<<<<< HEAD:WebContent/aboutMoving.jsp
 <%@ include file="./include/header.jsp"%>
 <!DOCTYPE html>
 <html>
@@ -11,10 +12,29 @@
 <script src="./js/jquery.js"></script>
 </head>
 <body>
+=======
+<%@ include file="../include/header.jsp"%>
+
+>>>>>>> 1ff1a785f2393f4bcdb62a00c40e8c9b007d1d99:WebContent/banner/aboutMoving.jsp
 	<div id="aboutMoving_wrap">
 
 		<%--퀵메뉴 호출 --%>
-		<%@ include file="./banner/banner_RightQuick.jsp"%>
+			<div class="mainRight_quick" style="position:fixed; z-index:3;">
+		<div class="quickmenu1">
+			<button class="go_Support_btn" onclick="#">후원하기</button>
+		</div>
+		<div class="quickmenu2">
+			<h4>이벤트</h4>
+		</div>
+
+		<div class="quickmenu3">
+			<h4>무슨메뉴</h4>
+		</div>
+
+		<button class="top_btn" onclick="$('html, body').stop().animate({scrollTop : 0}, 500);">TOP</button>
+	</div>
+	
+	
 		<div class="clear"></div>
 
 		<div id="amMain_wrap">MOVING 소개 메인페이지</div>
@@ -131,10 +151,7 @@
 		</div>
 	</div>
 
-	<div class="clear"></div>
-
-	<div class="clear"></div>
 
 
 	<%-- FOOTER 호출 --%>
-	<%@ include file="./include/footer.jsp"%>
+	<%@ include file="../include/footer.jsp"%>

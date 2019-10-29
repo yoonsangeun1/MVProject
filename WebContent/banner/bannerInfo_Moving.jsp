@@ -15,7 +15,7 @@
 		</div>
 		<div class="biMoving_text">MOVING은 왜 필요할까요?</div>
 		<div class="biMoving_button">
-				<input type="button" id="biMoving_aboutMoving" value="MOVING 자세히보기" onclick="location='aboutMoving.jsp';"/>
+				<input type="button" id="biMoving_aboutMoving" value="MOVING 자세히보기" onclick="location='./banner/aboutMoving.jsp';"/>
 		</div>
 	</div>
 </body>
