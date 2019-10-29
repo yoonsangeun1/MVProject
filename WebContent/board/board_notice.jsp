@@ -30,17 +30,13 @@
 		     <a href="board_faq.jsp">FAQ</a>
 		    </li>
 		    
-		    <li>
-		     <a href="#">QnA</a>
-		    </li>
-		    
 		   </ul>
 		  </div> <%--업데이트 밑에 리스트들 div --%>
 		
 		</div> <%-- 업데이트 사항. 공지,이벤트 등 div --%>
 
 		<table id="bNotice_table" cellspacing="0">
-			<thead>
+			<thead >
 				<%--thead 요소는 테이블의 제목 그룹화. 한 번만 선언 가능하며,
   tbody나 tfoot 보다 먼저 위치.  --%>
 				<tr>
@@ -142,10 +138,8 @@
 		</table>
 		
 	<div id="bNotice_writing"> <%-- 글 쓰기 폼 div --%>
-     <form method="get" action="#">
       <input type="button" id="bNotice_writing_btn" name="bNotice_writing_btn"
       value="글 쓰기" />
-     </form>
     </div> <%-- 글 쓰기 폼 div --%>
 		
 		<div style="clear:both";></div>

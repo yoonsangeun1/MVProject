@@ -2,6 +2,17 @@
 <%-- HEADER 호출 --%>
 <%@ include file="../include/header.jsp"%>
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>영화를 움직이다! MOVING</title>
+<link rel="stylesheet" type="text/css" href="./css/init.css" />
+<link rel="stylesheet" type="text/css" href="./css/aboutMoving.css" />
+<script src="./js/jquery.js"></script>
+</head>
+<body>
+
 	<div id="aboutMoving_wrap">
 
 		<%--퀵메뉴 호출 --%>

@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <title>관리자 페이지</title>
 <script src="./js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/init.css" />
 <link rel="stylesheet" type="text/css" href="./css/admin_index.css" />
 </head>
 <body>
