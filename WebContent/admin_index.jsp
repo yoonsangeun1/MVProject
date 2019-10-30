@@ -6,6 +6,10 @@
 <title>관리자 페이지</title>
 <script src="./js/jquery.js"></script>
 <link rel="stylesheet" type="text/css" href="./css/admin_index.css" />
+<link rel="stylesheet" type="text/css" href="./css/admin_board.css" />
+<link rel="stylesheet" type="text/css" href="./css/admin_funding.css" />
+<link rel="stylesheet" type="text/css" href="./css/admin_member.css" />
+<link rel="stylesheet" type="text/css" href="./css/admin_movie.css" />
 </head>
 <body>
 	<%-- 전체를 아우르는 div레이아웃 --%>

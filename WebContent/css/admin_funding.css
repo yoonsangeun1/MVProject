@@ -1,34 +1,34 @@
 @charset "UTF-8";
 
 #aFunding {
-	width: 980px;
-	height: 700px;
-	border: 1px solid blue;
-	margin: 10px 10px 0px 10px;
-	border-radius: 15px;
-	float: left;
+   width: 980px;
+   height: 700px;
+   border: 1px solid blue;
+   margin: 10px 10px 0px 10px;
+   border-radius: 15px;
+   float: left;
 }
 
 #aFunding_maker {
-	width: 250px;
-	height: 590px;
-	border: 1px solid red;
-	border-radius: 15px;
-	float: left;
+   width: 250px;
+   height: 590px;
+   border: 1px solid red;
+   border-radius: 15px;
+   float: left;
 }
 
 #aFunding_genre {
-	width: 350px;
-	height: 590px;
-	border: 1px solid red;
-	border-radius: 15px;
-	float: left;
+   width: 350px;
+   height: 590px;
+   border: 1px solid red;
+   border-radius: 15px;
+   float: left;
 }
 
 #aFunding_fund {
-	width: 350px;
-	height: 590px;
-	border: 1px solid red;
-	border-radius: 15px;
-	float: left;
+   width: 350px;
+   height: 590px;
+   border: 1px solid red;
+   border-radius: 15px;
+   float: left;
 }
