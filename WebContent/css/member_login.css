@@ -201,6 +201,7 @@
 	display: inline-block;
 	margin: auto auto;
 	text-align: center;
+	vertical-align: middle;
 }
 #mLogin_form #mLogin_table {
 	width: 400px;
@@ -216,7 +217,7 @@
 
 #mLogin_form section #not_Movingmember span {
 	margin: 10px auto;
-	display: inline-block;
+	float: left;
 }
 /*
 .hline {
