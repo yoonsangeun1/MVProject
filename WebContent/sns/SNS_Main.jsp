@@ -1,6 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ include file="../include/sns_header.jsp"%>
-
 	<div id="SNS_All"><!-- 배경화면 전체 지정 -->
 		<div id="SNS_Wrap"><!-- 오브젝트 항목 래핑 -->
 			<div id="SNS_main_left"><!-- 좌측 메뉴 -->
@@ -86,7 +85,12 @@
 									<h3>양용준</h3><h4>믓지네</h4>
 									<br/>
 									<img id="SNS_Profile_Picture" src="../images/member_profile.png" width=30px height=30px alt="">
-									<h3>송현범</h3><h4>트윅스가 춤도 출 줄 아네</h4>
+									<h3>송현범</h3><h4>트윅스가 춤도 출 줄 아네</h4><br/>
+									<div id="SNS_Comment_Write">
+										<img id="SNS_Profile_Picture" src="../images/member_profile.png" width=30px height=30px alt="">
+										<input type="text" width="350" height="30">
+										<input type="button" value="작성">
+									</div>
 								</div>
 							</div>
 						</li>
@@ -126,5 +130,3 @@
 			</div>
 		</div>
 	</div>
-</body>
-</html>

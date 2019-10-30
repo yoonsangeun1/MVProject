@@ -1,32 +1,44 @@
 @charset "UTF-8";
 
-#background{
-	width:900px; height:350px;
-	border:2px solid green;
+#SNS_Profile_All{
+	background-color: #f2f0fb;
+	align-items: center;
 }
-#info div:hover{
-	height:400px;
+#SNS_Profile_Wrap{ /* 전체 스타일 설정 */
+	width: 1200px;
+	height: 3080px;
+	box-sizing: border-box;
+	line-height: 1em;
+	margin: auto auto;
+	background-color: rgba(255, 255, 255, 0);
+	align-items: center;
+	padding: 0px 30px;
 }
-#info_profile{
-	width:900px; height:100px;
-	border:2px solid red;
-	transition:height 1.3s;
-	background: #4679f0;
+#SNS_Profile_Left{
+	float: left;
 }
-#profile{
+#SNS_Profile_Picture{ /* 프로필 사진*/
 	text-align:center;
 	width:200px; height:200px;
 	border:2px solid blue;
 	border-radius:300px;
-	position: absolute;
 	top: 150px;
 	left: 15px;
 }
-
-#profile_scrap{
+#SNS_Profile_Information{
+	width:900px; height:100px;
+	border:2px solid red;
+	transition: 1.0s;
+	background: #4679f0;
+}
+#SNS_Profile_Info div:hover{
+	width: 1000px;
+	height:400px;
+	background: black;
+	transform: scale(1.2);
+}
+#SNS_Profile_Set{
 	width:900px; height:600px;
 	border:2px solid green;
-	position: absolute;
 	top: 460px;
-	z-index: -1;
 }

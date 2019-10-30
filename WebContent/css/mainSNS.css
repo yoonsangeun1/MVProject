@@ -14,7 +14,6 @@
 	position: relative;
 	background-color: rgba(255, 255, 255, 0);
 	align-items: center;
-	padding: 0px 30px;
 }
 
 #SNS_Wrap h3 {
@@ -122,7 +121,6 @@
 }
 
 #SNS_main_right {
-	margin: 5px 0px 5px 5px;
 }
 /* 중간 */
 #mid_pad { /* 중간 위 영역 */
@@ -328,7 +326,6 @@
 	margin-top: 13px;
 	margin-right: 5px;
 }
-
 .SNS_Border {
 	width: auto;
 	height: 0px;
@@ -337,8 +334,11 @@
 	margin-bottom: 30px;
 }
 
-#SNS_Option_Button {
+#SNS_Option_Button { /* ...버튼(옵션 버튼) */
 	margin-right: 0px;
+	border: none;
+	background: #6a67ce;
+	color: white;
 }
 /*--------------------게시글 하단 공유버튼--------------------*/
 #SNS_Cont_Move {/* 무빙 현황 */
@@ -408,7 +408,7 @@
 	font-weight: 600;
 	font-size: 16px;
 	padding-top: 9px;
-	padding-left: 12px;
+	padding-left: 10px;
 	cursor: pointer;
 	display: inline-block;
 	color: #504dc6;
@@ -419,4 +419,28 @@
 	padding-left: 8px;
 	padding-bottom: 10px;
 	display: inline-block;
+}
+#SNS_Comment_Write{
+	border-top: 1px solid #f2f0fb;
+	height: auto;
+	margin-top: 3px;
+	margin-bottom: 7px;
+	padding-top: 17px;
+}
+#SNS_Comment_Write input[type="text"]{
+	margin-left: 10px;
+	margin-top: 2px;
+	width: 490px;
+	height: 22px;
+	float:left;
+}
+#SNS_Comment_Write input[type="button"]{
+	margin-left: 5px;
+	margin-top: 1px;
+	width:70px;
+	height:30px;
+	background: #6a67ce;
+	outline: none;
+	border: none;
+	color: white;
 }
