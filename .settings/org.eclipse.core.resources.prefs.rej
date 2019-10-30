@@ -1,0 +1,5 @@
+diff a/.settings/org.eclipse.core.resources.prefs b/.settings/org.eclipse.core.resources.prefs	(rejected hunks)
+@@ -1,2 +1,2 @@
+ eclipse.preferences.version=1
+-encoding//WebContent/include/footer.jsp=UTF-8
++encoding//WebContent/board/board_notice.jsp=UTF-8
