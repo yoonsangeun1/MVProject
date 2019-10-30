@@ -15,34 +15,38 @@
 	margin-left: auto; margin-right: auto; 
 }
 
-
-
 #amMain_wrap {
 	width:1200px; /* 메인배너 너비 */
 	min-height:400px; /* 메인배너 높이 */
 	border:3px solid black;
 	border-radius:15px;
-	font-size:30px;
 	text-align: center;
 	background-image: url(../images/waves.gif);
 }
-.amChange_title {
-	color:red;
-}
-.amChange_cont {
-	font-family : sans-serif;
-	margin:10px;
-	line-height:1.6;
-}
+
+
 
 #amChange_wrap {
 	width:1200px; /* 메인배너 너비 */
 	min-height:400px; /* 메인배너 높이 */
 	border:3px solid black;
 	border-radius:15px;
-	font-size:30px;
 	text-align: center;
 	background-image: url(../images/waves.gif);
+}
+#amChange_text{
+	margin-top : 100px;
+	margin-bottom : 100px;
+}
+.amChange_title {
+	color:red;
+	font-size : 50px;
+}
+.amChange_cont {
+	margin-top : 30px;
+	font-family : sans-serif;
+	font-size : 30px; 
+	line-height:1.2;
 }
 
 #amWhySupport_wrap{
@@ -54,12 +58,28 @@
 	text-align: center;
 	background-image: url(../images/waves.gif);
 }
+#amWhySupport_text{
+	margin-top : 100px;
+	margin-bottom : 100px;
+}
+.amWhySupport_title {
+	color:red;
+	font-size : 50px;
+}
+.amWhySupport_cont {
+	margin-top : 30px;
+	font-family : sans-serif;
+	font-size : 30px;
+	line-height:1.2;
+}
 
 .support_btn {
+	margin-top : 50px;
 	width:200px;
 	height:50px;
     text-align: center;
-    background-color:#6a67ce;	
+    background-color:#6a67ce;
+    border-radius : 15px;
 }
 #amPrecautions_wrap {
 	float:left;
@@ -72,8 +92,24 @@
 	background-image: url(../images/waves.gif);
 }
 
+#amPrecautions_text{
+	margin-top : 100px;
+	margin-bottom : 100px;
+}
+
+
 .amPrecautions_title {
+	font-weight:bold;
 	color:red;
+	font-size : 50px;
+	text-decoration: underline;
+}
+
+.amPrecautions_cont {
+	margin-top : 100px;
+	font-family : sans-serif;
+	font-size : 30px;
+	line-height:1.2;
 }
 
 #amRegularSupport_wrap {
@@ -83,7 +119,25 @@
 	border-radius:15px;
 	font-size:30px;
 	text-align: center;
-	background-image: url(../images/waves.gif);
+	background-color : #7edbef;
+}
+
+#amRegularSupport_text{
+	margin-top : 100px;
+	margin-bottom : 100px;
+}
+
+
+.amRegularSupport_title {
+	color:green; 
+	font-size : 50px;
+}
+
+.amRegularSupport_cont {
+	margin-top : 100px;
+	font-family : sans-serif;
+	font-size : 30px;
+	line-height:1.2;
 }
 
 #amFAQ_wrap{
@@ -93,7 +147,24 @@
 	border-radius:15px;
 	font-size:30px;
 	text-align: center;
-	background-image: url(../images/waves.gif);	
+}
+
+#amFAQ_text{
+	margin-top : 100px;
+	margin-bottom : 100px;
+}
+
+
+.amFAQ_title {
+	color:#ffb900;  
+	font-size : 50px;
+}
+
+.amFAQ_cont {
+	margin-top : 100px;
+	font-family : sans-serif;
+	font-size : 30px;
+	line-height:1.2;
 }
 
 #amMovingsStory_wrap {

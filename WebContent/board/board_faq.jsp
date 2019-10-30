@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>FAQ</title>
+<script src="./js/board_faq.js"></script> <%--나중에 지우고 header에 추가 --%>
 </head>
 <body>
 
@@ -49,7 +50,7 @@
      <p>회원가입 및 사이트 이용에 관련된 안내입니다.</p>
    </div> <%--이용 문의 div --%>
  	
-   <button id="bFaq_no1_bt1" onclick="#">수강인증 코드가 무었인가요?</button>
+   <button id="bFaq_no1_bt1" onclick="bFaq_no1_bt1">수강인증 코드가 무었인가요?</button>
     <div id="bFaq_no1_panel1" style="display:none;">
      <p>회원가입 시 입력해야 하는 코드로, 이 코드를 입력하고 가입하셔야만 홈페이지에 있는 자료를 열람하실 수 있습니다!
      <br/>이미 회원가입을 하셨다면 "내 강의실-개인 정보 수정"에서 입력 가능합니다.
@@ -62,5 +63,5 @@
 
 
 
-
 <%@ include file="../include/footer.jsp"%>
+

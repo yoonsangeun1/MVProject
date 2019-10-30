@@ -4,8 +4,8 @@
 <head>
 <meta charset="UTF-8">
 <title>메인 화면</title>
-<link rel="stylesheet" type="text/css" href="./css/index.css" />
 <link rel="stylesheet" type="text/css" href="./css/init.css" />
+<link rel="stylesheet" type="text/css" href="./css/index.css" />
 <link rel="stylesheet" type="text/css" href="./css/header.css" />
 <%--board css 추가 --%>
 <link rel="stylesheet" type="text/css" href="./css/board_notice.css" /> <%--공지사항--%>
@@ -81,10 +81,6 @@
 			
 	<div id="bannermain_wrap">
 		<%-- 반복적 css적용은 class // 하나하나 css적용은 id --%>
-		<div id="home">
-			<a href="#">홈으로</a>
-			<!-- 메인홈피 만들어야함(index_1.jsp)-->
-		</div>
 
 		<div id="logo">
 			<img src="./images/header_logo.png" width="265" height="62"
@@ -109,16 +105,16 @@
 		</div>
 
 		<%--퀵메뉴 호출 --%>
-			<div class="mainRight_quick" style="position:fixed; z-index:3;">
+	<div class="mainRight_quick" style="position:fixed; z-index:3;">
 		<div class="quickmenu1">
 			<button class="go_Support_btn" onclick="#">후원하기</button>
 		</div>
 		<div class="quickmenu2">
-			<h4>이벤트</h4>
+			<button class="go_Notice_btn" onclick="location='./board/board_notice.jsp';">공지사항</button>
 		</div>
 
 		<div class="quickmenu3">
-			<h4>무슨메뉴</h4>
+			<button class="go_Event_btn" onclick="location='./board/board_event.jsp';">이벤트</button>
 		</div>
 
 		<button class="top_btn" onclick="$('html, body').stop().animate({scrollTop : 0}, 500);">TOP</button>
@@ -191,7 +187,7 @@
 		<div class="clear"></div>
 		
 			<div id="biTeaser_wrap">
-		<h1>메인배너 - 티저</h1>
+		<h1>메인배너 - 티저 </h1>
 		<div class="biTeaser_logo">
 			<img src="#" width="150" height="150"
 					alt="teaser_logo" />

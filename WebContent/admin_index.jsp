@@ -5,7 +5,6 @@
 <meta charset="UTF-8">
 <title>관리자 페이지</title>
 <script src="./js/jquery.js"></script>
-<link rel="stylesheet" type="text/css" href="./css/init.css" />
 <link rel="stylesheet" type="text/css" href="./css/admin_index.css" />
 </head>
 <body>
@@ -13,7 +12,21 @@
 	<div id="admin_wrap">
 		<!-- div는 레이아웃을 그릴때 사용하는 가로줄 전체길이 정도를 차지하는 블록요소 태그이다. -->
 		<!-- 상단영역.복수개의 div는 수직정렬이다 -->
-
+		
+			<!-- 페이지 맨 위 div -->
+		<div id="admin_menuTitle">
+			<ul class="menuTitle">
+				<li><a href="#"><img src="./images/moving.png"></a></li>
+			</ul>
+			
+					<!-- 알림  -->
+			<div id="admin_notice">
+				<input type="button" value="버튼1" />
+				<input type="button" value="버튼2" />
+			</div>
+			
+		</div>
+	
 		<div id="admin_leftMenu">
 
 			<!-- 관리자 정보, 사진, 이름 -->
@@ -48,19 +61,9 @@
 			</div>
 		</div>
 
-		<!-- 대쉬보드 -->
-		<div id="admin_menuTitle">
-			<ul>
-				<li><a href="#">menuTitle</a></li>
-			</ul>
-		</div>
 
-		<!-- 알림  -->
-		<div id="admin_notice">
-			<input type="button" value="버튼1" />
-			<input type="button" value="버튼2" />
-			<h3>알림</h3>
-		</div>
+
+
 
 		<!-- 변경되는 항목 -->
 
