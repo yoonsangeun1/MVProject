@@ -1,18 +1,22 @@
 @charset "UTF-8";
 
 #mLogin_wrap {
-	height: auto;
 	width: 1200px;
+	height: auto;
+	min-height: 650px; margin : auto auto;
 	align-items: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: auto auto;
 }
 
 #mLogin_form {
-	width: 400px;
-	height: 560px;
-	display: flex;
+	width: 500px;
+	height: 660px;
+	margin: auto auto;
+	display: inline-block;
+	box-sizing: border-box;
 }
 
 #mLogin_form #mLogin_table h2 {
@@ -20,15 +24,20 @@
 	font-size: 32px;
 	font-weight: bold;
 }
-
-#mLogin_table {
+#mLogin_form section {
+	margin: auto auto;	
+}
+#mLogin_form #mLogin_table {
 	width: 400px;
-	height: 560px;
+	height: 600px;
+	border: 0px;
+	margin: auto auto;
 }
 
 #mLogin_table th, #mLogin_table td {
 	height: 45px;
 	width: 400px;
+	font-style: 15px gray;
 }
 
 #mLogin_table .text {
@@ -56,22 +65,159 @@
 .separator span {
 	font-size: 12px;
 	line-height: 4em;
-	margin: auto auto;
-}
-
-.social-login, .login {
-	font-size: 17px;
-	height: 45px;
-	width: 200px;
-	margin: auto auto;
 }
 
 #facebookLoginBtn, #loginBtn {
-	width: 400px;
-	height: 45px;
-	margin: auto auto;
+	width: 413px;
+	height: 56px;
 }
 
+/* 인풋 텍스트박스 효과 */
+#mLogin_form .text {
+	width: 400px;
+	height: 45px;
+	padding: 10px 5px;
+	font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	border: 0;
+	float: left;
+	background-color: #eee;
+	border-radius: 3px;
+}
+
+#mLogin_form .text:focus {
+	outline: 0;
+	background: #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .8) inset;
+}
+
+#mLogin_form .text:-webkit-input-placeholder {
+	color: #999;
+	font-weight: normal;
+	font-style: 10px gray;
+}
+
+#mLogin_form #mLogin_table td span {
+	font-size: 12px;
+	display: inline;
+	font-weight: bold;
+}
+
+#mLogin_form #mLogin_table td #save_id {
+	display: inline;
+}
+
+#mLogin_form #mLogin_table td a {
+	font-size: 12px;
+	display: inline;
+	float: right;
+	font-weight: bold;
+}
+
+/* 일반 로그인 버튼 */
+#mLogin_form #loginBtn {
+	position: relative;
+	float: right;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	margin: auto;
+}
+
+#mLogin_form #loginBtn:hover {
+	background: #9d8ce2;
+}
+
+#mLogin_form #loginBtn:active {
+	background: #9d8ce2;
+	outline: 0;
+}
+
+/* 페이스북 로그인 버튼 */
+#mLogin_form #facebookLoginBtn {
+	overflow: visible;
+	position: relative;
+	float: right;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #304d8a;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	margin: auto;
+}
+
+#mLogin_form #facebookLoginBtn:hover {
+	background: #304d8a;
+}
+
+#mLogin_form #facebookLoginBtn:active {
+	background: #304d8a;
+	outline: 0;
+}
+
+/* 소셜 로그인 버튼 효과 */
+#kakaoLoginBtn, #naverLoginBtn, #googleLoginBtn, #twitterLoginBtn {
+	height: 53px;
+	width: 200px;
+	overflow: visible;
+	position: relative;
+	float: right;
+	border: 1px solid;
+	border-color: #999;
+	padding: 0;
+	cursor: pointer;
+	font: 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #black;
+	text-transform: uppercase;
+	background: #fff;
+	border-radius: 3px;
+	margin: auto;
+}
+
+#kakaoLoginBtn:hover, #naverLoginBtn:hover, #googleLoginBtn:hover,
+	#twitterLoginBtn:hover {
+	background: #eee;
+}
+
+#kakaoLoginBtn:active, #naverLoginBtn:active, #googleLoginBtn:active,
+	#twitterLoginBtn:active {
+	background: #eee;
+	outline: 0;
+}
+
+/* 회원가입 유도 */
+#mLogin_form #not_Movingmember {
+	width: 400px;
+	heght: 50px;
+	display: inline-block;
+	margin: auto auto;
+	text-align: center;
+}
+#mLogin_form #mLogin_table {
+	width: 400px;
+	height: 600px;
+	border: 0px;
+	margin: auto auto;
+}
+#mLogin_form section #not_Movingmember hr {
+	margin: 0px auto;
+	width: 400px;
+	float: left;
+}
+
+#mLogin_form section #not_Movingmember span {
+	margin: 10px auto;
+	display: inline-block;
+}
 /*
 .hline {
 	width: 100%;
@@ -87,12 +233,68 @@
         border-top: 2px solid #dfdfdf;
         content:"";
         margin: 0 auto; /* this centers the line to the full width specified */
-        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
-        top: 50%; left: 0; right: 0; bottom: 0;
-        width: 95%;
-        z-index: -1;
-    }
-    */
+position
+
+
+:
+
+ 
+
+absolute
+
+
+;
+/* positioning must be absolute here, and relative positioning must be applied to the parent */
+top
+
+
+:
+
+ 
+
+50%;
+left
+
+
+:
+
+ 
+
+0;
+right
+
+
+:
+
+ 
+
+0;
+bottom
+
+
+:
+
+ 
+
+0;
+width
+
+
+:
+
+ 
+
+95%;
+z-index
+
+
+:
+
+ 
+
+-1;
+}
+* /
 .wz_input {
 	width: 370px;
 	height: 50px;

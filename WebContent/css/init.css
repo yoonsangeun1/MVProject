@@ -18,7 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	vertical-align: baseline;
 	font-size: inherit;
 	font-weight: inherit;
-	box-sizing: border-box;	
+	box-sizing: border-box;
 	align-items: center;
 }
 
@@ -60,7 +60,7 @@ a:hover {
 	color: #6a67ce;
 	text-decoration: underline;
 }
-/* 중간에 구분선 그을 때 */
+/* 중간에 구분선 그을 때 div로(마진 있음) */
 .border_bottom30 {
 	width: 1200px;
 	height: 0px;
@@ -79,6 +79,15 @@ a:hover {
 	margin-bottom: 20px;
 }
 
+.border_bottom_t20 {
+	width: 1200px;
+	height: 1px;
+	border-bottom: 1px solid;
+	border-color: #E8E8E8;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
 .border_bottom10 {
 	width: 1200px;
 	height: 0px;
@@ -87,8 +96,36 @@ a:hover {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+.border_bottom_t10 {
+	width: 1200px;
+	height: 1px;
+	border-bottom: 1px solid;
+	border-color: #E8E8E8;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+/* 구분선 그을 때 hr로 (마진 없음) */
+.my-hr1 {
+	border: 0;
+	height: 1px;
+	background: #e8e8e8;
+}
+
+.my-hr2 {
+	border: 0;
+	height: 2px;
+	background: #e8e8e8;
+}
+
+.my-hr3 {
+	border: 0;
+	height: 3px;
+	background: #e8e8e8;
+}
+
 /* ui 깨짐 현상 막기 위함 */
 .clear {
 	clear: both;
 }
-
