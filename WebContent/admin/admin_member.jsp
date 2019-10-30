@@ -16,42 +16,42 @@
 			<td><input type="checkbox" name="aMember_check" value="check1" />
 			<td>mihawk648</td>
 			<td>박동수</td>
-			<td>pds0131@daum.net</td>
+			<td class="aEmail">pds0131@daum.net</td>
 			<td>관리자</td>
 		</tr>
 		<tr>
 			<td><input type="checkbox" name="aMember_check" value="check1" />
 			<td>JJinu</td>
 			<td>박진우</td>
-			<td>JWP@naver.com</td>
+			<td class="aEmail">JWP@naver.com</td>
 			<td>관리자</td>
 		</tr>
 		<tr>
 			<td><input type="checkbox" name="aMember_check" value="check1" />
 			<td>breakfast</td>
 			<td>홍채훈</td>
-			<td>hongcha@yahoo.co.kr</td>
+			<td class="aEmail">hongcha@yahoo.co.kr</td>
 			<td>사용자</td>
 		</tr>
 		<tr>
 			<td><input type="checkbox" name="aMember_check" value="check1" />
 			<td>Songchoding</td>
 			<td>송현범</td>
-			<td>hyunbum123@google.com</td>
+			<td class="aEmail">hyunbum123@google.com</td>
 			<td>관리자</td>
 		</tr>
 		<tr>
 			<td><input type="checkbox" name="aMember_check" value="check1" />
 			<td>YongJunhyung</td>
 			<td>양용준</td>
-			<td>YYJ121@naver.com</td>
+			<td class="aEmail">YYJ121@naver.com</td>
 			<td>관리자</td>
 		</tr>
 		<tr>
 			<td><input type="checkbox" name="aMember_check" value="check1" />
 			<td>JavaChogosu</td>
 			<td>윤상은</td>
-			<td>highsilver@google.com</td>
+			<td class="aEmail">highsilver@google.com</td>
 			<td>관리자</td>
 		</tr>
 	</table>

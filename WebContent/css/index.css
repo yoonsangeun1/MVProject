@@ -12,8 +12,6 @@
 }
 
 
-
-
 /* 배너  */
 
 #bannermain_wrap {
@@ -70,7 +68,7 @@
 .mainRight_quick {
     position: fixed;
     padding-top: 5px;
-    border:1px solid green;
+    border:3px solid green;
     width:100px; /* 퀵메뉴 너비 */
 	height:170px; /* 퀵메뉴 높이 */
     top: 150px;
@@ -101,8 +99,7 @@
 }
 
 .top_btn {
-	width:100px;
-	width:100px;
+	width:98px;
 	height:30px;
     text-align: center;
     background-color:red;
@@ -170,7 +167,7 @@
 	widh:300px;
 }
 .biSupport_button {
-	height:50px;
+	height:60px;
 }
 
 #biTeaser_wrap{ /* 메인배너 css설정 */
@@ -194,8 +191,6 @@
 	height:200px;
 }
 #biTeaser_button {
-	height:30px;
-	backgrond-color:red;
 }
 
 #biBoard_wrap{ /* 메인배너 css설정 */
