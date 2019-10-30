@@ -187,7 +187,7 @@
 		<div class="clear"></div>
 		
 			<div id="biTeaser_wrap">
-		<h1>메인배너 - 티저</h1>
+		<h1>메인배너 - 티저 </h1>
 		<div class="biTeaser_logo">
 			<img src="#" width="150" height="150"
 					alt="teaser_logo" />

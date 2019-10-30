@@ -126,7 +126,7 @@
 				<br />
 
 				<p class="amFAQ_cont">
-				 <iframe name="FAQ" src="../board/board_faq.jsp"  frameborder="0" width="800" height="600"></iframe>
+				 <iframe name="FAQ" src="../board/board_faq.jsp"  frameborder="0" width="800" height="500"></iframe>
 				</p>
 			</div>
 		</div>
