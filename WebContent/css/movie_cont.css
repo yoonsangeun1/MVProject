@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+#movie_comment {
+	
+	width: 1200px;
+	min-height: 1024px;
+	height: auto;
+	box-sizing: border-box;
+	
+}
+
+/**페이지 위 영상 부분*/
+#video {
+	
+	width: 1186px;
+/**	border: 1px solid red; */
+	margin: 5px 5px 0px 5px;
+	
+}
+#videoInfo {
+	
+/**	border: 1px solid green; */
+	margin: 5px;
+}
+
+/**페이지 댓글 부분*/
+#comment {
+	
+	float: left;
+/**	border: 1px solid blue; */
+	width: 763px;
+	
+}
+#writebutton {
+	
+	float: inherit;
+	width: 763px;
+	
+}
+#replylist {
+	
+	float: left;
+	margin: 0px 5px 40px 5px;
+	width: 763px;
+	
+}
+#replylist1 {
+	
+	float: left;
+	margin: 0px 5px 40px 5px;
+	width: 763px;
+	
+}
+#replylist2 {
+	
+	float: left;
+	margin: 0px 5px 40px 5px;
+	width: 763px;
+	
+}
+
+/**페이지 아래 우측 공간 추가 영상 목록*/
+#anothervideo {
+	
+	float: right;
+/**	border: 1px solid #8080ff; */
+	width: 405px;
+	
+}
+#anovi1 {
+	
+	float: right;
+	margin: 0px 22px 10px 10px;
+	width: 300px;
+	height: 160px;
+	
+}
+#anovi2 {
+	
+	float: right;
+	margin: 50px 22px 10px 10px;
+	width: 300px;
+	height: 160px;
+	
+}
+#anovi3 {
+	
+	float: right;
+	margin: 50px 22px 10px 10px;
+	width: 300px;
+	height: 160px;
+	
+}

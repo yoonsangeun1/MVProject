@@ -29,7 +29,7 @@
 				<input type="button" value="버튼2" />
 			</div>
 			
-		</div>
+		</div> 
 	
 		<div id="admin_leftMenu">
 

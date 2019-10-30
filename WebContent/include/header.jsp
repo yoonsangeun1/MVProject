@@ -24,9 +24,13 @@
 <%-- sns css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
 
-
 <%-- banner css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/aboutMoving.css" />
+
+<%-- movie css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/movie_cont.css" />
+<link rel="stylesheet" type="text/css" href="../css/movie_mainList.css" />
+<link rel="stylesheet" type="text/css" href="../css/movie_categoryList.css" />
 
 <%-- script 추가 --%>
 <script src="../js/jquery.js"></script>
