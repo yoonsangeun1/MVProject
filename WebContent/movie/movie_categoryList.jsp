@@ -1,18 +1,9 @@
-<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page contentType="text/html; charset=UTF-8"%>
+<%@ include file="../include/header.jsp"%>
 
-<script src="../js/jquery-3.4.1.min.js"></script>
-<script src="../js/movie_comment.js"></script>
-
-<link rel="stylesheet" type="text/css" href="../css/movie_items.css" />
-
-<meta charset="UTF-8">
-<title>액션/어드벤처</title>
-
-<body>
+	<div id="thriller_movie_box"><!-- 영상 목록 이름, 영상 포스트 시작 -->
 	
-	<div id="action_movie_box"><!-- 영상 목록 이름, 영상 포스트 시작 -->
-	
-		<div id="post_it"><!-- 포스트 잇 -->
+		<div id="mPost_it"><!-- 포스트 잇 -->
 			<br /><br /><br /><br />
 			<div id="post_it_cont" align="center">
 				<h1>
@@ -23,21 +14,17 @@
 			<br /><br /><br /><br />
 		</div>
 		
-		<div id="box_item"><!-- 1번 영상 -->
+		<div id="mBox_item"><!-- 1번 영상 -->
 			<a href="movie_comment01.jsp">
-				<img src="../images/action_video01.PNG" width="350px" height="350px" alt="사물이 거울에 보이는 것보다 가까이 있음">
+				<img src="../images/thrill_video01.PNG" width="350px" height="350px" alt="사물이 거울에 보이는 것보다 가까이 있음">
 				<p>
-				<b>트래픽 2017 - Korea independent action film</b>
+				<b>청주 YWCA 영상제 본선 진출작</b>
+				<br /><br /><br />
+				<b>제목: 사물이 거울에 보이는 것보다 가까이 있음</b>
 				<br /><br />
-				<b>SONFILM</b>
+				감독: 신경석
 				<br /><br />
-				감독:손성배
-				<br /><br />
-				국가사건처리기관 NCS!
-				<br />
-				어느 날, 강남에 있는 모텔이 사제폭탄에 의해 폭발하는 사건이 발생하게 되고, 이에 NCS는 모텔 폭발이 불륜에 의한 청부
-				<br />
-				살인이며 이 사건에 무기밀매상 이정춘과 사제폭탄 개발자 지미가 연루되어 있음을 밝혀낸다.
+				줄거리: 인적이 드문 도로에서 여자의 차가 고장났다
 				</p>
 			</a>
 		</div>
@@ -62,8 +49,6 @@
 				<b>단편영화-배달대행</b>
 				<br /><br /><br />
 				연출/각본:김통일, 양현석
-				<br /><br />
-				7분 46초
 				</p>
 			</a>
 		</div>
@@ -157,4 +142,5 @@
 		
 	</div><!-- 영상 목록 이름, 영상 포스트에 대한 코딩 끝 -->
 	
-</body>
+
+<%@ include file="../include/footer.jsp"%>

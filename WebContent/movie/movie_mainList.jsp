@@ -1,12 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
-
-<script src="../js/jquery-3.4.1.min.js"></script>
-<script src="../js/movie_comment.js"></script>
-
-<link rel="stylesheet" type="text/css" href="../css/movie_list.css" />
-
-<%-- body code start --%>
-<body>
+<%@ include file="../include/header.jsp" %>
 
 	<div id="movie_list"><!-- 영상 목록 이름, 영상 포스트 -->
 	
@@ -60,5 +53,5 @@
 			<br /><hr />
 		</div>
 	</div>
-</body>	
-<%-- body code end --%>
+
+<%@ include file="../include/footer.jsp" %>

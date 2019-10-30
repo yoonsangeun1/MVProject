@@ -1,13 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ include file="../include/header.jsp" %>
-<meta charset="UTF-8">
-<title>영화 관람 및 소통 페이지</title>
-<script src="../js/jquery-3.4.1.min.js"></script>
-<script src="../js/movie_comment.js"></script>
-
-<link rel="stylesheet" type="text/css" href="../css/movie_comment.css" />
-
-<body>
 
 <%-- p tag 글꼴 설정 --%>
 <%-- <p style="font-size:11px; color: blue; font-family: '맑은 고딕';"></p> --%>
@@ -112,6 +104,5 @@
 			</div>
 		</div>
 	</div>
-</body>
 
 <%@ include file="../include/footer.jsp" %>
