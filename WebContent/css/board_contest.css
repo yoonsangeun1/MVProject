@@ -3,6 +3,7 @@
 /*시나리오 공모 css*/
 
 #bContest_wrap{   /*body 안 전체 div*/
+	font-size:1em;
 	width:1200px;
 	height:auto;
 	min-height:1024px;
@@ -10,6 +11,7 @@
 }
 
 #bContest_community{	/*커뮤니티 전체*/
+
 	width:1200px;
 	background:#25da2f;
 	position:relative;	
