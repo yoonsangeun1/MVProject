@@ -1,108 +1,108 @@
 @charset "UTF-8";
 
 /* admin_board css 작업 */
-#aBoard {
-	float:right;
-	margin: 10px 16px 50px 16px;
+#aBoard { /* 게시글 관리 전체를 아우르는 div */
+   float:right;
+   margin: 10px 16px 50px 16px;
 }
 
 #aBoard h1 {
-	font-size: 35px;
-	color: #ccc;
-	margin: 15px px;
-	font-weight: bold;
+   font-size: 35px;
+   color: #ccc;
+   margin: 15px px;
+   font-weight: bold;
 }
 
 #aBoard_table { /* 게시판 글 목록표 */
-	width: 1100px;								/* 표 테이블 너비 */
-	border-collapse: collapse; 					/* 표 테이블  테두리 공간을 없앰 */
+   width: 1000px;                        /* 표 테이블 너비 */
+   border-collapse: collapse;                /* 표 테이블  테두리 공간을 없앰 */
 }
 
 #aBoard_table tr:hover { /* 게시판 글 목록표 tr */
-	cursor: hand;
-	cursor: pointer;
-	background-color: skyblue;
+   cursor: hand;
+   cursor: pointer;
+   background-color: skyblue;
 }
 
 #aBoard_table th { /* 게시판 글 목록표 th */
-	height:20px; 
-	font-size:14px;
-	font-weight: bold;
-	padding: 10px;
-	background-color: #b3a9eb;
-	text-align: center;
+   height:20px; 
+   font-size:14px;
+   font-weight: bold;
+   padding: 10px;
+   background-color: #b3a9eb;
+   text-align: center;
 }
 
 #aBoard_table td { /* 게시판 글 목록표 td */
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #e8e8e8;
-	padding: 10px 0px;
-	text-align: center;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #e8e8e8;
+   padding: 10px 0px;
+   text-align: center;
 }
 
 #aBoard_table a {
-	color: #333;
+   color: #333;
 }
 
 #aBoard_table td.aBT_left { /* 게시판 제목 */
-	text-align: left;							/* 글자 왼쪽 정렬 */
-	padding-left: 10px;
+   text-align: left;                     /* 글자 왼쪽 정렬 */
+   padding-left: 10px;
 }
 
 #aBoard_table .aBT_no {
-	border-top-left-radius: 5px;				/* 좌 상단 테두리를 둥글게 한다. */
-	border-bottm-left-radius: 5px;				/* 좌 하단 테두리를 둥글게 한다. */
-	width: 70px;
+   border-top-left-radius: 5px;            /* 좌 상단 테두리를 둥글게 한다. */
+   border-bottm-left-radius: 5px;            /* 좌 하단 테두리를 둥글게 한다. */
+   width: 70px;
 }
 
 #aBoard_table .aBT_title {
-	width: 700px;
+   width: 700px;
 }
 
 #aBoard_table .aBT_writer {
-	width: 150px;
+   width: 150px;
 }
 
 #aBoard_table .aBT_date {
-	width: 100px;
+   width: 100px;
 }
 
 #aBoard_table .aBT_hit {
-	width: 80px;
+   width: 80px;
 }
 
 #aBoard_pageCtrl { /* 페이지 목록 */
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 40px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
 }
 
 #aBoard_pageCtrl a{
-	padding: 2px 5px;
-	margin: 0px 5px;
-	color: #333;
+   padding: 2px 5px;
+   margin: 0px 5px;
+   color: #333;
 }
 
 #aBoard_pageCtrl a:hover { /* 페이지 목록 하이퍼링크 된곳 마우스 오버시 */
-	text-decoration:underline;
-	font-weight:bold;
-	color: #fc636b;
+   text-decoration:underline;
+   font-weight:bold;
+   color: #fc636b;
 }
 
 #aBoard_search {
-	float: right;
-	margin: 25px 10px 15px 10px;
+   float: right;
+   margin: 25px 10px 15px 10px;
 }
 
 #aBoard_search select {
-	width: 100px;
-	max-width: 150px;
-	margin-right: 20px;
-	margin-top: 10px;
-	float: left;
-	font: 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+   width: 100px;
+   max-width: 150px;
+   margin-right: 20px;
+   margin-top: 10px;
+   float: left;
+   font: 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
 
 }
 
@@ -118,44 +118,43 @@
 }
 
 #aBoard_search input:focus {
-	outline: 0;
+   outline: 0;
     background: #fff;
     box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
 }
 
 #aBoard_search input:-webkit-input-placeholder {
-	color: #999;
-	font-weight: normal;
-	font-style: italic;
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
 }
 
 #aBoard_search button {
-	overflow: visible;
-	position: relative;
-	float: right;
-	border: 0;
-	padding: 0;
-	cursor: pointer;
-	height: 40px;
-	width: 110px;
-	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-	color: #fff;
-	text-transform: uppercase;
-	background: #d83c3c;
-	border-radius: 0 3px 3px 0;      
-	text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+   overflow: visible;
+   position: relative;
+   float: right;
+   border: 0;
+   padding: 0;
+   cursor: pointer;
+   height: 40px;
+   width: 110px;
+   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+   color: #fff;
+   text-transform: uppercase;
+   background: #d83c3c;
+   border-radius: 0 3px 3px 0;      
+   text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
 }
 
-#aBoard_search button:hover {		
-	background: #e54040;
+#aBoard_search button:hover {      
+   background: #e54040;
 }
 
 #aBoard_search button:active,
 #aBoard_search button:focus{   
-	background: #c42f2f;
-	outline: 0;
+   background: #c42f2f;
+   outline: 0;
 }
-
 
 
 

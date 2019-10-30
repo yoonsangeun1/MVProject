@@ -3,6 +3,8 @@
 /*공지사항 css*/
 
 #bNotice_wrap{   /*body 안 전체 div*/
+	font-size:16px;
+	line-height:25px;
 	width:1200px;
 	height:auto;
 	min-height:1024px;

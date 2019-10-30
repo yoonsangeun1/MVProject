@@ -25,20 +25,22 @@ var index=0;
 		setTimeout(slideShow,2000);
 	}
 
-	showDivs(index);
+	 /* 수동 슬라이드 배너 */
+	var slideIndex = 1;
+	showDivs(slideIndex);
 
 	function plusDivs(n) {
-	    showDivs(index += n);
+	    showDivs(slideIndex += n);
 	}
 
 	function showDivs(n) {
 	    var i;
 	    var x = document.getElementsByClassName("auto_mySlides");
-	    if (n > x.length) {index = 1}
-	    if (n < 1) {index = x.length} ;
+	    if (n > x.length) {slideIndex = 1}
+	    if (n < 1) {slideIndex = x.length} ;
 	    for (i = 0; i < x.length; i++) {
 	        x[i].style.display = "none";
 	    }
-	    x[index-1].style.display = "block";
+	    x[slideIndex-1].style.display = "block";
 	}
 	
