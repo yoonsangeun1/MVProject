@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 #background{
 	width:900px; height:350px;
 	border:2px solid green;
@@ -29,5 +30,3 @@
 	top: 460px;
 	z-index: -1;
 }
-
-

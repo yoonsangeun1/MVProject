@@ -12,6 +12,8 @@
 }
 
 
+
+
 /* 배너  */
 
 #bannermain_wrap {
@@ -68,7 +70,7 @@
 .mainRight_quick {
     position: fixed;
     padding-top: 5px;
-    border:3px solid green;
+    border:1px solid green;
     width:100px; /* 퀵메뉴 너비 */
 	height:170px; /* 퀵메뉴 높이 */
     top: 150px;
@@ -99,7 +101,8 @@
 }
 
 .top_btn {
-	width:98px;
+	width:100px;
+	width:100px;
 	height:30px;
     text-align: center;
     background-color:red;

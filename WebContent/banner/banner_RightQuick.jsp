@@ -9,14 +9,14 @@
 <body>
 	<div class="mainRight_quick" style="position:fixed; z-index:3;">
 		<div class="quickmenu1">
-			<button class="go_Support_btn" onclick="#">후원하기123</button>
+			<button class="go_Support_btn" onclick="#">후원하기</button>
 		</div>
 		<div class="quickmenu2">
-			<button class="go_Notice_btn" onclick="location='./banner/board_notice.jsp';">공지사항</button>
+			<button class="go_Event_btn" onclick="#">후원하기</button>
 		</div>
 
 		<div class="quickmenu3">
-			<button class="go_Event_btn" onclick="location='./banner/board_event.jsp';">이벤트</button>
+			<h4>무슨메뉴</h4>
 		</div>
 
 		<button class="top_btn" onclick="$('html, body').stop().animate({scrollTop : 0}, 500);">TOP</button>

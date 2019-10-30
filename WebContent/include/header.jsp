@@ -28,16 +28,10 @@
 <%-- banner css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/aboutMoving.css" />
 
-<%-- movie css 추가 --%>
-<link rel="stylesheet" type="text/css" href="../css/movie_mainList.css" />
-<link rel="stylesheet" type="text/css" href="../css/movie_categoryList.css" />
-<link rel="stylesheet" type="text/css" href="../css/movie_cont.css" />
-
 <%-- script 추가 --%>
 <script src="./js/jquery.js"></script>
-<script src="./js/slide.js"></script> <%-- index.jsp 슬라이드 --%>
-<script src="./js/move_banner.js"></script> 
-<script src="../js/movie_cont.js"></script> <%-- 댓글 기능 --%>
+<script src="./js/slide.js"></script>
+<script src="./js/move_banner.js"></script>
 
 </head>
 <body>

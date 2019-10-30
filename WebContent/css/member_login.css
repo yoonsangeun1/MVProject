@@ -6,15 +6,104 @@
 	align-items: center;
 	display: flex;
 	align-items: center;
-	justify-content: center;	
+	justify-content: center;
 }
-#mLogin_container {
-	display: inline-block;
+
+#mLogin_form {
+	width: 400px;
 	height: 560px;
+	display: flex;
+}
+
+#mLogin_form #mLogin_table h2 {
+	line-height: 40px;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#mLogin_table {
+	width: 400px;
+	height: 560px;
+}
+
+#mLogin_table th, #mLogin_table td {
+	height: 45px;
 	width: 400px;
 }
-#mLogin_container section h2 {
-	line-height: 40px;
-    font-size: 32px;
-    font-weight: bold;
+
+#mLogin_table .text {
+	height: 45px;
+	width: 400px;
+	display: block;
+	font-size: 17px;
+	margin: 5px auto;
+}
+
+#mLogin_table .save_id {
+	float: left;
+}
+
+#mLogin_table a {
+	float: left;
+}
+
+.separator {
+	height: 45px;
+	vertical-align: center;
+	text-align: center;
+}
+
+.separator span {
+	font-size: 12px;
+	line-height: 4em;
+	margin: auto auto;
+}
+
+.social-login, .login {
+	font-size: 17px;
+	height: 45px;
+	width: 200px;
+	margin: auto auto;
+}
+
+#facebookLoginBtn, #loginBtn {
+	width: 400px;
+	height: 45px;
+	margin: auto auto;
+}
+
+/*
+.hline {
+	width: 100%;
+	height: 1px;
+	background: black;
+}
+
+.separator .background {
+    position: relative;
+    z-index: 1;
+    
+    &:before {
+        border-top: 2px solid #dfdfdf;
+        content:"";
+        margin: 0 auto; /* this centers the line to the full width specified */
+        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 95%;
+        z-index: -1;
+    }
+    */
+.wz_input {
+	width: 370px;
+	height: 50px;
+	display: block;
+	font-size: 17px;
+	margin: 10px auto;
+}
+
+.wz_input input {
+	height: 48px;
+	line-height: 1.2em;
+	font-size: 17px;
+	font-weight: 300;
 }

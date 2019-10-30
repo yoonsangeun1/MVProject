@@ -3,6 +3,7 @@
 /*시나리오 공모 css*/
 
 #bContest_wrap{   /*body 안 전체 div*/
+	font-size:1em;
 	width:1200px;
 	height:auto;
 	min-height:1024px;
@@ -10,6 +11,7 @@
 }
 
 #bContest_community{	/*커뮤니티 전체*/
+
 	width:1200px;
 	background:#25da2f;
 	position:relative;	
@@ -45,7 +47,7 @@
 	border-color:#6bc680;
 	border-bottom:1px solid #000;
 	float:left;
-	width:33.25%;
+	width:25%;
 }
 
 .bContest_community_list a{
@@ -78,7 +80,7 @@
 	box-sizing:border-box;
 }
 
-#bContest_table th, td{
+#bContest_table th, #bContest_table td{
 	border-top:1px solid grey;
 	padding:10px;
 }

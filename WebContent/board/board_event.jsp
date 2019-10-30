@@ -29,10 +29,6 @@
 		     <a href="board_faq.jsp">FAQ</a>
 		    </li>
 		    
-		    <li>
-		     <a href="#">QnA</a>
-		    </li>
-		    
 		   </ul>
 		  </div> <%--업데이트 밑에 리스트들 div --%>
 		
@@ -306,10 +302,8 @@
   </div> <%-- 이벤트 목록 list div --%>
   
     <div id="bEvent_writing"> <%-- 글 쓰기 폼 div --%>
-     <form method="get" action="#">
       <input type="button" id="bEvent_writing_btn" name="bEvent_writing_btn"
       value="글 쓰기" />
-     </form>
     </div> <%-- 글 쓰기 폼 div --%>
   
   <div style="clear:both"></div>
