@@ -29,9 +29,10 @@
 <link rel="stylesheet" type="text/css" href="../css/aboutMoving.css" />
 
 <%-- script 추가 --%>
-<script src="./js/jquery.js"></script>
-<script src="./js/slide.js"></script>
-<script src="./js/move_banner.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/slide.js"></script>
+<script src="../js/move_banner.js"></script>
+<script src="../js/board_faq.js"></script>
 
 </head>
 <body>
