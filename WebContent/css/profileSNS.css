@@ -17,7 +17,7 @@
 #SNS_Profile_Left{
 	float: left;
 }
-#SNS_Profile_Picture{ /* 프로필 사진*/
+#SNS_Profile_Picture img{ /* 프로필 사진*/
 	text-align:center;
 	width:200px; height:200px;
 	border:2px solid blue;
