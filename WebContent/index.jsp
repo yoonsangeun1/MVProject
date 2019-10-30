@@ -27,10 +27,17 @@
 <%-- banner css 추가 --%>
 <link rel="stylesheet" type="text/css" href="./css/aboutMoving.css" />
 
+<%-- movie css 추가 --%>
+<link rel="stylesheet" type="text/css" href="./css/movie_cont.css" />
+<link rel="stylesheet" type="text/css" href="./css/movie_mainList.css" />
+<link rel="stylesheet" type="text/css" href="./css/movie_categoryList.css" />
+
 <%-- script 추가 --%>
 <script src="./js/jquery.js"></script>
 <script src="./js/slide.js"></script>
 <script src="./js/move_banner.js"></script>
+<script src="./js/board_faq.js"></script>
+
 </head>
 <body>
 	<div id="main_wrap">
