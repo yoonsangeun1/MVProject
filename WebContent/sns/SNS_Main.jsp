@@ -5,7 +5,7 @@
 			<div id="SNS_main_left"><!-- 좌측 메뉴 -->
 				<div id="SNS_left_title">
 					<div id="SNS_Profile_Name"><a href="SNS_Profile.jsp">박진우</a></div>
-					<img id="SNS_Profile_Picture" src="../images/member_profile.png" width=30px height=30px alt="">
+					<img id="SNS_Profile_Picture" src="../images/member_profile.png" width="30px" height="30px" alt="">
 				</div>
 				<br/>
 				<ul id="SNS_ul1"><!-- 좌측 메뉴 생성 -->
