@@ -1,39 +1,64 @@
-<%@ page contentType="text/html; charset=UTF-8"%>
-<%@ include file="../include/header.jsp"%>
+<%@ page contentType="text/html; charset=UTF-8" %>
 
-<link rel="stylesheet" type="text/css" href="./css/movie_list.css" />
 <script src="../js/jquery-3.4.1.min.js"></script>
 <script src="../js/movie_comment.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../css/movie_list.css" />
 
 <%-- body code start --%>
 <body>
 
-	<%-- Slider Show --%>
-	<div id="header">
-		<br /> <br /> <br /> <br />
-		<div id="header_title" align="center">
-			<h1>
-				독립 영화의 모든 것.<br /> 회원이면 언제나 무료입니다.
-			</h1>
+	<div id="movie_list"><!-- 영상 목록 이름, 영상 포스트 -->
+	
+		<div id="slide"><!-- 슬라이드 -->
+			<br /><br /><br /><br />
+			<div id="slide_cont" align="center">
+				<h1>
+					독립 영화의 모든 것.<br />
+					회원이면 언제나 무료입니다.
+				</h1>
+			</div>
+			<br /><br /><br /><br />
 		</div>
-		<br /> <br />
-		<div id="header_subscribe"></div>
-		<br /> <br />
-		<hr />
+		
+		<div id="video_list"><!-- 목록 별 영상들 -->
+			<div id="thriller"><!-- 스릴러 -->
+			
+			</div>
+			<br /><hr />
+			<div id="action"><!-- 액션 -->
+			
+			</div>
+			<br /><hr />
+			<div id="documentary"><!-- 다큐 -->
+			
+			</div>
+			<br /><hr />
+			<div id="history"><!-- 역사 -->
+			
+			</div>
+			<br /><hr />
+			<div id="sf"><!-- 공상과학 -->
+			
+			</div>
+			<br /><hr />
+			<div id="love"><!-- 연애 -->
+			
+			</div>
+			<br /><hr />
+			<div id="comedy"><!-- 코미디 -->
+			
+			</div>
+			<br /><hr />
+			<div id="ani"><!-- 애니 -->
+			
+			</div>
+			<br /><hr />
+			<div id="other"><!-- 기타 -->
+			
+			</div>
+			<br /><hr />
+		</div>
 	</div>
-	
-	<%-- Video post border --%>
-	<div id="items" class="style-scope ytd-red-carpet-horizontal-list-renderer" style="transform: translateX(0px);">
-		<ytd-poster-renderer class="style-scope ytd-red-carpet-horizontal-list-renderer" state="steady-state" themeable_style>
-			<a id="view" class="yt-simple-endpoint style-scope ytd-poster-renderer" href="/playlist?list=PLUBkOFC6bzB7dkwKTo2Q0LTxThVoidRco&ev=1">
-			</a>
-			<a id="static" class="yt-simple-endpoint inline-block style-scope ytd-poster-renderer" href="/playlist?list=PLUBkOFC6bzB7dkwKTo2Q0LTxThVoidRco&ev=1">
-				<yt-img-shadow width="210" class="style-scope ytd-poster-renderer"
-			</a>
-		</ytd-poster-renderer>
-	</div>
-	
-</body>
+</body>	
 <%-- body code end --%>
-
-<%@ include file="../include/footer.jsp"%>
