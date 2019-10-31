@@ -1,120 +1,127 @@
 @charset "UTF-8";
 
-#aMovie_listName h3 {
-   float: left;
+#aMovie {
+	float: right;
+	margin: 10px 16px 50px 16px;
 }
 
-#aMovie_listName li {
-   float: right;
+#aMovie h1 { /* 영화관리 제목 */
+	font-size: 35px;
+	color: #ccc;
+	margin: 15px 10px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px gray;
 }
 
 #aMovie_list {
-   width: 1000px;
-   border: 1px solid blue;
-   border-radius: 15px;
-   float: left;
+	float: left;
 }
 
-#aMovie_list table{
-   border:1px solid black;
+#aMovie_list table {
+	width: 1000px;
+	border-top: 1px solid #e8e8e8;
 }
+
+#aMovie_list .aMovie_video {
+	text-align: left;
+}
+
+#aMovie_list th
 
 #aMUploadLeft { /* 동영상 업로드 화면 왼쪽 div */
-   float: left;
+	float: left;
 }
 
 #aMUploadLeft ul {
+	
 }
 
 #aMUploadLeft li {
-   list-style: none;
-   text-align: center;
-   padding-bottom:20px;
+	list-style: none;
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 #aMUploadCenter { /* 동영상 업로드 화면 중앙 div */
-   float: left;
+	float: left;
 }
 
 #aMUploadC_category select { /* 중앙 카테고리 콤보박스 */
-   width: 615px;
-   font-size: 13pt;
+	width: 615px;
+	font-size: 13pt;
 }
 
 #aMUploadC_title input { /* 동영상 업로드 중앙 화면 제목 */
-   height: 50px;
-   font-size: 13pt;
+	height: 50px;
+	font-size: 13pt;
 }
 
 #aMUploadC_image { /* 동영상 업로드 중앙 화면 이미지 */
-    height: 150px;
-    border: 1px solid black;
+	height: 150px;
 }
 
 #aMUploadC_image img {
-   width:120px;
-   height:140px;
+	width: 120px;
+	height: 140px;
 }
 
 #aMUploadC_tag input {
-   height:30px;
-   color:red;
+	height: 30px;
+	color: red;
 }
 
 #aMUploadRight { /* 동영상 업로드 화면 오른쪽 div */
-   width: 400px;
-   height:600px;
-   border: 1px solid blue;
-   float: right;
-   
+	width: 400px;
+	height: 600px;
+	float: right;
 }
 
 #aMUploadR_saveBtn { /* 동영상 업로드 화면 오른쪽 저장 버튼 */
-   float: right;
+	float: right;
 }
 
 #aMUploadR_video { /* 동영상 업로드 화면 오른쪽 동영상 */
-   width: 360px;
-   height: 200px;
-   border: 1px solid red;
-   float: left;
+	width: 360px;
+	height: 200px;
+	float: left;
 }
 
 #aMUploadR_videoUrl {
-   float: left;
+	float: left;
 }
 
 #aMUploadUnder { /* 동영상 업로드 화면 맨 밑 div */
-   width: 700px;
-   height: 30px;
-   float: left;
-   align: center;
+	width: 700px;
+	height: 30px;
+	float: left;
+	align: center;
 }
 
 #aMUploadUnder input { /* 동영상 업로드 화면 맨 밑 체크 */
+	
 }
 
 #aMUploadUnder select { /* 동영상 업로드 화면 맨 밑 콤보박스 */
-display: inline-block;
+	display: inline-block;
 }
 
 /*테스트용*/
 #aMUpload_table {
-   
+	
 }
 
 #aMUpload_table th {
-   width: 70px;
+	
 }
 
 #aMUpload_table td {
-   width: 610px;
+	width: 610px;
 }
 
-#aMUploadR_videoUrl input{
-   
+#aMUploadR_videoUrl input {
+	
 }
 
 #aMUploadR_Actor { /* 제작사/배우 추가 */
-   
+	
 }
