@@ -13,11 +13,11 @@
 					</tr>
 					<tr>
 						<th colspan="2"><input type="email" placeholder="이메일 아이디"
-							size="30" class="text" /></th>
+							size="30" class="input_text" /></th>
 					</tr>
 					<tr>
 						<th colspan="2"><input type="password"
-							placeholder="비밀번호(영문, 숫자, 특수문자 포함 8자 이상)" size="30" class="text" /></th>
+							placeholder="비밀번호(영문, 숫자, 특수문자 포함 8자 이상)" size="30" class="input_text" /></th>
 					</tr>
 					<tr>
 						<td id="remember_me" valign="bottom"><input type="checkbox"
@@ -70,7 +70,7 @@
 				</table>
 				<div id="not_Movingmember">
 					<hr class="my-hr1" />
-					<span>아직 무빙 계정이 없나요? &nbsp;&nbsp;&nbsp;<a href="#">회원가입</a></span>
+					<span>아직 무빙 계정이 없나요? &nbsp;&nbsp;&nbsp;<a href="member_join.jsp">회원가입</a></span>
 					<hr class="my-hr1" />
 				</div>
 			</section>

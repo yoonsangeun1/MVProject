@@ -13,6 +13,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	border: 0;
 	font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial,
 		sans-serif, "맑은 고딕", "나눔고딕 ExtraBold", "나눔고딕", "함초롬바탕";
+	/* font-family: "맑은 고딕", "나눔고딕", sans-serif, Arial, "Maison Neue Book",
+		"Helvetica Neue", Helvetica, "나눔고딕 ExtraBold", "함초롬바탕"; */
 	font-size: inherit;
 	font-weight: inherit;
 	vertical-align: baseline;
@@ -88,6 +90,15 @@ a:hover {
 	margin-bottom: 0px;
 }
 
+.border_bottom_b20 {
+	width: 1200px;
+	height: 1px;
+	border-bottom: 1px solid;
+	border-color: #E8E8E8;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
 .border_bottom10 {
 	width: 1200px;
 	height: 0px;
@@ -111,18 +122,44 @@ a:hover {
 	border: 0;
 	height: 1px;
 	background: #e8e8e8;
+	margin: 0px auto;
 }
 
 .my-hr2 {
 	border: 0;
 	height: 2px;
 	background: #e8e8e8;
+	margin: 0px auto;
 }
 
 .my-hr3 {
 	border: 0;
 	height: 3px;
 	background: #e8e8e8;
+	margin: 0px auto;
+}
+
+/* 중앙 선 위에 텍스트 얹기 */
+.text-strikethru {
+    position: relative;
+    text-align: center;
+}
+
+/* 라인그리는 div */
+.text-strikethru .line {
+    height: 1px;
+    background-color: #F1EEEA;
+    width: 100%;
+}
+/* 텍스트 쓰는 div */
+.text-strikethru .text {
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    font-size: 14px;
+    top: -16px;
+    position: relative;
+    color: #282828;
 }
 
 /* ui 깨짐 현상 막기 위함 */
