@@ -1,34 +1,39 @@
 @charset "UTF-8";
 
 #aFunding {
-   width: 980px;
-   height: 700px;
-   border: 1px solid blue;
-   margin: 10px 10px 0px 10px;
-   border-radius: 15px;
-   float: left;
+	float: right;
+	margin: 10px 16px 50px 16px;
+}
+
+#aFunding h1 { /* 제목 */
+	font-size: 35px;
+	color: #ccc;
+	margin: 15px 10px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px gray;
 }
 
 #aFunding_maker {
-   width: 250px;
-   height: 590px;
-   border: 1px solid red;
-   border-radius: 15px;
-   float: left;
+	width: 300px;
+	height: 590px;
+	border: 1px solid red;
+	border-radius: 15px;
+	float: left;
+	font-size: 90%;
 }
 
 #aFunding_genre {
-   width: 350px;
-   height: 590px;
-   border: 1px solid red;
-   border-radius: 15px;
-   float: left;
+	width: 280px;
+	height: 590px;
+	border: 1px solid red;
+	border-radius: 15px;
+	float: left;
 }
 
 #aFunding_fund {
-   width: 350px;
-   height: 590px;
-   border: 1px solid red;
-   border-radius: 15px;
-   float: left;
+	width: 400px;
+	height: 590px;
+	border: 1px solid red;
+	border-radius: 15px;
+	float: left;
 }

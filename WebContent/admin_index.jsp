@@ -17,20 +17,18 @@
 		<!-- div는 레이아웃을 그릴때 사용하는 가로줄 전체길이 정도를 차지하는 블록요소 태그이다. -->
 		<!-- 상단영역.복수개의 div는 수직정렬이다 -->
 		
-			<!-- 페이지 맨 위 div -->
+		<!-- 페이지 맨 위 div -->
 		<div id="admin_menuTitle">
-			<ul class="menuTitle">
-				<li><a href="#"><img src="./images/moving.png"></a></li>
-			</ul>
-			
-					<!-- 알림  -->
+			<a href="#"><img src="./images/logo_w.png"></a>
+
+			<!-- 알림  -->
 			<div id="admin_notice">
-				<input type="button" value="버튼1" />
-				<input type="button" value="버튼2" />
+				<input type="button" value="버튼1" /> <input type="button"
+					value="버튼2" />
 			</div>
-			
+
 		</div>
-	
+		
 		<div id="admin_leftMenu">
 
 			<!-- 관리자 정보, 사진, 이름 -->
@@ -41,7 +39,9 @@
 					<li>관리자 정보:</li>
 				</ul>
 			</div>
-
+			
+			<hr/>
+			
 			<!-- 관리 메뉴 -->
 			<div id="admin_menu">
 				<ul>
@@ -56,7 +56,9 @@
 					<li><a href="./admin/admin_movie.jsp">영화 관리</a></li>
 				</ul>
 			</div>
-
+			
+			<hr/>
+			
 			<!-- 로그아웃 -->
 			<div id="admin_logout">
 				<ul>

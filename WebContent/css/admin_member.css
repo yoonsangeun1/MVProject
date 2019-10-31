@@ -2,151 +2,161 @@
 
 /* admin_member.jsp css작업 */
 #aMember { /* 회원관리 게시글 전체 div */
-   float:right;
+	float: right;
+	margin: 10px 16px 50px 16px;
 }
 
 #aMember h1 { /* 회원관리 제목 */
-   font-size: 35px;
-   color: #ccc;
-   margin: 15px px;
-   font-weight: bold;
+	font-size: 35px;
+	color: #ccc;
+	margin: 15px 10px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px gray;
 }
 
 #aMember_table { /* 회원관리 표 */
-   width: 1000px;                        /* 표 테이블 너비 */
-   border-collapse: collapse;                /* 표 테이블  테두리 공간을 없앰 */   
+	width: 1000px; /* 표 테이블 너비 */
+	border-collapse: collapse; /* 표 테이블  테두리 공간을 없앰 */
+	margin-top: 35px;
 }
 
 #aMember_table tr:hover { /* 회원관리 표에 마우스 오버시 */
-   cursor: hand;
-   cursor: pointer;
-   background-color: skyblue;
+	cursor: hand;
+	cursor: pointer;
+	background-color: skyblue;
 }
 
 #aMember_table th { /* 게시판 글 목록표 th */
-   height:20px; 
-   font-size:14px;
-   font-weight: bold;
-   padding: 10px;
-   background-color: #b3a9eb;
-   text-align: center;
+	height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	background-color: #b3a9eb;
+	text-align: center;
+}
+
+#aMember_table th .aCheck {
+	width:150px;
 }
 
 #aMember_table td { /* 게시판 글 목록표 td */
-   border-bottom-width: 1px;
-   border-bottom-style: solid;
-   border-bottom-color: #e8e8e8;
-   padding: 10px 0px;
-   text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e8e8e8;
+	padding: 10px 0px;
+	text-align: center;
 }
 
-#aMember_table a { 
-   color: #333;
+#aMember_table a {
+	color: #333;
+}
+
+#aMember_table td.aCheck {
+	border-top-left-radius: 5px; /* 좌 상단 테두리를 둥글게 한다. */
+	border-bottm-left-radius: 5px; /* 좌 하단 테두리를 둥글게 한다. */
+}
+
+#aMember_table td.aUserID {
+	width: 200px;
+	text-align: left;
+	padiing-left: 30px;
 }
 
 #aMember_table td.aEmail { /* 이메일 주소 */
-   width:300px;
-   text-align: left;
-   padding-left: 10px;
+	width: 250px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+#aMember_table td.aName {
+	width: 200px;
+}
+
+#aMember_table td.aGroup {
+	width: 200px;
 }
 
 #aMember_pageCtrl { /* 페이지 목록 */
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 40px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
 }
 
-#aMember_pageCtrl a{
-   padding: 2px 5px;
-   margin: 0px 5px;
-   color: #333;
+#aMember_pageCtrl a {
+	padding: 2px 5px;
+	margin: 0px 5px;
+	color: #333;
+}
+
 }
 
 #aMember_pageCtrl a:hover { /* 페이지 목록 하이퍼링크 된곳 마우스 오버시 */
-   text-decoration:underline;
-   font-weight:bold;
-   color: #fc636b;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #fc636b;
 }
 
 #aMember_search {
-   float: right;
-   margin: 25px 10px 15px 10px;
+	float: right;
+	margin: 25px 10px 15px 10px;
 }
 
 #aMember_search select {
-   width: 100px;
-   max-width: 150px;
-   margin-right: 20px;
-   margin-top: 10px;
-   float: left;
-   font: 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
-
+	width: 100px;
+	max-width: 150px;
+	height: 40px;
+	margin-right: 10px;
+	float: left;
+	font: 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	border-radius: 3px;
 }
 
 #aMember_search .input_box {
-    width: 250px;
-    height: 20px;
-    padding: 10px 5px;
-    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
-    border: 0;
-    float: left;
-    background: #eee;
-    border-radius: 3px 0 0 3px;  
+	width: 250px;
+	height: 20px;
+	padding: 10px 5px;
+	font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	border: 0;
+	float: left;
+	background: #eee;
+	border-radius: 3px 0 0 3px;
 }
 
 #aMember_search input:focus {
-   outline: 0;
-    background: #fff;
-    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+	outline: 0;
+	background: #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .8) inset;
 }
 
 #aMember_search input:-webkit-input-placeholder {
-   color: #999;
-   font-weight: normal;
-   font-style: italic;
+	color: #999;
+	font-weight: normal;
+	font-style: italic;
 }
 
 #aMember_search button {
-   overflow: visible;
-   position: relative;
-   float: right;
-   border: 0;
-   padding: 0;
-   cursor: pointer;
-   height: 40px;
-   width: 110px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase;
-   background: #d83c3c;
-   border-radius: 0 3px 3px 0;      
-   text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+	overflow: visible;
+	position: relative;
+	float: right;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 110px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 0 3px 3px 0;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 }
 
-#aMember_search button:hover {      
-   background: #e54040;
+#aMember_search button:hover {
+	background: #9d8ce2;
 }
 
-#aMember_search button:active,
-#aMember_search button:focus{   
-   background: #c42f2f;
-   outline: 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#aMember_search button:active, #aMember_search button:focus {
+	background: #9d8ce2;
+	outline: 0;
+}
