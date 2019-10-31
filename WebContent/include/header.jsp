@@ -14,6 +14,8 @@
 <link rel="stylesheet" type="text/css" href="../css/board_actors.css" /> <%--배우 모집--%>
 <link rel="stylesheet" type="text/css" href="../css/board_contest.css" /><%--시나리오 모집--%>
 <link rel="stylesheet" type="text/css" href="../css/board_free.css" />   <%--자유게시판--%>
+<link rel="stylesheet" type="text/css" href="../css/board_writing.css" />   <%--자유게시판--%>
+
 <%-- member css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/member_login.css" />   <%--로그인폼--%>
 <link rel="stylesheet" type="text/css" href="../css/member_join.css" />   <%--회원가입폼--%>
@@ -24,6 +26,7 @@
 
 <%-- sns css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
+<link rel="stylesheet" type="text/css" href="../css/profileSNS.css" />
 
 <%-- banner css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/aboutMoving.css" />
