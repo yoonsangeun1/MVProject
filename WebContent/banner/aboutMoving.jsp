@@ -16,43 +16,82 @@
 	<div id="aboutMoving_wrap">
 
 		<%--퀵메뉴 호출 --%>
-	<div class="mainRight_quick" style="position:fixed; z-index:3;">
-		<div class="quickmenu1">
-			<button class="go_Support_btn" onclick="#">후원하기</button>
-		</div>
-		<div class="quickmenu2">
-			<button class="go_Notice_btn" onclick="location='../board/board_notice.jsp';">공지사항</button>
-		</div>
+		<div class="mainRight_quick" style="position: fixed; z-index: 3;">
+			<div class="quickmenu1">
+				<button class="go_Support_btn" onclick="#">후원하기</button>
+			</div>
+			<div class="quickmenu2">
+				<button class="go_Notice_btn"
+					onclick="location='../board/board_notice.jsp';">공지사항</button>
+			</div>
 
-		<div class="quickmenu3">
-			<button class="go_Event_btn" onclick="location='../board/board_event.jsp';">이벤트</button>
-		</div>
+			<div class="quickmenu3">
+				<button class="go_Event_btn"
+					onclick="location='../board/board_event.jsp';">이벤트</button>
+			</div>
 
-		<button class="top_btn" onclick="$('html, body').stop().animate({scrollTop : 0}, 500);">TOP</button>
-	</div>
+			<button class="top_btn"
+				onclick="$('html, body').stop().animate({scrollTop : 0}, 500);">TOP</button>
+		</div>
 
 
 		<div class="clear"></div>
 
-		<div id="amMain_wrap">MOVING이란? 어떤 곳일까요?</div>
+		<div id="amMain_wrap">
+			<div class="amMoving_img">
+				<img src="../images/header_logo.png">
+			</div>
+			<div class="amMoving_text">
+				<span
+					style="font-weight: bold; font-size: 80px; float: left; margin-left: 30px;">당신의</span>
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br /> <span
+					style="font-weight: bold; font-size: 100px; color: #8785d8; float: left; margin-left: 150px;">MOVING</span>
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br /> <span
+					style="font-weight: bold; font-size: 80px; float: right; margin-right: 80px;">은
+					어떤 곳일까요?</span>
+			</div>
+		</div>
+
 		<div class="clear"></div>
 
 		<%--바꿔나갑니다. 바로 여기서 --%>
 		<div id="amChange_wrap">
 
 			<div id="amChange_text">
-				<div class="amChange_title"><span style="font-weight:bold; color:#8785d8">바꿔 나갑니다. 바로 여기서.</span> </div>
+				<div class="amChange_title">
+					<span style="font-weight: bold; color: #1aafd0">바꿔 나갑니다. 바로
+						여기서.</span>
+				</div>
 				<br />
 
 				<p class="amChange_cont">
-					<br /><span style="font-weight:bold; font-size:40px;">"불합리한 시장을 바꿔 나갑니다."</span><br /> <br /> ' 신작 영화들은 다 재미가 없는데,내 취향의
-					영화를 볼 순 없을까? '<br /> <br /> 영화를 좋아하는 우리는 항상<br /> 새로 개봉되는 영화가
-					재미있고, 평점 또는 리뷰가 좋기를 기대했습니다.<br /> 그래야 몸을 움직여 영화를 보러 가니까요.<br />
-					개봉된 신작 영화들이 보고 싶지 않다는 생각이 들면<br /> 재미있어 보이는 영화가 개봉되기를 기다리기만 했죠.<br />
-					<br /> 이런 문제를 겪는 사람이 우리 뿐만이 아니라는 것을 알게 되었고,<br /><br />
-					<span style="font-weight:bold; font-size:35px;">우리는 <span style="color:#8785d8">MOVING</span>을
-					만들었습니다.</span><br /> <br /> <br /> 자신만의 취향이 있는 영화인들이 고통받는 불합리한 영화시장,<br />
-					<br /> 우리가 직접 바꿔 보려 합니다.<br />
+					<br />
+					<span style="font-weight: bold; font-size: 40px;">"불합리한 시장을
+						바꿔 나갑니다."</span><br /> <br /> ' 신작 영화들은 다 재미가 없는데,내 취향의 영화를 볼 순 없을까? '<br />
+					<br /> 영화를 좋아하는 우리는 항상<br /> 새로 개봉되는 영화가 재미있고, 평점 또는 리뷰가 좋기를
+					기대했습니다.<br /> 그래야 몸을 움직여 영화를 보러 가니까요.<br /> 개봉된 신작 영화들이 보고 싶지 않다는
+					생각이 들면<br /> 재미있어 보이는 영화가 개봉되기를 기다리기만 했죠.<br /> <br /> 이런 문제를 겪는
+					사람이 우리 뿐만이 아니라는 것을 알게 되었고,<br />
+					<br /> <span style="font-weight: bold; font-size: 35px;">우리는
+						<span style="color: #8785d8">MOVING</span>을 만들었습니다.
+					</span><br /> <br /> <br /> 자신만의 취향이 있는 영화인들이 고통받는 불합리한 영화시장,<br /> <br />
+					우리가 직접 바꿔 보려 합니다.<br />
 				</p>
 			</div>
 		</div>
@@ -73,10 +112,12 @@
 					&nbsp;&nbsp;&nbsp;과거의 교훈과 현재의 목소리도 들을 수 있는 앞으로의 방향을 제시해줍니다.<br />
 					<br /> <span style="font-weight: bold; font-size: 40px;">당신의
 						관심사를 타인과 소통할 수 있습니다.</span> <br /> <br />- 사람들 각자는 저마다의 관심분야가 있습니다. <br />
-					&nbsp;&nbsp;&nbsp;누군가에게 나의 의견, 생각을 표현하는 것은 관계 형성에 많은 도움을 줄 수 있습니다.
+					&nbsp;&nbsp;&nbsp;누군가에게 의견과 생각을 표현하는 것은 관계 형성에 많은 도움을 줄 수 있습니다.
 
 				</p>
-				<button class="support_btn"><span style="font-weight:bold; font-size:30px; color:#eae6fa">후원하러하기</span></button>
+				<button class="support_btn">
+					후원하러하기
+				</button>
 			</div>
 		</div>
 
@@ -93,9 +134,9 @@
 					<span style="font-weight: bold; font-size: 40px;">○ 당신이 후원한
 						프로젝트가 무산 될 수 있습니다. <br /> &nbsp;&nbsp;&nbsp; 하지만 후원금액은 되돌아 갑니다.
 					</span><br /> <br /> <span style="font-weight: bold; font-size: 40px;">○
-						당신이 후원한 프로젝트의 내용과 제작자에 대해 검색해보세요.</span><br /> &nbsp;&nbsp;&nbsp;- 제작자나
-					프로젝트 관련자가 이전에 어떠한 문제를 일으킨 적이 있는지 확인해보고 <br />&nbsp;&nbsp;&nbsp;&nbsp;
-					평판을 조회해보세요 (커뮤니티 게시판 및 제작자 SNS 후원자리뷰 활용)<br /> <br /> <span
+						당신이 후원한 프로젝트의 내용과 제작자에<br /> &nbsp;&nbsp;&nbsp; 대하여 검색해보세요.
+					</span><br /> &nbsp;&nbsp;&nbsp;- 제작자나 프로젝트 관련자가 이전에 어떠한 문제를 일으킨 적이 있는지 <br />&nbsp;&nbsp;&nbsp;&nbsp;확인해보고평판을
+					조회해보세요 (커뮤니티 게시판 및 후원자리뷰 활용)<br /> <br /> <span
 						style="font-weight: bold; font-size: 40px;">○ 해당 프로젝트의 다른
 						후원자들을 살펴보세요.</span><br /> &nbsp;&nbsp;- 다른 후원자들이 프로젝트에 어떻게 이야기하고 있는지
 					확인해보세요.<br />&nbsp;&nbsp;&nbsp; (커뮤니티 게시판 활용)<br /> <br />
@@ -126,7 +167,8 @@
 				<br />
 
 				<p class="amFAQ_cont">
-				 <iframe name="FAQ" src="../board/board_faq.jsp"  frameborder="0" width="800" height="500"></iframe>
+					<iframe name="FAQ" src="../board/board_faq.jsp" frameborder="0"
+						width="800" height="500"></iframe>
 				</p>
 			</div>
 		</div>

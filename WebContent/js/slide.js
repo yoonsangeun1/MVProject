@@ -22,7 +22,7 @@ var index=0;
 			index=1;
 		}
 		x[index-1].style.display = "block";
-		setTimeout(slideShow,2000);
+		setTimeout(slideShow,4000);
 	}
 
 	 /* 수동 슬라이드 배너 */
