@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 #aboutMoving_wrap {
    /* div 폭 */
    width:1200px;
@@ -24,6 +26,27 @@
    background-image: url(../images/waves.gif);
 }
 
+.amMoving_img {
+	
+	margin-top : 100px;
+	margin-bottom : 100px;
+}
+.amMoving_img img{
+	 width : 800px;
+	 height : 400px;
+} 
+.amMoving_text{
+	margin-top:100px;
+	margin-bottom:100px;
+	line-height:1.2;
+}
+#you  {
+	margin-left : 30px;
+	font-weight:bold; 
+	font-size:80px;
+	text-align:left;
+	
+}
 
 
 #amChange_wrap {
@@ -67,20 +90,39 @@
    font-size : 50px;
 }
 .amWhySupport_cont {
-   margin-top : 30px;
+   margin : 30px 0 30px 30px;
    font-family : sans-serif;
    font-size : 30px;
    line-height:1.2;
 }
 
 .support_btn {
-   margin-top : 50px;
-   width:200px;
-   height:50px;
-    text-align: center;
-    background-color:#6a67ce;
-    border-radius : 15px;
+   position: relative;
+   float: center;
+   border: 0;
+   padding: 0;
+   cursor: pointer;
+   height: 40px;
+   width: 200px;
+   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+   color: #fff;
+   text-transform: uppercase; 
+   background: #b3a9eb;
+   border-radius: 3px;
+   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+   margin:30px;
+   font-size : 30px;
 }
+
+.support_btn:hover {
+   background: #9d8ce2;
+}
+
+.support_btn:active, .support_btn  :focus {
+   background: #9d8ce2;
+   outline: 0;
+}
+
 #amPrecautions_wrap {
    float:left;
    width:1200px; /* 메인배너 너비 */
@@ -99,6 +141,7 @@
 
 
 .amPrecautions_title {
+	margin : 30px;
    font-weight:bold;
    color:red;
    font-size : 50px;
@@ -106,7 +149,7 @@
 }
 
 .amPrecautions_cont {
-   margin-top : 100px;
+   margin : 30px;
    font-family : sans-serif;
    font-size : 30px;
    line-height:1.2;
