@@ -1,25 +1,9 @@
-/** movie_list.jsp에 대한 js 작업 */
-var slideIndex = 1;
-showSlides(slideIndex);
+/** movie_cont.jsp에 대한 js 작업 */
 
-function plusSlides(n) {
-	showSlides(slideIndex += n);
-}
-function currentSlide(n) {
-	showSlides(slideIndex = n);
-}
-function showSlide(n) {
-	var i;
-	var slides = document.getElementsByIdName("static");
-	
-	if (n > slides.length) {
-		slideIndex = 1;
+function check () {
+	if($.trim($("#mComment_cont").val()) == "") {
+		alert("내용을 입력하세요.");
+		$("#mComment_cont").val("").focus(); // 입력 박스를 초기화 하고 포커스를 이동시킵니다.
+		return false; // 제출 이벤트 종료
 	}
-	if (n < 1) {
-		slideIndex = slides.length;
-	}
-	for (i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";
-	}
-	slides[slideIndex - 1].style.display = "block";
 }
