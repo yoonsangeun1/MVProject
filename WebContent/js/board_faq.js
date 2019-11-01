@@ -129,7 +129,7 @@ function bFaq_no1_bt4(){ /*이용문의 4번째 버튼*/
 		   $('.bFaq_no1_bt4').css("color","#fff");      /*글씨 흰색*/
 	}else if($('.bFaq_no1_panel4').css("display") == "block" ){
 		$('.bFaq_no1_panel4').css("display","none");
-		$('.bFaq_no1_bt4').css("transition","0.5s");
+		$('.bFaq_no1_bt4').css("transition","0.5s"); /*0.5초*/
 		$('.bFaq_no1_bt4').css("background","#fff"); /*배경 흰색*/
 		$('.bFaq_no1_bt4').css("color","#000"); 	 /*글씩 검정*/
 	}//if else if

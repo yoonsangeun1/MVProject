@@ -5,7 +5,6 @@
 #bFaq_body{
 	width:1200px;
 	height:auto;
-	min-height:1024px;
 	float:left;
 	overflow:auto;
 }
@@ -70,7 +69,6 @@
 	float:left;
 	width:1200px;
 	height:auto;
-	min-height:1024px;
 	border:1px solid #000;
 	overflow:auto;
 	box-sizing:border-box;
@@ -124,7 +122,6 @@
 #bFaq_no1_body{ /*이용 문의 div*/
 	width:auto;
 	height:auto;
-	border:1px solid #e8e8e8;
 	padding:40px 200px;
 	box-sizing:border-box;
 }
@@ -137,7 +134,6 @@
 #bFaq_no2_body{ /*수강 문의 div*/
 	width:auto;
 	height:auto;
-	border:1px solid #e8e8e8;
 	padding:40px 200px;
 	box-sizing:border-box;
 }
@@ -150,13 +146,11 @@
 #bFaq_no3_body{ /*결제 문의 div*/
 	width:auto;
 	height:auto;
-	border:1px solid #e8e8e8;
 	padding:40px 200px;
 	box-sizing:border-box;
 }
 
-#bFaq_no1_body .bFaq_no1_bt1, #bFaq_no1_body .bFaq_no1_bt2, #bFaq_no1_body .bFaq_no1_bt3,
-#bFaq_no1_body .bFaq_no1_bt4 {
+ .bFaq_no1_bt1, .bFaq_no1_bt2, .bFaq_no1_bt3, .bFaq_no1_bt4 { /*이용문의 질문 버튼들*/
 	width:100%;
 	background:#fff;
 	color:#000;
@@ -165,11 +159,17 @@
 	padding:10px;
 	outline:none;
 	font-size:15px;
-	margin-top:15px;
-	border-radius:4px;
+	margin-top:30px;
+	border-radius:0px;
 }
 
-
+.bFaq_no1_panel1, .bFaq_no1_panel2, .bFaq_no1_panel3, .bFaq_no1_panel4 { /*이용문의 답변 div*/
+	width:100%;
+	float:left;
+	padding:30px;
+	border:1px solid #000;
+	margin-bottom:30px;
+}
 
 
 
