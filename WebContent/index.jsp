@@ -16,6 +16,7 @@
 <link rel="stylesheet" type="text/css" href="./css/board_free.css" />   <%--자유게시판--%>
 <%-- member css 추가 --%>
 <link rel="stylesheet" type="text/css" href="./css/member_login.css" />   <%--로그인폼--%>
+<link rel="stylesheet" type="text/css" href="./css/member_join.css" />   <%--회원가입폼--%>
 
 <%-- funding css 추가 --%>
 <link rel="stylesheet" type="text/css" href="./css/funding_list.css" /> <%--펀딩리스트 --%>
@@ -41,19 +42,19 @@
 			<%-- 상단 메뉴 첫번째 --%>
 			<div id="header_menu1">
 				<nav>
-					<ul>
+						<ul>
 						<%--메뉴구성은 ul li블록요소 태그 --%>
-						<li class="hMenu_left"><a href="#">Project</a></li>
-						<li class="hMenu_left"><a href="#">Movies</a></li>
+						<li class="hMenu_left"><a href="./funding/funding_list.jsp">Project</a></li>
+						<li class="hMenu_left"><a href="./movie/movie_mainList.jsp">Movies</a></li>
 						<li class="hMenu_Center"><div id="header_logo">
-								<a href="#"><img src="./images/logo.png" alt="로고 이미지"
+								<a href="index.jsp"><img src="./images/logo.png" alt="로고 이미지"
 									width="150" height="25" /></a>
 							</div></li>
 						<li class="hMenu_right"><input name="header_searchbar"
 							size="10">&nbsp;&nbsp;<img src="./images/search.png"
 							alt="검색 이미지" width="20" height="20" /></li>
-						<li class="hMenu_right"><a href="#">SNS</a></li>
-						<li class="hMenu_right"><a href="#">Login</a></li>
+						<li class="hMenu_right"><a href="./sns/SNS_Main.jsp">SNS</a></li>
+						<li class="hMenu_right"><a href="./member/member_login.jsp">Login</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -63,7 +64,7 @@
 			<div id="header_menu2">
 				<nav id="menu_bar">
 					<ul>
-						<li><a href="#">All</a></li>
+						<li><a href="./funding/funding_list.jsp">All</a></li>
 						<li><a href="#">Documentaries</a></li>
 						<li><a href="#">Shorts</a></li>
 						<li><a href="#">Animation</a></li>

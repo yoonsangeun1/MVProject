@@ -29,6 +29,7 @@
 
 		</div>
 		
+
 		<div id="admin_leftMenu">
 
 			<!-- 관리자 정보, 사진, 이름 -->
