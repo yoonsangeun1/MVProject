@@ -2,18 +2,16 @@
 <%@ include file="../include/header.jsp"%>
 
 	<div id="movie_box"><!-- 영상 목록 이름, 영상 포스트 시작 -->
-	
-		<div id="mPost_it"><!-- 포스트 잇 -->
+	 
+		<div id="mPost_it" align="center"><!-- 포스트 잇 -->
 			<br /><br /><br /><br />
-			<div id="post_it_cont" align="center">
 				<h1>
 					독립 영화의 모든 것.<br />
 					회원이면 언제나 무료입니다.
 				</h1>
-			</div>
 			<br /><br /><br /><br />
 		</div>
-		
+		<%--
 		<div class="mBox_item"><!-- 1번 영상 -->
 			<a href="movie_comment01.jsp">
 				<img src="../images/thrill_video01.PNG" width="250px" height="150px" alt="사물이 거울에 보이는 것보다 가까이 있음">
@@ -152,6 +150,6 @@
 		</div>
 		
 	</div><!-- 영상 목록 이름, 영상 포스트에 대한 코딩 끝 -->
-	
+	--%>
 
 <%@ include file="../include/footer.jsp"%>
