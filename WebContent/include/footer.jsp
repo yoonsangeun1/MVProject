@@ -2,7 +2,7 @@
 
 			<div class="clear"></div>
 			<%-- 구분선 --%>
-			<div class="border_bottom20"></div>
+			<div class="border_bottom_b20"></div>
 			
 			<div id="global_footer_wrap">
 				<%-- 하단 메뉴 : 장르  이름 나중에 바꾸기 subcategory_bar --%>

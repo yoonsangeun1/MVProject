@@ -28,10 +28,17 @@
 <%-- banner css 추가 --%>
 <link rel="stylesheet" type="text/css" href="./css/aboutMoving.css" />
 
+<%-- movie css 추가 --%>
+<link rel="stylesheet" type="text/css" href="./css/movie_cont.css" />
+<link rel="stylesheet" type="text/css" href="./css/movie_mainList.css" />
+<link rel="stylesheet" type="text/css" href="./css/movie_categoryList.css" />
+
 <%-- script 추가 --%>
 <script src="./js/jquery.js"></script>
 <script src="./js/slide.js"></script>
 <script src="./js/move_banner.js"></script>
+<script src="./js/board_faq.js"></script>
+
 </head>
 <body>
 	<div id="main_wrap">
@@ -84,7 +91,7 @@
 		<%-- 반복적 css적용은 class // 하나하나 css적용은 id --%>
 
 		<div id="logo">
-			<img src="./images/header_logo.png" width="265" height="62"
+			<img src="./images/header_logo.png" width="265" height="82"
 				alt="moving_logo" />
 		</div>
 		<div class="main_banner">
@@ -126,62 +133,108 @@
 		<%--메인배너 호출 --%>
 			<div id="biMoving_wrap"> 
 	<%-- 반복적 css적용은 class // 하나하나 css적용은 id --%>
-		<div class="biMoving_x"></div>
 		<div class="biMoving_logo">
 			<img src="./images/header_logo.png" width="400" height="150" alt="moving_logo"/>
 		</div>
 		<div class="biMoving_text">MOVING은 왜 필요할까요?</div>
-		<div class="biMoving_button">
-				<input type="button" id="biMoving_aboutMoving" value="MOVING 자세히보기" onclick="location='./banner/aboutMoving.jsp';"/>
-		</div>
+				
+				<button class="biMoving_button" onclick="location='./banner/aboutMoving.jsp';">
+					MOVING 자세히 보기
+				</button>
 	</div>
 	
 		<div class="clear"></div>
 		
 			<div id="biSns_wrap">
-		<div class="biSns_x">
-			<div class="biSns_logo">
-				<img src="./images/sns_logo.png" width="150" height="150"
-					alt="sns_logo" />
+				<div class="biSns_logo">
+					<img src="./images/sns_network_img.png" width="300" height="300"
+						alt="sns_logo" />
+				</div>
+				
+				<div class="biSns_text">
+					<span style="font-weight: bold; font-size: 40px; color: #eae6fa; float: left; margin-left: 150px;">
+					MOVING만의 SNS서비스</span> 
+					<br /> 
+					<br />
+					&nbsp;&nbsp;'이 영화 참 괜찮다'<br /> '이렇게 여운이 남는 영화가 또 없을까?' 
+					<br />
+					<br />
+					
+					
+					MOVING에서는 회원님들의 추억을 공유 할 수 있는 
+					<br/>
+					&nbsp;&nbsp;SNS서비스를 만들었습니다. 
+					<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;본인만의 SNS를 만들어 추억을 남기고,
+					<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다른 사람과 소통을 해보세요 ! 
+					
+				</div>
+				
+				<button class="biSns_button" onclick="location='./sns/SNS_Main.jsp';">
+					<span style="font-weight: bold; font-size: 30px; color: #eae6fa">SNS 바로가기</span>
+				</button>  
 			</div>
-			<div class="biSns_text"><h3>MOVING만의 SNS서비스</h3></div>
-			<div class="biSns_button">
-				<a href="#"><img src="./images/snsmore.png"
-					width="200" height="50" alt="learnmore"></a>
-			</div>
-		</div>
-	</div>
 	
-		<div class="clear"></div>
+		<div class="clear"></div> 
 		
 			<div id="biProject_wrap">
-		<div class="biProject_logo">
-			<img src="./images/sns_logo.png" width="150" height="150"
-					alt="project_logo" />
-		</div>
-		<div class="biProject_text">
-			<h3>내가 만드는 프로젝트</h3>
-		</div>
-		<div class="biProject_button">
-		<input type="button" id="biProject_actorButton" value="배우모집 게시판" onclick="location='#';" />
-		<input type="button" id="biProject_writerButton" value="작가모집 게시판" onclick="location='#';" />
-		<input type="button" id="biProject_songwriterButton" value="음향제작자 모집 게시판" onclick="location='#';" />
-		</div>
-	</div>
+				<div class="biProject_logo">
+					<img src="./images/cooperation.png" width="350" height="350"
+							alt="project_logo" />
+				</div>
+				
+				<div class="biProject_text"> 
+					<span style="font-weight: bold; font-size: 40px; color: #eae6fa; float:center">
+					내가 만드는 프로젝트</span> 
+					<br />
+					<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;프로젝트가 성공하기까지는 금전적인 문제도 있지만,
+					<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;그게 다가 아닙니다.
+					<br />
+					당신의 재능을 살려 직접 프로젝트의 
+					<br />&nbsp;주연배우 혹은 시나리오 작가가 될 수 있죠.
+					<br/>
+					<br />
+					&nbsp;&nbsp;MOVING에서는 여러사람의 노력이 모여,
+					<br /> 프로젝트가 성공 할 수 있도록 진행예정인 프로젝트의 
+					<br /> &nbsp;&nbsp;배우모집, 시나리오 작가 모집도 하고 있습니다.
+					<br />
+					<br />  
+					이 곳에서 당신의 첫걸음을 내딛어 보세요.
+					<br />
+					&nbsp;MOVING은 당신을 응원합니다.
+					
+				</div>
+				
+				<div class="biProject_actor_img">
+					<img src="./images/actor_img.png" width="180" height="180" alt="actor_img"  />
+				</div>
+				<div class="biProject_scenario_img">
+					<img src="./images/scenario_img.png" width="180" height="180" alt="scenario_img" />
+				</div>
+				<div class="biProject_button">
+					<button class=biProject_actorButton onclick="location='./board/board_actors.jsp';">
+						배우모집 게시판
+					</button>
+					<button class=biProject_writerButton onclick="location='./board/board_contest.jsp';">
+					시나리오 공모 게시판
+					</button>
+				</div>
+			</div>
 
 		<div class="clear"></div>
 		
 			<div id="biSupport_wrap"> 
 	<%-- 반복적 css적용은 class // 하나하나 css적용은 id --%>
 		<div class="biSupport_logo">
-			<img src="./images/header_logo.png" width="200" height="100" alt="support_logo"/>
+			<img src="./images/header_logo.png" width="300" height="150" alt="support_logo"/>
 		</div>
 		
 		<div class="biSupport_text">당신의 후원을 기다립니다.</div>
 		
-		<div class="biSupport_button">
-				<input type="button" id="go_Support_btn" value="후원하기" 
-				onclick="location='#';" height="50"/>
+				<button class=biProject_writerButton onclick="location='./board/board_contest.jsp';">
+					시나리오 공모 게시판
+					</button>
 		</div>
 	</div>
 	

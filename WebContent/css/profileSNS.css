@@ -12,33 +12,41 @@
 	margin: auto auto;
 	background-color: rgba(255, 255, 255, 0);
 	align-items: center;
-	padding: 0px 30px;
+	
 }
 #SNS_Profile_Left{
+	width: 300px;
+	margin-top: 10px;
 	float: left;
+	border: 1px solid;
 }
-#SNS_Profile_Picture img{ /* 프로필 사진*/
+#SNS_Profile_Right{
+	width: 800px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	border: 1px solid;
+}
+#SNS_Profile_Photo{ /* 프로필 사진*/
 	text-align:center;
 	width:200px; height:200px;
-	border:2px solid blue;
-	border-radius:300px;
+	border:1px solid green;
+	border-radius:30px;
 	top: 150px;
 	left: 15px;
 }
-#SNS_Profile_Information{
-	width:900px; height:100px;
-	border:2px solid red;
+#SNS_Profile_Info{ /* 프로필 정보 */
+	text-align: center;
+	width:500px; height:100px;
 	transition: 1.0s;
 	background: #4679f0;
 }
-#SNS_Profile_Info div:hover{
+#SNS_Profile_Info:hover{/* 애니메이션 효과 */
 	width: 1000px;
 	height:400px;
 	background: black;
-	transform: scale(1.2);
 }
 #SNS_Profile_Set{
 	width:900px; height:600px;
 	border:2px solid green;
-	top: 460px;
 }

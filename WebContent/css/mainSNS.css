@@ -5,7 +5,7 @@
 	align-items: center;
 }
 
-#SNS_Wrap { /* 전체 스타일 설정 */
+#SNS_Wrap{ /* 전체 스타일 설정 */
 	width: 1200px;
 	height: 3080px;
 	box-sizing: border-box;
@@ -16,7 +16,7 @@
 	align-items: center;
 }
 
-#SNS_Wrap h3 {
+#SNS_Wrap h3{
 	transition: transform 0.3s;
 	display: inline-block;
 }
@@ -123,6 +123,9 @@
 }
 
 #SNS_main_right {
+	width: 310px;
+	height: auto;
+	float: left;
 }
 /* 중간 */
 #mid_pad { /* 중간 위 영역 */
@@ -414,46 +417,6 @@
 }
 
 #SNS_Comment h3 {
-<<<<<<< HEAD
-	font-weight: 600;
-	font-size: 16px;
-	padding-top: 9px;
-	padding-left: 10px;
-	cursor: pointer;
-	display: inline-block;
-	color: #504dc6;
-}
-
-#SNS_Comment h4 {
-	font-size: 15px;
-	padding-left: 8px;
-	padding-bottom: 10px;
-	display: inline-block;
-}
-#SNS_Comment_Write{
-	border-top: 1px solid #f2f0fb;
-	height: auto;
-	margin-top: 3px;
-	margin-bottom: 7px;
-	padding-top: 17px;
-}
-#SNS_Comment_Write input[type="text"]{
-	margin-left: 10px;
-	margin-top: 2px;
-	width: 490px;
-	height: 22px;
-	float:left;
-}
-#SNS_Comment_Write input[type="button"]{
-	margin-left: 5px;
-	margin-top: 1px;
-	width:70px;
-	height:30px;
-	background: #6a67ce;
-	outline: none;
-	border: none;
-	color: white;
-=======
    font-weight: 600;
    font-size: 16px;
    padding-top: 9px;
@@ -469,28 +432,10 @@
    padding-bottom: 10px;
    display: inline-block;
 }
-#SNS_Comment_Write{
+#SNS_Comment_Write input{
    border-top: 1px solid #f2f0fb;
    height: auto;
    margin-top: 3px;
    margin-bottom: 7px;
    padding-top: 17px;
-}
-#SNS_Comment_Write input[type="text"]{
-   margin-left: 10px;
-   margin-top: 2px;
-   width: 490px;
-   height: 22px;
-   float:left;
-}
-#SNS_Comment_Write input[type="button"]{
-   margin-left: 5px;
-   margin-top: 1px;
-   width:70px;
-   height:30px;
-   background: #6a67ce;
-   outline: none;
-   border: none;
-   color: white;
->>>>>>> 73c3f8dd7e64658eda26f2c72d0d3bdbeddd2723
 }
