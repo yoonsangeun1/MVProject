@@ -152,7 +152,7 @@ body {
 	color: #333; /*글자색*/
 }
 #sns_header {
-	width: 1200px;
+	width: auto;
 	height: 55px;
 	text-align: center;
 	display: flex;

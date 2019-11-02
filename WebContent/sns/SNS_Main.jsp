@@ -88,8 +88,8 @@
 									<h3>송현범</h3><h4>트윅스가 춤도 출 줄 아네</h4><br/>
 									<div id="SNS_Comment_Write">
 										<img id="SNS_Profile_Picture" src="../images/member_profile.png" width=30px height=30px alt="">
-										<input type="text" width="350" height="30">
-										<input type="button" value="작성">
+										<input class="SNS_Comment_Write_Chat" type="text">
+										<input class="SNS_Comment_Write_Button" type="button" value="작성">
 									</div>
 								</div>
 							</div>
