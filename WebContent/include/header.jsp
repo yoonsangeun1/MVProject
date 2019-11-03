@@ -7,6 +7,10 @@
 <link rel="stylesheet" type="text/css" href="../css/init.css" />
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+<link rel="stylesheet" type="text/css" href="../iconfont/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/bf95efc607.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="../icon/css/fontello.css">
+ <link rel="stylesheet" href="../icon/css/animation.css">
 <%--board css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/board_notice.css" /> <%--공지사항--%>
 <link rel="stylesheet" type="text/css" href="../css/board_event.css" />  <%--이벤트--%>
@@ -23,7 +27,7 @@
 <%-- funding css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/funding_list.css" /> <%--펀딩리스트 --%>
 <link rel="stylesheet" type="text/css" href="../css/funding_write.css" /> <%--펀딩 글 작성 --%>
-
+<link rel="stylesheet" type="text/css" href="../css/funding_cont.css" /> <%-- 펀딩 글 보기 --%>
 <%-- sns css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
 <link rel="stylesheet" type="text/css" href="../css/profileSNS.css" />
