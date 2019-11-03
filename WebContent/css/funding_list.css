@@ -103,7 +103,8 @@
 
 .progress {
 	height: 12px;
-	width: 530px;
+	/* width: 530px; */
+	width: 100%;
 	background-color: #E8E8E8;
 	font-family: Helvetica;
 	font-size: 12px;
@@ -113,7 +114,7 @@
 
 .progress-bar {
 	height: 12px;
-	background-color: #037362;
+	background-color: #6a67ce;
 }
 
 #hover_container h3 {

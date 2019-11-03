@@ -1,46 +1,39 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>크라우드 펀딩 글 작성 폼</title>
-<script src="../js/jquery.js"></script>
-<script src="../js/funding_write.js"></script>
-</head>
-<body>
-	<form method="post" action="" onsubmit="return check();">
+<%@ include file="../include/header.jsp"%>
 
+<form method="post" action="" onsubmit="return check();">
+	<div id="fWrite_wrap">
 		<!-- 상단 메뉴 -->
-		<div id="fWrite_menu">
-			<input type="button" id="mDefault" name="mdefault" value="기본 정보"
-				onclick="location='funding_write.jsp';" /> <input type="button"
-				id="mReward" name="mReward" value="리워드"
-				onclick="location='funding_write2.jsp';" /> <input type="button"
-				id="mDirector" name="mDirector" value="제작사"
-				onclick="location='funding_write3.jsp';" /> <input type="button"
-				id="mCal" name="mCal" value="정산" onclick="location='funding_write4.jsp';" /> <input type="button"
-				id="mPreview" name="mPreview" value="미리보기" onclick="location='funding_cont.jsp';" /> <input type="button"
-				id="mRequest" name="mRequest" value="검토 요청하기" />
-			<%-- onclick="" 나중에 추가 			window.open메서드 미리보기 띄우기 나중에 cont완성되면 추가하기
+		<div id="fWrite_title">
+					<input type="button" class="button group border button_r12 button_f12" value="기본 정보"
+						onclick="location='funding_write.jsp';" /> <input type="button"
+						class="button group border button_r12 button_f12" value="리워드"
+						onclick="location='funding_write2.jsp';" /> <input type="button"
+						class="button group border button_r12 button_f12" value="제작사"
+						onclick="location='funding_write3.jsp';" /> <input type="button"
+						class="button group border button_r12 button_f12" value="정산"
+						onclick="location='funding_write4.jsp';" /> <input type="button"
+						class="button border button_r12 button_f12" value="미리보기"
+						onclick="location='funding_cont.jsp';" /> <input type="button"
+						class="button border button_r12 button_f12" value="검토 요청하기" />
+					<%-- onclick="" 나중에 추가 			window.open메서드 미리보기 띄우기 나중에 cont완성되면 추가하기
 						스토리 부분 추가해야할 것 같음.
 			
 			 --%>
+
+
+			<!-- 알림  -->
+			<div id="fWrite_Alert">
+				<table border="1">
+					<tr>
+						<td>알림</td>
+						<td>30분 동안 입력 또는 작성 단계별 저장이 진행되지 않으면 자동으로 로그아웃 되며, 저장하지 않은
+							입력값은 반영 되지 않으니 주의하세요.</td>
+					</tr>
+				</table>
+			</div>
+
 		</div>
-
-		<div></div>
-
-		<!-- 알림  -->
-		<div id="fWrite_Alert">
-			<table border="1">
-				<tr>
-					<td>알림</td>
-					<td>30분 동안 입력 또는 작성 단계별 저장이 진행되지 않으면 자동으로 로그아웃 되며, 저장하지 않은
-						입력값은 반영 되지 않으니 주의하세요.</td>
-				</tr>
-			</table>
-		</div>
-
-		<div></div>
 
 		<!-- 본문 내용 : 기본 정보 -->
 		<div id="fWrite_cont">
@@ -160,12 +153,11 @@
 							유통된 적이 있거나 현재 유통 중인가요?</b><br /> 선택하신 답변이 사실과 다를 경우 약정서에 근거하여 프로젝트
 						취소 및 위약벌이 부과될 수 있습니다. <br /> <input type="radio" name="warn"
 						value="no" checked />아니요. 다른 곳에서 유통한 적이 없으며 와디즈를 통해 처음 선보이는
-						제품입니다. <br />
-					<input type="radio" name="warn" value="yes" />예, 다른 곳에서 유통한 적이
-						있습니다. 또는 현재 유통 중입니다. <br /> <b>Q2. 현재 진행(제작)된 리워드의 상태 및 앞으로의
-							진행(제작)계획을 일정과 함께 구체적으로 설명해주세요.</b><br /> <textarea cols="30"
-							rows="2" name="question02"></textarea><br /> <b>Q3. 리워드의
-							전달(발송) 계획을 알려주세요.</b><br /> <textarea cols="30" rows="2"
+						제품입니다. <br /> <input type="radio" name="warn" value="yes" />예,
+						다른 곳에서 유통한 적이 있습니다. 또는 현재 유통 중입니다. <br /> <b>Q2. 현재 진행(제작)된
+							리워드의 상태 및 앞으로의 진행(제작)계획을 일정과 함께 구체적으로 설명해주세요.</b><br /> <textarea
+							cols="30" rows="2" name="question02"></textarea><br /> <b>Q3.
+							리워드의 전달(발송) 계획을 알려주세요.</b><br /> <textarea cols="30" rows="2"
 							name="question03"></textarea></td>
 
 				</tr>
@@ -187,6 +179,7 @@
 			</table>
 
 		</div>
-	</form>
-</body>
-</html>
+	</div>
+</form>
+
+<%@ include file="../include/footer.jsp"%>
