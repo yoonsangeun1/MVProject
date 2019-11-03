@@ -10,6 +10,8 @@
 <link rel="stylesheet" type="text/css" href="../css/header.css" />
 <link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
 <link rel="stylesheet" type="text/css" href="../css/profileSNS.css" />
+<link rel="stylesheet" type="text/css" href="../css/messengerSNS.css" />
+
 
 </head>
 <body>

@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+#SNS_Messenger_All{
+	background-color: #f2f0fb;
+	align-items: center;
+}
+#SNS_Messenger_Wrap{ /* 전체 스타일 설정 */
+	width: 1200px;
+	height: 1000px;
+	box-sizing: border-box;
+	line-height: 1em;
+	margin: auto auto;
+	background-color: rgba(255, 255, 255, 0);
+	align-items: center;
+	z-index: -2;
+}
+/* 왼쪽 오른쪽 */
+#SNS_Messenger_Left{
+	width: 300px;
+	height: 1000px;
+	float: left;
+	z-index: 2;
+	border: 1px solid;
+}
+#SNS_Messenger_Left h4{
+	font-size: 24px;
+}
+#SNS_Messenger_Mid{
+	width: 600px;
+	height: auto;
+}
+#SNS_Messenger_Mid_Up{
+	width:580px;
+	height:100px;
+	border: 1px solid #b3a9eb;
+}
+#SNS_Messenger_Mid_Down{
+	width: 580px;
+	height: auto;
+	float: left;
+	border: 1px solid #b3a9eb;
+	border-radius: 10px;
+	z-index: 0;
+	background: #eae6fa;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#SNS_Messenger_Right{
+	width:250px;
+	height:900px;
+	float: left;
+	border: 1px solid #b3a9eb;
+}
+/* 왼쪽 메뉴 열거 */
+#SNS_Messenger_Photo{ /* 프로필 사진*/
+	text-align:center;
+	width:50px; 
+	height:50px;
+	border-radius:200px;
+	float: left;
+}
+#SNS_Messenger_Menu_Button{
+	margin-top: 5px;
+	width:300px;
+	height:70px;
+	cursor: pointer;
+	border: none;
+	font-size: 22px;
+}
+#SNS_Messenger_Menu_Ul{
+	list-style: none;
+}
+#SNS_Messenger_Set{ /* 프로필 설정 */
+	position:relative;
+	width:300px; height:600px;
+	z-index: 0;
+	list-style: none;
+}
+
+/* 오른쪽 메뉴 열거 */
+#SNS_Messenger_Intro{
+	width:580px;
+	height: auto;
+	margin: 10px 0px 0px 10px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+#SNS_Messenger_Text{
+	width: 573px;
+	height: 500px;
+}
+#SNS_Messenger_Text_Write{
+	margin-top: 20px;
+	width: 573px;
+	height: 110px;
+}
+#SNS_Messenger_Ul{
+	list-style: none;
+}
+#SNS_Messenger_Image{
+	width:250px;
+	height: 250px;
+	margin: 0px 7.5px 7.5px 7.5px; /* 가로 세로 */
+	text-align: center;
+	z-index: -1;
+	float:left;
+}
+#SNS_Messenger_Image img{
+	cursor:pointer;
+	width:250px;
+	height: 250px;
+	border: 3px solid;
+}
+

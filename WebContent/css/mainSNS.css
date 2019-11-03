@@ -180,15 +180,41 @@
 /* 오른쪽 */
 #right_profile {
    width: 300px;
-   height: 150px;
+   height: 110px;
    border: 1px solid #e8e8e8;
    padding: 10px 10px 10px 10px;
    margin: 5px 0px 5px 5px;
-   float: left;
    background: #eae6fa;
    border-radius: 10px;
+   display: inline-block;
+	overflow-x:scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
 }
-
+#right_profile_friends{
+    list-style: none;
+}
+#right_profile_list{
+	padding-top: 10px;
+	width: 50px;
+	height: 80px;
+	margin-right: 5px;
+	float: left;
+}
+#right_profile_list img{
+	margin-left: 6px;
+	width: 35px;
+	height: 35px;
+	float: left;
+	cursor: pointer;
+}
+#right_profile_list h3{
+	font-size: 12px;
+	margin-top: 7px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
 #right_etc {
    width: 300px;
    height: auto;

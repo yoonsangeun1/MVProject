@@ -1,9 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ include file="../include/sns_header.jsp"%>
 <script src="../js/SNS.js"></script>
-	$(function(){
-		$('#SNS_Profile_Info')
-	}
 	<div id="SNS_Profile_All"><!-- 배경화면 전체 지정 -->
 		<div id="SNS_Profile_Wrap"><!-- 오브젝트 항목 래핑 -->
 			<div id="SNS_Profile_Left">
@@ -14,9 +11,14 @@
 						직업 : 배우지망생<br/>
 						성별 : 남자<br/>
 				</div>
-				<div id="SNS_Profile_Set">
-						<h3>프로필 설정</h3>
-						
+				<div id="SNS_Profile_Set">						
+						<ul id="SNS_Profile_Menu_Ul">
+							<li><input type="button" class="SNS_Background1" id="SNS_Profile_Menu_Button" value="후원하기"></li>
+							<li><input type="button" class="SNS_Background2" id="SNS_Profile_Menu_Button" value="참여 프로젝트"></li>
+							<li><input type="button" class="SNS_Background3" id="SNS_Profile_Menu_Button" value="페이지"></li>
+							<li><input type="button" class="SNS_Background4" id="SNS_Profile_Menu_Button" value="그룹"></li>
+							<li><input type="button" class="SNS_Background5" id="SNS_Profile_Menu_Button" value="친구"></li>
+						</ul>
 				</div>
 			</div>
 			<div id="SNS_Profile_Right">

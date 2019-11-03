@@ -10,7 +10,7 @@
 				<br/>
 				<ul id="SNS_ul1"><!-- 좌측 메뉴 생성 -->
 					<li><a href="#">즐겨찾기</a></li>
-					<li><a href="#">메신저</a></li>
+					<li><a href="SNS_messenger.jsp">메신저</a></li>
 					<li><a href="#">영상</a></li>
 					<li><a href="#">페이지</a></li>
 					<li><a href="#">그룹</a></li>
@@ -99,7 +99,15 @@
 			</div>
 			<div id="SNS_main_right"><!-- 우측 프로필, 뉴스, 기타 -->
 				<div id="right_profile">
-					<h3><a href="SNS_Profile.jsp">프로필 접속</a></h3>
+					<h3>비슷한 장르 배우 추천</h3><br/>
+						<ul id="right_profile_friends">
+							<li id="right_profile_list"><img src="../images/member_profile.png"><h3>베잌동수</h3></li>
+							<li id="right_profile_list"><img src="../images/member_profile.png"><h3>양드래곤</h3></li>
+							<li id="right_profile_list"><img src="../images/member_profile.png"><h3>송타이거</h3></li>
+							<li id="right_profile_list"><img src="../images/member_profile.png"><h3>윤상은행</h3></li>
+							<li id="right_profile_list"><img src="../images/member_profile.png"><h3>홍채인식</h3></li>
+						</ul>
+					</div>
 				</div>
 				<div id="right_etc">
 					<div id="SNS_right_title">
