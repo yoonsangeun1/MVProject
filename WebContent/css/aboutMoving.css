@@ -14,22 +14,33 @@
 /*    border-radius:15px; */
    
    /* div 좌우 중앙 정렬 */
-   margin-left: auto; margin-right: auto; 
+   margin-left: auto; margin-right: auto;
+   
 }
 
+
+
+
+
+
+
+
+
+/************MOVING은 어떤 곳일까요 ? ************/
 #amMain_wrap {
 	float:left;
    width:1200px; /* 메인배너 너비 */
-   min-height:400px; /* 메인배너 높이 */
+   min-height:450px; /* 메인배너 높이 */
 /*    border:3px solid black; */
 /*    border-radius:15px; */
    text-align: center;
-   background-image: url(../images/waves.gif);
+   background-color:#eae6fa;
+   padding : 30px;
 }
 
 .amMoving_img {
-	
-	margin-top : 100px;
+	float:center;
+	margin-top : 70px;
 	margin-bottom : 100px;
 }
 .amMoving_img img{
@@ -50,6 +61,13 @@
 }
 
 
+
+
+
+
+
+
+/************바꿔나갑니다 . 바로 여기서 ************/
 #amChange_wrap {
 	float:left;
    width:1200px; /* 메인배너 너비 */
@@ -57,7 +75,8 @@
 /*    border:3px solid black; */
 /*    border-radius:15px; */
    text-align: center;
-   background-image: url(../images/waves.gif);
+/*    background-color:#fffdeb; */
+   background-image: url(../images/change_moving_backimg.jpg);
 }
 #amChange_text{
    margin-top : 100px;
@@ -74,6 +93,13 @@
    line-height:1.2;
 }
 
+
+
+
+
+
+
+/************후원이 필요한 이유 **************/
 #amWhySupport_wrap{
 	float:left;
    width:1200px; /* 메인배너 너비 */
@@ -82,14 +108,14 @@
 /*    border-radius:15px; */
    font-size:30px;
    text-align: center;
-   background-image: url(../images/waves.gif);
+   background-color:#f0d9d3;
 }
 #amWhySupport_text{
    margin-top : 100px;
    margin-bottom : 100px;
 }
 .amWhySupport_title {
-   color:red;
+   color:brown;
    font-size : 50px;
 }
 .amWhySupport_cont {
@@ -126,6 +152,11 @@
    outline: 0;
 }
 
+
+
+
+
+/****************주의사항 ****************/
 #amPrecautions_wrap {
    float:left;
    width:1200px; /* 메인배너 너비 */
@@ -134,7 +165,7 @@
 /*    border-radius:15px; */
    font-size:30px;
    text-align: center;
-   background-image: url(../images/waves.gif);
+   background-color:#fffdeb;
 }
 
 #amPrecautions_text{
@@ -158,6 +189,16 @@
    line-height:1.2;
 }
 
+
+
+
+
+
+
+
+
+
+/**************** 정기 후원 ****************/
 #amRegularSupport_wrap {
 	float:left;
    width:1200px; /* 메인배너 너비 */
@@ -187,6 +228,15 @@
    line-height:1.2;
 }
 
+
+
+
+
+
+
+
+
+/****************자주하는 질문****************/
 #amFAQ_wrap{
 	float:left;
    width:1200px; /* 메인배너 너비 */
