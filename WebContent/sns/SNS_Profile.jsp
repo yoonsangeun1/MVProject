@@ -5,6 +5,7 @@
 		<div id="SNS_Profile_Wrap"><!-- 오브젝트 항목 래핑 -->
 			<div id="SNS_Profile_Left">
 				<img id="SNS_Profile_Photo" src="../images/model15.jpg">
+				<div id="SNS_Profile_Title_Name">박 진 우</div>
 				<div id="SNS_Profile_Info" onmouseover="titleOut('')" onmouseout="titleIn()">
 						<h3>프로필 정보</h3>
 						나이 : 34세<br/>
