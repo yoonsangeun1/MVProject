@@ -159,18 +159,4 @@
 	</div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<%@ include file="../include/sns_footer.jsp"%>

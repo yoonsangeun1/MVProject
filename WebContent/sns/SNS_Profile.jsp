@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ include file="../include/sns_header.jsp"%>
-<script src="../js/SNS.js"></script>
+
 	<div id="SNS_Profile_All"><!-- 배경화면 전체 지정 -->
 		<div id="SNS_Profile_Wrap"><!-- 오브젝트 항목 래핑 -->
 			<div id="SNS_Profile_Left">
@@ -50,3 +50,5 @@
 			</div>
 		</div>
 	</div>
+	
+<%@ include file="../include/sns_footer.jsp"%>

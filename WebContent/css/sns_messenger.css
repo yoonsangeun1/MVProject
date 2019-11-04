@@ -76,25 +76,6 @@
 	overflow-y: scroll;
 	overflow-x: hidden;	
 }
-#SNS_Messenger_Chat::-webkit-scrollbar {width: 15px; height: 12px;  }
-/*::-webkit-scrollbar-button:start:decrement{
-	
-}
-::-webkit-scrollbar-button:end:increment {
-	border-radius: 5px;
-	display: block;
-	width: 12px;
-	height: 12px;
-	background: url() rgba(0,0,0,.05);
-}*/
-::-webkit-scrollbar-track {     
-	background: rgba(0,0,0,.05); 
-	border-radius: 5px;
-}
-::-webkit-scrollbar-thumb {  
-	background: #b3a9eb;
-	border-radius: 15px;	
-}
 #SNS_Messenger_Chat_List{
 	width: 277px;
 	height: 60px;

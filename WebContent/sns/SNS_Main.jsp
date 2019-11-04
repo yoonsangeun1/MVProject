@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ include file="../include/sns_header.jsp"%>
-<div id="SNS_All">
+
 	<!-- 배경화면 전체 지정 -->
 	<div id="SNS_Wrap">
 		<!-- 오브젝트 항목 래핑 -->
@@ -166,5 +166,5 @@
 			</ul>
 		</div>
 	</div>
-</div>
-</div>
+
+<%@ include file="../include/sns_footer.jsp"%>

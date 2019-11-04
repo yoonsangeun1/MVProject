@@ -3,6 +3,9 @@
 #SNS_All {
 	background-color: #f2f0fb;
 	align-items: center;
+	margin: 0px auto;
+	width: 100%;
+	height:auto;
 }
 
 #SNS_Wrap{ /* 전체 스타일 설정 */
@@ -207,15 +210,7 @@
 	margin-right: 5px;
 	float: left;
 }
-::-webkit-scrollbar {width: 15px; height: 12px;  }
-::-webkit-scrollbar-track {     
-	background: rgba(0,0,0,.05); 
-	border-radius: 5px;
-}
-::-webkit-scrollbar-thumb {  
-	background: #b3a9eb;
-	border-radius: 15px;	
-}
+
 #right_profile_list img{
 	margin-left: 6px;
 	width: 35px;
