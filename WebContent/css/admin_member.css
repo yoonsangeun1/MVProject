@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* admin_member.jsp css작업 */
-#aMember { /* 회원관리 게시글 전체 div */
+#aMember_wrap { /* 회원관리 게시글 전체 div */
 	float: right;
 	margin: 10px 16px 50px 16px;
 }
 
-#aMember h1 { /* 회원관리 제목 */
+#aMember_wrap h1 { /* 회원관리 제목 */
 	font-size: 35px;
 	color: #ccc;
 	margin: 15px 10px;

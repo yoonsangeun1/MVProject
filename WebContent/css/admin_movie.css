@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-#aMovie {
+#aMovie_wrap { /* 영화관리 전체를 포함하는 div */
 	float: right;
 	margin: 10px 16px 10px 16px;
 }
 
-#aMovie h1 { /* 영화관리 제목 */
+#aMovie_wrap h1 { /* 영화관리 제목 */
 	font-size: 35px;
 	color: #ccc;
 	margin: 15px 10px;
@@ -13,9 +13,11 @@
 	text-shadow: 1px 1px 2px gray;
 }
 
-#aMovie .link { /* 영화 관리 업로드 하이퍼링크 */
+#aMovie_wrap .link { /* 영화 관리 업로드 하이퍼링크 */
 	float: right;
 	color: black;
+	font-size: 130%;
+	margin-bottom: 20px;
 }
 
 #aMovie_list { /* 영화 관리 전체 div */
@@ -24,41 +26,68 @@
 
 #aMovie_list table { /* 영화 관리 목록표 */
 	width: 1000px;
-	border-top: 1px solid #e8e8e8;
 }
 
-#aMovie_list .cate1 {
+#aMovie_list .cate1 { /* 영화 관리 표 분류항목(동영상,제목,공개상태,날짜) */
 	text-align: left;
 }
 
-#aMovie_list .cate2 {
+#aMovie_list .cate2 { /* 영화 관리 표 분류항목(조회수,댓글,좋아요) */
 	text-align: right;
 }
 
-#aMovie_list .title {
+#aMovie_list .video { /* 영화 관리 표 분류 영상 */
+	text-align: left;
+}
+
+#aMovie_list .title { /* 영화 관리 표 분류 제목 */
 	width: 400px;
 }
 
-#aMovie_list .
+#aMovie_list .date { /* 영화 관리 표 분류 등록날짜 */
+	width:90px;
+}
 
-#aMovie_list .video {
-	text-align: left;
+#aMovie_list .views { /* 영화 관리 표 분류 조회수 */
+	width:90px;
+}
+
+#aMovie_list .comment { /* 영화 관리 표 분류 댓글 */
+	width:70px;
+}
+
+#aMovie_list .like { /* 영화 관리 표 분류 좋아요 수 */
+	
 }
 
 #aMovie_list th { /* 영화 관리 분류 탭(동영상, 제목 등) */
 	border-bottom: 1px solid #e8e8e8;
 }
 
-#aMovie_list td {
+#aMovie_list td { /* 영화 관리 분류된 리스트 */
 	border-bottom: 1px solid #e8e8e8;
 	height: 80px;
 }
 
-#aMovie_list .trFont {
+#aMovie_list .trFont { /* 영화 관리 분류된 리스트 글꼴 */
 	font-size: 80%;
 }
 
 /*********** 영화 업로드 페이지 ui구성 ************/
+
+#aMovie_uploadWrap { /* 영화관리 전체를 포함하는 div */
+	float: left;
+	margin: 10px 16px 10px 15px;
+}
+
+#aMovie_uploadWrap h2 { /* 영화관리 제목 */
+	font-size: 30px;
+	color: #ccc;
+	margin: 15px 10px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px gray;
+}
+
 #aMovie_uploadWrap .txtbox {
 	width: 500px;
 }
@@ -111,6 +140,8 @@
 	cursor: pointer;
 	float: right;
 }
+
+
 
 #aMUploadR_video { /* 동영상 업로드 화면 오른쪽 동영상 */
 	float: left;

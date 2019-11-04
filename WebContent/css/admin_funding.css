@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-#aFunding {
+#aFunding_wrap {
 	float: right;
 	margin: 10px 16px 10px 16px;
 }
 
-#aFunding h1 { /* 제목 */
+#aFunding_wrap h1 { /* 제목 */
 	font-size: 35px;
 	color: #ccc;
 	margin: 15px 10px;

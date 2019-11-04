@@ -56,14 +56,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	justify-content: center;
 }
 
-#admin_menuTitle a {
+#admin_notice .hyperlink {
+	margin-right: 25px;
+	line-height: 20px;
+}
 
+#admin_notice .icon {
+	color: white;
 }
 
 #admin_menuTitle img {
 	width: 200px;
 	margin-left: 20px;
 	float: left;
+	line-height: 60px;
 }
 
 #admin_notice { /* 알림 */
@@ -78,6 +84,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	float: left;
 	border-left: 1px solid #e8e8e8;
 	border-right: 1px solid #e8e8e8;
+}
+
+#admin_leftMenu .hyper {
+	color: black;
 }
 
 #admin_info { /* 관리자 정보, 사진, 이름 출력되는 div */
@@ -118,6 +128,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 }
 
 #admin_logout { /* 로그아웃 */
+	border-top: 1px solid #e8e8e8;
 	width: 160px;
 	height: 100px;
 	float: left;
