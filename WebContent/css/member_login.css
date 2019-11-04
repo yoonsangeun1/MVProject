@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* 전체 감싸는 랩 */
 #mLogin_wrap {
 	width: 1200px;
 	height: auto;
@@ -11,6 +12,19 @@
 	justify-content: center;
 	margin: auto auto;
 	background-color: #F5F5F5;
+}
+/* sns용 전체 감싸는 랩 */
+#msLogin_wrap {
+	width: 1200px;
+	height: auto;
+	min-height: 750px;
+	margin: auto auto;
+	align-items: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto auto;
+	background-color: #f2f0fb;
 }
 
 #mLogin_form {

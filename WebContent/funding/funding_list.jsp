@@ -10,12 +10,11 @@
 			<h3>Main</h3>
 			<p>Discover the artists and organizations using Kickstarter to
 				realize ambitious projects in visual art and performance.</p>
-				<%-- 세부 카테고리별 보기 버튼 --%>
+			<%-- 세부 카테고리별 보기 버튼 --%>
 			<div id="title_category_container">
-			<span><a href="#">Explore Category1</a></span>
-			<span><a href="#">Explore Category2</a></span>
-			<span><a href="#">Explore Category3</a></span>
-			<span><a href="#">Explore Category4</a></span>
+				<span><a href="#">Explore Category1</a></span> <span><a
+					href="#">Explore Category2</a></span> <span><a href="#">Explore
+						Category3</a></span> <span><a href="#">Explore Category4</a></span>
 			</div>
 		</section>
 	</div>
@@ -25,7 +24,7 @@
 		<%-- 좌측 리스트 --%>
 		<div id="fList_left">
 			<h3>에디터 추천 프로젝트</h3>
-			<div id="hover_container" onclick="location.href='#';"
+			<div id="hover_container" onclick="location.href='funding_cont.jsp';"
 				style="cursor: pointer;">
 				<img src="../images/funding01.PNG" width="530" height="400"
 					alt="funding01.png" />
@@ -52,7 +51,8 @@
 			<%-- 우측 리스트 프로젝트 1, 2, 3 --%>
 			<ul>
 				<li>
-					<div class="hover_container2" onclick="location.href='#';"
+					<div class="hover_container2"
+						onclick="location.href='funding_cont.jsp';"
 						style="cursor: pointer;">
 						<img src="../images/funding01.PNG" width="130" height="85"
 							alt="funding01.png" />
@@ -61,11 +61,18 @@
 							<span class="progress-percent">40% Complete</span>
 							<p>By Ellena Robert</p>
 						</div>
-						<input type="button" value="♡" />
+						<button type="button" class="likebtn">
+							<i class="fas fa-heart fa-1x"></i>
+						</button>
+						<!-- <span class="fa-stack fa-lg">
+ <i class="fa fa-circle fa-stack-2x"></i>
+ <i class="fas fa-heart fa-stack-1x fa-inverse"></i>
+ </span> -->
 					</div>
 				</li>
 				<li>
-					<div class="hover_container2" onclick="location.href='#';"
+					<div class="hover_container2"
+						onclick="location.href='funding_cont.jsp';"
 						style="cursor: pointer;">
 						<img src="../images/funding01.PNG" width="130" height="85"
 							alt="funding01.png" />
@@ -74,11 +81,14 @@
 							<span class="progress-percent">40% Complete</span>
 							<p>By Ellena Robert</p>
 						</div>
-						<input type="button" value="♡" />
+						<button type="button" class="likebtn">
+							<i class="fas fa-heart fa-1x"></i>
+						</button>
 					</div>
 				</li>
 				<li>
-					<div class="hover_container2" onclick="location.href='#';"
+					<div class="hover_container2"
+						onclick="location.href='funding_cont.jsp';"
 						style="cursor: pointer;">
 						<img src="../images/funding01.PNG" width="130" height="85"
 							alt="funding01.png" />
@@ -87,7 +97,9 @@
 							<span>40% Complete</span>
 							<p>By Ellena Robert</p>
 						</div>
-						<input type="button" value="♡" />
+						<button type="button" class="likebtn">
+							<i class="fas fa-heart fa-1x"></i>
+						</button>
 					</div>
 				</li>
 			</ul>
@@ -117,14 +129,53 @@
 			</form>
 		</div>
 	</div>
-	
+
+	<%-- 구분선 --%>
+	<div class="border_bottom20"></div>
+
 	<%-- MainDIV 3. 펀딩 프로젝트 하나짜리 --%>
 	<div id="fList_projectOne"></div>
-	
-	<%-- MainDIV 3. 펀딩 프로젝트 두개짜리 --%>
-	
-	<div id="fList_projectOne"></div>
-	
+
+	<%-- MainDIV 3. 펀딩 프로젝트 네개짜리 --%>
+	<div id="fList_projectfour">
+		<h3>요즘 뜨는 프로젝트 &nbsp;&nbsp;&nbsp;<a href="#">Explore more &gt;&gt;</a></h3>
+		
+		<div class="fList_projectfour_one">
+			<div class="gallery">
+				<a href="funding_cont.jsp"> <img src="../images/funding01.PNG"
+					alt="funding01" width="246" height="auto">
+				</a>
+				<div class="desc">Add a description of the image here</div>
+			</div>
+		</div>
+
+		<div class="fList_projectfour_one">
+			<div class="gallery">
+				<a href="funding_cont.jsp"> <img src="../images/funding01.PNG"
+					alt="funding01" width="246" height="160">
+				</a>
+				<div class="desc">Add a description of the image here</div>
+			</div>
+		</div>
+
+		<div class="fList_projectfour_one">
+			<div class="gallery">
+				<a href="funding_cont.jsp"> <img src="../images/funding01.PNG"
+					alt="funding01" width="246" height="160">
+				</a>
+				<div class="desc">Add a description of the image here</div>
+			</div>
+		</div>
+
+		<div class="fList_projectfour_one">
+			<div class="gallery">
+				<a href="funding_cont.jsp"> <img src="../images/funding01.PNG"
+					alt="funding01" width="246" height="160">
+				</a>
+				<div class="desc">Add a description of the image here</div>
+			</div>
+		</div>
+	</div>
 
 	<%-- 구분선 --%>
 	<div class="border_bottom20"></div>

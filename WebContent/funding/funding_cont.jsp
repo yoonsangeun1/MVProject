@@ -11,35 +11,41 @@
 
 	<%-- 펀딩 메인 이미지, 모금 정보 --%>
 	<div id="fCont_subtitle">
+		<%-- 펀딩 메인 이미지 --%>
 		<div id="fCont_mainImage">
 			<img src="../images/funding05.PNG" width="700" height="400"
 				src="펀딩이미지05" />
 			<div class="fCont_tags">
 				<span class="sumCont_sub fCont_tag"><i
-					class="fas fa-map-marker-alt fa-lg"></i> Project We Love</span> <span
+					class="fas fa-tag fa-lg"></i> Project We Love</span> <span
 					class="sumCont_sub fCont_tag"><i class="fas fa-tag fa-lg"></i>
 					Documentary</span> <span class="sumCont_sub fCont_tag"><i
+					class="fas fa-map-marker-alt fa-lg"></i> 독도, 대한민국 </span> <span
+					class="sumCont_sub fCont_tag"><i
 					class="fas fa-hashtag fa-lg"></i> 감동적인</span>
 			</div>
 		</div>
 
+		<%-- 펀딩 메인 정보 요약 --%>
 		<div id="fCont_sumCont">
 			<div id="fCont_sumContTS">
 				<div class="progress length">
 					<!-- 여기에 수정해야 할 것 : 퍼센트 표시 바. -->
-					<div class="progress-bar length" role="progressbar" aria-valuenow="70"
-						aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+					<div class="progress-bar length" role="progressbar"
+						aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+						style="width: 40%">
 						<%--<span class="sr-only">40% Complete</span>--%>
 					</div>
 				</div>
-				<span class="sumCont_title">9,999 원</span> <span class="sumCont_sub">모금액
-					10,000원 중</span> <span class="sumCont_title">1,520 명</span> <span
-					class="sumCont_sub">프로젝트 후원자</span> <span class="sumCont_title">19일</span>
-				<span class="sumCont_sub">남은 목표 일수</span>
-				<button class="fCont_sumContBtn button button_f16 shadow" type="button">이
-					프로젝트 밀어주기</button>
+				<span class="sumCont_title">9,999 원</span> <span class="sumCont_sub">목표
+					금액 10,000원 중</span> <span class="sumCont_title">1,520 명</span> <span
+					class="sumCont_sub">프로젝트 후원자</span> <span class="sumCont_title">19
+					일</span> <span class="sumCont_sub">남은 목표 일수</span>
+				<button class="fCont_sumContBtn button button_f16 shadow"
+					type="button">이 프로젝트 밀어주기</button>
 				<div id="fCont_share">
-					<button class="fCont_shareBtn button button_wce8e8e8 button_f12 shadow"
+					<button
+						class="fCont_shareBtn button button_wce8e8e8 button_f12 shadow"
 						type="button">
 						<i class="fas fa-heart"></i> Remind Me
 					</button>
@@ -59,11 +65,31 @@
 				<span class="sumCont_sub"><a href="#">All or Nothing</a>. 이
 					프로젝트는 Sat, November 23 2019 1:59 PM UTC +09:00 까지 목표금액 달성시에만 후원금이
 					전달됩니다.</span>
-
 			</div>
-
 		</div>
 
+
+	</div>
+
+	<div class="clear"></div>
+
+	<%-- 펀딩 하위 메뉴 --%>
+	<div id="fCont_menubar">
+		<div id="fCont_row">
+			<button class="fCont_menu">Campaign</button>
+			<button class="fCont_menu">FAQ</button>
+			<button class="fCont_menu">Updates</button>
+			<button class="fCont_menu">Comments</button>
+			<button class="fCont_menu">Communities</button>
+		</div>
+	</div>
+
+	<div id="fCont_cont">
+		<%-- 상세 정보 --%>
+		<div id="fCont_leftCont">
+		<h3>About</h3>
+		
+		</div>
 	</div>
 </div>
 <%@ include file="../include/footer.jsp"%>

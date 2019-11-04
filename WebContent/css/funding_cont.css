@@ -48,16 +48,19 @@
 	width: 700px;
 	height: 450px;
 }
+
 #fCont_tags {
 	display: inline-block;
 	text-align: left;
 	height: 50px;
 }
+
 .fCont_tag {
-    display: inline-block;
-    margin: 15px 10px;
+	display: inline-block;
+	margin: 15px 10px;
 }
-.fCont_tag i{
+
+.fCont_tag i {
 	color: #656969;
 }
 /* 펀딩 요약 */
@@ -68,7 +71,7 @@
 	margin-left: 10px;
 }
 
-.length {/* 프로세스바 길이, 마진 */
+.length { /* 프로세스바 길이, 마진 */
 	width: 300px;
 	display: inline-block;
 	margin: 0px;
@@ -102,32 +105,81 @@
 	margin-bottom: 15px;
 	color: #656969;
 }
+
 .fCont_sumContBtn {
 	width: 300px;
 	display: inline-block;
 	margin-bottom: 15px;
 	font-weight: bold;
 }
+
 .fCont_shareBtn {
 	width: 150px;
 	display: inline-block;
 	margin-bottom: 15px;
 	font-weight: bold;
 }
+
 #fCont_share {
 	display: flex;
 	display: inline-block;
 	flex-direction: row;
 	width: 300px;
-	
 }
+
 .fCont_shareIcon {
-    margin-left: 1.2rem;
-    display: inline-block;
+	margin-left: 1.2rem;
+	display: inline-block;
 }
-.fCont_shareIcon i{
+
+.fCont_shareIcon i {
 	color: #656969;
 }
-.shareIcon {
-	
+
+#fCont_menubar {
+	width: 1200px;
+	height: 62px;
+	margin: 50px 0px;
+	padding: auto 200px;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+#fCont_row {
+	text-align: center;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+}
+
+.fCont_menu {
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	width: 130px;
+	height: 60px;
+	padding: auto 30px;
+	display: inline-block;
+	margin-bottom: 15px;
+	font-weight: normal;
+	background-color: white;
+	color: #656969;
+}
+
+.fCont_menu:hover { /* 하이퍼링크된 곳 마우스 오버시 css 효과 */
+	background-color: #e8e8e8;
+	color: black;
+	background-image: url(../images/underline.gif);
+	background-repeat: repeat-x; /* x축 즉 수평으로 반복 */
+	background-position: bottom; /* 밑에 위치 */
+}
+
+fCont_menu:active {
+	background-color: #e8e8e8;
+	color: black;
+	background-image: url(../images/underline.gif);
+	background-repeat: repeat-x; /* x축 즉 수평으로 반복 */
+	background-position: bottom; /* 밑에 위치 */
 }
