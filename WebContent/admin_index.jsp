@@ -5,6 +5,9 @@
 <meta charset="UTF-8">
 <title>관리자 페이지</title>
 <script src="./js/jquery.js"></script>
+<script src="https://kit.fontawesome.com/bf95efc607.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../iconfont/css/fontawesome.min.css">
 <link rel="stylesheet" type="text/css" href="./css/admin_index.css" />
 <link rel="stylesheet" type="text/css" href="./css/admin_board.css" />
 <link rel="stylesheet" type="text/css" href="./css/admin_funding.css" />
@@ -19,12 +22,14 @@
 		
 		<!-- 페이지 맨 위 div -->
 		<div id="admin_menuTitle">
-			<a href="#"><img src="./images/logo_w.png"></a>
+			<div id="admin_menuHyperlink">
+				<a href="#"><img src="./images/logo_w.png"></a>
+			</div>
 
 			<!-- 알림  -->
 			<div id="admin_notice">
-				<input type="button" value="버튼1" /> <input type="button"
-					value="버튼2" />
+				<a href="#" class="hyperlink"><i class="far fa-address-card fa-3x"></i></a>
+				<a href="#" class="hyperlink2"><i class="fas fa-exclamation fa-3x"></i></a>
 			</div>
 
 		</div>
@@ -41,8 +46,6 @@
 				</ul>
 			</div>
 			
-			<hr/>
-			
 			<!-- 관리 메뉴 -->
 			<div id="admin_menu">
 				<ul>
@@ -57,8 +60,6 @@
 					<li><a href="./admin/admin_movie.jsp">영화 관리</a></li>
 				</ul>
 			</div>
-			
-			<hr/>
 			
 			<!-- 로그아웃 -->
 			<div id="admin_logout">

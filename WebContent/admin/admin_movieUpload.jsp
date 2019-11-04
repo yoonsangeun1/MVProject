@@ -6,7 +6,7 @@
 
 	<%-- 저장 버튼 --%>
 	<div id="aMUploadR_saveBtn">
-		<input type="button" value="저장" />
+		<button type="button" class="button" >저장</button>
 	</div>
 	<%-- 업로드 화면 구성 --%>
 	<div id="aMovie_upload">
@@ -22,7 +22,7 @@
 						<th>카테고리</th>
 						<td>
 							<div id="aMUploadC_category">
-								<select name="aMUploadC_cateComboBox">
+								<select name="aMUploadC_cateComboBox" class="txtbox combo">
 									<option value="전체">전체</option>
 									<option value="범죄/스릴러">범죄/스릴러</option>
 									<option value="액션/어드벤쳐">액션/어드벤쳐</option>
@@ -43,8 +43,8 @@
 							<%-- 제목 입력 --%>
 							<div id="aMUploadC_title">
 
-								<input type="text" name="aMUpload_titleText"
-									id="aMUpload_titleText" placeholder="제목을 입력하세요." size="64" />
+								<input type="text" name="aMUpload_titleText" class="txtbox title"
+									id="aMUpload_titleText" placeholder="제목을 입력하세요."/>
 
 							</div>
 						</td>
@@ -54,8 +54,8 @@
 						<td>
 							<%-- 내용 입력 --%>
 							<div id="aMUploadC_cont">
-								<textarea name="aMUpload_contText" id="aMUpload_contText"
-									placeholder="내용을 입력하세요." rows="20" cols="84"></textarea>
+								<textarea name="aMUpload_contText" id="aMUpload_contText" class="txtbox content"
+									placeholder="내용을 입력하세요." rows="20"></textarea>
 							</div>
 						</td>
 					</tr>
@@ -73,12 +73,7 @@
 								
 							</div> <%-- 이미지파일 --%>
 							<div id="aMUploadC_image">
-								<button type="button" name="aMU_imageBtn1" id="aMU_imageBtn1" >
-									<img src="../images/addfriendB.png" width="120" height="160" />
-								</button>
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<img src="../images/addfriendW.png" width="120" height="160" alt="이미지를 추가해 주세요." />
-								<img src="../images/addfriendW.png" width="120" height="160" alt="이미지를 추가해 주세요." />
+							
 							</div>
 						</td>
 					</tr>
@@ -88,7 +83,7 @@
 						
 							<%-- 태그 --%>
 							<div id="aMUploadC_tag">
-								<input name="aMUC_tag" id="aMUC_tag" size="83" />
+								<input name="aMUC_tag" id="aMUC_tag" class="txtbox tag"/>
 							</div>
 							
 						</td>
@@ -98,11 +93,12 @@
 							<%-- 업로드 창 맨 밑 div --%>
 							<div id="aMUploadUnder">
 								댓글 허용<input type="checkbox" name="aMUploadU_Chk1" 
-								value="aMUComment" />&nbsp;&nbsp;&nbsp;퍼가기 허용<input type="checkbox" 
-								name="aMUploadU_Chk2" value="aMUBring" />&nbsp;&nbsp;&nbsp;공개 범위
+								value="aMUComment" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;퍼가기 허용<input type="checkbox" 
+								name="aMUploadU_Chk2" value="aMUBring" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;공개 범위
+								
 								<%-- 공개범위 콤보박스 --%>
 								<select name="aMUComboBox" id="aMUComboBox">
-									<option value="전체">전체</option>
+									<option value="전체">선택하세요.</option>
 									<option value="공개">공개</option>
 									<option value="비공개">비공개</option>
 								</select>
@@ -118,14 +114,18 @@
 					<tr>
 					
 						<%-- 동영상 div --%>
-						<td><div id="aMUploadR_video"></div></td>
+						<td>
+							<div id="aMUploadR_video">
+								<iframe width="340" height="220" src="https://www.youtube.com/embed/b5bHx1nTQ24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</td>
 					</tr>
 					<tr>
 					
 						<%-- 동영상 url or 파일명 --%>
 						<td height="100">
 							<div id="aMUploadR_videoUrl">
-								동영상 URL<input name="aMUploadR_url" id="aMUploadR_url" size="50" readonly />
+								동영상 URL<input name="aMUploadR_url" id="aMUploadR_url" size="45" readonly />
 							</div>
 						</td>
 					</tr>

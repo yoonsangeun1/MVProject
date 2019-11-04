@@ -14,7 +14,7 @@
 		</tr>
 		
 		<tr>
-			<td class="aBT_notice">공지</td>
+			<td class="aBT_notice"><i class="fas fa-exclamation"></i>공지</td>
 			<td class="aBT_left"><a href="#" class="notice">[필독]글 작성시 기본 준수 사항입니다.</a></td>
 			<td>바악도옹수우</td>
 			<td>2019.10.15</td>

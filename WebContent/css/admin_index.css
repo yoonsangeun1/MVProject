@@ -16,15 +16,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	font-weight: inherit;
 	text-decoration: none;
 	/* vertical-align: baseline; */
-	
 }
 
 .clear {
 	clear: both;
 }
-hr{
-	background-color: e8e8e8;
-}
+
 /* admin ui 작업 */
 #admin_wrap { /* 총 테두리 */
 	width: 1200px; /* div폭 */
@@ -36,7 +33,7 @@ hr{
 	margin-right: auto; /* div 수평중 정렬 */
 	margin-top: 30px; /* div바깥 상단 여백 */
 	/*border-radius: 15px;*/ /* css3에서 추가된 속성으로 테두리를 둥글게 처리 */
-	box-shadow: 10px 10px 10px gray; /* css3에서 추가된 속성으로 div그림자 효과 */
+	/*box-shadow: 10px 10px 10px gray;*/ /* css3에서 추가된 속성으로 div그림자 효과 */
 	align-items: center;
 }
 
@@ -45,17 +42,22 @@ hr{
 	height: 60px;
 	background-color: #b3a9eb;
 	float: left;
-	display: flex;
+	vertical-align: middle;
+	/* display: flex; */
 	align-items: center;
-	justify-content: center;
-	box-shadow: px 3px 5px black;
+	 /* justify-content: center; */
+	box-shadow: 0px 3px 2px #e8e8e8;
 }
 
-#admin_menuTitle a {
-	width: 1100px;
+#admin_menuHyperlink {
+	width: 200px;
 	list-style: none;
 	float: left;
 	justify-content: center;
+}
+
+#admin_menuTitle a {
+
 }
 
 #admin_menuTitle img {
@@ -66,22 +68,22 @@ hr{
 
 #admin_notice { /* 알림 */
 	width: 220px;
-	height: 60px;
 	display: flex;
-	float: left;
+	float: right;
 }
 
 #admin_leftMenu { /* 왼쪽 총 메뉴 div */
 	width: 160px;
 	height: 770px;
 	float: left;
-	border-left: 1px solid #e8e8e8;	
-	border-right: 1px solid #e8e8e8;	
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
 }
 
 #admin_info { /* 관리자 정보, 사진, 이름 출력되는 div */
 	width: 160px;
 	height: 220px;
+	border-bottom: 1px solid #e8e8e8;
 }
 
 #admin_info img { /* 등록된 관리자 사진 */
