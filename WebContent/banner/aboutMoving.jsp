@@ -18,7 +18,7 @@
 		<%--퀵메뉴 호출 --%>
 		<div class="mainRight_quick" style="position: fixed; z-index: 3;">
 			<div class="quickmenu1">
-				<button class="go_Support_btn" onclick="#">후원하기</button>
+				<button class="go_Support_btn" onclick="location='../member/member_join.jsp';">회원가입</button>
 			</div>
 			<div class="quickmenu2">
 				<button class="go_Notice_btn"
@@ -43,27 +43,21 @@
 			</div>
 			<div class="amMoving_text">
 				<span
-					style="font-weight: bold; font-size: 80px; float: left; margin-left: 30px;">당신의</span>
+					style="font-weight: bold; font-size: 80px; float:left; margin-left: 30px;">당신의</span>
 				<br />
 				<br />
 				<br />
-				<br />
-				<br />
-				<br />
-				<br />
+			
 				<br />
 				<br /> <span
-					style="font-weight: bold; font-size: 100px; color: #8785d8; float: left; margin-left: 150px;">MOVING</span>
+					style="font-weight: bold; font-size: 100px; float:left; color: #8785d8; margin-left: 30px;">MOVING</span>
 				<br />
 				<br />
 				<br />
-				<br />
-				<br />
-				<br />
-				<br />
+			
 				<br />
 				<br /> <span
-					style="font-weight: bold; font-size: 80px; float: right; margin-right: 80px;">은
+					style="font-weight: bold; font-size: 80px; float: right; margin-right: 80px; margin-bottm:30px;">은
 					어떤 곳일까요?</span>
 			</div>
 		</div>
@@ -75,7 +69,7 @@
 
 			<div id="amChange_text">
 				<div class="amChange_title">
-					<span style="font-weight: bold; color: #1aafd0">바꿔 나갑니다. 바로
+					<span style="font-weight: bold; color: #8785d8">바꿔 나갑니다. 바로
 						여기서.</span>
 				</div>
 				<br />
@@ -126,21 +120,21 @@
 		<%--주의 사항 --%>
 		<div id="amPrecautions_wrap">
 			<div id="amPrecautions_text">
-				<div class="amPrecautions_title">주의 사항</div>
+				<div class="amPrecautions_title">※ 주의 사항 ※</div>
 				<br />
 
 				<p align="justify" class="amPrecautions_cont">
 
-					<span style="font-weight: bold; font-size: 40px;">○ 당신이 후원한
+					<span style="font-weight: bold; font-size: 40px; color:brown;">○ 당신이 후원한
 						프로젝트가 무산 될 수 있습니다. <br /> &nbsp;&nbsp;&nbsp; 하지만 후원금액은 되돌아 갑니다.
 					</span><br /> <br /> 
-					<span style="font-weight: bold; font-size: 40px;">
+					<span style="font-weight: bold; font-size: 40px; color:brown;">
 					○당신이 후원한 프로젝트의 내용과 제작자에 대하여 <br />
 					 &nbsp;&nbsp;&nbsp; 검색해보세요.
 					</span><br /> &nbsp;&nbsp;&nbsp;- 제작자나 프로젝트 관련자가 이전에 어떠한 문제를 일으킨 적이 있는지 <br />
 					&nbsp;&nbsp;&nbsp;&nbsp;확인해보고 평판을조회해보세요 (자유게시판 및 후원자리뷰 활용)
 					<br /> <br />
-					 <span style="font-weight: bold; font-size: 40px;">○ 해당 프로젝트의 다른
+					 <span style="font-weight: bold; font-size: 40px; color:brown;">○ 해당 프로젝트의 다른
 						후원자들을 살펴보세요.</span>
 						<br /> 
 					&nbsp;&nbsp;- 다른 후원자들이 프로젝트에 어떻게 이야기하고 있는지 확인해보세요.<br />

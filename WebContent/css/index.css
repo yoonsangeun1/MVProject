@@ -28,7 +28,7 @@
 	float:left;
 	width:1203px; /* 메인배너 너비 */
 	height:400px; /* 메인배너 높이 */
-	border:3px solid black;
+/* 	border:3px solid black; */
 	 text-align: center;
 	
 }
@@ -235,7 +235,7 @@ border-bottom : 3px solid #eae6fa;
 	margin-bottom : 30px;
 	font-size:40px;
 	font-weight:bold;
-	color:#1aafd0;
+	color:#f38f95; 
 }
 
 .biMoving_button {
@@ -474,7 +474,7 @@ text-align :center;
    outline: 0;
 }
 
-/* 티저 페이지 */
+/********* 티저 페이지 */
 #biTeaser_wrap{ /* 메인배너 css설정 */
 	float:left;
 	width:1200px; /* 메인배너 너비 */
@@ -483,7 +483,7 @@ text-align :center;
 /* 	border:3px solid yellow; */
 /* 	border-radius:15px; */
 	font-size:30px;
-	background-color :#E0DEE7;
+	background-color :#eae6fa;
 }
 
 .biTeaser_logo {
@@ -541,7 +541,7 @@ text-align :center;
 /* 	border:3px solid orange; */
 /* 	border-radius:15px; */
 	font-size:30px;
-	background-color:#E0DEE7;
+	background-color:#d4cff3;
 }
 
 .biBoard_logo {
@@ -592,14 +592,14 @@ text-align :center;
 
 /****** 금액 및 통계 페이지 *********/
 #biStatistics_wrap{ /* 메인배너 css설정 */
-	float:left;
+/* 	float:left; */
 	width:1200px; /* 메인배너 너비 */
 	min-height:400px; /* 메인배너 높이 */
 	height:auto;
 /* 	border:3px solid red; */
 /* 	border-radius:15px; */
 	font-size:30px;
-	background-color:#E0DEE7;
+	background-color:#f7fafc;
 }
 
 .biStatistics_logo{
@@ -616,13 +616,10 @@ text-align :center;
 	line-height:1.3;
 	margin : 30px;
 	text-align : left;
-	color : 
-
-	
-	
+	color : #808080;
 }
 
-.biStatistics_button {
+.biJoin_btn {
 		float:center;
    position: relative;
 	text-align :center;
@@ -637,53 +634,28 @@ text-align :center;
    background: #b3a9eb;
    border-radius: 3px;
    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-   font-size:30px; 
+   font-size:30px;
+   margin-bottom : 30px;
 }
 
-.biStatistics_button:hover {
+.biJoin_btn:hover {
    background: #9d8ce2;
 }
 
-.biStatistics_button:active {
+.biJoin_btn:active {
    background: #9d8ce2;
    outline: 0;
 }
 
-.biStatistics_chart {
-	float:left;
-	width:1200px;
-	min-height:400px;
-}
 
-#biHistory_wrap{ /* 메인배너 css설정 */
-	float:left;
-	width:1200px; /* 메인배너 너비 */
-	min-height:400px; /* 메인배너 높이 */
-	height:auto;
-/* 	border:3px solid red; */
+/* #biHistory_wrap { */
+/* 	float:left; */
+/* 	width:1200px;  메인배너 너비 */
+/* 	min-height:200px; 메인배너 높이 */
+/* 	height:auto; */
+/* 	border:3px solid blue; */
 /* 	border-radius:15px; */
-/* 	font-size:30px; */
-	background-color:#ffffff;
-}
-
-.container {
-	width:1200px;
-	margin : 0 auto;
-}
-
-.show_box {
-	widh:180px;
-	margin-right:120px;
-	flast:left;
-	display : block;
-}
-
-.show_box_img {
-	margin-top : 6px;
-}
-
-.target-number {
-	margin-bottom : 2px;
-}
+/* 	background-color:#ffffff; */
+/* } */
 
 

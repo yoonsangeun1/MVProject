@@ -110,20 +110,20 @@
 						<button class="prev_btn" onclick="plusDivs(-1)"></button>
 						<button class="next_btn" onclick="plusDivs(1)"></button>
 					</div>
-
+ 
 					<div class="slider_banners">
 
-						<img class="auto_mySlides" src="./images/main_banner_moving.PNG"
+						<img class="auto_mySlides" src="./images/banner_moving_img.png"
 							width="1200" height="400" onclick="Move_biMoving()"> <img
-							class="auto_mySlides" src="./images/main_banner_sns.PNG"
+							class="auto_mySlides" src="./images/banner_sns_img.png"
 							width="1200" height="400" onclick="Move_biSns()"> <img
-							class="auto_mySlides" src="./images/main_banner_project.PNG"
+							class="auto_mySlides" src="./images/banner_project_img.png"
 							width="1200" height="400" onclick="Move_biProject()"> <img
-							class="auto_mySlides" src="./images/main_banner_teaser.PNG"
+							class="auto_mySlides" src="./images/banner_movie_img.png"
 							width="1200" height="400" onclick="Move_biTeaser()"> <img
-							class="auto_mySlides" src="./images/main_banner_board.PNG"
+							class="auto_mySlides" src="./images/banner_board_img.png"
 							width="1200" height="400" onclick="Move_biBoard()"> <img
-							class="auto_mySlides" src="./images/main_banner_statistics.PNG"
+							class="auto_mySlides" src="./images/banner_statistics_img.png"
 							width="1200" height="400" onclick="Move_biStatistics()">
 					</div>
 
@@ -132,7 +132,7 @@
 				<%--퀵메뉴 호출 --%>
 				<div class="mainRight_quick" style="position: fixed;">
 					<div class="quickmenu1">
-						<button class="go_Support_btn" onclick="">후원하기</button>
+						<button class="go_Support_btn" onclick="location='./member/member_join.jsp';">회원가입</button>
 					</div>
 					<div class="quickmenu2">
 						<button class="go_Notice_btn"
@@ -157,7 +157,7 @@
 						<img src="./images/header_logo.png" width="400" height="150"
 							alt="moving_logo" />
 					</div>
-					<div class="biMoving_text">MOVING은 왜 필요할까요?</div>
+					<div class="biMoving_text">MOVING은 <span style="font-size:60px;">왜</span> 필요할까요?</div>
 
 					<button class="biMoving_button"
 						onclick="location='./banner/aboutMoving.jsp';">MOVING 자세히
@@ -253,23 +253,38 @@
 						<img src="./images/teaser_logo.png" width="400" height="300" alt="teaser_logo" />
 					</div>
 					<div class="biTeaser_text">
-						<span style="font-weight:bold; font-size : 40px; color :#1aafd0; margin-left :80px ">
-						TEASER(프로젝트 미리보기)</span>
-						<br />
-						<br />
-						<span style="color :#9d8ce2">MOVING</span>에서는 당신이 후원한 프로젝트의 
-						<br />
-						 <span style="float:right; margin-right:100px;">진행상황을 확인할 수 있죠. </span>
-						 <br />
-						이러한 부분은 
-						<br /><span style="font-weight:bold; font-size:30px;">첫째,</span>&nbsp;프로젝트 진행자와 후원자 간 <span style="text-decoration:underline;">신뢰도</span>를 높일 수 있어요.
-						<br />
-						<span style="font-weight:bold; font-size:30px;">둘째, </span>&nbsp;후원자분들은 해당 프로젝트 결과물에대한<span style="text-decoration:underline;">기대감</span>과 
-						<br />&nbsp;&nbsp;&nbsp;<span style="text-decoration:underline;">설렘</span>,<span style="text-decoration:underline;">성취감</span>을 얻을 수 있어요. 
+<!-- 						<span style="font-weight:bold; font-size : 40px; color :#1aafd0; margin-left :80px "> -->
+<!-- 						TEASER(프로젝트 미리보기)</span> -->
+<!-- 						<br /> -->
+<!-- 						<br /> -->
+<!-- 						<span style="color :#9d8ce2">MOVING</span>에서는 당신이 후원한 프로젝트의  -->
+<!-- 						<br /> -->
+<!-- 						 <span style="float:right; margin-right:100px;">진행상황을 확인할 수 있죠. </span> -->
+<!-- 						 <br /> -->
+<!-- 						이러한 부분은  -->
+<!-- 						<br /><span style="font-weight:bold; font-size:30px;">첫째,</span>&nbsp;프로젝트 진행자와 후원자 간 <span style="text-decoration:underline;">신뢰도</span>를 높일 수 있어요. -->
+<!-- 						<br /> -->
+<!-- 						<span style="font-weight:bold; font-size:30px;">둘째, </span>&nbsp;후원자분들은 해당 프로젝트 결과물에대한<span style="text-decoration:underline;">기대감</span>과  -->
+<!-- 						<br />&nbsp;&nbsp;&nbsp;<span style="text-decoration:underline;">설렘</span>,<span style="text-decoration:underline;">성취감</span>을 얻을 수 있어요.  -->
 						 
+						 <span style="font-weight:bold; font-size : 40px; color :#9d8ce2; margin-left :80px ">
+							장르별 영화감상</span>
+							<br />
+							<br />
+							' 내가 흥미가 생길 만한 영화장르는 무엇일까? '
+							<br />
+							<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;<span style="color :#9d8ce2">MOVING</span>에서는 무료 영화를 제공합니다.
+						 <br />
+						이러한 부분은
+						<br />
+						&nbsp;&nbsp;당신이 어떤 영화장르에 관심이 가고 흥미가 있는지 알 수 있습니다.
+						<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;등록된 영화들을 감상하고 본인의 취향을 찾아보세요. 
+						
 					</div>
 
-					<button class="biTeaser_button" onclick="location='';">티저게시판</button>
+					<button class="biTeaser_button" onclick="location='./movie/movie_mainList.jsp';">영화 감상하기</button>
 				</div>
 
 				<div class="clear"></div>
@@ -308,52 +323,29 @@
 					</div>
 					
 					<div class="biStatistics_text">
-						<span style="font-weight:bold; font-size : 40px; color :#1aafd0; margin-left:220px;"> 
-						금액 및 통계</span>
+						<span style="font-weight:bold; font-size : 40px; color :#808080; margin-left:150px;"> 
+						MOVING이 걸어온 길</span> 
 						<br />
 						<br />
-						&nbsp;&nbsp;<span style="color :#9d8ce2">MOVING</span>에서는 후원된 금액과 성공 또는 실패한 
-						<br />프로젝트 통계자료를 공개함으로써
+						<span style="color :#9d8ce2">MOVING</span>에 등록된 프로젝트와 영화인들의 열정이 
+						<br />이만큼이나 모였죠.
 						<br />
-						&nbsp;&nbsp;<span style="color :#9d8ce2">MOVING</span>과 후원자간 신뢰도를 위해 투명하게 관리하죠.
-						
+						<br />
+						당신도 <span style="color :#9d8ce2">MOVING</span>과 함께 할래요?
 						
 					</div>
-			
-					<button class="biStatistics_button" onclick="location='';">금액 및 통계페이지</button>
+						
+						<img src="./images/history_img.png" width="700px" height="210px">
 					
+					<button class="biJoin_btn" onclick="location='./member/member_join.jsp';">MOVING과 함께하기</button>
+					 
 					<div class="clear"></div>
 					
 				</div>
 				
-				<div id="biHistory_wrap">
-					<section class = "container">
-						<div class="show_box">
-							<img class="show_box_img" src="">
-						</div>
-						<div class="show_box">
-							<p class = "title-2-bold target-number">
-							<span class="counter" data-count="20741" middel-count="16592">20,741</span>개
-							</p>
-							<p class = "body-1 target-number-guide">등록된 프로젝트</p>
-						</div>
-						
-						<div class="show_box">
-							<p class = "title-2-bold target-number">
-							<span class="counter" data-count="2301" middel-count="1840">2,301</span>억 원
-							</p>
-							<p class = "body-1 target-number-guide">프로젝트 등록 금액</p>
-						</div>
-						
-						<div class="show_box">
-							<p class = "title-2-bold target-number">
-							<span class="counter" data-count="70021" middel-count="56016">70,021</span>명
-							</p>
-							<p class = "body-1 target-number-guide">개발회사 & 프리랜서</p>
-						</div>
-						::after
-					</section>
-				</div>
+<!-- 				<div id="biHistory_wrap"> -->
+<!-- 					<img src="./images/history_img.png" width="1200px" height="200px"> -->
+<!-- 				</div> -->
 			</div>
 
 			<div class="clear"></div>
