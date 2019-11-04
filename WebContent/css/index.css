@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
 /* HEADER */
-
 #header_right {
-	text-align:right;
+	text-align: right;
 }
 
 #header_logo {
@@ -11,642 +10,663 @@
 	margin-right: auto;
 }
 
-
-/*  메인 페이지 */ 
+/*  메인 페이지 */
 #bannermain_wrap {
-	width:1206px; /* div폭 */ 
-	min-height:1024px;
-	height:auto;
-/* 	border:3px solid red; */
+	width: 1206px; /* div폭 */
+	min-height: 1024px;
+	height: auto;
+	/* 	border:3px solid red; */
 	text-align: center; /* 글자가운데 정렬 */
 	margin-left: auto;
 	margin-right: auto; /* div 좌우 중앙 정렬 */
-	margin-top:30px; /* div바깥상단 여백 */
+	margin-top: 30px; /* div바깥상단 여백 */
 }
 /*  슬라이드 배너 박스  + 슬라이드버튼 div*/
 .main_banner {
-	float:left;
-	width:1203px; /* 메인배너 너비 */
-	height:400px; /* 메인배너 높이 */
-/* 	border:3px solid black; */
-	 text-align: center;
-	
+	float: left;
+	width: 1203px; /* 메인배너 너비 */
+	height: 400px; /* 메인배너 높이 */
+	/* 	border:3px solid black; */
+	text-align: center;
 }
 
 /*   슬라이드 되는 배너 div */
 .slider_banners { /*메인배너 이미지 설정 */
-	float:left;
-	width:1200px; /* 메인배너 너비 */
-	height:400px; /* 메인배너 높이 */
-	position : relative; /* 이미지를 겹침 */
-	min-height:400px;
-	z-index:4;
+	float: left;
+	width: 1200px; /* 메인배너 너비 */
+	height: 400px; /* 메인배너 높이 */
+	position: relative; /* 이미지를 겹침 */
+	min-height: 400px;
+	z-index: 4;
 }
 /* 슬라이드 배너 수동버튼 div*/
 .slider_button {
-	width:1200px;
-	margin-top : 165px;
-	position:absolute;
-	z-index:6;
+	width: 1200px;
+	margin-top: 165px;
+	position: absolute;
+	z-index: 6;
 }
 /* 슬라이드배너 이전버튼 */
 .prev_btn {
-	float:left;
+	float: left;
 	background-image: url(../images/prev_icon.png);
-	width:61px;
-	height:71px;
+	width: 61px;
+	height: 71px;
 }
 /* 슬라이드배너 다음버튼 */
 .next_btn {
-	float:right;
+	float: right;
 	background-image: url(../images/next_icon.png);
-	width:61px;
-	height:71px;
+	width: 61px;
+	height: 71px;
 }
-
 
 /* 오른쪽 퀵메뉴바 div */
 .mainRight_quick {
-    position: fixed;
-     border:3px solid green;
-    width:100px; /* 퀵메뉴 너비 */
-	min-height:150px; /* 퀵메뉴 높이 */
-    top: 150px;
-    right: 50px;
-    font-size:13px;
-    z-index:7;
-    background-color:#b3a9eb;
+	position: fixed;
+	/*  border:3px solid green; */
+	width: 100px; /* 퀵메뉴 너비 */
+	min-height: 150px; /* 퀵메뉴 높이 */
+	top: 150px;
+	right: 50px;
+	font-size: 13px;
+	z-index: 7;
+	background-color: #b3a9eb;
+}
+/* 오른쪽 퀵메뉴바 div 상은 수정 */
+.mainRight_quick2 {
+	position: fixed;
+	width: 80px; /* 퀵메뉴 너비 */
+	min-height: 150px; /* 퀵메뉴 높이 */
+	top: 150px;
+	right: 70px;
+	font-size: 13px;
+	z-index: 7;
+}
+
+.quickBtn {
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	height: 35px;
+	width: 90px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 }
 /* 퀵메뉴 1 */
 .quickmenu1 {
-/*     border: 1px solid ; */
-	border-bottom : 3px solid #eae6fa;
-    text-align: center;
-    font-size:20px;
-    min-height:35px;
+	/*     border: 1px solid ; */
+	/* 	border-bottom : 3px solid #eae6fa; */
+	text-align: center;
+	font-size: 20px;
+	min-height: 35px;
 }
+
 .go_Support_btn {
-      position: relative;
-   float: center;
-   border: 0;
-   padding: 0;
-   cursor: pointer;
-   height: 35px;
-   width: 90px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase; 
-   background: #b3a9eb;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-   font-size : 15px;
-   margin:1px;
-   }
-
-.go_Support_btn:hover {
-   background: #9d8ce2;
-}
-
-.go_Support_btn:active, .support_btn  :focus {
-   background: #9d8ce2;
-   outline: 0;
-}
-
-
-/* 퀵메뉴2 */
-.quickmenu2 {
-/* 	border: 1px solid; */
-border-bottom : 3px solid #eae6fa;
-    text-align: center;
-    font-size:20px;
-    min-height:35px;
-}
-
-.go_Notice_btn {
-      position: relative;
-   float: center;
-   border: 0;
-   padding: 0;
-   cursor: pointer;
-   height: 35px;
-   width: 90px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase; 
-   background: #b3a9eb;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-   font-size : 15px;
-   margin:1px;
-   }
-
-.go_Notice_btn:hover {
-   background: #9d8ce2;
-}
-
-.go_Notice_btn:active, .support_btn  :focus {
-   background: #9d8ce2;
-   outline: 0;
-}
-/* 퀵메뉴 3 */
-.quickmenu3 {
-/*   	border: 1px solid; */
-border-bottom : 3px solid #eae6fa;
-    text-align: center;
-    font-size:20px;
-}
-
-.go_Event_btn {
-      position: relative;
-   float: center;
-   border: 0;
-   padding: 0;
-   cursor: pointer;
-   height: 35px;
-   width: 90px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase; 
-   background: #b3a9eb;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-   font-size : 15px;
-   margin:1px;
-   }
-
-.go_Event_btn:hover {
-   background: #9d8ce2;
-}
-
-.go_Event_btn:active, .support_btn  :focus {
-   background: #9d8ce2;
-   outline: 0;
-}
-/* 퀵메뉴 탑버튼 */
-.top_btn {
-      position: relative;
-   float: center;
-   border: 0;
-   padding: 0;
-   cursor: pointer;
-   height: 35px;
-   width: 92px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase; 
-   background: #fc636b;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-   font-size : 15px;
-   margin:1px;
-   }
-
-.top_btn:hover {
-   background: #fd5159;
-}
-
-.top_btn:active, .support_btn  :focus {
-   background: #fd5159;
-   outline: 0;
-}
-
-
-.clear {
-	clear:both;
-}
-/************** MOVING은 왜 필요할까요? **********/
-#biMoving_wrap { 
-	float:left;
-	width:1200px; /* 메인배너 너비 */
-	min-height:400px; /* 메인배너 높이 */
-/* 	border:3px solid black; */
-/* 	border-radius:15px; */
-	font-size:30px;
-	background-color:#d4cff3;
-	 text-align: center;
-} 
-.biMoving_logo{
-	margin-top : 30px;
-	margin-bottom : 30px;
-}
-
-.biMoving_text {
-	margin-top : 30px;
-	margin-bottom : 30px;
-	font-size:40px;
-	font-weight:bold;
-	color:#f38f95; 
-}
-
-.biMoving_button {
-	margin-top : 60px;
-   position: relative;
-text-align :center;
-   border: 0;
-   padding: 0;
-   cursor: pointer;
-   height: 40px;
-   width: 350px; 
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase;
-   background: #b3a9eb;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-   font-size:30px;
-}
-.biMoving_button:hover {
-   background: #9d8ce2;
-}
-
-.biMoving_button:active {
-   background: #9d8ce2;
-   outline: 0;
-}
-
-
-/*********** MOVING만의 SNS서비스  ********/
-#biSns_wrap { 
-	float:left;
-	width:1200px; /* 메인배너 너비 */
-	min-height:400px; /* 메인배너 높이 */
-/* 	border:3px solid black; */
-/* 	border-radius:15px; */
-	font-size:30px;
-	background-color:#eae6fa;
-}
-.biSns_logo{
-	width:350px;
-	height:300px;
-	float:left; 
-	margin : 30px 0 30px 60px; 
-}
-
-.biSns_text {
-	float:left;
-	margin-top:30px;
-	font-size:25px;
-	font-weight:bold;
-	color:#e3b5e2;
-	line-height:1.3;
-	text-align : left;
-}
-
-.biSns_button {
-	float:right;
-	margin-right : 150px; 
 	position: relative;
-	text-align :center;
+	float: center;
 	border: 0;
 	padding: 0;
 	cursor: pointer;
-   height: 40px;
-   width: 230px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase;
-   background: #b3a9eb;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	height: 35px;
+	width: 90px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 15px;
+	margin: 1px;
 }
+
+.go_Support_btn:hover {
+	background: #9d8ce2;
+}
+
+.go_Support_btn:active, .support_btn  :focus {
+	background: #9d8ce2;
+	outline: 0;
+}
+
+/* 퀵메뉴2 */
+.quickmenu2 {
+	/* 	border: 1px solid; */
+	/* border-bottom : 3px solid #eae6fa; */
+	text-align: center;
+	font-size: 20px;
+	min-height: 35px;
+}
+
+.go_Notice_btn {
+	position: relative;
+	float: center;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 35px;
+	width: 90px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 15px;
+	margin: 1px;
+}
+
+.go_Notice_btn:hover {
+	background: #9d8ce2;
+}
+
+.go_Notice_btn:active, .support_btn  :focus {
+	background: #9d8ce2;
+	outline: 0;
+}
+/* 퀵메뉴 3 */
+.quickmenu3 {
+	/*   	border: 1px solid; */
+	/* border-bottom : 3px solid #eae6fa; */
+	text-align: center;
+	font-size: 20px;
+}
+
+.go_Event_btn {
+	position: relative;
+	float: center;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 35px;
+	width: 90px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 15px;
+	margin: 1px;
+}
+
+.go_Event_btn:hover {
+	background: #9d8ce2;
+}
+
+.go_Event_btn:active, .support_btn  :focus {
+	background: #9d8ce2;
+	outline: 0;
+}
+/* 퀵메뉴 탑버튼 */
+.top_btn {
+	position: relative;
+	float: center;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 35px;
+	width: 92px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #fc636b;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 15px;
+	margin: 1px;
+}
+
+.top_btn:hover {
+	background: #fd5159;
+}
+
+.top_btn:active, .support_btn  :focus {
+	background: #fd5159;
+	outline: 0;
+}
+
+.clear {
+	clear: both;
+}
+/************** MOVING은 왜 필요할까요? **********/
+#biMoving_wrap {
+	float: left;
+	width: 1200px; /* 메인배너 너비 */
+	min-height: 400px; /* 메인배너 높이 */
+	/* 	border:3px solid black; */
+	/* 	border-radius:15px; */
+	font-size: 30px;
+	background-color: #d4cff3;
+	text-align: center;
+}
+
+.biMoving_logo {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.biMoving_text {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #f38f95;
+}
+
+.biMoving_button {
+	margin-top: 60px;
+	position: relative;
+	text-align: center;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 350px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 30px;
+}
+
+.biMoving_button:hover {
+	background: #9d8ce2;
+}
+
+.biMoving_button:active {
+	background: #9d8ce2;
+	outline: 0;
+}
+
+/*********** MOVING만의 SNS서비스  ********/
+#biSns_wrap {
+	float: left;
+	width: 1200px; /* 메인배너 너비 */
+	min-height: 400px; /* 메인배너 높이 */
+	/* 	border:3px solid black; */
+	/* 	border-radius:15px; */
+	font-size: 30px;
+	background-color: #eae6fa;
+}
+
+.biSns_logo {
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin: 30px 0 30px 60px;
+}
+
+.biSns_text {
+	float: left;
+	margin-top: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #e3b5e2;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.biSns_button {
+	float: right;
+	margin-right: 150px;
+	position: relative;
+	text-align: center;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 230px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+}
+
 .biSns_button:hover {
-   background: #8785d8;
+	background: #8785d8;
 }
 
 .biSns_button:active {
-   background: #8785d8;
-   outline: 0;
+	background: #8785d8;
+	outline: 0;
 }
-
 
 /**************** 내가 만드는 프로젝트  ************/
 #biProject_wrap {
-	float:left;
-	width:1200px; /* 메인배너 너비 */
-	min-height:400px;
-	height:auto;
-/* 	border:3px solid green; */
-/* 	border-radius:15px; */
-	font-size:30px;
-	background-color :#ffffff;
-	
+	float: left;
+	width: 1200px; /* 메인배너 너비 */
+	min-height: 400px;
+	height: auto;
+	/* 	border:3px solid green; */
+	/* 	border-radius:15px; */
+	font-size: 30px;
+	background-color: #ffffff;
 }
 
 .biProject_logo {
-	width:350px;
-	height:350px;
-	float : left;
-	margin-top : 60px;
-	margin-left : 30px;
-} 
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 30px;
+}
 
 .biProject_text {
-	width:700px;
-	float:left;
-	margin : 40px 0 0 80px;
-	font-size:25px;
-	font-weight:bold;
-	color:#b76f6f;
-	line-height:1.3;
-	text-align : left;
-	 
+	width: 700px;
+	float: left;
+	margin: 40px 0 0 80px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #b76f6f;
+	line-height: 1.3;
+	text-align: left;
 }
 
 .biProject_actor_img {
-	margin:50px 0 0 200px;
-	float:left; 
+	margin: 50px 0 0 200px;
+	float: left;
 }
 
 .biProject_scenario_img {
-	margin-top : 50px;
-	margin-left : 400px;
-	float:left;
-}
-
-
-.biProject_button{
+	margin-top: 50px;
+	margin-left: 400px;
 	float: left;
-	margin-left : 150px; 
-	width:1200px;
 }
 
+.biProject_button {
+	float: left;
+	margin-left: 150px;
+	width: 1200px;
+}
 
 .biProject_actorButton {
-	float:left;
-	margin : 30px 0px 30px 30px;
-   position: relative;
-	text-align :center;
-   border: 2;
-   padding: 0;
-   cursor: pointer;
-   height: 60px;
-   width: 230px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase;
-   background: #b3a9eb;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3); 
-   font-size:30px; 
+	float: left;
+	margin: 30px 0px 30px 30px;
+	position: relative;
+	text-align: center;
+	border: 2;
+	padding: 0;
+	cursor: pointer;
+	height: 60px;
+	width: 230px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 30px;
 }
+
 .biProject_actorButton:hover {
-   background: #9d8ce2;
+	background: #9d8ce2;
 }
 
 .biProject_actorButton:active {
-   background: #9d8ce2;
-   outline: 0;
+	background: #9d8ce2;
+	outline: 0;
 }
 
-.biProject_writerButton{
-	float:left;
-	margin : 30px 30px 30px 310px;
-   position: relative;
-	text-align :center;
-   border: 2;
-   padding: 0;
-   cursor: pointer;
-   height: 60px;
-   width: 300px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase;
-   background: #b3a9eb;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-   font-size:30px; 
+.biProject_writerButton {
+	float: left;
+	margin: 30px 30px 30px 310px;
+	position: relative;
+	text-align: center;
+	border: 2;
+	padding: 0;
+	cursor: pointer;
+	height: 60px;
+	width: 300px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 30px;
 }
+
 .biProject_writerButton:hover {
-   background: #9d8ce2;
+	background: #9d8ce2;
 }
 
 .biProject_writerButton:active {
-   background: #9d8ce2;
-   outline: 0;
+	background: #9d8ce2;
+	outline: 0;
 }
-
 
 #biSupport_wrap {
-	float:left;
-	width:1200px; /* 메인배너 너비 */
-	min-height:150px; /* 메인배너 높이 */
-	height:auto;
-/* 	border:3px solid black; */
-/* 	border-radius:15px; */
-	font-size:30px;
-	background-color:#60afff;
+	float: left;
+	width: 1200px; /* 메인배너 너비 */
+	min-height: 150px; /* 메인배너 높이 */
+	height: auto;
+	/* 	border:3px solid black; */
+	/* 	border-radius:15px; */
+	font-size: 30px;
+	background-color: #60afff;
 	text-align: center;
-} 
+}
 
 .biSupport_logo {
-	margin-top : 30px;
+	margin-top: 30px;
 }
+
 .biSupport_text {
-	margin-top : 30px;
-	line-height:1.2;
-	font-weight:bold;
-	color:#ffffff;
-	
+	margin-top: 30px;
+	line-height: 1.2;
+	font-weight: bold;
+	color: #ffffff;
 }
-.biProject_look{
-	margin : 30px;
-	float:center;
-   position: relative;
-	text-align :center;
-   padding: 0;
-   cursor: pointer;
-   height: 60px;
-   width: 300px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase;
-   background: #399cff;
-   border-radius: 3px;
-/*    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3); */
-   font-size:30px; 
+
+.biProject_look {
+	margin: 30px;
+	float: center;
+	position: relative;
+	text-align: center;
+	padding: 0;
+	cursor: pointer;
+	height: 60px;
+	width: 300px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #399cff;
+	border-radius: 3px;
+	/*    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3); */
+	font-size: 30px;
 }
+
 .biProject_look:hover {
-   background: #208fff;
+	background: #208fff;
 }
 
 .biProject_look:active {
-   background: #208fff;
-   outline: 0;
+	background: #208fff;
+	outline: 0;
 }
 
 /********* 티저 페이지 */
-#biTeaser_wrap{ /* 메인배너 css설정 */
-	float:left;
-	width:1200px; /* 메인배너 너비 */
-	min-height:400px;
-	height:auto;
-/* 	border:3px solid yellow; */
-/* 	border-radius:15px; */
-	font-size:30px;
-	background-color :#eae6fa;
+#biTeaser_wrap { /* 메인배너 css설정 */
+	float: left;
+	width: 1200px; /* 메인배너 너비 */
+	min-height: 400px;
+	height: auto;
+	/* 	border:3px solid yellow; */
+	/* 	border-radius:15px; */
+	font-size: 30px;
+	background-color: #eae6fa;
 }
 
 .biTeaser_logo {
-	float:left; 
-	margin-top : 50px;
-	margin-left : 60px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 60px;
 }
+
 .biTeaser_text {
-	width:700px;
-	float:left;
-	margin : 40px 0 0 30px;
-	font-size:20px;
-	font-weight:bold;
-	color:#b76f6f;
-	line-height:1.4;
-	text-align : left;
-} 
+	width: 700px;
+	float: left;
+	margin: 40px 0 0 30px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #b76f6f;
+	line-height: 1.4;
+	text-align: left;
+}
 
 .biTeaser_button {
-	float:right;
-   position: relative;
-	text-align :center;
-   border: 2;
-   padding: 0;
-   cursor: pointer;
-   height: 40px;
-   width: 250px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase;
-   background: #b3a9eb;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-   font-size:30px;
-   margin-top : 30px;
-   margin-right : 70px;
+	float: right;
+	position: relative;
+	text-align: center;
+	border: 2;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 250px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 30px;
+	margin-top: 30px;
+	margin-right: 70px;
 }
+
 .biTeaser_button:hover {
-   background: #9d8ce2;
+	background: #9d8ce2;
 }
 
 .biTeaser_button:active {
-   background: #9d8ce2;
-   outline: 0;
+	background: #9d8ce2;
+	outline: 0;
 }
 
-
 /********게시판 페이지************/
-
-#biBoard_wrap{ /* 메인배너 css설정 */
-	float:left;
-	width:1200px; /* 메인배너 너비 */
-	min-height:400px; /* 메인배너 높이 */
-	height:auto;
-/* 	border:3px solid orange; */
-/* 	border-radius:15px; */
-	font-size:30px;
-	background-color:#d4cff3;
+#biBoard_wrap { /* 메인배너 css설정 */
+	float: left;
+	width: 1200px; /* 메인배너 너비 */
+	min-height: 400px; /* 메인배너 높이 */
+	height: auto;
+	/* 	border:3px solid orange; */
+	/* 	border-radius:15px; */
+	font-size: 30px;
+	background-color: #d4cff3;
 }
 
 .biBoard_logo {
-	float:left; 
-	margin-top : 50px;
-	margin-left : 60px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 60px;
 }
 
-.biBoard_text{
-	float:left;
-	width:700px;
-	margin : 40px 0 30px 30px;
-	font-size:20px;
-	font-weight:bold;
-	color:#b76f6f;
-	line-height:1.4;
-	text-align : left; 
-	
+.biBoard_text {
+	float: left;
+	width: 700px;
+	margin: 40px 0 30px 30px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #b76f6f;
+	line-height: 1.4;
+	text-align: left;
 }
 
 .biBoard_button {
-	float:center;
-   position: relative;
-	text-align :center;
-   border: 2;
-   padding: 0;
-   cursor: pointer;
-   height: 40px;
-   width: 250px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase;
-   background: #b3a9eb;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-   font-size:30px;
-   margin-bottom : 30px;
+	float: center;
+	position: relative;
+	text-align: center;
+	border: 2;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 250px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 30px;
+	margin-bottom: 30px;
 }
 
 .biBoard_button:hover {
-   background: #9d8ce2;
+	background: #9d8ce2;
 }
 
 .biBoard_button:active {
-   background: #9d8ce2;
-   outline: 0;
+	background: #9d8ce2;
+	outline: 0;
 }
 
 /****** 금액 및 통계 페이지 *********/
-#biStatistics_wrap{ /* 메인배너 css설정 */
-/* 	float:left; */
-	width:1200px; /* 메인배너 너비 */
-	min-height:400px; /* 메인배너 높이 */
-	height:auto;
-/* 	border:3px solid red; */
-/* 	border-radius:15px; */
-	font-size:30px;
-	background-color:#f7fafc;
+#biStatistics_wrap { /* 메인배너 css설정 */
+	/* 	float:left; */
+	width: 1200px; /* 메인배너 너비 */
+	min-height: 400px; /* 메인배너 높이 */
+	height: auto;
+	/* 	border:3px solid red; */
+	/* 	border-radius:15px; */
+	font-size: 30px;
+	background-color: #f7fafc;
 }
 
-.biStatistics_logo{
-	float:left; 
-	margin-top : 50px;
-	margin-left : 60px;
+.biStatistics_logo {
+	float: left;
+	margin-top: 50px;
+	margin-left: 60px;
 }
 
 .biStatistics_text {
-	float:left;
-	width : 650px;
-	font-size : 25px;
-	font-weight:bold;
-	line-height:1.3;
-	margin : 30px;
-	text-align : left;
-	color : #808080;
+	float: left;
+	width: 650px;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1.3;
+	margin: 30px;
+	text-align: left;
+	color: #808080;
 }
 
 .biJoin_btn {
-		float:center;
-   position: relative;
-	text-align :center;
-   border: 2;
-   padding: 0;
-   cursor: pointer;
-   height: 40px;
-   width: 300px;
-   font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-   color: #fff;
-   text-transform: uppercase;
-   background: #b3a9eb;
-   border-radius: 3px;
-   text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-   font-size:30px;
-   margin-bottom : 30px;
+	float: center;
+	position: relative;
+	text-align: center;
+	border: 2;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 300px;
+	font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	color: #fff;
+	text-transform: uppercase;
+	background: #b3a9eb;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+	font-size: 30px;
+	margin-bottom: 30px;
 }
 
 .biJoin_btn:hover {
-   background: #9d8ce2;
+	background: #9d8ce2;
 }
 
 .biJoin_btn:active {
-   background: #9d8ce2;
-   outline: 0;
+	background: #9d8ce2;
+	outline: 0;
 }
-
 
 /* #biHistory_wrap { */
 /* 	float:left; */
@@ -657,5 +677,3 @@ text-align :center;
 /* 	border-radius:15px; */
 /* 	background-color:#ffffff; */
 /* } */
-
-
