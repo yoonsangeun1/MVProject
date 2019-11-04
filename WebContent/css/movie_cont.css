@@ -1,27 +1,21 @@
 @charset "UTF-8";
 
-/*movie_cont.jsp의 모든 구역 css*/
-#movie_comment {
+#movie_comment {															/*movie_cont.jsp의 모든 구역 css*/
 	width: 1200px;
 	min-height: 1024px;
 	height: auto;
 	box-sizing: border-box;
 }
-
-
-/**페이지 위 영상 부분*/
-#video {
+#video {																	/**페이지 위 영상 부분*/
 	width: 1070px;
 	height: 502px;
 	margin-top: 5px;
 	margin-left: 62px;
-	border: 1px solid blue;
 }
 
 
-/************************************************************************게시자 정보 CSS start*/
-/**영상 제목, 영상 구독자, 영상 설명란, 영상 올린 날짜 등*/
-#videoInfo {
+/**게시자 정보 CSS start*/
+#videoInfo {																/**영상 제목, 영상 구독자, 영상 설명란, 영상 올린 날짜 등*/
 	width: 1100px;
 	margin: 5px 0px 0px 50px;
 }
@@ -55,9 +49,8 @@
 }
 
 
-/************************************************************************댓글 작성 CSS start*/
-/**페이지 댓글 부분*/
-#commenter {
+/**댓글 작성 CSS start*/
+#commenter {																/**페이지 댓글 부분*/
 	float: left;
 	width: 700px;
 	margin-left: 65px;
@@ -66,15 +59,13 @@
 	width: 699px;
 	height: 85px;
 }
-/**방문자 프로필 사진, 이름, 텍스트 상자*/
-#visitor {
+#visitor {																	/**방문자 프로필 사진, 이름, 텍스트 상자*/
 	float: left;
 	width: 698px;
 	height: 55px;
 	margin: 0px 0px 0px 0px;
 }
-/**로그인 한 사람의 프로필*/
-#visitor_profile {
+#visitor_profile {															/**로그인 한 사람의 프로필*/
 	float: left;
 	width: 60px;
 	height: 53px;
@@ -84,8 +75,7 @@
 	border-radius: 25px;
 	margin-left: 4px;
 }
-/**로그인 한 사람의 이름*/
-#visitor_name_box {
+#visitor_name_box {															/**로그인 한 사람의 이름*/
 	float: left;
 	width: 55px;
 	height: 53px;
@@ -98,8 +88,7 @@
 	margin-left: 2px;
 	margin-top: 7px;
 }
-/**댓글 작성란*/
-#comment_box {
+#comment_box {																/**댓글 작성란*/
 	float: left;
 	width: 581px;
 	height: 53px;
@@ -111,83 +100,71 @@
 	height: 45px;
 	margin: 0px 3px 0px 0px;
 }
-/**댓글, 다시 작성 버튼이 들어갈 공간 CSS*/
-#comment_buttons {
+#comment_buttons {															/**댓글, 다시 작성 버튼이 들어갈 공간 CSS*/
 	float: left;
 	width: 698px;
 	height: 27px;
 	margin-top: 1px;
 	margin-right: 3px;
 }
-/**댓글, 다시 작성 버튼 css 적용*/
-#reset_and_write {
+#reset_and_write {															/**댓글, 다시 작성 버튼 css 적용*/
 	float: right;
 	width: 134px;
 	height: 25px;
 }
 
 
-/************************************************************************댓글 목록 CSS start*/
-/**보여지는 댓글 목록 전체 적용*/
-#commentList {
+/**댓글 목록 CSS start*/
+#commentList {																/**보여지는 댓글 목록 전체 적용*/
 	width: 699px;
 	float: left;
 	height: auto;
 }
-/**각각 댓글 + 답글까지 동일 적용*/
-.comment_and_reBtn {
+.comment_and_reBtn {														/**각각 댓글 + 답글까지 동일 적용*/
 	float: left;
 	width: 699px;
 	height: auto;
 	margin-bottom: 30px;
 }
-/**각각의 댓글마다 동일 적용 → 답글 버튼 제외*/
-.comment {
+.comment {																	/**각각의 댓글마다 동일 적용 → 답글 버튼 제외*/
 	float: left;
 	margin: 0px 0px 0px 0px;
 	width: 698px;
 	height: auto;
 }
-/**댓글 단 방문자 프로필 사진*/
-.commenterProfile {
+.commenterProfile {															/**댓글 단 방문자 프로필 사진*/
 	float: left;
 	width: 60px;
 	height: auto;
 }
-/**댓글 단 작성자 프로필 사진*/
-.commenterProfile img {
+.commenterProfile img {														/**댓글 단 작성자 프로필 사진*/
 	border-radius: 25px;
 	margin-left: 4px;
 }
-/**commentTop + commentBottom 둘 다 포함하고 있는 공간 div 설정하기*/
-.commentAll {
+.commentAll {																/**commentTop + commentBottom 둘 다 포함하고 있는 공간 div 설정하기*/
 	float: left;
 	width: 636px;
 	height: auto;
 }
-/**댓글 작성자 이름, 작성일자, 좋아요와 싫어요 버튼이 들어있는 공간 CSS*/
-.commentTop {
+.commentTop {																/**댓글 작성자 이름, 작성일자, 좋아요와 싫어요 버튼이 들어있는 공간 CSS*/
 	float: left;
 	width: 634px;
 	height: 32px;
 }
-/**댓글 작성자 이름, 작성일자*/
-.commenter_name_box {
+.commenter_name_box {														/**댓글 작성자 이름, 작성일자*/
 	float: left;
 	width: 80px;
 	height: 30px;
 	margin: 0px 0px 0px 0px;
 }
-/**댓글 작성자 이름*/
-.commenterName {
+.commenterName {															/**댓글 작성자 이름*/
 	float: left;
 	width: 33px;
 	height: 17px;
 	margin-left: 2px;
 	margin-top: 7px;
 }
-/**댓글 작성일자*/
-.commentDate {
+.commentDate {																/**댓글 작성일자*/
 	width: 35px;
 	float: left;
 	font-size: 9px;
@@ -197,105 +174,100 @@
 	margin-top: 7px;
 	margin-left: 5px;
 }
-/**댓글 좋아요, 싫어요 버튼*/
-.like_dislike {
+.like_dislike {																/**댓글 좋아요, 싫어요 버튼*/
 	float: left;
 	min-width: 120px;
 	width: auto;
 	margin-left: 5px;
 	margin-top: 3px;
 }
-/**댓글 내용, 수정, 삭제 버튼이 담겨있는 공간 꾸미기*/
-.commentBottom {
+.commentBottom {															/**댓글 내용, 수정, 삭제 버튼이 담겨있는 공간 꾸미기*/
 	float: left;
 	width: 634px;
 	height: auto;
 }
-/**댓글 내용*/
-.comment_cont {
+.comment_cont {																/**댓글 내용*/
 	float: left;
 	width: 575px;
 	font-family: '맑은 고딕';
-	margin-left: 3px;
 	margin-top: 3px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 3px;
+	padding: 5px;
 }
-/**댓글 수정 및 삭제 버튼 CSS*/
-.comment_cont_edit {
+.comment_cont_edit {														/**댓글 수정 및 삭제 버튼 CSS*/
 	float: right;
 	width: 50px;
 	height: 48px;
 	margin-right: 3px;
 	margin-top: 3px;
 }
-
-
-/************************************************************************답글 CSS start*/
-/**답글 버튼이 담겨있는 공간 설정*/
-.comment_replyBox {
+.comment_replyBox {															/**답글 버튼이 담겨있는 공간 설정*/
 	float: left;
-	width: 637px;
+	width: 633px;
 	height: auto;
-	margin-left: 61px;
+	margin-left: 65px;
 }
-/**답글 버튼 CSS*/
-.comment_replyBtn {
+.comment_replyBtn {															/**답글 버튼 CSS*/
 	float: left;
-	width: 51px;
+	width: 134px;
 	margin-top: 1px;
+	margin-left: 0px;
 }
-/**보여지는 답글 목록 전체 적용*/
-.comment_reply_cont {
-	width: 636px;
+.comment_reply_cont {														/**보여지는 답글 목록 전체 적용*/
+	width: 633px;
 	float: left;
 	height: auto;
+	margin-left: 0px;
+	border: 1px solid blue;
 }
-/**각각의 답글마다 동일 적용*/
-.reply {
+
+
+/**답글 CSS start*/
+.reply {																	/**각각의 답글마다 동일 적용*/
 	float: left;
 	margin: 30px 23px 0px 0px;
 	width: 613px;
 	height: auto;
+	border: 1px solid blue;
 }
-/**답글 단 방문자 프로필 사진*/
-.replierProfile {
+.replierProfile {															/**답글 단 작성자 프로필 사진을 담고 있는 공간*/
 	float: left;
 	width: 60px;
 	height: auto;
+	border: 1px solid blue;
 }
-/**답글 단 작성자 프로필 사진*/
-.replierProfile img {
+.replierProfile img {														/**답글 단 작성자 프로필 사진*/
 	border-radius: 25px;
 	margin-left: 4px;
+	border: 1px solid blue;
 }
-/**replyTop + replyBottom 둘 다 포함하고 있는 공간 div 설정하기*/
-.replierAll {
+.replierAll {																/**replyTop + replyMiddle + replyBottom*/
 	float: left;
 	width: 551px;
 	height: auto;
+	border: 1px solid blue;
 }
-/**답글 작성자 이름, 작성일자, 좋아요와 싫어요 버튼이 들어있는 공간 CSS*/
-.replyTop {
+.replyTop {																	/**답글 작성자 이름, 작성일자, 좋아요와 싫어요 버튼*/
 	float: left;
 	width: 550px;
 	height: 32px;
 }
-/**답글 작성자 이름, 작성일자*/
-.replyer_name_box {
+.replyer_name_box {															/**답글 작성자 이름, 작성일자*/
 	float: left;
 	width: 80px;
 	height: 30px;
 	margin: 0px 0px 0px 0px;
 }
-/**답글 작성자 이름*/
-.replierName {
+.replierName {																/**답글 작성자 이름*/
 	float: left;
 	width: 33px;
 	height: 17px;
 	margin-left: 2px;
 	margin-top: 7px;
 }
-/**답글 작성일자*/
-.replyDate {
+.replyDate {																/**답글 작성일자*/
 	width: 35px;
 	float: left;
 	font-size: 9px;
@@ -305,34 +277,79 @@
 	margin-top: 7px;
 	margin-left: 5px;
 }
-/**답글 좋아요, 싫어요 버튼*/
-.like_dislike {
+.like_dislike {																/**답글 좋아요, 싫어요 버튼*/
 	float: left;
 	width: auto;
 	margin-left: 5px;
 	margin-top: 3px;
 }
-/**댓글 내용, 수정, 삭제 버튼이 담겨있는 공간 꾸미기*/
-.replyBottom {
+.replyMiddle {																/**댓글 내용, 수정, 삭제 버튼이 담겨있는 공간 꾸미기*/
 	float: left;
 	width: 550px;
 	height: auto;
 }
-/**답글 내용*/
-.reply_cont {
+.reply_cont {																/**답글 내용*/
 	float: left;
 	width: 489px;
 	font-family: '맑은 고딕';
 	margin-left: 3px;
 	margin-top: 3px;
+	border: 1px solid blue;
 }
-/**답글 수정 및 삭제 버튼 CSS*/
-.reply_cont_edit {
+.reply_cont_edit {															/**답글 수정 및 삭제 버튼 CSS*/
 	float: right;
 	width: 50px;
 	height: 48px;
 	margin-right: 3px;
 	margin-top: 3px;
+}
+.replyBottom {																/**답글에 대한 답글 CSS*/
+	float: left;
+	width: 550px;
+	height: auto;
+	border: 1px solid blue;
+}
+.reply_in_replyBtn {														 /**답글과 답글 보기 버튼*/
+	float: left;
+	width: 134px;
+	margin-top: 1px;
+	margin-left: 0px;
+}
+.reply_in_reply {															/**답글 보기 버튼을 눌렀을 때 보여지는 div 공간*/
+	float: left;
+	width: 550px;
+	height: 200px;
+	border: 1px solid blue;
+}
+.innerReplyAll {
+	float: left;
+	width: 551px;
+	height: auto;
+	border: 1px solid blue;
+}
+.innerReplyTop {
+	float: left;
+	width: 550px;
+	height: 32px;
+}
+.innerReplyMiddle {
+	float: left;
+	width: 550px;
+	height: auto;
+}
+.innerReplyBottom {
+	float: left;
+	width: 550px;
+	height: auto;
+	border: 1px solid aqua;
+}
+.reply_in_reply_cont {
+	float: left;
+	width: 489px;
+	font-family: '맑은 고딕';
+	margin-left: 3px;
+	margin-top: 3px;
+	border: 1px solid red;
 }
 
 
