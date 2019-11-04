@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* admin_board css 작업 */
-#aBoard { /* 게시글 관리 전체를 아우르는 div */
+#aBoard_wrap { /* 게시글 관리 전체를 아우르는 div */
 	float: right;
 	margin: 10px 16px 50px 16px;
 }
 
-#aBoard h1 {
+#aBoard_wrap h1 {
 	font-size: 35px;
 	color: #ccc;
 	margin: 15px 10px;

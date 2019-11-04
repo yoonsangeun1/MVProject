@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ include file="../include/admin_header.jsp"%>
-<div id="aFunding">
-	<h1>펀딩 관리</h1>
+<div id="aFunding_wrap">
+	<h1>후원 관리</h1>
 	
 	<div id="aFunding_table">
 		<%-- 각 분류별 실적 현황 --%>

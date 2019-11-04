@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ include file="../include/admin_header.jsp" %>
-<div id="aMember">
+<div id="aMember_wrap">
 	<h1>회원 관리</h1>
 	
 	<%-- 회원관리 목록표 생성 --%>
