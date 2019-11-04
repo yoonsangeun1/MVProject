@@ -10,18 +10,19 @@
    min-height:1024px; 
    
    /* div테두리 설정 */
-   border:3px solid red;
-   border-radius:15px;
+/*    border:3px solid red; */
+/*    border-radius:15px; */
    
    /* div 좌우 중앙 정렬 */
    margin-left: auto; margin-right: auto; 
 }
 
 #amMain_wrap {
+	float:left;
    width:1200px; /* 메인배너 너비 */
    min-height:400px; /* 메인배너 높이 */
-   border:3px solid black;
-   border-radius:15px;
+/*    border:3px solid black; */
+/*    border-radius:15px; */
    text-align: center;
    background-image: url(../images/waves.gif);
 }
@@ -50,10 +51,11 @@
 
 
 #amChange_wrap {
+	float:left;
    width:1200px; /* 메인배너 너비 */
    min-height:400px; /* 메인배너 높이 */
-   border:3px solid black;
-   border-radius:15px;
+/*    border:3px solid black; */
+/*    border-radius:15px; */
    text-align: center;
    background-image: url(../images/waves.gif);
 }
@@ -73,10 +75,11 @@
 }
 
 #amWhySupport_wrap{
+	float:left;
    width:1200px; /* 메인배너 너비 */
    min-height:400px; /* 메인배너 높이 */
-   border:3px solid black;
-   border-radius:15px;
+/*    border:3px solid black; */
+/*    border-radius:15px; */
    font-size:30px;
    text-align: center;
    background-image: url(../images/waves.gif);
@@ -127,8 +130,8 @@
    float:left;
    width:1200px; /* 메인배너 너비 */
    min-height:400px; /* 메인배너 높이 */
-   border:3px solid black;
-   border-radius:15px;
+/*    border:3px solid black; */
+/*    border-radius:15px; */
    font-size:30px;
    text-align: center;
    background-image: url(../images/waves.gif);
@@ -156,10 +159,11 @@
 }
 
 #amRegularSupport_wrap {
+	float:left;
    width:1200px; /* 메인배너 너비 */
    min-height:400px; /* 메인배너 높이 */
-   border:3px solid black;
-   border-radius:15px;
+/*    border:3px solid black; */
+/*    border-radius:15px; */
    font-size:30px;
    text-align: center;
    background-color : #7edbef;
@@ -178,18 +182,20 @@
 
 .amRegularSupport_cont {
    margin-top : 100px;
-   font-family : sans-serif;
+/*    font-family : sans-serif; */
    font-size : 30px;
    line-height:1.2;
 }
 
 #amFAQ_wrap{
+	float:left;
    width:1200px; /* 메인배너 너비 */
    min-height:400px; /* 메인배너 높이 */
-   border:3px solid black;
-   border-radius:15px;
+/*    border:3px solid black; */
+/*    border-radius:15px; */
    font-size:30px;
    text-align: center;
+   background-color:#cac2f1;
 }
 
 #amFAQ_text{
@@ -199,36 +205,38 @@
 
 
 .amFAQ_title {
-	color:#ffb900;  
+	color:#804000;  
 	font-size : 50px;
 }
 
 .amFAQ_cont {
+	width:800px;
+	min-height:400px;
    margin-top : 100px;
    font-family : sans-serif;
    font-size : 30px;
    line-height:1.2;
 }
 
-#amMovingsStory_wrap {
-   width:1200px; /* 메인배너 너비 */
-   min-height:400px; /* 메인배너 높이 */
-   border:3px solid black;
-   border-radius:15px;
-   font-size:30px;
-   text-align: center;
-   background-image: url(../images/waves.gif);
-}
+/* #amMovingsStory_wrap { */
+/*    width:1200px; 메인배너 너비 */
+/*    min-height:400px; 메인배너 높이 */
+/* /*    border:3px solid black; */ */
+/* /*    border-radius:15px; */ */
+/*    font-size:30px; */
+/*    text-align: center; */
+/*    background-image: url(../images/waves.gif); */
+/* } */
 
-#amBrandNews_wrap {
-   width:1200px; /* 메인배너 너비 */
-   min-height:400px; /* 메인배너 높이 */
-   border:3px solid black;
-   border-radius:15px;
-   font-size:30px;
-   text-align: center;
-   background-image: url(../images/waves.gif);
-}
+/* #amBrandNews_wrap { */
+/*    width:1200px; 메인배너 너비 */
+/*    min-height:400px; 메인배너 높이 */
+/* /*    border:3px solid black; */ */
+/* /*    border-radius:15px; */ */
+/*    font-size:30px; */
+/*    text-align: center; */
+/*    background-image: url(../images/waves.gif); */
+/* } */
 
 
 
