@@ -5,6 +5,9 @@
 	min-height: 1024px;
 	height: auto;
 	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 #slide_show, #video_list { /**바디 상단 슬라이드 쇼 , 카테고리들을 감싸고 있는 div css*/
 	float: left;

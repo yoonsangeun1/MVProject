@@ -5,6 +5,9 @@
 	min-height: 1024px;
 	height: auto;
 	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 #video {																	/**페이지 위 영상 부분*/
 	width: 1070px;
