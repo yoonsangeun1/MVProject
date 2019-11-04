@@ -138,7 +138,7 @@
 						<div id="SNS_Messenger_Text_Left"><div id="SNS_Messenger_Text_U">팝니다.</div></div>
 						<div id="SNS_Messenger_Text_Left"><div id="SNS_Messenger_Text_U">홍채 팝니다.</div></div>
 					</div>
-					<textarea id="SNS_Messenger_Text_Write">ㅎㅇ</textarea>
+					<textarea id="SNS_Messenger_Text_Write">안 산다고</textarea>
 				</div>
 			</div>
 		</div>
@@ -146,6 +146,14 @@
 			<div id="SNS_Friend_Image">
 				<img src="../images/sns_photo7.jpg">
 				<h4>홍채인식</h4>
+			</div>
+			<div id="SNS_Friend_Menu">
+				<ul id="SNS_Friend_Ul">
+					<li id="SNS_Friend_Li"><input id="SNS_Friend_Button" type="button" value="프로필 바로가기"></li>
+					<li id="SNS_Friend_Li"><input id="SNS_Friend_Button" type="button" value="닉네임 변경하기"></li>
+					<li id="SNS_Friend_Li"><input id="SNS_Friend_Button" type="button" value="차단하기"></li>
+					<li id="SNS_Friend_Li"><input id="SNS_Friend_Button" type="button" value="신고하기"></li>
+				</ul>
 			</div>
 		</div>
 	</div>

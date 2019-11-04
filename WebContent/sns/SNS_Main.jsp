@@ -52,7 +52,7 @@
 					<li>
 						<div id="SNS_Content">
 							<img src="../images/member_profile.png" width="40" height="40"
-								alt="프로필 사진">
+								 alt="프로필 사진">
 							<div id="SNS_Content_info">
 								<div id="SNS_Content_Title">박진우</div>
 								<div id="SNS_Content_Writer">1시간 전</div>
