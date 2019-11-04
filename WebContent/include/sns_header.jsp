@@ -7,9 +7,46 @@
 <link rel="stylesheet" type="text/css" href="../css/init.css" />
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+<link rel="stylesheet" type="text/css" href="../iconfont/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/bf95efc607.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="../icon/css/fontello.css">
+ <link rel="stylesheet" href="../icon/css/animation.css">
+<%--board css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/board_notice.css" /> <%--공지사항--%>
+<link rel="stylesheet" type="text/css" href="../css/board_event.css" />  <%--이벤트--%>
+<link rel="stylesheet" type="text/css" href="../css/board_faq.css" />    <%--FAQ--%>
+<link rel="stylesheet" type="text/css" href="../css/board_actors.css" /> <%--배우 모집--%>
+<link rel="stylesheet" type="text/css" href="../css/board_contest.css" /><%--시나리오 모집--%>
+<link rel="stylesheet" type="text/css" href="../css/board_free.css" />   <%--자유게시판--%>
+<link rel="stylesheet" type="text/css" href="../css/board_writing.css" />   <%--자유게시판--%>
+
+<%-- member css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/member_login.css" />   <%--로그인폼--%>
+<link rel="stylesheet" type="text/css" href="../css/member_join.css" />   <%--회원가입폼--%>
+
+<%-- funding css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/funding_list.css" /> <%--펀딩리스트 --%>
+<link rel="stylesheet" type="text/css" href="../css/funding_write.css" /> <%--펀딩 글 작성 --%>
+<link rel="stylesheet" type="text/css" href="../css/funding_cont.css" /> <%-- 펀딩 글 보기 --%>
 <%-- sns css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
 <link rel="stylesheet" type="text/css" href="../css/profileSNS.css" />
+<link rel="stylesheet" type="text/css" href="../css/messengerSNS.css" />
+
+<%-- banner css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/aboutMoving.css" />
+
+<%-- movie css 추가 --%>
+<link rel="stylesheet" type="text/css" href="../css/movie_cont.css" />
+<link rel="stylesheet" type="text/css" href="../css/movie_mainList.css" />
+<link rel="stylesheet" type="text/css" href="../css/movie_categoryList.css" />
+
+<%-- script 추가 --%>
+<script src="../js/jquery.js"></script>
+<script src="../js/slide.js"></script>
+<script src="../js/move_banner.js"></script>
+<script src="../js/board_faq.js"></script>
+
 
 </head>
 <body>
