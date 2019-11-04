@@ -166,24 +166,19 @@ a:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
-#button {
-  background-color: #6a67ce; /* 보라색 제일 진한거 */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 /* 보라색 그라디언트 진함->연함 */
-.button_c#6a67ce {background-color: #6a67ce;} 
-.button_c#9d8ce2 {background-color: #9d8ce2;}
-.button_c#b3a9eb {background-color: #b3a9eb;}  
-.button_c#d4cff3 {background-color: #d4cff3;}
-.button_c#eae6fa {background-color: #eae6fa;}
-.button_c#f2f0fb {background-color: #f2f0fb; color: black;}
+.button_c6a67ce {background-color: #6a67ce;} 
+.button_c9d8ce2 {background-color: #9d8ce2;}
+.button_cb3a9eb {background-color: #b3a9eb;}  
+.button_cd4cff3 {background-color: #d4cff3;}
+.button_ceae6fa {background-color: #eae6fa;}
+.button_cf2f0fb {background-color: #f2f0fb; color: black;}
 
 /*폰트 크기별 */
 .button_f10 {font-size: 10px;}
@@ -204,66 +199,86 @@ a:hover {
 .button_r12 {border-radius: 12px;}
 .button_r50 {border-radius: 50%;}
 /* 하얀 배경에 테두리선 */
-.button_wc#6a67ce {
+.button_wce8e8e8 {
+  background-color: white; 
+  color: #656969;
+  border: 2px solid #e8e8e8;
+}
+.button_wce8e8e8:hover {
+  background-color: #e8e8e8; 
+  color: black; 
+}
+
+.button_wc6a67ce {
   background-color: white; 
   color: black; 
   border: 2px solid #6a67ce;
 }
-.button_wc#6a67ce:hover {
+.button_wc6a67ce:hover {
   background-color: #6a67ce; 
   color: white; 
 }
 
-.button_wc#9d8ce2 {
+.button_wc9d8ce2 {
   background-color: white; 
   color: black; 
   border: 2px solid #9d8ce2;
 }
-.button_wc#9d8ce2:hover {
+.button_wc9d8ce2:hover {
   background-color: #9d8ce2; 
   color: white; 
 }
 
-.button_wc#b3a9eb {
+.button_wcb3a9eb {
   background-color: white; 
   color: black; 
   border: 2px solid #b3a9eb;
 }
-.button_wc#b3a9eb:hover {
+.button_wcb3a9eb:hover {
   background-color: #b3a9eb; 
   color: white; 
 }
 
-.button_wc#d4cff3 {
+.button_wcd4cff3 {
   background-color: white;
   color: black;
   border: 2px solid #d4cff3;
 }
-.button_wc#b3a9eb:hover {
+.button_wcb3a9eb:hover {
   background-color: #d4cff3; 
   color: white; 
 }
 
-.button_wc#eae6fa {
+.button_wceae6fa {
   background-color: white;
   color: black;
   border: 2px solid #eae6fa;
 }
-.button_wc#eae6fa:hover {
+.button_wceae6fa:hover {
   background-color: #eae6fa; 
   color: white; 
 }
 
-.button_wc#f2f0fb {
+.button_wcf2f0fb {
   background-color: white;
   color: black;
   border: 2px solid #f2f0fb;
 }
-.button_wc#f2f0fb:hover {
+.button_wcf2f0fb:hover {
   background-color: #f2f0fb; 
   color: white; 
 }
 
+/* 마우스 오버시 그림자 생기는 버튼 */
+.shadow {
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.shadow:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 /* 버튼 클릭 막기 */
 .disabled {
   opacity: 0.6;

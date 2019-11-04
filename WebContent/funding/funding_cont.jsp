@@ -36,10 +36,10 @@
 					10,000원 중</span> <span class="sumCont_title">1,520 명</span> <span
 					class="sumCont_sub">프로젝트 후원자</span> <span class="sumCont_title">19일</span>
 				<span class="sumCont_sub">남은 목표 일수</span>
-				<button class="fCont_sumContBtn button button_f16" type="button">이
+				<button class="fCont_sumContBtn button button_f16 shadow" type="button">이
 					프로젝트 밀어주기</button>
 				<div id="fCont_share">
-					<button class="fCont_shareBtn button button_wce8e8e8 button_f12"
+					<button class="fCont_shareBtn button button_wce8e8e8 button_f12 shadow"
 						type="button">
 						<i class="fas fa-heart"></i> Remind Me
 					</button>
