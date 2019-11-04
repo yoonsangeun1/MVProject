@@ -135,6 +135,127 @@ function bFaq_no1_bt4(){ /*이용문의 4번째 버튼*/
 	}//if else if
 }//bFaq_no1_bt4()
 
+function bFaq_no2_bt1(){ /*수강문의 첫번째 버튼*/
+	if($('.bFaq_no2_panel1').css("display") == "none" ){
+		$('.bFaq_no2_panel1').css("display","block");
+		$('.bFaq_no2_bt1').css("transition","0.5s"); /*0.5초*/
+		$('.bFaq_no2_bt1').css("background","#000"); /*배경 검정*/
+		$('.bFaq_no2_bt1').css("color","#fff");      /*글씨 흰색*/
+	}else if($('.bFaq_no2_panel1').css("display") == "block"){
+		$('.bFaq_no2_panel1').css("display","none");
+		$('.bFaq_no2_bt1').css("trasition","0.5s"); /*0.5초*/
+		$('.bFaq_no2_bt1').css("background","#fff");/*배경 흰색*/
+		$('.bFaq_no2_bt1').css("color","#000");	   /*글씨 검정*/
+	}//if else if
+}//bFaq_no2_bt1()
+
+function bFaq_no2_bt2(){ /*수강문의 두번째 버튼*/
+	if($('.bFaq_no2_panel2').css("display") == "none" ){
+		$('.bFaq_no2_panel2').css("display","block" );
+		$('.bFaq_no2_bt2').css("transition","0.5s");
+		$('.bFaq_no2_bt2').css("background","#000");
+		$('.bFaq_no2_bt2').css("color","#fff");
+	}else if($('.bFaq_no2_panel2').css("display") == "block" ){
+		$('.bFaq_no2_panel2').css("display","none");
+		$('.bFaq_no2_bt2').css("transition","0.5s");
+		$('.bFaq_no2_bt2').css("background","#fff");
+		$('.bFaq_no2_bt2').css("color","#000");
+	}//if elsel if
+}//bFaq_no2_bt2()
+
+function bFaq_no2_bt3(){
+	if($('.bFaq_no2_panel3').css("display") == "none" ){
+		$('.bFaq_no2_panel3').css("display","block");
+		$('.bFaq_no2_bt3').css("transition","0.5s");
+		$('.bFaq_no2_bt3').css("background","#000");
+		$('.bFaq_no2_bt3').css("color","#fff");
+	}else if($('.bFaq_no2_panel3').css("display") == "block" ){
+		$('.bFaq_no2_panel3').css("display","none");
+		$('.bFaq_no2_bt3').css("transition","0.5s");
+		$('.bFaq_no2_bt3').css("background","#fff");
+		$('.bFaq_no2_bt3').css("color","#000");
+	}//if else if
+}//bFaq_no2_bt3();
+
+function bFaq_no2_bt4(){
+	if($('.bFaq_no2_panel4').css("display") == "none" ){
+		$('.bFaq_no2_panel4').css("display","block");
+		$('.bFaq_no2_bt4').css("transition","0.5s");
+		$('.bFaq_no2_bt4').css("background","#000");
+		$('.bFaq_no2_bt4').css("color","#fff");
+	}else if($('.bFaq_no2_panel4').css("display") == "block" ){
+		$('.bFaq_no2_panel4').css("display","none");
+		$('.bFaq_no2_bt4').css("transition","0.5s");
+		$('.bFaq_no2_bt4').css("background","#fff");
+		$('.bFaq_no2_bt4').css("color","#000");
+	}//if else if
+}//bFaq_no2_bt4()
+
+function bFaq_no3_bt1(){
+	if($('.bFaq_no3_panel1').css("display") == "none" ){
+		$('.bFaq_no3_panel1').css("display","block");
+		$('.bFaq_no3_bt1').css("transition","0.5s");
+		$('.bFaq_no3_bt1').css("background","#000");
+		$('.bFaq_no3_bt1').css("color","#fff");
+	}else if($('.bFaq_no3_panel1').css("display") == "block" ){
+		$('.bFaq_no3_panel1').css("display","none");
+		$('.bFaq_no3_bt1').css("transition","0.5s");
+		$('.bFaq_no3_bt1').css("background","#fff");
+		$('.bFaq_no3_bt1').css("color","#000");
+	}//if else if
+}//bFaq_no3_bt1()
+
+function bFaq_no3_bt2(){
+	if($('.bFaq_no3_panel2').css("display") == "none" ){
+		$('.bFaq_no3_panel2').css("display","block");
+		$('.bFaq_no3_bt2').css("transition","0.5s");
+		$('.bFaq_no3_bt2').css("background","#000");
+		$('.bFaq_no3_bt2').css("color","#fff");
+	}else if($('.bFaq_no3_panel2').css("display") == "block" ){
+		$('.bFaq_no3_panel2').css("display","none");
+		$('.bFaq_no3_bt2').css("transition","0.5s");
+		$('.bFaq_no3_bt2').css("background","#fff");
+		$('.bFaq_no3_bt2').css("color","#000");
+	}//if else if
+}//bFaq_no3_bt2()
+
+function bFaq_no3_bt3(){
+	if($('.bFaq_no3_panel3').css("display") == "none" ){
+		$('.bFaq_no3_panel3').css("display","block");
+		$('.bFaq_no3_bt3').css("transition","0.5s");
+		$('.bFaq_no3_bt3').css("background","#000");
+		$('.bFaq_no3_bt3').css("color","#fff");
+	}else if($('.bFaq_no3_panel3').css("display") == "block" ){
+		$('.bFaq_no3_panel3').css("display","none");	
+		$('.bFaq_no3_bt3').css("transition","0.5s");
+		$('.bFaq_no3_bt3').css("background","#fff");
+		$('.bFaq_no3_bt3').css("color","#000");
+	}//if else if
+}//bFaq_no3_bt3()
+
+function bFaq_no3_bt4(){
+	if($('.bFaq_no3_panel4').css("display") == "none" ){
+		$('.bFaq_no3_panel4').css("display","block");
+		$('.bFaq_no3_bt4').css("transition","0.5s");
+		$('.bFaq_no3_bt4').css("background","#000");
+		$('.bFaq_no3_bt4').css("color","#fff");
+	}else if($('.bFaq_no3_panel4').css("display") == "block" ){
+		$('.bFaq_no3_panel4').css("display","none");
+		$('.bFaq_no3_bt4').css("transition","0.5s");
+		$('.bFaq_no3_bt4').css("background","#fff");
+		$('.bFaq_no3_bt4').css("color","#000");
+	}//if else if
+}//bFaq_no3_bt4()
+
+
+
+
+
+
+
+
+
+
 
 
 
