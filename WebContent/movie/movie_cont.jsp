@@ -86,14 +86,16 @@
 					</div>
 					<div class="comment_replyBox">
 						<div class="comment_replyBtn">
-							<input type="button" value="답글" onclick="$('#mComment_cont').focus();" />
+							<input type="button" value="답글" onclick="#" />
+							<input type="button" value="답글 보기" onclick="$('.comment_reply_cont').show();" />
 						</div>
-						<div class="comment_reply_cont"><!--  -->
+						<div class="comment_reply_cont" style="display: none;"><!-- 첫 번째 답글, 두 번째 답글, ... 이 담겨 있는 div -->
+							<input type="button" value="닫기" onclick="$('.comment_reply_cont').hide();" style="float: right;"/>
 							<div class="reply"><!-- 첫 번째 답글 모든 게 담겨 있는 div 공간-->
 								<div class="replierProfile"><!-- 답글 작성자 -->
 									<a href="#"><img src="../images/replyuser.png" width="50" height="50" /></a>
 								</div>
-								<div class="replierAll"><!-- replyTop과 replyBottom이 포함된 div공간 -->
+								<div class="replierAll"><!-- replyTop과 replyMiddle이 포함된 div공간 -->
 									<div class="replyTop"><!-- 답글 단 작성자, 작성일자, 좋아요, 싫어요를 담는 div공간 -->
 										<div class="replyer_name_box"><!-- 답글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
 											<div class="replierName"><!-- 답글 단 작성자 -->
@@ -108,7 +110,7 @@
 											<input type="button" value="싫어요" onclick="$('#mComment_cont').focus();" />
 										</div>
 									</div>
-									<div class="replyBottom">
+									<div class="replyMiddle">
 										<div class="reply_cont"><!-- 첫 번째 답글 내용 -->
 											<p>She's so small and scared but puppy is really thoughtful he tried to approach her slowly and friendly it's really from you because you teach him that well.<br />
 											   With him and your family she'll be a happy kitten.<br />
@@ -119,75 +121,134 @@
 											<input type="button" value="삭제" onclick="$('#mComment_cont').focus();" />
 										</div>
 									</div>
+									<div class="replyBottom">
+										<div class="reply_in_replyBtn">
+											<input type="button" value="답글" onclick="#" />
+											<input type="button" value="답글 보기" onclick="$('.reply_in_reply').show();" />
+										</div>
+										<div class="reply_in_reply" style="display: none;">
+											<input type="button" value="닫기" onclick="$('.reply_in_reply').hide();" style="float: right;"/>
+											<div class="replierProfile"><!-- 답글 작성자 -->
+												<a href="#"><img src="../images/replyuser.png" width="50" height="50" /></a>
+											</div>
+											<div class="innerReplyAll"><!-- replyTop과 replyMiddle, replyBottom이 포함된 div공간 -->
+												<div class="innerReplyTop"><!-- 답글 단 작성자, 작성일자, 좋아요, 싫어요를 담는 div공간 -->
+													<div class="replyer_name_box"><!-- 답글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
+														<div class="replierName"><!-- 답글 단 작성자 -->
+															<a href="#"><em><b>Exe1</b></em></a>
+														</div>
+														<div class="replyDate"><!-- 답글을 달았던 날짜 -->
+															<em>2일 전</em>
+														</div>
+													</div>
+													<div class="like_dislike">
+														<input type="button" value="좋아요" onclick="$('#mComment_cont').focus();" />
+														<input type="button" value="싫어요" onclick="$('#mComment_cont').focus();" />
+													</div>
+												</div>
+												<div class="innerReplyMiddle">
+													<div class="reply_in_reply_cont"><!-- 두 번째 답글 내용 -->
+														<p>She's so small and scared but puppy is really thoughtful he tried to approach her slowly and friendly it's really from you because you teach him that well.<br />
+														   With him and your family she'll be a happy kitten.<br />
+														   I saw fear in her eyes first day but when pup approaching her slowly that fear of her is gone. 😊😊</p>
+													</div>
+													<div class="reply_cont_edit">
+														<input type="button" value="수정" onclick="$('#mComment_cont').focus();" />
+														<input type="button" value="삭제" onclick="$('#mComment_cont').focus();" />
+													</div>
+												</div>
+												<div class="innerReplyBottom">
+													<div class="reply_in_replyBtn">
+														<input type="button" value="답글" onclick="#" />
+														<input type="button" value="답글 보기" onclick="$('.comment_reply_cont').show();" />
+													</div>
+												</div>
+											</div><%-- innerReplyAll(top, middle, bottom) --%>
+										</div><%-- innerReply --%>
+									</div><%-- reply_in_reply_cont: 답글에 답글이 달렸을 때 보여지는 공간 div --%>
+								</div><%-- replyBottom: 답글에 답글, 답글 보기 버튼 그리고 답글 보기를 눌렀을 때 보여지는 div 공간들이 담겨있는 div --%>
+							</div>
+						
+							<div class="reply"><!-- 두 번째 답글 모든 게 담겨 있는 div 공간-->
+								<div class="replierProfile"><!-- 답글 작성자 -->
+									<a href="#"><img src="../images/replyuser.png" width="50" height="50" /></a>
+								</div>
+								<div class="replierAll"><!-- replyTop과 replyMiddle이 포함된 div공간 -->
+									<div class="replyTop"><!-- 답글 단 작성자, 작성일자, 좋아요, 싫어요를 담는 div공간 -->
+										<div class="replyer_name_box"><!-- 답글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
+											<div class="replierName"><!-- 답글 단 작성자 -->
+												<a href="#"><em><b>Exe1</b></em></a>
+											</div>
+											<div class="replyDate"><!-- 답글을 달았던 날짜 -->
+												<em>2일 전</em>
+											</div>
+										</div>
+										<div class="like_dislike">
+											<input type="button" value="좋아요" onclick="$('#mComment_cont').focus();" />
+											<input type="button" value="싫어요" onclick="$('#mComment_cont').focus();" />
+										</div>
+									</div>
+									<div class="replyMiddle">
+										<div class="reply_cont"><!-- 두 번째 답글 내용 -->
+											<p>She's so small and scared but puppy is really thoughtful he tried to approach her slowly and friendly it's really from you because you teach him that well.<br />
+											   With him and your family she'll be a happy kitten.<br />
+											   I saw fear in her eyes first day but when pup approaching her slowly that fear of her is gone. 😊😊</p>
+										</div>
+										<div class="reply_cont_edit">
+											<input type="button" value="수정" onclick="$('#mComment_cont').focus();" />
+											<input type="button" value="삭제" onclick="$('#mComment_cont').focus();" />
+										</div>
+									</div>
+									<div class="replyBottom">
+										<div class="reply_in_replyBtn">
+											<input type="button" value="답글" onclick="#" />
+											<input type="button" value="답글 보기" onclick="$('.comment_reply_cont').show();" />
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="reply"><!-- 세 번째 답글 모든 게 담겨 있는 div 공간-->
+								<div class="replierProfile"><!-- 답글 작성자 -->
+									<a href="#"><img src="../images/replyuser.png" width="50" height="50" /></a>
+								</div>
+								<div class="replierAll"><!-- replyTop과 replyMiddle이 포함된 div공간 -->
+									<div class="replyTop"><!-- 답글 단 작성자, 작성일자, 좋아요, 싫어요를 담는 div공간 -->
+										<div class="replyer_name_box"><!-- 답글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
+											<div class="replierName"><!-- 답글 단 작성자 -->
+												<a href="#"><em><b>Exe1</b></em></a>
+											</div>
+											<div class="replyDate"><!-- 답글을 달았던 날짜 -->
+												<em>2일 전</em>
+											</div>
+										</div>
+										<div class="like_dislike">
+											<input type="button" value="좋아요" onclick="$('#mComment_cont').focus();" />
+											<input type="button" value="싫어요" onclick="$('#mComment_cont').focus();" />
+										</div>
+									</div>
+									<div class="replyMiddle">
+										<div class="reply_cont"><!-- 세 번째 답글 내용 -->
+											<p>She's so small and scared but puppy is really thoughtful he tried to approach her slowly and friendly it's really from you because you teach him that well.<br />
+											   With him and your family she'll be a happy kitten.<br />
+											   I saw fear in her eyes first day but when pup approaching her slowly that fear of her is gone. 😊😊</p>
+										</div>
+										<div class="reply_cont_edit">
+											<input type="button" value="수정" onclick="$('#mComment_cont').focus();" />
+											<input type="button" value="삭제" onclick="$('#mComment_cont').focus();" />
+										</div>
+									</div>
+									<div class="replyBottom">
+										<div class="reply_in_replyBtn">
+											<input type="button" value="답글" onclick="#" />
+											<input type="button" value="답글 보기" onclick="$('.comment_reply_cont').show();" />
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="reply"><!-- 두 번째 답글 모든 게 담겨 있는 div 공간-->
-							<div class="replierProfile"><!-- 답글 작성자 -->
-								<a href="#"><img src="../images/replyuser.png" width="50" height="50" /></a>
-							</div>
-							<div class="replierAll"><!-- replyTop과 replyBottom이 포함된 div공간 -->
-								<div class="replyTop"><!-- 답글 단 작성자, 작성일자, 좋아요, 싫어요를 담는 div공간 -->
-									<div class="replyer_name_box"><!-- 답글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
-										<div class="replierName"><!-- 답글 단 작성자 -->
-											<a href="#"><em><b>Exe1</b></em></a>
-										</div>
-										<div class="replyDate"><!-- 답글을 달았던 날짜 -->
-											<em>2일 전</em>
-										</div>
-									</div>
-									<div class="like_dislike">
-										<input type="button" value="좋아요" onclick="$('#mComment_cont').focus();" />
-										<input type="button" value="싫어요" onclick="$('#mComment_cont').focus();" />
-									</div>
-								</div>
-								<div class="replyBottom">
-									<div class="reply_cont"><!-- 두 번째 답글 내용 -->
-										<p>She's so small and scared but puppy is really thoughtful he tried to approach her slowly and friendly it's really from you because you teach him that well.<br />
-										   With him and your family she'll be a happy kitten.<br />
-										   I saw fear in her eyes first day but when pup approaching her slowly that fear of her is gone. 😊😊</p>
-									</div>
-									<div class="reply_cont_edit">
-										<input type="button" value="수정" onclick="$('#mComment_cont').focus();" />
-										<input type="button" value="삭제" onclick="$('#mComment_cont').focus();" />
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="reply"><!-- 세 번째 답글 모든 게 담겨 있는 div 공간-->
-							<div class="replierProfile"><!-- 답글 작성자 -->
-								<a href="#"><img src="../images/replyuser.png" width="50" height="50" /></a>
-							</div>
-							<div class="replierAll"><!-- replyTop과 replyBottom이 포함된 div공간 -->
-								<div class="replyTop"><!-- 답글 단 작성자, 작성일자, 좋아요, 싫어요를 담는 div공간 -->
-									<div class="replyer_name_box"><!-- 답글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
-										<div class="replierName"><!-- 답글 단 작성자 -->
-											<a href="#"><em><b>Exe1</b></em></a>
-										</div>
-										<div class="replyDate"><!-- 답글을 달았던 날짜 -->
-											<em>2일 전</em>
-										</div>
-									</div>
-									<div class="like_dislike">
-										<input type="button" value="좋아요" onclick="$('#mComment_cont').focus();" />
-										<input type="button" value="싫어요" onclick="$('#mComment_cont').focus();" />
-									</div>
-								</div>
-								<div class="replyBottom">
-									<div class="reply_cont"><!-- 세 번째 답글 내용 -->
-										<p>She's so small and scared but puppy is really thoughtful he tried to approach her slowly and friendly it's really from you because you teach him that well.<br />
-										   With him and your family she'll be a happy kitten.<br />
-										   I saw fear in her eyes first day but when pup approaching her slowly that fear of her is gone. 😊😊</p>
-									</div>
-									<div class="reply_cont_edit">
-										<input type="button" value="수정" onclick="$('#mComment_cont').focus();" />
-										<input type="button" value="삭제" onclick="$('#mComment_cont').focus();" />
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><%-- comment_and_reBtn --%>
+					</div><%-- comment_replyBox --%>
+				</div>
 				
 				<div class="comment_and_reBtn"><!-- 댓글과 답글 버튼을 감싸고 있는 div 공간 -->
 					<div class="comment"><!-- 두 번째 댓글 모든 게 담겨 있는 div 공간-->
@@ -222,7 +283,8 @@
 					</div>
 					<div class="comment_replyBox">
 						<div class="comment_replyBtn">
-							<input type="button" value="답글" onclick="$('#mComment_cont').focus();" />
+							<input type="button" value="답글" onclick="#" />
+							<input type="button" value="답글 보기" onclick="$('.comment_reply_cont').show();" />
 						</div>
 					</div>
 				</div><%-- comment_and_reBtn --%>
@@ -264,7 +326,8 @@
 					</div>
 					<div class="comment_replyBox">
 						<div class="comment_replyBtn">
-							<input type="button" value="답글" onclick="$('#mComment_cont').focus();" />
+							<input type="button" value="답글" onclick="#" />
+							<input type="button" value="답글 보기" onclick="$('.comment_reply_cont').show();" />
 						</div>
 					</div>
 				</div>
@@ -275,7 +338,7 @@
 		<div id="other_Movie"><!-- 다른 동영상들을 담고 있는 div -->
 			<div class="mVideo"><!-- 영화 동영상 각각 div 설정 -->
 				<p class="otherMovieTitle">루루 때문에 고양이들 단체로 목욕하는 날</p>
-				<a href="movie_categoryList.jsp"><img src="../images/replyuser.png" width="280px" height="200px" /></a>
+				<a href="movie_cont.jsp"><img src="../images/replyuser.png" width="280px" height="200px" /></a>
 			</div>
 			<div class="mVideo"><!-- 영화 동영상 각각 div 설정 -->
 				<hr /><p class="otherMovieTitle">사물이 거울에 보이는 것보다 가까이 있음</p>

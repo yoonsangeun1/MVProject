@@ -1,94 +1,67 @@
 @charset "UTF-8";
 /**목록별 개별 적용*/
 #movie_box { /**바디 전체 부분*/ /**범죄/스릴러 목록 적용*/
-	
 	width: 1200px;
 	min-height: 1024px;
 	height: auto;
 	box-sizing: border-box;
-	border: 1px solid blue;
-	
 }
-#mPost_it {
-	width: 1200px;
+#post_it { /**상단 글*/
+	width: 1100px;
 	height: auto;
-	border: 1px solid blue;
-}
-#post_it_cont {
-	width: 800px;
-	height: 300px;
-	border: 1px solid red;
+	margin: 0px 0px 0px 50px;
 }
 
 
-
-/**목록별 페이지 모두 적용
-.mBox_item { /**1번 영상, 2번 영상, 3번 영상,
-	
+/**목록별 페이지 모두 적용*/
+.mBox_item { /**1번 영상, 2번 영상, 3번 영상, ...*/
 	width: 250px;
 	height: 330px;
-	border: 2px outset blue; /**테두리 설정
+	border: 3px outset lightblue; /**테두리 설정*/
 	float: left;
-	margin: 30px 15px 0px 15px;
-	
+	margin: 21px 0px 20px 40px;
+	transition: 0.5s; /**변경 시간 설정*/
 }
-.mBox_item img { /**각 번호 영상 그림 부분
-	
-	width: 242px;
+.mBox_item img { /**각 번호 영상 그림 부분*/
+	width: 245px;
 	height: 150px;
-/**	border: 1px solid blue;
-	
-	
 }
-.mBox_item p { /**각 번호 영상 설명 부분
-	
+.mBox_item p { /**각 번호 영상 설명 부분*/
 	width: 238px;
 	height: 165px;
-/**	border: 1px solid blue;
-	color: gray;
+	color: dark gray;
 	font-size: 11px;
 	text-align: left;
 	margin: 10px 0px 0px 5px;
-	
 }
 
 
-/**포스트 잇
-#mPost_it {
-	
-	width: 1200px;
-	height: 400px;
-	border: 1px solid red;
-	
-}
-#post_it_cont {
-	
-	width: 1100px;
-	height: 390px;
-	border: 1px solid red;
-	float: center;
-	
-}
-
-
-/**기타 부수거리 작업
+/**기타 부수거리 작업*/
 .mBox_item a:hover {
-	
 	text-decoration: underline;
-	
 }
-.mBox_item a:link { /**하이퍼링크된 곳의 밑줄선을 없앰
-	
+.mBox_item a:link { /**하이퍼링크된 곳의 밑줄선을 없앰*/
 	text-decoration: none;
-	
 }
-.mBox_item a:active { /**하이퍼링크된 곳을 클릭할 때 나타나는 밑줄 선을 없앰
-	
+.mBox_item a:active { /**하이퍼링크된 곳을 클릭할 때 나타나는 밑줄 선을 없앰*/
 	text-decoration: none;
-	
 }
-.mBox_item a:visited { /**한번이라도 클릭한 곳의 밑줄선을 없앰
-	
+.mBox_item a:visited { /**한번이라도 클릭한 곳의 밑줄선을 없앰*/
 	text-decoration: none;
-	
-}*/
+}
+.mBox_item:hover { /**크기 변화 설정*/
+	transform: scale(1.2);
+}
+#post_it h1 {
+	text-align: center;
+	font-size: 35px;
+	font-family: '맑은 고딕';
+	color: teal;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+.page_line {
+	border: 0;
+	height: 7px;
+	background: red;
+}
