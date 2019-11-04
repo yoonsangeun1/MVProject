@@ -186,13 +186,19 @@
    margin: 5px 0px 5px 5px;
    background: #eae6fa;
    border-radius: 10px;
-   display: inline-block;
-	overflow-x:scroll;
-	overflow-y: hidden;
-	white-space: nowrap;
+  /*  display: inline-block; */
 }
 #right_profile_friends{
+	width: 277px;
+	height: 80px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#right_profile_friends_ul{
+	width: 400px;
     list-style: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 #right_profile_list{
 	padding-top: 10px;
@@ -201,12 +207,23 @@
 	margin-right: 5px;
 	float: left;
 }
+::-webkit-scrollbar {width: 15px; height: 12px;  }
+::-webkit-scrollbar-track {     
+	background: rgba(0,0,0,.05); 
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {  
+	background: #b3a9eb;
+	border-radius: 15px;	
+}
 #right_profile_list img{
 	margin-left: 6px;
 	width: 35px;
 	height: 35px;
 	float: left;
 	cursor: pointer;
+	border-radius: 30px;
+	border:2px solid #b3a9eb;
 }
 #right_profile_list h3{
 	font-size: 12px;
@@ -341,6 +358,7 @@
    font-size: 16px;
    margin-top: 2px;
    float: left;
+   cursor: pointer;
 }
 
 #SNS_Content_Writer {
@@ -454,7 +472,7 @@
 #SNS_Comment h3 {
    font-weight: 600;
    font-size: 16px;
-   padding-top: 9px;
+   padding-top: 13px;
    padding-left: 10px;
    cursor: pointer;
    display: inline-block;

@@ -13,11 +13,10 @@
 				</div>
 				<div id="SNS_Profile_Set">						
 						<ul id="SNS_Profile_Menu_Ul">
-							<li><input type="button" class="SNS_Background1" id="SNS_Profile_Menu_Button" value="후원하기"></li>
-							<li><input type="button" class="SNS_Background2" id="SNS_Profile_Menu_Button" value="참여 프로젝트"></li>
-							<li><input type="button" class="SNS_Background3" id="SNS_Profile_Menu_Button" value="페이지"></li>
-							<li><input type="button" class="SNS_Background4" id="SNS_Profile_Menu_Button" value="그룹"></li>
-							<li><input type="button" class="SNS_Background5" id="SNS_Profile_Menu_Button" value="친구"></li>
+							<li><input type="button" class="SNS_Background" id="SNS_Profile_Menu_Button" value="후원하기"></li>
+							<li><input type="button" class="SNS_Background" id="SNS_Profile_Menu_Button" value="사진"></li>
+							<li><input type="button" class="SNS_Background" id="SNS_Profile_Menu_Button" value="동영상"></li>
+							<li><input type="button" class="SNS_Background" id="SNS_Profile_Menu_Button" value="그룹"></li>
 						</ul>
 				</div>
 			</div>

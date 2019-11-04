@@ -13,51 +13,124 @@
 	background-color: rgba(255, 255, 255, 0);
 	align-items: center;
 	z-index: -2;
+	padding-top: 15px;
 }
 /* 왼쪽 오른쪽 */
 #SNS_Messenger_Left{
-	width: 300px;
-	height: 1000px;
+	width: 330px;
+	height: 800px;
 	float: left;
 	z-index: 2;
-	border: 1px solid;
-}
-#SNS_Messenger_Left h4{
-	font-size: 24px;
+	background: #eae6fa;
+	border-radius: 15px;
+	padding: 10px;
+	margin-right: 20px;
 }
 #SNS_Messenger_Mid{
-	width: 600px;
+	width: 500px;
 	height: auto;
+	float: left;
 }
 #SNS_Messenger_Mid_Up{
-	width:580px;
-	height:100px;
-	border: 1px solid #b3a9eb;
+	width:500px;
+	height:73px;
+	padding-top: 10px;
+	padding-left: 5px;
 }
 #SNS_Messenger_Mid_Down{
-	width: 580px;
+	width: 500px;
 	height: auto;
 	float: left;
 	border: 1px solid #b3a9eb;
 	border-radius: 10px;
 	z-index: 0;
 	background: #eae6fa;
-	margin-left: 30px;
-	margin-right: 30px;
 }
-#SNS_Messenger_Right{
+#SNS_Messenger_Right_Up{
 	width:250px;
-	height:900px;
+	height:400px;
 	float: left;
 	border: 1px solid #b3a9eb;
+	margin-left: 20px;
+	border-radius: 10px;
+	padding: 10px;
 }
 /* 왼쪽 메뉴 열거 */
 #SNS_Messenger_Photo{ /* 프로필 사진*/
 	text-align:center;
 	width:50px; 
 	height:50px;
+	margin-left: 10px;
 	border-radius:200px;
 	float: left;
+}
+#SNS_Messenger_Photo_Title{
+	font-size: 26px;
+	margin-top: 20px;
+	margin-left: 75px;
+}
+#SNS_Messenger_Chat{
+	width: 307px;
+	height: 708px;
+	margin-top: 40px;
+	overflow-y: scroll;
+	overflow-x: hidden;	
+}
+#SNS_Messenger_Chat::-webkit-scrollbar {width: 15px; height: 12px;  }
+/*::-webkit-scrollbar-button:start:decrement{
+	
+}
+::-webkit-scrollbar-button:end:increment {
+	border-radius: 5px;
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url() rgba(0,0,0,.05);
+}*/
+::-webkit-scrollbar-track {     
+	background: rgba(0,0,0,.05); 
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {  
+	background: #b3a9eb;
+	border-radius: 15px;	
+}
+#SNS_Messenger_Chat_List{
+	width: 277px;
+	height: 60px;
+	margin-bottom: 7px;
+	border: 1px solid;
+	border-radius: 7px;
+	padding: 13px;
+	cursor:pointer;
+	background-color: #fdfdff;
+}
+#SNS_Messenger_Chatting{
+	width: 203px;
+	float: left;
+}
+#SNS_Messenger_Chat_Day{
+	margin-top:25px;
+	width: 40px;
+	height: 10px;
+	float: left;
+	text-align: right;
+}
+#SNS_Messenger_Chat_Photo{
+	width:30px;
+	height:30px;
+	border-radius: 20px;
+	float: left;
+}
+#SNS_Messenger_Chat_Name{
+	font-size: 15px;
+	margin-top: 3px;
+	margin-left: 43px;
+}
+#SNS_Messenger_Chat_Talk{
+	font-size: 14px;
+	margin-top: 12px;
+	margin-left: 43px;
 }
 #SNS_Messenger_Menu_Button{
 	margin-top: 5px;
@@ -79,21 +152,59 @@
 
 /* 오른쪽 메뉴 열거 */
 #SNS_Messenger_Intro{
-	width:580px;
+	width:430px;
 	height: auto;
 	margin: 10px 0px 0px 10px;
-	font-size: 20px;
-	text-align: center;
+	font-size: 16px;
 	padding-bottom: 15px;
 }
 #SNS_Messenger_Text{
-	width: 573px;
+	width: 473px;
 	height: 500px;
+	resize: none;
+	overflow-y:scroll;
+	overflow-x:hidden;
 }
 #SNS_Messenger_Text_Write{
 	margin-top: 20px;
-	width: 573px;
+	width: 453px;
 	height: 110px;
+	resize: none;
+}
+#SNS_Messenger_Text_Left{
+	width:457px;
+	heigth: 35px;
+}
+#SNS_Messenger_Text_Right{
+	width:457px;
+	heigth: 35px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+#SNS_Messenger_Text_U{
+	width: auto;
+	height:33px;
+	border-radius: 10px;
+	display: inline-block;
+    position: relative;
+    margin: 5px 15px 10px 5px;
+	padding-top: 14px;
+	padding-left: 8px;
+	padding-right: 8px;
+	background: #8bdff1;
+}
+#SNS_Messenger_Text_M{
+	width: auto;
+	height:33px;
+	border-radius: 10px;
+	display: inline-block;
+    position: relative;
+    background: #d4d4d4;
+    margin: 5px 15px 10px 5px;
+	padding-top: 14px;
+	padding-left: 8px;
+	padding-right: 8px;
+	background: #fdacb0;
 }
 #SNS_Messenger_Ul{
 	list-style: none;
@@ -112,4 +223,22 @@
 	height: 250px;
 	border: 3px solid;
 }
-
+/* 오른쪽 메뉴 열거 */
+#SNS_Friend_Image{
+	height: 200px;
+	border: 1px solid;
+	padding-left: 49px;
+}
+#SNS_Friend_Image img{
+	width:140px;
+	height:140px;
+	border-radius: 80px;
+}
+#SNS_Friend_Image h4{
+	padding-top: 25px;
+	padding-left: 20px;
+	font-size: 24px;
+}
+#SNS_Friend_Button{
+	
+}
