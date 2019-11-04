@@ -12,9 +12,9 @@
 				realize ambitious projects in visual art and performance.</p>
 			<%-- 세부 카테고리별 보기 버튼 --%>
 			<div id="title_category_container">
-				<span><a href="#">Explore Category1</a></span> <span><a
-					href="#">Explore Category2</a></span> <span><a href="#">Explore
-						Category3</a></span> <span><a href="#">Explore Category4</a></span>
+				<span><a href="#">Explore Animation</a></span> <span><a
+					href="#">Explore Romance</a></span> <span><a href="#">Explore
+						Action</a></span> <span><a href="#">Explore Art</a></span>
 			</div>
 		</section>
 	</div>
