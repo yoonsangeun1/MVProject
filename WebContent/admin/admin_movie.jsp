@@ -10,44 +10,45 @@
 		<table id="aMovie_listTable" border="1">
 			<tr>
 				<th colspan="8" align="right">
-					<a href="admin_movieUpload.jsp">업로드</a>
+					<a href="admin_movieUpload.jsp" class="link">업로드</a>
 				</th>
 			</tr>
 			<tr>
-				<th width="30" scope="col" class="aMovie_check"><input type="checkbox" name="aMovie_check" value="check" /></th>
-				<th width="320" scope="col" class="aMovie_video">동영상</th>
-				<th width="200" scope="col" class="aMovie_title">제목</th>
-				<th width="100" scope="col" class="aMovie_status">공개상태</th>
-				<th width="100" scope="col" class="aMovie_date">날짜</th>
-				<th width="100" scope="col" class="aMovie_views">조회수</th>
-				<th width="100" scope="col" class="aMovie_comment">댓글</th>
-				<th width="100" scope="col" class="aMovie_like">좋아요</th>
+				<th width="30" scope="col" class="check"><input type="checkbox" name="aMovie_check" value="check" /></th>
+				<th width="160" scope="col" class="cate1 video">동영상</th>
+				<th width="160" scope="col" class="cate1 title">제목</th>
+				<th width="160" scope="col" class="cate1 status">공개상태</th>
+				<th width="160" scope="col" class="cate1 date">날짜</th>
+				<th width="160" scope="col" class="cate2 views">조회수</th>
+				<th width="160" scope="col" class="cate2 comment">댓글</th>
+				<th width="160" scope="col" class="cate2 like">좋아요</th>
 			</tr>
-			<tr>
+			<tr class="trFont">
 				<td><input type="checkbox" name="aMovie_check" /></td>
-				<td rowspan="3"><iframe width="150" height="90" src="https://www.youtube.com/embed/A0gP4id3Gxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-				<td>어반자카파 - 서울 밤(Feat.Beenzino)</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td class="video" rowspan="3"><iframe width="140" height="78" src="https://www.youtube.com/embed/A0gP4id3Gxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+				<td class="cate1 title"><a href="#" >어반자카파 - 서울 밤(Feat.Beenzino)</a></td>
+				<td>공개</td>
+				<td>2019.06.13</td>
+				<td class="views">1,050,985</td>
+				<td>634</td>
+				<td>11,123</td>
 			</tr>
+			
 			<tr>
 			
 			</tr>
 			<tr>
 			
 			</tr>
-			<tr>
+			<tr class="trFont">
 				<td><input type="checkbox" name="aMovie_check" value="check1" /></td>
-				<td rowspan="3"><iframe width="150" height="90" src="https://www.youtube.com/embed/b5bHx1nTQ24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-				<td>다리떨며 듣기 좋은, 내적댄스 유발자들(11songs)</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td class="video" rowspan="3"><iframe width="140" height="78" src="https://www.youtube.com/embed/b5bHx1nTQ24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+				<td class="cate1 title"><a href="#" >다리떨며 듣기 좋은, 내적댄스 유발자들(11songs)</a></td>
+				<td>공개</td>
+				<td>2019.05.31</td>
+				<td class="views">594,145</td>
+				<td>263</td>
+				<td>20,015</td>
 			</tr>
 			<tr>
 			
@@ -55,15 +56,15 @@
 			<tr>
 			
 			</tr>
-			<tr>
+			<tr class="trFont">
 				<td><input type="checkbox" name="aMovie_check" value="check1" /></td>
-				<td rowspan="3"><iframe width="150" height="90" src="https://www.youtube.com/embed/Rcagb_psrbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-				<td>어반자카파 - 목요일 밤(Feat.Beenzino)</td>
+				<td class="video" rowspan="3"><iframe width="140" height="78" src="https://www.youtube.com/embed/Rcagb_psrbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+				<td class="cate1 title"><a href="#" >어반자카파 - 목요일 밤(Feat.Beenzino)</a></td>
+				<td>공개</td>
+				<td>2019.10.12</td>
 				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td>29,213</td>
+				<td>828</td>
 			</tr>
 			<tr>
 			
@@ -71,21 +72,32 @@
 			<tr>
 			
 			</tr>
-			<tr>
+			<tr class="trFont">
 				<td><input type="checkbox" name="aMovie_check" value="check1" /></td>
-				<td rowspan="3"><iframe width="150" height="90" src="https://www.youtube.com/embed/-dYDrYcqbCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-				<td>백예린 - 내가 날 모르는 것처럼(Feat.카더가든(Car, the garden))</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td class="video" rowspan="3"><iframe width="140" height="78" src="https://www.youtube.com/embed/-dYDrYcqbCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+				<td class="cate1 title"><a href="#" >백예린 - 내가 날 모르는 것처럼(Feat.카더가든(Car, the garden))</a></td>
+				<td>비공개</td>
+				<td>0</td>
+				<td>2019.11.04</td>
+				<td>0</td>
+				<td>0</td>
 			</tr>
 			<tr>
 			
 			</tr>
 			<tr>
 			
+			</tr>
+			
+			<tr class="trFont">
+				<td><input type="checkbox" name="aMovie_check" value="check1" /></td>
+				<td class="video" rowspan="3"><iframe width="140" height="78" src="https://www.youtube.com/embed/WgXJb9uNtmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+				<td class="cate1 title"><a href="#" >VOS 있어줘요(장덕철) cover</a></td>
+				<td>공개</td>
+				<td></td>
+				<td>2019.11.04</td>
+				<td></td>
+				<td></td>
 			</tr>
 		</table>
 		<div id="aMovie_upLoad">

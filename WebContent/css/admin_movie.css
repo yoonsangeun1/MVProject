@@ -2,7 +2,7 @@
 
 #aMovie {
 	float: right;
-	margin: 10px 16px 50px 16px;
+	margin: 10px 16px 10px 16px;
 }
 
 #aMovie h1 { /* 영화관리 제목 */
@@ -13,45 +13,66 @@
 	text-shadow: 1px 1px 2px gray;
 }
 
-#aMovie_list {
+#aMovie .link { /* 영화 관리 업로드 하이퍼링크 */
+	float: right;
+	color: black;
+}
+
+#aMovie_list { /* 영화 관리 전체 div */
 	float: left;
 }
 
-#aMovie_list table {
+#aMovie_list table { /* 영화 관리 목록표 */
 	width: 1000px;
 	border-top: 1px solid #e8e8e8;
 }
 
-#aMovie_list .aMovie_video {
+#aMovie_list .cate1 {
 	text-align: left;
 }
 
-#aMovie_list th
-
-#aMUploadLeft { /* 동영상 업로드 화면 왼쪽 div */
-	float: left;
+#aMovie_list .cate2 {
+	text-align: right;
 }
 
-#aMUploadLeft ul {
-	
+#aMovie_list .title {
+	width: 400px;
 }
 
-#aMUploadLeft li {
-	list-style: none;
-	text-align: center;
-	padding-bottom: 20px;
+#aMovie_list .
+
+#aMovie_list .video {
+	text-align: left;
+}
+
+#aMovie_list th { /* 영화 관리 분류 탭(동영상, 제목 등) */
+	border-bottom: 1px solid #e8e8e8;
+}
+
+#aMovie_list td {
+	border-bottom: 1px solid #e8e8e8;
+	height: 80px;
+}
+
+#aMovie_list .trFont {
+	font-size: 80%;
+}
+
+/*********** 영화 업로드 페이지 ui구성 ************/
+#aMovie_uploadWrap .txtbox {
+	width: 500px;
 }
 
 #aMUploadCenter { /* 동영상 업로드 화면 중앙 div */
 	float: left;
 }
 
-#aMUploadC_category select { /* 중앙 카테고리 콤보박스 */
-	width: 615px;
+#aMUploadC_category .combo { /* 중앙 카테고리 콤보박스 */
 	font-size: 13pt;
+	height: 30px;
 }
 
-#aMUploadC_title input { /* 동영상 업로드 중앙 화면 제목 */
+#aMUploadC_title .title { /* 동영상 업로드 중앙 화면 제목 */
 	height: 50px;
 	font-size: 13pt;
 }
@@ -63,6 +84,7 @@
 #aMUploadC_image img {
 	width: 120px;
 	height: 140px;
+	vertical-align: middle;
 }
 
 #aMUploadC_tag input {
@@ -71,18 +93,26 @@
 }
 
 #aMUploadRight { /* 동영상 업로드 화면 오른쪽 div */
-	width: 400px;
+	width: 350px;
 	height: 600px;
 	float: right;
 }
 
-#aMUploadR_saveBtn { /* 동영상 업로드 화면 오른쪽 저장 버튼 */
+#aMUploadR_saveBtn .button { /* 동영상 업로드 화면 오른쪽 저장 버튼 */
+	background-color: #6a67ce; /* 보라색 제일 진한거 */
+	border: none;
+	color: white;
+	padding: 15px 42px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
 	float: right;
 }
 
 #aMUploadR_video { /* 동영상 업로드 화면 오른쪽 동영상 */
-	width: 360px;
-	height: 200px;
 	float: left;
 }
 
@@ -91,10 +121,11 @@
 }
 
 #aMUploadUnder { /* 동영상 업로드 화면 맨 밑 div */
-	width: 700px;
+	width: 570px;
 	height: 30px;
 	float: left;
 	align: center;
+	margin-top: 20px;
 }
 
 #aMUploadUnder input { /* 동영상 업로드 화면 맨 밑 체크 */
@@ -107,15 +138,15 @@
 
 /*테스트용*/
 #aMUpload_table {
-	
+	width: 610px;
 }
 
 #aMUpload_table th {
-	
+	width: 80px;
 }
 
 #aMUpload_table td {
-	width: 610px;
+	
 }
 
 #aMUploadR_videoUrl input {
