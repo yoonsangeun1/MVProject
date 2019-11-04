@@ -1,57 +1,56 @@
 @charset "UTF-8";
 
-/*시나리오 공모 css*/
+/*QnA css*/
 
-#bContest_body{   /*body 안 전체 div*/
+#bQna_body{ /*qna 전체 div*/
 	font-size:16px;
 	line-height:25px;
 	width:1200px;
 	height:auto;
 	min-height:1024px;
-	border:1px solid #e8e8e8;
 }
 
-#bContest_community{	/*커뮤니티 전체*/
+#bQna_community{ /*커뮤니티 전체*/
 	width:1200px;
 	background:#9d8ce2;
-	position:relative;	
+	position:relative;
 	height:150px;
 }
 
-.bContest_community_tit{ /*커뮤니티 h1 div*/
+.bQna_community_tit{ /*커뮤니티 h1 div*/
 	padding-top:30px;
 	padding-left:15px;
 	height:auto;
 }
 
-.bContest_community_tit h1{/* 커뮤니티 h1 설정*/
+.bQna_community_tit h1{ /*커뮤니티 h1 설정*/
 	font-size:30px;
- 	color:#fff;
- 	font-weight:400;
- 	margin-bottom:20px;
- 	line-height:1;
+	color:#fff;
+	font-weight:400;
+	margin-bottom:20px;
+	line-height:1;
 }
 
-.bContest_community_list{ /*커뮤니티 밑 목록들 div*/
+.bQna_community_list{ /*커뮤니티 밑 목록들*/
 	width:100%;
 	height:auto;
 	position:absolute;
-	bottom:-1px;
-	left:0px;
+	bottom:-1.2px;
+	left:0.5px;
 }
 
-.bContest_community_list ul{
+.bQna_community_list ul{
 	width:100%;
 	list-style:none;
 }
 
-.bContest_community_list li{
+.bQna_community_list li{
 	border:1px solid #000;
 	float:left;
 	width:25%;
 }
 
-.bContest_community_list a{
+.bQna_community_list a{
 	height:60px;
 	color:#fff;
 	line-height:60px;
@@ -63,20 +62,30 @@
 	text-decoration:none;
 }
 
-#bContest_community .bContest_community_list_contest{
+#bQna_community .bQna_community_list_qna{
 	border-bottom:#e8e8e8;
 	border-left:#e8e8e8;
-	border-right:#fff;
+	border-right:1px solid #e8e8e8;
 }
 
-.bContest_community_list_contest a{
+.bQna_community_list_qna a{
 	color:#000;
 	background:#fff;
 }
 
-#bContest_table{
+#bQna_cont{ /*커뮤니티 제외 전체*/
+	float:left;
+	width:1200px;
+	height:auto;
+	border:1px solid #e8e8e8;
+	overflow:hidden;
+	box-sizing:border-box;
+	padding-bottom:40px;
+}
+
+#bQna_table{
 	width:900px;
-	height:500px;
+	heiht:500px;
 	border-top:1px solid grey;
 	border-bottom:1px solid black;
 	margin-top:100px;
@@ -86,25 +95,24 @@
 	box-sizing:border-box;
 }
 
-#bContest_table th, #bContest_table td{
+#bQna_table th, #bQna_table td{
 	border-top:1px solid grey;
 	padding:10px;
 }
 
-
-#bContest_writing{ /*글 쓰기 div*/
+#bQna_writing{ /*글쓰기 div*/
 	width:1200px;
 	height:50px;
 	float:left;
 }
 
-#bContest_writing form{
+#bQna_writing form{
 	width:1200px;
 	height:auto;
 	float:left;
 }
 
-#bContest_writing_btn{/*글 쓰기 버튼*/
+#bQna_writing_btn{ /*글 쓰기 버튼*/
 	float:right;
 	width:60px;
 	height:30px;
@@ -117,43 +125,43 @@
 	border-color:#4cae4c;
 }
 
-#bContest_writing_btn:hover{ /*오버 시*/
-	background-color:#008000;
+#bQna_writing_btn:hover{
+	background-color:#008000;	
 }
 
-#bContest_pagination{ /*하단 페이지 이동 div */
+#bQna_pagination{ /*하단 페이지 이동 div*/
 	width:1200px;
 	height:50px;
 	margin-top:20px;
 	text-align:center;
 }
 
-#bContest_pagination a{
-	padding: 0px 7px;
+#bQna_pagination a{
+	padding:0px 7px;
 	color:#999;
 	font-size:17px;
 	text-decoration:none;
 }
 
-#bContest_pagination a:link{/*방문 전*/
+#bQna_pagination a:link{ /*방문 전*/
 	color:#999;
 }
 
-#bContest_pagination a:visited{/*방문 후*/
+#bQna_pagination a:visited{ /*방문 후*/
 	color:#999;
 }
 
-#bContest_pagination a:hover{/*마우스 오버 시*/
+#bQna_pagination a:hover{
 	text-decoration:underline;
 }
 
-#bContest_search{ /*검색 구간 전체 div */
+#bQna_search{ /*검색 구간 전체 div*/
 	width:1200px;
-	display:inline-block;
+	dsiplay:inline-block;
 	text-align:center;
 }
 
-#bContest_combo{ /*검색 구간 콤보박스*/
+#bQna_combo{/*검색 구간 콤보박스*/
 	display:inline-block;
 	width:auto; height:31px;
 	padding:6px 12px;
@@ -163,8 +171,24 @@
 	border-radius:4px;
 }
 
-#bContest_input{ /*텍필 ,버튼 통합 div*/
+#bQna_input{ /*텍필,버튼 통합 div*/
 	display:inline-table;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>이벤트</title>
+<script src="../js/board_event.js"></script> <%--임시로 넣어둠. 나중에 헤더에 넣고 삭제 --%>
 </head>
 <body>
  <div id=bEvent_body> <%--전체를 둘러쌀 div --%>
@@ -40,21 +41,21 @@
  
   
   <div id="bEvent_list"> <%-- 이벤트 목록 list div --%>
-  <div class="events">
+  <div class="events" <%--onmouseover="bEvent_events_over(this);" --%>> <%--나중에 js적용해야함 --%>
    <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent01.png" />
     </span> <%--이미지 span태그 --%>
     
      <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
-    <span class="bEvent_wrap">
-     <span class="bEvent_wrap_title">
+    <span class="bEvent_wrap"> <%--오른쪽 글씨 전체 span --%>
+     <span class="bEvent_wrap_title"> <%--전체 안에 글씨 span --%>
      고등피파 베스트 골 투표 이벤트1
      </span>
     </span> 
     
-    <span class="bEvent_cont"> <%--날짜 넣을 span --%>
-     <span class="bEvent_date">
+    <span class="bEvent_wrap"> <%--날짜 넣을 전체 span --%>
+     <span class="bEvent_date"> <%--오른쪽 날짜 전체 --%>
       2019-10-10 ~ 2019-10-23
      </span>
     </span> <%--날짜 넣을 span --%>
@@ -79,7 +80,7 @@
      </span>
     </span>
     
-    <span class="bEvent_cont"> <%--날짜 넣을 span --%>
+    <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
       2019-10-10 ~ 2019-10-23
      </span>
@@ -105,7 +106,7 @@
      </span>
     </span>
     
-    <span class="bEvent_cont"> <%--날짜 넣을 span --%>
+    <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
       2019-10-10 ~ 2019-10-23
      </span>
@@ -131,7 +132,7 @@
      </span>
     </span>
     
-    <span class="bEvent_cont"> <%--날짜 넣을 span --%>
+    <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
       2019-10-10 ~ 2019-10-23
      </span>
@@ -157,7 +158,7 @@
      </span>
     </span>
     
-    <span class="bEvent_cont"> <%--날짜 넣을 span --%>
+    <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
       2019-10-10 ~ 2019-10-23
      </span>
@@ -183,7 +184,7 @@
      </span>
     </span>
     
-    <span class="bEvent_cont"> <%--날짜 넣을 span --%>
+    <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
       2019-10-10 ~ 2019-10-23
      </span>
@@ -209,7 +210,7 @@
      </span>
     </span>
     
-    <span class="bEvent_cont"> <%--날짜 넣을 span --%>
+    <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
       2019-10-10 ~ 2019-10-23
      </span>
@@ -235,7 +236,7 @@
      </span>
     </span>
     
-    <span class="bEvent_cont"> <%--날짜 넣을 span --%>
+    <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
       2019-10-10 ~ 2019-10-23
      </span>
@@ -261,7 +262,7 @@
      </span>
     </span>
     
-    <span class="bEvent_cont"> <%--날짜 넣을 span --%>
+    <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
       2019-10-10 ~ 2019-10-23
      </span>
@@ -287,7 +288,7 @@
      </span>
     </span>
     
-    <span class="bEvent_cont"> <%--날짜 넣을 span --%>
+    <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
       2019-10-10 ~ 2019-10-23
      </span>

@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	<div id="bContest_wrap"> <%--전체 body div묶음 --%>
+	<div id="bContest_body"> <%--전체 body div묶음 --%>
 	
 		<div id="bContest_community"> <%-- 커뮤니티 배우모집,시나리오 공모 등  div --%>
 		 <div class="bContest_community_tit"> <%--커뮤니티--%>
@@ -32,7 +32,7 @@
 		    </li>
 		    
 		    <li>
-		     <a href="#">QnA</a> <%--QnA 작업해야 됨 --%>
+		     <a href="board_qna.jsp">QnA</a> <%--QnA 작업해야 됨 --%>
 		    </li>
 	    
 		   </ul>

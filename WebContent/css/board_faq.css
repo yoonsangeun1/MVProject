@@ -6,21 +6,23 @@
 	width:1200px;
 	height:auto;
 	float:left;
-	overflow:auto;
 }
 
 #bFaq_update{	/*업데이트 전체*/
-	background:#25da2f;
+	width:1200px;
+	background:#9d8ce2;
 	position:relative;	
-	height:250px;
+	height:150px;
 }
 
 .bFaq_update_tit{ /*업데이트 h1 div*/
-	padding-top:47px;
+	padding-top:30px;
+	padding-left:15px;
+	height:auto;
 }
 
 .bFaq_update_tit h1{/* 업데이트 h1 설정*/
-	font-size:40px;
+	font-size:30px;
  	color:#fff;
  	font-weight:400;
  	margin-bottom:20px;
@@ -28,10 +30,11 @@
 }
 
 .bFaq_update_list{
-	width:1200px;
+	width:100%;
+	height:auto;
 	position:absolute;
-	bottom:0;
-	left:0;
+	bottom:-1.2px;
+	left:0.4px;
 }
 
 .bFaq_update_list ul{
@@ -40,38 +43,45 @@
 }
 
 .bFaq_update_list li{
-	border-right:1px solid #67c07c;
-	border-color:#6bc680;
-	border-bottom:1px solid #000;
+	border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
 	float:left;
-	width:33.3%;
-}
-
-.bFaq_update_list .bFaq_update_list_faq a{ /*이벤트 배경,글자색*/
-	color:#000; /*블랙*/
-	background:#fff; /*화이트*/
+	width:33.333%;
 }
 
 .bFaq_update_list a{
-	background-color:#76dc90;
-	height:80px;
+	height:60px;
 	color:#fff;
-	line-height:80px;
+	line-height:60px;
 	font-size:18px;
 	position:relative;
-	background:rgba(255,255,255,.2);
+	background:#d4cff3;
 	display:block;
 	text-align:center;
 	text-decoration:none;
 }
 
+#bFaq_update .bFaq_update_list_faq{
+	border-bottom:#e8e8e8;
+	border-left:1px solid #000;
+	border-right:1px solid #e8e8e8;
+}
+
+.bFaq_update_list_faq a{ /*이벤트 배경,글자색*/
+	color:#000; /*블랙*/
+	background:#fff; /*화이트*/
+}
+
+
 #bFaq_cont{ /* 상단 업데이트 제외 전체 div */
 	float:left;
 	width:1200px;
 	height:auto;
-	border:1px solid #000;
+	border:1px solid #e8e8e8;
 	overflow:auto;
 	box-sizing:border-box;
+	padding-bottom:40px;
 }
 
 #bFaq_cont h3{
@@ -106,7 +116,7 @@
 	color:#fff;
 }
 
-#bFaq_tap_no2{/*수강문의 탭*/
+#bFaq_tap_no2{/*후원문의 탭*/
 	background:#fff;
 	color:#000;
 }
@@ -124,23 +134,25 @@
 	height:auto;
 	padding:40px 200px;
 	box-sizing:border-box;
+	overflow:auto;
 }
 
 #bFaq_no1_body p{
 	font-size:15px;
-	line-height:1.2;
+	line-height:2;
 }
 
-#bFaq_no2_body{ /*수강 문의 div*/
+#bFaq_no2_body{ /*후원 문의 div*/
 	width:auto;
 	height:auto;
 	padding:40px 200px;
 	box-sizing:border-box;
+	overflow:auto;
 }
 
 #bFaq_no2_body p{
 	font-size:15px;
-	line-height:1.2;
+	line-height:2;
 }
 
 #bFaq_no3_body{ /*결제 문의 div*/
@@ -148,6 +160,12 @@
 	height:auto;
 	padding:40px 200px;
 	box-sizing:border-box;
+	overflow:auto;
+}
+
+#bFaq_no3_body p{
+	font-size:15px;
+	line-height:2;
 }
 
  .bFaq_no1_bt1, .bFaq_no1_bt2, .bFaq_no1_bt3, .bFaq_no1_bt4 { /*이용문의 질문 버튼들*/
@@ -163,13 +181,58 @@
 	border-radius:0px;
 }
 
-.bFaq_no1_panel1, .bFaq_no1_panel2, .bFaq_no1_panel3, .bFaq_no1_panel4 { /*이용문의 답변 div*/
+ .bFaq_no1_panel1, .bFaq_no1_panel2, .bFaq_no1_panel3, .bFaq_no1_panel4 { /*이용문의 답변 div*/
 	width:100%;
 	float:left;
 	padding:30px;
 	border:1px solid #000;
 	margin-bottom:30px;
 }
+
+ .bFaq_no2_bt1, .bFaq_no2_bt2, .bFaq_no2_bt3, .bFaq_no2_bt4{ /*후원문의 질문 버튼들*/
+ 	width:100%;
+ 	background:#fff;
+ 	color:#000;
+ 	border:1px solid #000;
+ 	cursor:pointer;
+ 	padding:10px;
+ 	outline:none;
+ 	font-size:15px;
+ 	margin-top:30px;
+ 	border-radius:0px;
+ }
+ 
+ .bFaq_no2_panel1, .bFaq_no2_panel2, .bFaq_no2_panel3, .bFaq_no2_panel4{/*후원문의 답변 div*/
+ 	width:100%;
+ 	float:left;
+ 	padding:30px;
+ 	border:1px solid #000;
+ 	margin-bottom:30px;
+ }
+ 
+ .bFaq_no3_bt1, .bFaq_no3_bt2, .bFaq_no3_bt3, .bFaq_no3_bt4{ /*결제문의 질문 버튼들*/
+ 	width:100%;
+ 	background:#fff;
+ 	color:#000;
+ 	border:1px solid #000;
+ 	cursor:pointer;
+ 	padding:10px;
+ 	outline:none;
+ 	font-size:15px;
+ 	margin-top:30px;
+ 	border-radius:0px;
+ }
+ 
+ .bFaq_no3_panel1, .bFaq_no3_panel2, .bFaq_no3_panel3, .bFaq_no3_panel4{
+ 	width:100%;
+ 	float:left;
+ 	padding:30px;
+ 	border:1px solid #000;
+ 	margin-bottom:30px;
+ }
+
+
+
 
 
 

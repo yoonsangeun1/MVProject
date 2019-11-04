@@ -2,7 +2,7 @@
 
 /*공지사항 css*/
 
-#bNotice_wrap{   /*body 안 전체 div*/
+#bNotice_body{   /*body 안 전체 div*/
 	font-size:16px;
 	line-height:25px;
 	width:1200px;
@@ -12,17 +12,20 @@
 }
 
 #bNotice_update{	/*업데이트 전체*/
-	background:#6a67ce;
+	width:1200px;
+	background:#9d8ce2;
 	position:relative;	
-	height:250px;
+	height:150px;
 }
 
 .bNotice_update_tit{ /*업데이트 h1 div*/
-	padding-top:47px;
+	padding-top:30px;
+	padding-left:15px;
+	height:auto;
 }
 
-.bNotice_update_tit h1{/*왼쪽 업데이트 h1 설정*/
-	font-size:40px;
+.bNotice_update_tit h1{/* 업데이트 h1 설정*/
+	font-size:30px;
  	color:#fff;
  	font-weight:400;
  	margin-bottom:20px;
@@ -31,6 +34,7 @@
 
 .bNotice_update_list{
 	width:100%;
+	height:auto;
 	position:absolute;
 	bottom:-1px;
 	left:0px;
@@ -50,12 +54,12 @@
 }
 
 .bNotice_update_list a{
-	height:80px;
+	height:60px;
 	color:#fff;
-	line-height:80px;
+	line-height:60px;
 	font-size:18px;
 	position:relative;
-	background:#b3a9eb;
+	background:#d4cff3;
 	display:block;
 	text-align:center;
 	text-decoration:none;
@@ -89,17 +93,17 @@
 	padding:10px;
 }
 
-#link{ /*하이퍼링크 밑줄 없애기*/
+#bNotice_link{ /*하이퍼링크 밑줄 없애기*/
 	color:black;
 	text-decoration:none;
 }
 
-#link:hover{ /*게시글 마우스 오버 시*/
+#bNotice_link:hover{ /*게시글 마우스 오버 시*/
 	color:black;
 	text-decoration:underline;
 }
 
-#link:visited{ /*이미 한번 다녀갔던 링크*/
+#bNotice_link:visited{ /*이미 한번 다녀갔던 링크*/
 	color:grey;
 }
 

@@ -2,7 +2,7 @@
 
 /* 배우모집 css */
 
-#bActors_container{ /*전체 div*/
+#bActors_body{ /*전체 div*/
 	width:1200px;
 	height:auto;
 	min-height:1024px;
@@ -12,17 +12,19 @@
 
 #bActors_community{	/*커뮤니티 전체*/
 	width:1200px;
-	background:#25da2f;
+	background:#9d8ce2;
 	position:relative;	
-	height:250px;
+	height:150px;
 }
 
 .bActors_community_tit{ /*커뮤니티 h1 div*/
-	padding-top:47px;
+	padding-top:30px;
+	padding-left:15px;
+	height:auto;
 }
 
 .bActors_community_tit h1{/*커뮤니티 h1 설정*/
-	font-size:40px;
+	font-size:30px;
  	color:#fff;
  	font-weight:400;
  	margin-bottom:20px;
@@ -31,8 +33,9 @@
 
 .bActors_community_list{ /*커뮤니티 밑 목록들 */
 	width:100%;
+	height:auto;
 	position:absolute;
-	bottom:0;
+	bottom:-0.4px;
 	left:0;
 }
 
@@ -42,24 +45,28 @@
 }
 
 .bActors_community_list li{
-	border-right:1px solid #67c07c;
-	border-color:#6bc680;
+	border-right:1px solid #000;
 	border-bottom:1px solid #000;
+	border-top:1px solid #000;
 	float:left;
 	width:25%;
 }
 
 .bActors_community_list a{
-	background-color:#76dc90;
-	height:80px;
+	height:60px;
 	color:#fff;
-	line-height:80px;
+	line-height:60px;
 	font-size:18px;
 	position:relative;
-	background:rgba(255,255,255,.2);
+	background:#d4cff3;
 	display:block;
 	text-align:center;
 	text-decoration:none;
+}
+
+#bActors_community .bActors_community_list_actors{
+	border-bottom:#e8e8e8;
+	border-left:#e8e8e8;
 }
 
 .bActors_community_list_actors a{
@@ -67,7 +74,7 @@
 	background-color:#fff;
 }
 
-#bActors_panel{ /*연기자 프로필 주의사항*/
+#bActors_body .bActors_panel{ /*연기자 프로필 주의사항*/
 	display:inline-block;
 	width:1200px;
 	height:135px;
@@ -75,12 +82,13 @@
 	border:1px solid black;
 	border-radius:5px;
 	font-size:14px;
+	line-height:1.2;
 	margin-top:50px;
 	margin-bottom:30px;
 	box-sizing:border-box;
 }
 
-#bActors_panel h3{
+.bActors_panel h3{
 	margin-left:5px;
 	font-size:20px;
 }
@@ -97,6 +105,7 @@
 	width:1200px;
 	height:auto;
 	text-align:center;
+	padding-left:10px;
 }
 
 #bActors_model{ /*배우들 네모 전체div*/
@@ -120,6 +129,7 @@
 	padding:5px;
 	margin-top:10px;
 	text-align:center;
+	font-size:17px;
 }
 
 #bActors_name a{ /*하이퍼링크 값 고쳐야함*/

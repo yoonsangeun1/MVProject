@@ -7,7 +7,7 @@
 <title>배우 모집</title>
 </head>
 <body>
- <div id="bActors_container"> <%--전체 div --%>
+ <div id="bActors_body"> <%--전체 div --%>
  
   <div id="bActors_community"> <%--왼쪽 업데이트 사항. 공지,이벤트 등 div --%>
 		 <div class="bActors_community_tit"> <%--업데이트--%>
@@ -30,7 +30,7 @@
 		    </li>
 		    
 		    <li>
-		     <a href="#">QnA</a> <%--QnA 작업해야 됨 --%>
+		     <a href="board_qna.jsp">QnA</a> <%--QnA 작업해야 됨 --%>
 		    </li>
 	    
 		   </ul>
@@ -38,7 +38,7 @@
 		
 		</div> <%--커뮤니티 배우모집,시나리오 공모 등 div --%>
 		
-  <div id="bActors_panel" > <%--연기자 프로필 주의사항 --%>
+  <div class="bActors_panel" > <%--연기자 프로필 주의사항 --%>
    <h3>연기자 프로필</h3>
     <div id="bActors_panelbody"> <%--주의사항 글 --%>
      -일반 회원이 글쓰기 가능한 연기자 프로필 페이지입니다.
@@ -431,7 +431,7 @@
   </div> <%--검색 구간 전체 div --%>
    
   </div> <%--프로필 전체 감쌀 div --%>
- </div> <%-- 밑 전체 div --%>
+ </div> <%--  전체 div --%>
 
 <%@ include file="../include/footer.jsp"%>
 

@@ -1,22 +1,22 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
-<%@ include file="../include/header.jsp"%>
-<!DOCTYPE html>							<%-- 자유게시판 jsp --%>
+<%@ include file="../include/header.jsp" %>
+<!DOCTYPE html>
 <html>
 <head>
-<%--head안에 넣으니 노란표시 안남, 2번째 줄에 넣었더니 노란표시 뜸 --%>
 <meta charset="UTF-8">
-<title>자유게시판</title>
+<title>QnA</title>
+<link rel="stylesheet" type="text/css" href="../css/board_qna.css">
 </head>
 <body>
 
-	<div id="bFree_body"> <%--전체 body div묶음 --%>
-	
-		<div id="bFree_community"> <%-- 커뮤니티 배우모집,시나리오 공모 등  div --%>
-		 <div class="bFree_community_tit"> <%--커뮤니티--%>
+ <div id="bQna_body"> <%--전체 div 묶음 --%>
+  
+  <div id="bQna_community"> <%-- 커뮤니티 배우모집,시나리오 공모 등  div --%>
+		 <div class="bQna_community_tit"> <%--커뮤니티--%>
 		  	<h1>커뮤니티</h1>
 		 </div> <%--커뮤니티 --%>
 		 
-		  <div class="bFree_community_list"> <%--커뮤니티 밑에 리스트들 div --%>
+		  <div class="bQna_community_list"> <%--커뮤니티 밑에 리스트들 div --%>
 		   <ul>
 		   
 		    <li>
@@ -27,11 +27,11 @@
 		     <a href="board_contest.jsp">시나리오 공모</a>
 		    </li>
 		    
-		    <li class="bFree_community_list_free">
+		    <li>
 		     <a href="board_free.jsp">자유게시판</a>
 		    </li>
 		    
-		    <li>
+		    <li class="bQna_community_list_qna">
 		     <a href="board_qna.jsp">QnA</a> <%--QnA 작업해야 됨 --%>
 		    </li>
 	    
@@ -39,8 +39,10 @@
 		  </div> <%--커뮤니티 밑에 리스트들 div --%>
 		
 		</div> <%--커뮤니티 배우모집,시나리오 공모 등 div --%>
-
-		<table id="bFree_table" cellspacing="0">
+ 
+ 	<div id="bQna_cont"> <%--커뮤니티 제외 전체 --%>
+ 	 
+		<table id="bQna_table" cellspacing="0">
 			<thead>
 				<%--thead 요소는 테이블의 제목 그룹화. 한 번만 선언 가능하며,
   tbody나 tfoot 보다 먼저 위치.  --%>
@@ -141,32 +143,32 @@
 			</tbody>
 		</table>
 		
-    <div id="bFree_writing"> <%-- 글 쓰기 폼 div --%>
-      <input type="button" id="bFree_writing_btn" name="bFree_writing_btn"
+    <div id="bQna_writing"> <%-- 글 쓰기 폼 div --%>
+      <input type="button" id="bQna_writing_btn" name="bQna_writing_btn"
       value="글 쓰기" />
     </div> <%-- 글 쓰기 폼 div --%>
     
     <div style="clear:both";></div>
 		
-		<div id="bFree_pagination"> <%--페이지 순번 --%>
-		 <a href="board_free.jsp">첫페이지</a>
-		 <a href="board_free.jsp">&lt;&lt;</a>
-		 <a href="board_free.jsp">1</a>
-		 <a href="board_free.jsp">2</a>
-		 <a href="board_free.jsp">3</a>
-		 <a href="board_free.jsp">4</a>
-		 <a href="board_free.jsp">5</a>
-		 <a href="board_free.jsp">6</a>
-		 <a href="board_free.jsp">7</a>
-		 <a href="board_free.jsp">8</a>
-		 <a href="board_free.jsp">9</a>
-		 <a href="board_free.jsp">10</a>
-		 <a href="board_free.jsp">&gt;&gt;</a>
-		 <a href="board_free.jsp">끝페이지</a>
+		<div id="bQna_pagination"> <%--페이지 순번 --%>
+		 <a href="board_qna.jsp">첫페이지</a>
+		 <a href="board_qna.jsp">&lt;&lt;</a>
+		 <a href="board_qna.jsp">1</a>
+		 <a href="board_qna.jsp">2</a>
+		 <a href="board_qna.jsp">3</a>
+		 <a href="board_qna.jsp">4</a>
+		 <a href="board_qna.jsp">5</a>
+		 <a href="board_qna.jsp">6</a>
+		 <a href="board_qna.jsp">7</a>
+		 <a href="board_qna.jsp">8</a>
+		 <a href="board_qna.jsp">9</a>
+		 <a href="board_qna.jsp">10</a>
+		 <a href="board_qna.jsp">&gt;&gt;</a>
+		 <a href="board_qna.jsp">끝페이지</a>
 		</div>
 
-		  <div id="bFree_search"> <%--검색 구간 전체 div --%>
-   <select name="bFree_combo" id="bFree_combo">
+		  <div id="bQna_search"> <%--검색 구간 전체 div --%>
+   <select name="bQna_combo" id="bQna_combo">
     <option value="title_content">제목+내용</option>
     <option value="title">제목</option>
     <option value="content">내용</option>
@@ -174,13 +176,24 @@
     <option value="tag">태그</option>
    </select>
    
-   <div id="bFree_input"> <%--텍필,버튼 --%>
+   <div id="bQna_input"> <%--텍필,버튼 --%>
     <input id="search_text" name="search_text" size="20" />
     <input type="submit" id="search_btn" value="검색" />
    </div> <%--텍필,버튼 --%>
    
   </div> <%--검색 구간 전체 div --%>
-  
-	</div> <%--body 안에 있는 전체를 씌운 div --%>
-
-<%@ include file="../include/footer.jsp"%>
+ 	
+ 	
+ 	
+ 	</div> <%--커뮤니티 제외 전체 --%>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </div> <%--전체 div 묶음 --%>
+ 
+<%@ include file="../include/footer.jsp" %>

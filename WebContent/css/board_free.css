@@ -2,26 +2,30 @@
 
 /*자유게시판 css*/
 
-#bFree_wrap{   /*body 안 전체 div*/
+#bFree_body{   /*body 안 전체 div*/
+	font-size:16px;
+	line-height:25px;
 	width:1200px;
 	height:auto;
 	min-height:1024px;
-	border:1px solid;
+	border:1px solid #e8e8e8;
 }
 
 #bFree_community{	/*커뮤니티 전체*/
 	width:1200px;
-	background:#25da2f;
+	background:#9d8ce2;
 	position:relative;	
-	height:250px;
+	height:150px;
 }
 
 .bFree_community_tit{ /*커뮤니티 h1 div*/
-	padding-top:47px;
+	padding-top:30px;
+	padding-left:15px;
+	height:auto;
 }
 
 .bFree_community_tit h1{/* 커뮤니티 h1 설정*/
-	font-size:40px;
+	font-size:30px;
  	color:#fff;
  	font-weight:400;
  	margin-bottom:20px;
@@ -30,9 +34,10 @@
 
 .bFree_community_list{ /*커뮤니티 밑 목록들 div*/
 	width:100%;
+	height:auto;
 	position:absolute;
-	bottom:0;
-	left:0;
+	bottom:-1px;
+	left:0px;
 }
 
 .bFree_community_list ul{
@@ -41,24 +46,27 @@
 }
 
 .bFree_community_list li{
-	border-right:1px solid #67c07c;
-	border-color:#6bc680;
-	border-bottom:1px solid #000;
+	border:1px solid #000;
 	float:left;
 	width:25%;
 }
 
 .bFree_community_list a{
-	background-color:#76dc90;
-	height:80px;
+	height:60px;
 	color:#fff;
-	line-height:80px;
+	line-height:60px;
 	font-size:18px;
 	position:relative;
-	background:rgba(255,255,255,.2);
+	background:#d4cff3;
 	display:block;
 	text-align:center;
 	text-decoration:none;
+}
+
+#bFree_community .bFree_community_list_free{
+	border-bottom:#e8e8e8;
+	border-left:#e8e8e8;
+	border-right:#e8e8e8;
 }
 
 .bFree_community_list_free a{
@@ -81,63 +89,6 @@
 #bFree_table th, #bFree_table td{
 	border-top:1px solid grey;
 	padding:10px;
-}
-
-#link{ /*하이퍼링크 밑줄 없애기*/
-	color:black;
-	text-decoration:none;
-}
-
-#link:hover{ /*게시글 마우스 오버 시*/
-	color:black;
-	text-decoration:underline;
-}
-
-#link:visited{ /*이미 한번 다녀갔던 링크*/
-	color:grey;
-}
-
-#author a{ /*글쓴이 하이퍼링크*/
-	color:black;
-	text-decoration:none;
-}
-
-#author a:link{ /*방문 전*/
-	color:black;
-}
-
-#author a:visited{/*방문 후*/
-	color:blakc;
-}
-
-#author a:hover{/*마우스 오버 시*/
-	text-decoration:underline;
-}
-
-#no, #author, #time, #hit{
-	font-family:Arial;
-	font-size:17px;
-	text-align:center;
-}
-
-#no{
-	width:100px;
-}
-
-#title{
-	width:400px;
-}
-
-#author{
-	width:300px;
-}
-
-#time{
-	width:150px;
-}
-
-#hit{
-	width:100px;
 }
 
 #bFree_writing{ /*글 쓰기 div*/
@@ -213,25 +164,5 @@
 
 #bFree_input{ /*텍필 ,버튼 통합 div*/
 	display:inline-table;
-}
-
-#search_text{ /*텍필 */
-	height:17px;
-	padding:6px 12px;
-	font-size:12px;
-	color:#a5a5a5;
-	border:1px solid #ccc;
-	border-radius:4px;
-	display:table-cell;
-	float:left;
-}
-
-#search_btn{/*버튼*/
-	width:50px;
-	height:30px;
-	color:#333;
-	margin-left:3px;
-	border-radius:4px;
-	border-color:#ccc;
 }
 

@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<div id="bNotice_wrap"> <%--전체 body div묶음 --%>
+	<div id="bNotice_body"> <%--전체 body div묶음 --%>
 	
 		<div id="bNotice_update"> <%-- 업데이트 사항. 공지,이벤트 등 div --%>
 		 <div class="bNotice_update_tit"> <%--업데이트--%>
@@ -56,7 +56,7 @@
 			<tbody>
 				<tr>
 					<td id="no">10</td>
-					<td><a href="#" id="link">공지사항 10번째 입니다.</a></td>
+					<td><a href="#" id="bNotice_bNotice_link">공지사항 10번째 입니다.</a></td>
 					<td id="author"><a href="#">운영자</a></td>
 					<td id="time">17:25:04</td>
 					<td id="hit">3</td>
@@ -64,7 +64,7 @@
 
 				<tr>
 					<td id="no">9</td>
-					<td><a href="#" id="link">공지사항 9번째 입니다.</a></td>
+					<td><a href="#" id="bNotice_link">공지사항 9번째 입니다.</a></td>
 					<td id="author"><a href="#">운영자</a></td>
 					<td id="time">17:20:48</td>
 					<td id="hit">6</td>
@@ -72,7 +72,7 @@
 
 				<tr>
 					<td id="no">8</td>
-					<td><a href="#" id="link">공지사항 8번째 입니다.</a></td>
+					<td><a href="#" id="bNotice_link">공지사항 8번째 입니다.</a></td>
 					<td id="author"><a href="#">운영자</a></td>
 					<td id="time">17:09:09</td>
 					<td id="hit">17</td>
@@ -80,7 +80,7 @@
 
 				<tr>
 					<td id="no">7</td>
-					<td><a href="#" id="link">공지사항 7번째 입니다.</a></td>
+					<td><a href="#" id="bNotice_link">공지사항 7번째 입니다.</a></td>
 					<td id="author"><a href="#">운영자</a></td>
 					<td id="time">16:59:22</td>
 					<td id="hit">25</td>
@@ -88,7 +88,7 @@
 
 				<tr>
 					<td id="no">6</td>
-					<td><a href="#" id="link">공지사항 6번째 입니다.</a></td>
+					<td><a href="#" id="bNotice_link">공지사항 6번째 입니다.</a></td>
 					<td id="author"><a href="#">운영자</a></td>
 					<td id="time">16:46:56</td>
 					<td id="hit">44</td>
@@ -96,7 +96,7 @@
 
 				<tr>
 					<td id="no">5</td>
-					<td><a href="#" id="link">공지사항 5번째 입니다.</a></td>
+					<td><a href="#" id="bNotice_link">공지사항 5번째 입니다.</a></td>
 					<td id="author"><a href="#">운영자</a></td>
 					<td id="time">16:35:13</td>
 					<td id="hit">37</td>
@@ -104,7 +104,7 @@
 
 				<tr>
 					<td id="no">4</td>
-					<td><a href="#" id="link">공지사항 4번째 입니다.</a></td>
+					<td><a href="#" id="bNotice_link">공지사항 4번째 입니다.</a></td>
 					<td id="author"><a href="#">운영자</a></td>
 					<td id="time">16:33:24</td>
 					<td id="hit">78</td>
@@ -112,7 +112,7 @@
 
 				<tr>
 					<td id="no">3</td>
-					<td><a href="#" id="link">공지사항 3번째 입니다.</a></td>
+					<td><a href="#" id="bNotice_link">공지사항 3번째 입니다.</a></td>
 					<td id="author"><a href="#">운영자</a></td>
 					<td id="time">15:01:04</td>
 					<td id="hit">56</td>
@@ -120,7 +120,7 @@
 
 				<tr>
 					<td id="no">2</td>
-					<td><a href="#" id="link">공지사항 2번째 입니다.</a></td>
+					<td><a href="#" id="bNotice_link">공지사항 2번째 입니다.</a></td>
 					<td id="author"><a href="#">운영자</a></td>
 					<td id="time">14:26:04</td>
 					<td id="hit">64</td>
@@ -128,7 +128,7 @@
 
 				<tr>
 					<td id="no">1</td>
-					<td><a href="#" id="link">공지사항 1번째 입니다.</a></td>
+					<td><a href="#" id="bNotice_link">공지사항 1번째 입니다.</a></td>
 					<td id="author"><a href="#">운영자</a></td>
 					<td id="time">14:25:24</td>
 					<td id="hit">70</td>
