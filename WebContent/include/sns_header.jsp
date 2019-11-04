@@ -4,10 +4,10 @@
 <head>
 <meta charset="UTF-8">
 <title>메인 화면</title>
-
 <link rel="stylesheet" type="text/css" href="../css/init.css" />
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+<%-- sns css 추가 --%>
 <link rel="stylesheet" type="text/css" href="../css/mainSNS.css" />
 <link rel="stylesheet" type="text/css" href="../css/profileSNS.css" />
 
@@ -19,7 +19,7 @@
                <ul>
                   <%--메뉴구성은 ul li블록요소 태그 --%>
                   <li><div id="header_logo">
-                        <a href="../index.jsp"><img src="../images/logo_w.png" alt="로고 이미지"
+                        <a href="../sns/SNS_Main.jsp"><img src="../images/logo_w.png" alt="로고 이미지"
                            width="150" height="25" /></a>
                      </div></li>
                   <li><input name="header_searchbar"
