@@ -50,13 +50,13 @@
      <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
     <span class="bEvent_wrap"> <%--오른쪽 글씨 전체 span --%>
      <span class="bEvent_wrap_title"> <%--전체 안에 글씨 span --%>
-     고등피파 베스트 골 투표 이벤트1
+     영화 후원 시 보상타임~
      </span>
     </span> 
     
     <span class="bEvent_wrap"> <%--날짜 넣을 전체 span --%>
      <span class="bEvent_date"> <%--오른쪽 날짜 전체 --%>
-      2019-10-10 ~ 2019-10-23
+      2019-10-02 ~ 2019-10-28
      </span>
     </span> <%--날짜 넣을 span --%>
     </span> <%--이미지 옆 span태그 --%>
@@ -76,13 +76,13 @@
     <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
     <span class="bEvent_wrap">
      <span class="bEvent_wrap_title">
-     고등피파 베스트 골 투표 이벤트2
+     접속하시고 보상 받아가세요~
      </span>
     </span>
     
     <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
-      2019-10-10 ~ 2019-10-23
+      2019-11-02 ~ 2019-11-28
      </span>
     </span> <%--날짜 넣을 span --%>
     </span> <%--이미지 옆 span태그 --%>
@@ -102,13 +102,13 @@
     <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
     <span class="bEvent_wrap">
      <span class="bEvent_wrap_title">
-     고등피파 베스트 골 투표 이벤트3
+     스포츠 영화 후원 이벤트
      </span>
     </span>
     
     <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
-      2019-10-10 ~ 2019-10-23
+      2019-11-02 ~ 2019-11-28
      </span>
     </span> <%--날짜 넣을 span --%>
     </span> <%--이미지 옆 span태그 --%>
@@ -128,13 +128,13 @@
     <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
     <span class="bEvent_wrap">
      <span class="bEvent_wrap_title">
-     고등피파 베스트 골 투표 이벤트4
+     APP 이벤트
      </span>
     </span>
     
     <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
-      2019-10-10 ~ 2019-10-23
+      2019-11-02 ~ 2019-11-28
      </span>
     </span> <%--날짜 넣을 span --%>
     </span> <%--이미지 옆 span태그 --%>
@@ -154,13 +154,13 @@
     <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
     <span class="bEvent_wrap">
      <span class="bEvent_wrap_title">
-     고등피파 베스트 골 투표 이벤트5
+     신규 회원 가입 시 수수료 면제
      </span>
     </span>
     
     <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
-      2019-10-10 ~ 2019-10-23
+      2019-11-02 ~ 2019-11-10
      </span>
     </span> <%--날짜 넣을 span --%>
     </span> <%--이미지 옆 span태그 --%>
@@ -180,13 +180,13 @@
     <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
     <span class="bEvent_wrap">
      <span class="bEvent_wrap_title">
-     고등피파 베스트 골 투표 이벤트6
+     미션완료 하시고 보상 받아가세요~
      </span>
     </span>
     
     <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
-      2019-10-10 ~ 2019-10-23
+      2019-10-25 ~ 2019-11-10
      </span>
     </span> <%--날짜 넣을 span --%>
     </span> <%--이미지 옆 span태그 --%>
@@ -206,13 +206,13 @@
     <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
     <span class="bEvent_wrap">
      <span class="bEvent_wrap_title">
-     고등피파 베스트 골 투표 이벤트7
+     포인트 더블!
      </span>
     </span>
     
     <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
-      2019-10-10 ~ 2019-10-23
+      2019-10-25 ~ 2019-11-10
      </span>
     </span> <%--날짜 넣을 span --%>
     </span> <%--이미지 옆 span태그 --%>
@@ -229,22 +229,22 @@
      <img src="../images/bEvent08.png" />
     </span> <%--이미지 span태그 --%>
     
-    <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
+    <span class="bEvent_cont2"> <%--이미지 옆 span태그 --%>
     <span class="bEvent_wrap">
      <span class="bEvent_wrap_title">
-     고등피파 베스트 골 투표 이벤트8
+     하반기 업데이트 소식 이벤트
      </span>
     </span>
     
     <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
-      2019-10-10 ~ 2019-10-23
+      2019-10-25 ~ 2019-11-02
      </span>
     </span> <%--날짜 넣을 span --%>
     </span> <%--이미지 옆 span태그 --%>
     
-    <span class="bEvent_type"> <%-- 진행,종료 넣음 --%>
-          진행
+    <span class="bEvent_type2"> <%-- 진행,종료 넣음 --%>
+      종료
     </span> <%-- 진행,종료 넣음 --%>
    </a>
   </div>
@@ -255,22 +255,22 @@
      <img src="../images/bEvent09.png" />
     </span> <%--이미지 span태그 --%>
     
-    <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
+    <span class="bEvent_cont2"> <%--이미지 옆 span태그 --%>
     <span class="bEvent_wrap">
      <span class="bEvent_wrap_title">
-     고등피파 베스트 골 투표 이벤트9
+     후원하시고 선물도 받아가세요~
      </span>
     </span>
     
     <span class="bEvent_wrap"> <%--날짜 넣을 span --%>
      <span class="bEvent_date">
-      2019-10-10 ~ 2019-10-23
+      2019-10-25 ~ 2019-11-02
      </span>
     </span> <%--날짜 넣을 span --%>
     </span> <%--이미지 옆 span태그 --%>
     
-    <span class="bEvent_type"> <%-- 진행,종료 넣음 --%>
-          진행
+    <span class="bEvent_type2"> <%-- 진행,종료 넣음 --%>
+          종료
     </span> <%-- 진행,종료 넣음 --%>
    </a>
   </div>
@@ -281,10 +281,10 @@
      <img src="../images/bEvent10.png" />
     </span> <%--이미지 span태그 --%>
     
-    <span class="bEvent_cont"> <%--이미지 옆 span태그 --%>
+    <span class="bEvent_cont2"> <%--이미지 옆 span태그 --%>
     <span class="bEvent_wrap">
      <span class="bEvent_wrap_title">
-     고등피파 베스트 골 투표 이벤트10
+     국가대표의 열정을 응원해주세요!
      </span>
     </span>
     
@@ -295,15 +295,16 @@
     </span> <%--날짜 넣을 span --%>
     </span> <%--이미지 옆 span태그 --%>
     
-    <span class="bEvent_type"> <%-- 진행,종료 넣음 --%>
-          진행
+    <span class="bEvent_type2"> <%-- 진행,종료 넣음 --%>
+          종료
     </span> <%-- 진행,종료 넣음 --%>
    </a>
   </div> 
   </div> <%-- 이벤트 목록 list div --%>
   
     <div id="bEvent_writing"> <%-- 글 쓰기 폼 div --%>
-      <input type="button" id="bEvent_writing_btn" name="bEvent_writing_btn"
+      <input type="button" class="bEvent_writing_btn button
+       button_c9d8ce2 button_f12 button_p1024 button_r4" 
       value="글 쓰기" />
     </div> <%-- 글 쓰기 폼 div --%>
   
@@ -337,7 +338,7 @@
    
    <div id="bEvent_input"> <%--텍필,버튼 --%>
     <input id="search_text" name="search_text" size="20" />
-    <input type="submit" id="search_btn" value="검색" />
+    <input type="submit" class="search_btn button_wce8e8e8" value="검색" />
    </div> <%--텍필,버튼 --%>
    
   </div> <%--검색 구간 전체 div --%>
