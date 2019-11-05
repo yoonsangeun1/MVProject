@@ -17,37 +17,63 @@
 }
 /* 왼쪽 오른쪽 */
 #SNS_Profile_Left{
-	width: 300px;
-	margin-top: 10px;
+	width: 1100px;
+	height: 450px;
+	margin-left:50px;
+	z-index: 0;
+}
+#SNS_Profile_Set{ /* 프로필 설정 */
+	position:relative;
+	width:300px; 
+	height:600px;
+	z-index: 1;
 	float: left;
-	z-index: 2;
+	list-style: none;
 }
 #SNS_Profile_Right{
 	position:relative;
-	width: 830px;
+	width: 870px;
 	height: auto;
-	margin-top: 25px;
+	margin-top: 10px;
 	margin-left: 15px;
-	float: left;
 	border: 1px solid #b3a9eb;
 	border-radius: 10px;
 	z-index: 0;
+	float: left;
 	padding: 15px 15px;
 	background: #eae6fa;
 }
 /* 왼쪽 메뉴 열거 */
+#SNS_Profile_Background{
+	border:1px solid;
+	width: 1100px;
+	height: 450px;
+	background-image:url(../images/sns_back1.jpg);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+#SNS_Profile_Background_Img{
+	position:relative;
+	z-index:0;
+	width: 1100px;
+	height: 450px;
+	float: left;
+}
 #SNS_Profile_Photo{ /* 프로필 사진*/
+	position:relative;
 	text-align:center;
+	top:35%;
 	width:250px; height:250px;
 	border-radius:200px;
 	margin: 15px 30px;
+	z-index: 2;
 }
 #SNS_Profile_Title_Name{
-	width:250px;
+	width:650px;
 	height:30px;
-	font-size:30px;
+	font-size:35px;
 	padding-left:60px;
-	padding-top:10px;
+	padding-top:20px;
 	text-align: center;
 }
 #SNS_Profile_Info{ /* 프로필 정보 */
@@ -62,7 +88,7 @@
 	z-index: 2;
 	font-size:10px;
 	line-height: 12px;
-	border-radius: 35px;
+	border-radius: 10px;
 }
 #SNS_Profile_Info:hover{/* 애니메이션 효과 */
 	width: 1145px;
@@ -82,7 +108,7 @@
 	cursor: pointer;
 	border: none;
 	font-size: 22px;
-	border-radius: 35px;
+	border-radius: 10px;
 }
 #SNS_Profile_Menu_Ul{
 	list-style: none;
@@ -102,12 +128,6 @@
 .SNS_Background5{
 	background: #fc636b;
 }
-#SNS_Profile_Set{ /* 프로필 설정 */
-	position:relative;
-	width:300px; height:600px;
-	z-index: 0;
-	list-style: none;
-}
 
 /* 오른쪽 메뉴 열거 */
 #SNS_Profile_Intro{
@@ -121,16 +141,76 @@
 	list-style: none;
 }
 #SNS_Profile_Image{
+	position: relative;
 	width:250px;
 	height: 250px;
-	margin: 0px 7.5px 7.5px 7.5px; /* 가로 세로 */
+	margin: 0px 19px 7.5px 7.5px; /* 가로 세로 */
 	text-align: center;
 	z-index: -1;
 	float:left;
 }
-#SNS_Profile_Image img{
-	cursor:pointer;
+#SNS_Profile_Image_Photo{
 	width:250px;
 	height: 250px;
-	border: 3px solid;
+	border: 1px solid;
+	transition: .2s ease;
+	backface-visibility: hidden;
+}
+#SNS_Profile_Image_Center{
+  transition: .2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  border: 1px white;
+}
+#SNS_Profile_Image_Like{
+	transition: .2s ease;
+	opacity: 0;
+	position: absolute;
+	top: 82%;
+	left: 86%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+#SNS_Profile_Image_Info{
+	transition: .2s ease;
+	opacity: 0;
+	position: absolute;
+	top: 8%;
+	left: 6%;
+	width: 220px;
+	height: 150px;
+	font-size: 15px;
+	line-height: 22px;
+}
+#SNS_Profile_Image_Center h3{
+	background-color:  #9d8ce2;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+	font-weight: 700;
+	border-radius: 15px;
+}
+#SNS_Profile_Image_Like h3{
+	color: pink;
+	font-size: 42px;
+	padding: 16px 32px;
+	-webkit-text-stroke: 2px white;
+}
+#SNS_Profile_Image:hover #SNS_Profile_Image_Photo{
+	opacity: 0.3;
+}
+#SNS_Profile_Image:hover #SNS_Profile_Image_Center{
+	opacity: 1;
+}
+#SNS_Profile_Image:hover #SNS_Profile_Image_Like{
+	opacity: 1;
+}
+#SNS_Profile_Image:hover #SNS_Profile_Image_Info{
+	opacity: 1;
 }
