@@ -156,7 +156,7 @@
 					</div>
 					<div class="quickmenu2">
 						<button class="quickBtn button_cb3a9eb button_f12 button_r4 vertical group border"
-							onclick="location='../board/board_notice.jsp';">공지사항</button>
+							onclick="location='../board/board_actors.jsp';">배우모집</button>
 					</div>
 
 					<div class="quickmenu3">
