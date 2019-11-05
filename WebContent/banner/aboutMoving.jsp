@@ -89,9 +89,9 @@
 					&nbsp;&nbsp;&nbsp;누군가에게 의견과 생각을 표현하는 것은 관계 형성에 많은 도움을 줄 수 있습니다.
 
 				</p>
-				<button class="support_btn" onclick="location='';">
-					후원하러가기
-				</button>
+				<button class="Project_look button_cb3a9eb button_f24 button_r4 border"
+					onclick="location='../funding/funding_list.jsp';">프로젝트 둘러보기
+				</button> 
 			</div>
 		</div>
 
