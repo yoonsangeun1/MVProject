@@ -5,7 +5,8 @@
 #bFaq_body{
 	width:1200px;
 	height:auto;
-	float:left;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 #bFaq_update{	/*업데이트 전체*/
@@ -33,7 +34,7 @@
 	width:100%;
 	height:auto;
 	position:absolute;
-	bottom:-1.2px;
+	bottom:-1.8px;
 	left:0.4px;
 }
 

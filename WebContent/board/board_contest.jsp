@@ -143,11 +143,12 @@
 		</table>	
 		
 	<div id="bContest_writing"> <%-- 글 쓰기 폼 div --%>
-      <input type="button" id="bContest_writing_btn" name="bContest_writing_btn"
+      <input type="button" class="bContest_writing_btn button
+       button_c9d8ce2 button_f12 button_p1024 button_r4"
       value="글 쓰기" />
     </div> <%-- 글 쓰기 폼 div --%>
 		
-		<div style="clear:both";></div>
+		<div style="clear:both"></div>
 		
 		<div id="bContest_pagination"> <%--페이지 순번 --%>
 		 <a href="board_contest.jsp">첫페이지</a>
@@ -177,7 +178,7 @@
    
    <div id="bContest_input"> <%--텍필,버튼 --%>
     <input id="search_text" name="search_text" size="20" />
-    <input type="submit" id="search_btn" value="검색" />
+    <input type="submit" class="search_btn button_wce8e8e8" value="검색" />
    </div> <%--텍필,버튼 --%>
    
   </div> <%--검색 구간 전체 div --%>

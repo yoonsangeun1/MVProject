@@ -9,6 +9,8 @@
 	height:auto;
 	min-height:1024px;
 	border:1px solid #e8e8e8;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 #bNotice_update{	/*업데이트 전체*/
@@ -152,7 +154,7 @@
 
 #bNotice_writing{/*글 쓰기 버튼 div*/
 	width:1200px;
-	height:50px;
+	height:auto;
 	float:left;
 }
 
@@ -162,21 +164,15 @@
 	float:left;
 }
 
-#bNotice_writing_btn{/*글 쓰기 버튼 div*/
-	float:right;
-	width:60px;
-	height:30px;
-	border-radius:4px;
-	margin-top:10px;
+.bNotice_writing_btn{/*글 쓰기 버튼 div*/
+	margin-top:20px;
 	margin-right:150px;
+	float:right;
 	cursor:pointer;
-	color:#fff;
-	background-color:#5cb85c;
-	border-color:#4cae4c;
 }
 
-#bNotice_writing_btn:hover{ /*오버 시*/
-	background-color:#008000;
+.bNotice_writing_btn:hover{ /*오버 시*/
+	background-color:#6a67ce;
 }
 
 #bNotice_pagination{ /*하단 페이지 이동 div */
@@ -213,8 +209,8 @@
 
 #bNotice_combo{ /*검색 구간 콤보박스*/
 	display:inline-block;
-	width:auto; height:30px;
-	padding:6px 12px;
+	width:auto; height:32px;
+	padding:6.5px 12px;
 	font-size:12px;
 	color:#a5a5a5;
 	border:1px solid #ccc;
@@ -236,13 +232,11 @@
 	float:left;
 }
 
-#search_btn{/*버튼*/
+.search_btn{/*버튼*/
 	width:50px;
-	height:30px;
-	color:#333;
+	height:32px;
 	margin-left:3px;
 	border-radius:4px;
-	border-color:#ccc;
 	cursor:pointer;
 }
 

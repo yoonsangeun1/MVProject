@@ -62,93 +62,104 @@
 
 			<tbody>
 				<tr>
-					<td id="no">10</td>
-					<td><a href="#" id="link">곧 있으면 펀딩 끝난다 ㅅㅅ</a></td>
-					<td id="author"><a href="#">아무나</a></td>
+					<td id="no">5</td>
+					<td><a href="#" id="link">흥행 성공한 영화 뭐가 있을까요?</a></td>
+					<td id="author"><a href="#">아아</a></td>
 					<td id="time">17:25:04</td>
 					<td id="hit">3</td>
 				</tr>
 
 				<tr>
-					<td id="no">9</td>
-					<td><a href="#" id="link">여기 펀딩 사이트 맞나요?</a></td>
-					<td id="author"><a href="#">분노유도</a></td>
-					<td id="time">17:20:48</td>
+					<td id="no"></td>
+					<td><a href="#" id="link">
+					 <img src="../images/bQna.gif" width="16" border="0" alt="답변글이미지" />
+					[답변:] 흥행 성공한 영화 뭐가 있을까요?</a></td>
+					<td id="author"><a href="#">운영자</a></td>
+					<td id="time">17:27:48</td>
 					<td id="hit">6</td>
 				</tr>
 
 				<tr>
-					<td id="no">8</td>
-					<td><a href="#" id="link">아이폰 써보니 신세계임 ㄹㅇ</a></td>
-					<td id="author"><a href="#">이재용</a></td>
+					<td id="no">4</td>
+					<td><a href="#" id="link">결제가 안돼요</a></td>
+					<td id="author"><a href="#">이바바바</a></td>
 					<td id="time">17:09:09</td>
 					<td id="hit">17</td>
 				</tr>
 
 				<tr>
-					<td id="no">7</td>
-					<td><a href="#" id="link">음식보면서 먹을 영화 추천좀</a></td>
-					<td id="author"><a href="#">박진우</a></td>
-					<td id="time">16:59:22</td>
+					<td id="no"></td>
+					<td><a href="#" id="link">
+					 <img src="../images/bQna.gif" width="16" border="0" alt="답변글이미지" />
+					[답변:] 결제가 안돼요</a></td>
+					<td id="author"><a href="#">운영자</a></td>
+					<td id="time">17:19:22</td>
 					<td id="hit">25</td>
 				</tr>
 
 				<tr>
-					<td id="no">6</td>
-					<td><a href="#" id="link">춤추는 작은 카타리나</a></td>
-					<td id="author"><a href="#">그칼에가지마오</a></td>
+					<td id="no">3</td>
+					<td><a href="#" id="link">수수료 문의합니다.</a></td>
+					<td id="author"><a href="#">그느드르므브스</a></td>
 					<td id="time">16:46:56</td>
 					<td id="hit">44</td>
 				</tr>
 
 				<tr>
-					<td id="no">5</td>
-					<td><a href="#" id="link">그래서 님 다이아?</a></td>
-					<td id="author"><a href="#">붕붕방방붕붕</a></td>
-					<td id="time">16:35:13</td>
+					<td id="no"></td>
+					<td><a href="#" id="link">
+					 <img src="../images/bQna.gif" width="16" border="0" alt="답변글이미지" />
+					[답변:] 수수료 문의합니다.</a></td>
+					<td id="author"><a href="#">운영자</a></td>
+					<td id="time">16:47:55</td>
 					<td id="hit">37</td>
 				</tr>
 
 				<tr>
-					<td id="no">4</td>
-					<td><a href="#" id="link">저는 멍청이 입니다.</a></td>
+					<td id="no">2</td>
+					<td><a href="#" id="link">후원한 금액이 정상적으로 이용되나요?</a></td>
 					<td id="author"><a href="#">예비군안가버리기</a></td>
 					<td id="time">16:33:24</td>
 					<td id="hit">78</td>
 				</tr>
 
 				<tr>
-					<td id="no">3</td>
-					<td><a href="#" id="link">재미난거 추천좀</a></td>
-					<td id="author"><a href="#">하이바이</a></td>
-					<td id="time">15:01:04</td>
+					<td id="no"></td>
+					<td><a href="#" id="link">
+					 <img src="../images/bQna.gif" width="16" border="0" alt="답변글이미지" />
+					[답변:] 후원한 금액이 정상적으로 이용되나요?</a></td>
+					<td id="author"><a href="#">운영자</a></td>
+					<td id="time">16:41:04</td>
 					<td id="hit">56</td>
 				</tr>
 
 				<tr>
-					<td id="no">2</td>
-					<td><a href="#" id="link">여기는 ㅇㅅㅇ 하는 사람 없어서 좋다</a></td>
-					<td id="author"><a href="#">브라운돈까스</a></td>
+					<td id="no">1</td>
+					<td><a href="#" id="link">사이트 공유해가도 되나요?</a></td>
+					<td id="author"><a href="#">브라움</a></td>
 					<td id="time">14:26:04</td>
 					<td id="hit">64</td>
 				</tr>
 
 				<tr>
-					<td id="no">1</td>
-					<td><a href="#" id="link">나무아미타불 관세음보살</a></td>
-					<td id="author"><a href="#">한화우승</a></td>
-					<td id="time">14:25:24</td>
+					<td id="no"></td>
+					<td><a href="#" id="link">
+					 <img src="../images/bQna.gif" width="16" border="0" alt="답변글이미지" />
+					[답변:] 사이트 공유해가도 되나요?</a></td>
+					<td id="author"><a href="#">운영자</a></td>
+					<td id="time">14:28:24</td>
 					<td id="hit">70</td>
 				</tr>
 			</tbody>
 		</table>
 		
     <div id="bQna_writing"> <%-- 글 쓰기 폼 div --%>
-      <input type="button" id="bQna_writing_btn" name="bQna_writing_btn"
+      <input type="button" class="bQna_writing_btn button
+       button_c9d8ce2 button_f12 button_p1024 button_r4"
       value="글 쓰기" />
     </div> <%-- 글 쓰기 폼 div --%>
     
-    <div style="clear:both";></div>
+    <div style="clear:both"></div>
 		
 		<div id="bQna_pagination"> <%--페이지 순번 --%>
 		 <a href="board_qna.jsp">첫페이지</a>
@@ -178,7 +189,7 @@
    
    <div id="bQna_input"> <%--텍필,버튼 --%>
     <input id="search_text" name="search_text" size="20" />
-    <input type="submit" id="search_btn" value="검색" />
+    <input type="submit" class="search_btn button_wce8e8e8" value="검색" />
    </div> <%--텍필,버튼 --%>
    
   </div> <%--검색 구간 전체 div --%>
