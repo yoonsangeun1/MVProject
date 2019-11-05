@@ -3,6 +3,8 @@
 #aFunding_wrap {
 	float: right;
 	margin: 10px 16px 10px 16px;
+	background-color: white;
+	width: 1000px;
 }
 
 #aFunding_wrap h1 { /* 제목 */
@@ -22,13 +24,14 @@
 	min-height: 590px;
 	border-right: 1px solid #e8e8e8;
 	float: left;
-	font-size: 80%;
+	font-size: 12px;
 	padding-left: 10px;
 	padding-right: 10px;
+	line-height: 1.4em;
 }
 
 #aFunding_maker h3 {
-	font-size: 120%;
+	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
@@ -42,13 +45,14 @@
 	min-height: 590px;
 	border-right: 1px solid #e8e8e8;
 	float: left;
-	font-size: 80%;
+	font-size: 12px;
 	padding-left: 10px;
 	padding-right: 10px;
+	line-height: 1.4em;
 }
 
 #aFunding_genre h3 {
-	font-size: 120%;
+	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
@@ -57,13 +61,14 @@
 	width: 360px;
 	min-height: 590px;
 	float: left;
-	font-size: 80%;
+	font-size: 12px;
 	padding-left: 10px;
 	padding-right: 10px;
+	line-height: 1.4em;
 }
 
 #aFunding_fund h3 {
-	font-size: 120%;
+	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }

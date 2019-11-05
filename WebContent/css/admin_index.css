@@ -12,6 +12,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	border: 0;
 	font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial,
 		sans-serif, "맑은 고딕", "나눔고딕 ExtraBold", "나눔고딕", "함초롬바탕";
+	font-size: 17px;
 	font-size: inherit;
 	font-weight: inherit;
 	text-decoration: none;
@@ -31,7 +32,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	/*border: 1px solid black;*/ /* 테두리 선두께를 1픽셀, 실선 solid, 테두리 선색을 빨강 */
 	margin-left: auto;
 	margin-right: auto; /* div 수평중 정렬 */
-	margin-top: 30px; /* div바깥 상단 여백 */
 	/*border-radius: 15px;*/ /* css3에서 추가된 속성으로 테두리를 둥글게 처리 */
 	/*box-shadow: 10px 10px 10px gray;*/ /* css3에서 추가된 속성으로 div그림자 효과 */
 	align-items: center;
@@ -88,6 +88,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 
 #admin_leftMenu .hyper {
 	color: black;
+	font-size: 20px;
 }
 
 #admin_info { /* 관리자 정보, 사진, 이름 출력되는 div */
