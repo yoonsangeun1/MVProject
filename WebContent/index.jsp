@@ -125,8 +125,8 @@
 				</div>
 				<div class="main_banner">
 					<div class="slider_button">
-						<button class="prev_btn" onclick="plusDivs(-1)"></button>
-						<button class="next_btn" onclick="plusDivs(1)"></button>
+						<button class="prev_btn border" onclick="plusDivs(-1)"></button>
+						<button class="next_btn border" onclick="plusDivs(1)"></button>
 					</div>
  
 					<div class="slider_banners">
@@ -173,7 +173,7 @@
 					</div>
 					<div class="quickmenu2">
 						<button class="quickBtn button_cb3a9eb button_f12 button_r4 vertical group border"
-							onclick="location='./board/board_notice.jsp';">공지사항</button>
+							onclick="location='./board/board_actors.jsp';">배우모집</button>
 					</div>
 
 					<div class="quickmenu3">
@@ -183,7 +183,7 @@
 
 					<button class="quickBtn button_cb3a9eb button_f12 button_r4 vertical group border"
 						onclick="$('html, body').stop().animate({scrollTop : 0}, 500);" style="background-color: #fc636b">TOP</button>
-				</div>
+				</div> 
 
 				<div class="clear"></div>
 
@@ -195,10 +195,12 @@
 							alt="moving_logo" />
 					</div>
 					<div class="biMoving_text">MOVING은 <span style="font-size:60px;">왜</span> 필요할까요?</div>
-
-					<button class="biMoving_button"
-						onclick="location='./banner/aboutMoving.jsp';">MOVING 자세히
-						보기</button>
+					<br />
+					<br />
+					<br />
+					<button class="biMoving_button button_cb3a9eb button_f24 button_r4 border"
+						onclick="location='./banner/aboutMoving.jsp';">MOVING 자세히보기
+					</button> 
 				</div>
 
 				<div class="clear"></div>
@@ -219,11 +221,8 @@
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;다른 사람과 소통을 해보세요 !
 
 					</div>
-
-					<button class="biSns_button"
-						onclick="location='./sns/SNS_Main.jsp';">
-						<span style="font-weight: bold; font-size: 30px; color: #eae6fa">SNS
-							바로가기</span>
+					<button class="biSns_button button_cb3a9eb button_f24 button_r4 border"
+						onclick="location='./sns/SNS_Main.jsp';">SNS 바로가기
 					</button>
 				</div>
 
@@ -256,12 +255,13 @@
 							alt="scenario_img" />
 					</div>
 					<div class="biProject_button">
-						<button class=biProject_actorButton
+						<button class="biProject_actorButton button_cb3a9eb button_f24 button_r4 border"
 							onclick="location='./board/board_actors.jsp';">배우모집 게시판
 						</button>
-						<button class=biProject_writerButton
-							onclick="location='./board/board_contest.jsp';">시나리오 공모
-							게시판</button>
+						
+						<button class="biProject_writerButton button_cb3a9eb button_f24 button_r4 border"
+							onclick="location='./board/board_contest.jsp';">시나리오 공모게시판
+						</button>
 					</div>
 				</div>
 
@@ -275,10 +275,14 @@
 					</div>
 
 					<div class="biSupport_text">
-					MOVING
-						에서 진행되는 프로젝트를 둘러보세요.
+					MOVING에서 진행되는 프로젝트를 둘러보세요.
 					</div>
-					<button class=biProject_look onclick="location='./funding/funding_list.jsp';">프로젝트 둘러보기</button>
+					
+					<div class="biSupport_button">
+					<button class="biProject_look_button button_f24 button_r4 border" 
+						onclick="location='./funding/funding_list.jsp';">프로젝트 둘러보기
+					</button>
+					</div>
 				</div>
 
 
@@ -304,7 +308,7 @@
 <!-- 						<span style="font-weight:bold; font-size:30px;">둘째, </span>&nbsp;후원자분들은 해당 프로젝트 결과물에대한<span style="text-decoration:underline;">기대감</span>과  -->
 <!-- 						<br />&nbsp;&nbsp;&nbsp;<span style="text-decoration:underline;">설렘</span>,<span style="text-decoration:underline;">성취감</span>을 얻을 수 있어요.  -->
 						 
-						 <span style="font-weight:bold; font-size : 40px; color :#9d8ce2; margin-left :80px ">
+						 <span style="font-weight:bold; font-size : 40px; color :#9d8ce2; margin-left :180px ">
 							장르별 영화감상</span>
 							<br />
 							<br />
@@ -321,7 +325,9 @@
 						
 					</div>
 
-					<button class="biTeaser_button" onclick="location='./movie/movie_mainList.jsp';">영화 감상하기</button>
+					<button class="biTeaser_button button_cb3a9eb button_f24 button_r4 border"
+						 onclick="location='./movie/movie_mainList.jsp';">영화 감상하기
+					</button>
 				</div>
 
 				<div class="clear"></div>
@@ -348,7 +354,9 @@
 						
 					</div>
 					
-					<button class="biBoard_button" onclick="location='./board/board_free.jsp';">자유게시판</button>
+					<button class="biBoard_button button_cb3a9eb button_f24 button_r4 border"
+					 	onclick="location='./board/board_free.jsp';">자유게시판
+					 </button>
 				</div>
 
 				<div class="clear"></div>
@@ -374,7 +382,9 @@
 						
 						<img src="./images/history_img.png" width="700px" height="210px">
 					
-					<button class="biJoin_btn" onclick="location='./member/member_join.jsp';">MOVING과 함께하기</button>
+					<button class="biJoin_btn button_cb3a9eb button_f24 button_r4 border" 
+						onclick="location='./member/member_join.jsp';">MOVING과 함께하기
+					</button>
 					 
 					<div class="clear"></div>
 					
