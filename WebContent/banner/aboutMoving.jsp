@@ -15,26 +15,6 @@
 
 	<div id="aboutMoving_wrap">
 
-		<%--퀵메뉴 호출 --%>
-		<div class="mainRight_quick" style="position: fixed; z-index: 3;">
-			<div class="quickmenu1">
-				<button class="go_Support_btn" onclick="location='../member/member_join.jsp';">회원가입</button>
-			</div>
-			<div class="quickmenu2">
-				<button class="go_Notice_btn"
-					onclick="location='../board/board_notice.jsp';">공지사항</button>
-			</div>
-
-			<div class="quickmenu3">
-				<button class="go_Event_btn"
-					onclick="location='../board/board_event.jsp';">이벤트</button>
-			</div>
-
-			<button class="top_btn"
-				onclick="$('html, body').stop().animate({scrollTop : 0}, 500);">TOP</button>
-		</div>
-
-
 		<div class="clear"></div>
 
 		<div id="amMain_wrap">
