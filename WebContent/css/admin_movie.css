@@ -64,15 +64,19 @@
 
 #aMovie_list th { /* 영화 관리 분류 탭(동영상, 제목 등) */
 	border-bottom: 1px solid #e8e8e8;
+	vertical-align: middle;
 }
 
 #aMovie_list td { /* 영화 관리 분류된 리스트 */
 	border-bottom: 1px solid #e8e8e8;
-	height: 80px;
+}
+
+#aMovie_list tr {
+	font-size: 14px;
 }
 
 #aMovie_list .trFont { /* 영화 관리 분류된 리스트 글꼴 */
-	font-size: 80%;
+	font-size: 12px;
 }
 
 /*********** 영화 업로드 페이지 ui구성 ************/
@@ -88,6 +92,10 @@
 	margin: 15px 10px;
 	font-weight: bold;
 	text-shadow: 1px 1px 2px gray;
+}
+
+#aMovie_uploadWrap table{
+	margin-top: 25px;
 }
 
 #aMovie_uploadWrap .txtbox {

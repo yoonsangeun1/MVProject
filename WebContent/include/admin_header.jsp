@@ -79,7 +79,7 @@
 						<li><a href="../admin_index.jsp" class="hyper">HOME</a></li>
 						<li><a href="../admin/admin_dashboard.jsp" class="hyper">DASHBOARD</a></li>
 						<li><a href="../admin/admin_general.jsp" class="hyper">GENERAL</a></li>
-						<li>------------</li>
+						<li><p class="hyper">------------</p></li>
 						<li><a href="../admin/admin_member.jsp" class="hyper">회원 관리</a></li>
 						<li><a href="../admin/admin_funding.jsp" class="hyper">펀딩 관리</a></li>
 						<li><a href="../admin/admin_board.jsp" class="hyper">게시글 관리</a></li>

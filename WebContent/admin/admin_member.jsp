@@ -8,28 +8,28 @@
 	<%-- 회원관리 목록표 생성 --%>
 	<table id="aMember_table" border="1">
 		<tr>
-			<th scope="col" class="aCheck" class="aCheck"><input type="checkbox" name="aMember_check" value="check" />
+			<th scope="col" class="aCheck"><input type="checkbox" name="aMember_check" value="check" />
 			<th scope="col" class="aUserID">User ID</th>
 			<th scope="col" class="aName">Name</th>
 			<th scope="col" class="aEmail">Email</th>
 			<th scope="col" class="aGroup">group</th>
 		</tr>
 		<tr>
-			<td class="aCheck" class="aCheck"><input type="checkbox" name="aMember_check" value="check1" />
+			<td class="aCheck"><input type="checkbox" name="aMember_check" value="check1" />
 			<td class="aUserID">mihawk648</td>
 			<td class="aName">박동수</td>
 			<td class="aEmail">pds0131@daum.net</td>
 			<td class="aGroup">관리자</td>
 		</tr>
 		<tr>
-			<td class="aCheck" class="aCheck"><input type="checkbox" name="aMember_check" value="check1" />
+			<td class="aCheck"><input type="checkbox" name="aMember_check" value="check1" />
 			<td class="aUserID">mihawk648</td>
 			<td class="aName">박동수</td>
 			<td class="aEmail">pds0131@daum.net</td>
 			<td class="aGroup">관리자</td>
 		</tr>
 		<tr>
-			<td class="aCheck" class="aCheck"><input type="checkbox" name="aMember_check" value="check1" />
+			<td class="aCheck"><input type="checkbox" name="aMember_check" value="check1" />
 			<td class="aUserID">mihawk648</td>
 			<td class="aName">박동수</td>
 			<td class="aEmail">pds0131@daum.net</td>
