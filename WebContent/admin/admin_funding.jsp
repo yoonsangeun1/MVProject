@@ -12,22 +12,27 @@
 				<tr>
 					<th scope="col">제작사</th>
 					<th scope="col">개봉 영화</th>
-					<th scope="col">펀딩 금액(원)</th>
+					<th class="fWon" scope="col">펀딩 금액(원)</th>
 				</tr>
 				<tr>
 					<td>Just Movie</td>
 					<td class="fMovie">3</td>
-					<td class="ffPrice">100,000,000</td>
+					<td class="fPrice">50,000,000</td>
 				</tr>
 				<tr>
 					<td>(주)미래능력개발</td>
 					<td class="fMovie">7</td>
-					<td class="fPrice">2,000,000,000</td>
+					<td class="fPrice">200,000,000</td>
 				</tr>
 				<tr>
-					<td>하위^^</td>
+					<td>Published By People</td>
 					<td class="fMovie">1</td>
-					<td class="fPrice">100,000</td>
+					<td class="fPrice">1,000,000</td>
+				</tr>
+				<tr>
+					<td>Hello Mans</td>
+					<td class="fMovie">2</td>
+					<td class="fPrice">5,000,000</td>
 				</tr>
 			</table>
 		</div>
@@ -41,18 +46,48 @@
 					<th scope="col">펀딩 금액(원)</th>
 				</tr>
 				<tr>
-					<td>액션/어드벤쳐</td>
-					<td class="fMovie">3</td>
+					<td>범죄/스릴러</td>
+					<td class="fMovie">5</td>
 					<td class="fPrice">100,000,000</td>
 				</tr>
 				<tr>
-					<td>범죄/느와르</td>
+					<td>액션/어드벤쳐</td>
+					<td class="fMovie">4</td>
+					<td class="fPrice">7,000,000</td>
+				</tr>
+				<tr>
+					<td>다큐/드라마/청춘</td>
+					<td class="fMovie">2</td>
+					<td class="fPrice">1,000,000</td>
+				</tr>
+				<tr>
+					<td>역사/시대극</td>
 					<td class="fMovie">7</td>
-					<td class="fPrice">2,000,000,000</td>
+					<td class="fPrice">200,000,000</td>
+				</tr>
+				<tr>
+					<td>판타지/SF</td>
+					<td class="fMovie">1</td>
+					<td class="fPrice">100,000</td>
 				</tr>
 				<tr>
 					<td>로맨스/멜로</td>
 					<td class="fMovie">1</td>
+					<td class="fPrice">100,000</td>
+				</tr>
+				<tr>
+					<td>코미디</td>
+					<td class="fMovie">2</td>
+					<td class="fPrice">500,000</td>
+				</tr>
+				<tr>
+					<td>애니메이션</td>
+					<td class="fMovie">0</td>
+					<td class="fPrice">0</td>
+				</tr>
+				<tr>
+					<td>기타</td>
+					<td class="fMovie">2</td>
 					<td class="fPrice">100,000</td>
 				</tr>
 			</table>
@@ -67,19 +102,34 @@
 					<th scope="col">펀딩 금액(원)</th>
 				</tr>
 				<tr>
-					<td>박</td>
+					<td></td>
 					<td class="fMovie">3</td>
 					<td class="fPrice">100,000,000</td>
 				</tr>
 				<tr>
-					<td>동</td>
+					<td></td>
 					<td class="fMovie">7</td>
-					<td class="fPrice">2,000,000,000</td>
+					<td class="fPrice">200,000,000</td>
 				</tr>
 				<tr>
-					<td>수</td>
+					<td></td>
 					<td class="fMovie">1</td>
 					<td class="fPrice">100,000</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="fMovie">0</td>
+					<td class="fPrice">0</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="fMovie">2</td>
+					<td class="fPrice">500,000</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="fMovie">5</td>
+					<td class="fPrice">10,000,000</td>
 				</tr>
 			</table>
 		</div>

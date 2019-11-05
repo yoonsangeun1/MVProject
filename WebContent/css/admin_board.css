@@ -59,15 +59,6 @@
 	font-weight: bold;
 }
 
-#aBoard_table span { /* 게시판 제목 */
-	display: block;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	width: 450px;
-	line-height: 1.4em;
-	
-}
 #aBoard_table td.aBT_left { /* 게시판 제목 */
 	text-align: left; /* 글자 왼쪽 정렬 */
 	padding-left: 10px;
@@ -77,12 +68,21 @@
 
 #aBoard_table .aBT_no {
 	border-top-left-radius: 5px; /* 좌 상단 테두리를 둥글게 한다. */
-	border-bottm-left-radius: 5px; /* 좌 하단 테두리를 둥글게 한다. */
 	width: 70px;
 }
 
 #aBoard_table .aBT_title {
 
+}
+
+#aBoard_table span { /* 게시판 제목 */
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 450px;
+	line-height: 1.4em;
+	
 }
 
 #aBoard_table .aBT_writer {

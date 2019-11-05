@@ -41,15 +41,14 @@
 	font-weight: bold;
 	padding: 10px;
 	background-color: #b3a9eb;
-	text-align: center;
+	align-items: ;
 }
 
 #aMember_table td { /* 게시판 글 목록표 td */
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #e8e8e8;
-	padding: 10px 0px;
-	text-align: center;
+	padding: 10px;
 	font-size: 12px;
 }
 
@@ -59,32 +58,38 @@
 
 #aMember_table th.aCheck {
 	border-top-left-radius: 5px; /* 좌 상단 테두리를 둥글게 한다. */
+	text-align: center;
 }
+
 #aMember_table th.aGroup {
 	border-top-right-radius: 5px; /* 좌 상단 테두리를 둥글게 한다. */
 }
 
-#aMember_table td.aCheck, #aMember_table th.aCheck {flex-grow: 1;
+#aMember_table .aCheck {flex-grow: 1;
+	text-align: center;
+	width:70px;
 }
 
-#aMember_table td.aUserID, #aMember_table th.aUserID {flex-grow: 3;
-/* 	width: 250px; */
+#aMember_table .aUserID {flex-grow: 3;
+	width: 250px;
 	text-align: left;
 	padiing-left: 30px;
 }
 
-#aMember_table td.aEmail, #aMember_table th.aEmail { /* 이메일 주소 */flex-grow: 3;
-/* 	width: 250px; */
+#aMember_table .aEmail { /* 이메일 주소 */flex-grow: 3;
+	width: 300px;
 	text-align: left;
 	padding-left: 20px;
 }
 
-#aMember_table td.aName, #aMember_table th.aName {flex-grow: 5;
-/* 	width: 200px; */
+#aMember_table .aName {flex-grow: 5;
+	width: 200px;
+	text-align: left;
 }
 
-#aMember_table td.aGroup, #aMember_table th.aGroup {flex-grow: 3;
-/* 	width: 200px; */
+#aMember_table .aGroup {flex-grow: 3;
+	width: 150px;
+	text-align: left;
 }
 
 #aMember_pageCtrl { /* 페이지 목록 */
@@ -99,8 +104,6 @@
 	padding: 2px 5px;
 	margin: 0px 5px;
 	color: #333;
-}
-
 }
 
 #aMember_pageCtrl a:hover { /* 페이지 목록 하이퍼링크 된곳 마우스 오버시 */

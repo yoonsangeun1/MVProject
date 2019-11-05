@@ -82,8 +82,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 	width: 160px;
 	height: 770px;
 	float: left;
-	border-left: 1px solid #e8e8e8;
-	border-right: 1px solid #e8e8e8;
+	border-left: 1px solid #DBDBDB;
+	border-right: 1px solid #DBDBDB;
 }
 
 #admin_leftMenu .hyper {
@@ -94,7 +94,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 #admin_info { /* 관리자 정보, 사진, 이름 출력되는 div */
 	width: 160px;
 	height: 220px;
-	border-bottom: 1px solid #e8e8e8;
+	border-bottom: 1px solid #DBDBDB;
 }
 
 #admin_info img { /* 등록된 관리자 사진 */
@@ -129,7 +129,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 }
 
 #admin_logout { /* 로그아웃 */
-	border-top: 1px solid #e8e8e8;
+	border-top: 1px solid #DBDBDB;
 	width: 160px;
 	height: 100px;
 	float: left;
