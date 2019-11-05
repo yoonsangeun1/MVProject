@@ -4,6 +4,8 @@
 #aMember_wrap { /* 회원관리 게시글 전체 div */
 	float: right;
 	margin: 10px 16px 50px 16px;
+	background-color: white;
+	width: 1000px;
 }
 
 #aMember_wrap h1 { /* 회원관리 제목 */
@@ -20,6 +22,12 @@
 	margin-top: 35px;
 }
 
+#aMember_table tr {
+	width: 1000px;
+	display: flex;
+	font-size: 14px;
+	line-height: 1.4em;
+}
 #aMember_table tr:hover { /* 회원관리 표에 마우스 오버시 */
 	cursor: hand;
 	cursor: pointer;
@@ -27,16 +35,13 @@
 }
 
 #aMember_table th { /* 게시판 글 목록표 th */
-	height: 20px;
+	height: auto;
 	font-size: 14px;
+	line-height: 1.4em;
 	font-weight: bold;
 	padding: 10px;
 	background-color: #b3a9eb;
 	text-align: center;
-}
-
-#aMember_table th .aCheck {
-	width:150px;
 }
 
 #aMember_table td { /* 게시판 글 목록표 td */
@@ -45,35 +50,41 @@
 	border-bottom-color: #e8e8e8;
 	padding: 10px 0px;
 	text-align: center;
+	font-size: 12px;
 }
 
 #aMember_table a {
 	color: #333;
 }
 
-#aMember_table td.aCheck {
+#aMember_table th.aCheck {
 	border-top-left-radius: 5px; /* 좌 상단 테두리를 둥글게 한다. */
-	border-bottm-left-radius: 5px; /* 좌 하단 테두리를 둥글게 한다. */
+}
+#aMember_table th.aGroup {
+	border-top-right-radius: 5px; /* 좌 상단 테두리를 둥글게 한다. */
 }
 
-#aMember_table td.aUserID {
-	width: 200px;
+#aMember_table td.aCheck, #aMember_table th.aCheck {flex-grow: 1;
+}
+
+#aMember_table td.aUserID, #aMember_table th.aUserID {flex-grow: 3;
+/* 	width: 250px; */
 	text-align: left;
 	padiing-left: 30px;
 }
 
-#aMember_table td.aEmail { /* 이메일 주소 */
-	width: 250px;
+#aMember_table td.aEmail, #aMember_table th.aEmail { /* 이메일 주소 */flex-grow: 3;
+/* 	width: 250px; */
 	text-align: left;
 	padding-left: 20px;
 }
 
-#aMember_table td.aName {
-	width: 200px;
+#aMember_table td.aName, #aMember_table th.aName {flex-grow: 5;
+/* 	width: 200px; */
 }
 
-#aMember_table td.aGroup {
-	width: 200px;
+#aMember_table td.aGroup, #aMember_table th.aGroup {flex-grow: 3;
+/* 	width: 200px; */
 }
 
 #aMember_pageCtrl { /* 페이지 목록 */
@@ -81,6 +92,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 60px;
+	font-size: 14px;
 }
 
 #aMember_pageCtrl a {

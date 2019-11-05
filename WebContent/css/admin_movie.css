@@ -3,6 +3,8 @@
 #aMovie_wrap { /* 영화관리 전체를 포함하는 div */
 	float: right;
 	margin: 10px 16px 10px 16px;
+	background-color: white;
+	width: 1000px;
 }
 
 #aMovie_wrap h1 { /* 영화관리 제목 */
