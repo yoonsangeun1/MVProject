@@ -151,18 +151,24 @@
 
 					<div class="slider_banners">
 
-						<img class="auto_mySlides" src="./images/s1.PNG" width="1200"
-							height="675" onclick="Move_biMoving()"> <img
-							class="auto_mySlides" src="./images/s3.PNG" width="1200"
-							height="675" onclick="Move_biSns()"> <img
-							class="auto_mySlides" src="./images/s2.PNG" width="1200"
-							height="675" onclick="Move_biProject()"> <img
-							class="auto_mySlides" src="./images/s4.PNG" width="1200"
-							height="675" onclick="Move_biTeaser()"> <img
-							class="auto_mySlides" src="./images/s1.PNG" width="1200"
-							height="675" onclick="Move_biMoving()"> <img
-							class="auto_mySlides" src="./images/s2.PNG" width="1200"
-							height="675" onclick="Move_biStatistics()">
+						<img class="auto_mySlides" src="./images/0001.jpg" width="1200"
+							height="675" onclick="Move_biMoving()"> <!-- 무빙 -->
+							
+						<img class="auto_mySlides" src="./images/0007.jpg" width="1200"
+							height="675" onclick="Move_biSns()"> <!-- SNS -->
+							
+						<img class="auto_mySlides" src="./images/0011.jpg" width="1200"
+							height="675" onclick="Move_biProject()"> <!-- 프로젝트  -->
+							
+						<img class="auto_mySlides" src="./images/0003.jpg" width="1200"
+							height="675" onclick="Move_biTeaser()"> <!-- 영화감상/자유게시판 -->
+							
+<!-- 						<img class="auto_mySlides" src="./images/s1.PNG" width="1200" -->
+<!-- 							height="675" onclick="Move_biTeaser()"> 자유게시판 -->
+						<img class="auto_mySlides" src="./images/0002.jpg" width="1200"
+							height="675" onclick="Move_biStatistics()"> <!-- 통계 -->
+						<img class="auto_mySlides" src="./images/0004.jpg" width="1200"
+							height="675" onclick="Move_biStatistics()"> <!-- 통계 -->
 					</div>
 
 				</div>
@@ -297,7 +303,7 @@
 				</div>
 
 				<div class="clear"></div>
-				<img src="./images/1900260.png" width="1200px" height="164px"
+				<img src="./images/0005.jpg" width="1200px" height="260px"
 					style="margin: 0px;">
 
 
