@@ -2,16 +2,16 @@
 
 /* admin_member.jsp css작업 */
 #aMember_wrap { /* 회원관리 게시글 전체 div */
-	float: right;
-	margin: 10px 16px 50px 16px;
+	float: left;
 	background-color: white;
-	width: 1000px;
+	width: 1040px;
+	min-height: 800px;
 }
 
 #aMember_wrap h1 { /* 회원관리 제목 */
 	font-size: 35px;
 	color: #ccc;
-	margin: 15px 10px;
+	margin: 35px 15px;
 	font-weight: bold;
 	text-shadow: 1px 1px 2px gray;
 }
@@ -20,12 +20,13 @@
 	width: 1000px; /* 표 테이블 너비 */
 	border-collapse: collapse; /* 표 테이블  테두리 공간을 없앰 */
 	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #aMember_table tr {
 	width: 1000px;
 	display: flex;
-	font-size: 14px;
 	line-height: 1.4em;
 }
 #aMember_table tr:hover { /* 회원관리 표에 마우스 오버시 */
@@ -49,7 +50,7 @@
 	border-bottom-style: solid;
 	border-bottom-color: #e8e8e8;
 	padding: 10px;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 #aMember_table a {

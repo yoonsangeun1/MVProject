@@ -7,7 +7,7 @@
 
 	<div id="aMovie_list">
 		<%-- 업로드 된 리스트 목록표 --%>
-		<table id="aMovie_listTable" border="1">
+		<table id="aMovie_listTable" border="1" ">
 		
 			<tr>
 				<th colspan="8" align="right">
@@ -15,7 +15,7 @@
 				</th>
 			</tr>
 			
-			<tr>
+			<tr valign="middle">
 				<th width="30" scope="col" class="check"><input type="checkbox" name="aMovie_check" value="check" /></th>
 				<th scope="col" class="cate1 video">동영상</th>
 				<th scope="col" class="cate1 title">제목</th>
@@ -26,7 +26,7 @@
 				<th scope="col" class="cate2 like">좋아요</th>
 			</tr>
 			
-			<tr class="trFont">
+			<tr class="trFont" valign="middle">
 				<td><input type="checkbox" name="aMovie_check" /></td>
 				<td class="cate1" rowspan="3"><iframe width="140" height="78" src="https://www.youtube.com/embed/A0gP4id3Gxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 				<td class="cate1 title"><a href="#" >어반자카파 - 서울 밤(Feat.Beenzino)</a></td>

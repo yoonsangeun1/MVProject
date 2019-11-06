@@ -15,7 +15,7 @@
 
 			<%-- 업로드 창 중앙 div --%>
 			<div id="aMUploadCenter">
-				<table border="1" id="aMUpload_table">
+				<table border="1" id="aMUpload_table" valign=bottom>
 
 					<%-- 카테고리 콤보박스 --%>
 					<tr>

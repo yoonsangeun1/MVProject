@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 #aFunding_wrap {
-	float: right;
-	margin: 10px 16px 10px 16px;
+	float: left;
 	background-color: white;
-	width: 1000px;
-	vertical-align: center;
+	width: 1040px;
+	min-height: 800px;
+	vertical-align: middle;
 }
 
 #aFunding_wrap h1 { /* 제목 */
 	font-size: 35px;
 	color: #ccc;
-	margin: 15px 10px;
+	margin: 35px 15px;
 	font-weight: bold;
 	text-shadow: 1px 1px 2px gray;
 }
@@ -21,7 +21,7 @@
 }
 
 #aFunding_maker { /* 제작사별 실적 */
-	width: 330px;
+	width: 340px;
 	min-height: 590px;
 	border-right: 1px solid #e8e8e8;
 	float: left;
@@ -38,7 +38,7 @@
 }
 
 #aFunding_makerTable { /* 제작사별 실적 표 */
-	width:310px;
+	width:320px;
 }
 
 #aFunding_genre { /* 장르별 실적 */
@@ -63,7 +63,7 @@
 }
 
 #aFunding_fund { /* 펀딩별 실적 */
-	width: 360px;
+	width: 400px;
 	min-height: 590px;
 	float: left;
 	font-size: 12px;
@@ -79,7 +79,7 @@
 }
 
 #aFunding_fund table {
-	width: 340px;
+	width: 380px;
 }
 
 #aFunding_table th, #aFunding_table td {

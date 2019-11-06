@@ -80,7 +80,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 
 #admin_leftMenu { /* 왼쪽 총 메뉴 div */
 	width: 160px;
-	height: 770px;
+	height: 800px;
 	float: left;
 	border-left: 1px solid #DBDBDB;
 	border-right: 1px solid #DBDBDB;

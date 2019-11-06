@@ -1,16 +1,17 @@
 @charset "UTF-8";
 
 #aMovie_wrap { /* 영화관리 전체를 포함하는 div */
-	float: right;
-	margin: 10px 16px 10px 16px;
+	float: left;
 	background-color: white;
-	width: 1000px;
+	width: 1040px;
+	min-height: 800px;
+	vertical-align: middle;
 }
 
 #aMovie_wrap h1 { /* 영화관리 제목 */
 	font-size: 35px;
 	color: #ccc;
-	margin: 15px 10px;
+	margin: 35px 15px;
 	font-weight: bold;
 	text-shadow: 1px 1px 2px gray;
 }
@@ -26,7 +27,7 @@
 	float: left;
 }
 
-#aMovie_list table { /* 영화 관리 목록표 */
+#aMovie_listTable { /* 영화 관리 목록표 */
 	width: 1000px;
 }
 
@@ -69,6 +70,8 @@
 
 #aMovie_list td { /* 영화 관리 분류된 리스트 */
 	border-bottom: 1px solid #e8e8e8;
+	line-height: 1.4em;
+	vertical-align: middle;
 }
 
 #aMovie_list tr {
@@ -83,19 +86,23 @@
 
 #aMovie_uploadWrap { /* 영화관리 전체를 포함하는 div */
 	float: left;
-	margin: 10px 16px 10px 15px;
+	background-color: white;
+	width: 1040px;
+	min-height: 800px;
+	vertical-align: middle;
 }
 
 #aMovie_uploadWrap h2 { /* 영화관리 제목 */
 	font-size: 30px;
 	color: #ccc;
-	margin: 15px 10px;
+	margin: 35px 15px;
 	font-weight: bold;
 	text-shadow: 1px 1px 2px gray;
 }
 
 #aMovie_uploadWrap table{
 	margin-top: 25px;
+	font-size: 15px;
 }
 
 #aMovie_uploadWrap .txtbox {
@@ -132,7 +139,7 @@
 }
 
 #aMUploadRight { /* 동영상 업로드 화면 오른쪽 div */
-	width: 350px;
+	width: 400px;
 	height: 600px;
 	float: right;
 }
@@ -143,12 +150,14 @@
 	color: white;
 	padding: 15px 42px;
 	margin-bottom: 20px;
+	margin-right: 20px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
 	cursor: pointer;
 	float: right;
+	
 }
 
 
@@ -184,10 +193,11 @@
 
 #aMUpload_table th {
 	width: 80px;
+	vertical-align: middle;
 }
 
 #aMUpload_table td {
-	
+
 }
 
 #aMUploadR_videoUrl input {
