@@ -44,7 +44,7 @@
 						</div>
 					</div></li>
 				<li><div id="SNS_Profile_Image">
-						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo.gif">
+						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo13.jpg">
 						<div id="SNS_Profile_Image_Info">
 							<h3>외출할 땐 돌봐주고, 함께할 땐 놀아주는 U+스마트홈 펫케어! 반려동물의 상태를 분석하고 관찰하는
 								360도 '맘카'와 편안한 조명과 음악을 제공하는 '수면등', 놀아주며 간식도 챙겨주는 '펫피트니스'까지!</h3>
@@ -57,7 +57,7 @@
 						</div>
 					</div></li>
 				<li><div id="SNS_Profile_Image">
-						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo.gif">
+						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo14.jpg">
 						<div id="SNS_Profile_Image_Info">
 							<h3>외출할 땐 돌봐주고, 함께할 땐 놀아주는 U+스마트홈 펫케어! 반려동물의 상태를 분석하고 관찰하는
 								360도 '맘카'와 편안한 조명과 음악을 제공하는 '수면등', 놀아주며 간식도 챙겨주는 '펫피트니스'까지!</h3>
@@ -70,7 +70,7 @@
 						</div>
 					</div></li>
 				<li><div id="SNS_Profile_Image">
-						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo.gif">
+						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo15.jpg">
 						<div id="SNS_Profile_Image_Info">
 							<h3>외출할 땐 돌봐주고, 함께할 땐 놀아주는 U+스마트홈 펫케어! 반려동물의 상태를 분석하고 관찰하는
 								360도 '맘카'와 편안한 조명과 음악을 제공하는 '수면등', 놀아주며 간식도 챙겨주는 '펫피트니스'까지!</h3>
@@ -83,7 +83,7 @@
 						</div>
 					</div></li>
 				<li><div id="SNS_Profile_Image">
-						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo.gif">
+						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo16.jpg">
 						<div id="SNS_Profile_Image_Info">
 							<h3>외출할 땐 돌봐주고, 함께할 땐 놀아주는 U+스마트홈 펫케어! 반려동물의 상태를 분석하고 관찰하는
 								360도 '맘카'와 편안한 조명과 음악을 제공하는 '수면등', 놀아주며 간식도 챙겨주는 '펫피트니스'까지!</h3>
@@ -96,7 +96,7 @@
 						</div>
 					</div></li>
 				<li><div id="SNS_Profile_Image">
-						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo.gif">
+						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo17.jpg">
 						<div id="SNS_Profile_Image_Info">
 							<h3>외출할 땐 돌봐주고, 함께할 땐 놀아주는 U+스마트홈 펫케어! 반려동물의 상태를 분석하고 관찰하는
 								360도 '맘카'와 편안한 조명과 음악을 제공하는 '수면등', 놀아주며 간식도 챙겨주는 '펫피트니스'까지!</h3>
@@ -106,7 +106,7 @@
 						</div>
 					</div></li>
 				<li><div id="SNS_Profile_Image">
-						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo.gif">
+						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo18.jpg">
 						<div id="SNS_Profile_Image_Info">
 							<h3>외출할 땐 돌봐주고, 함께할 땐 놀아주는 U+스마트홈 펫케어! 반려동물의 상태를 분석하고 관찰하는
 								360도 '맘카'와 편안한 조명과 음악을 제공하는 '수면등', 놀아주며 간식도 챙겨주는 '펫피트니스'까지!</h3>
@@ -116,7 +116,7 @@
 						</div>
 					</div></li>
 				<li><div id="SNS_Profile_Image">
-						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo.gif">
+						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo19.jpg">
 						<div id="SNS_Profile_Image_Info">
 							<h3>외출할 땐 돌봐주고, 함께할 땐 놀아주는 U+스마트홈 펫케어! 반려동물의 상태를 분석하고 관찰하는
 								360도 '맘카'와 편안한 조명과 음악을 제공하는 '수면등', 놀아주며 간식도 챙겨주는 '펫피트니스'까지!</h3>
@@ -126,7 +126,7 @@
 						</div>
 					</div></li>
 				<li><div id="SNS_Profile_Image">
-						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo.gif">
+						<img id="SNS_Profile_Image_Photo" src="../images/sns_photo5.gif">
 						<div id="SNS_Profile_Image_Info">
 							<h3>외출할 땐 돌봐주고, 함께할 땐 놀아주는 U+스마트홈 펫케어! 반려동물의 상태를 분석하고 관찰하는
 								360도 '맘카'와 편안한 조명과 음악을 제공하는 '수면등', 놀아주며 간식도 챙겨주는 '펫피트니스'까지!</h3>

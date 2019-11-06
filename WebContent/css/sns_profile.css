@@ -17,22 +17,23 @@
 }
 /* 왼쪽 오른쪽 */
 #SNS_Profile_Left{
-	width: 1100px;
+	width: 1250px;
 	height: 450px;
-	margin-left:50px;
 	z-index: 0;
+	
 }
 #SNS_Profile_Set{ /* 프로필 설정 */
 	position:relative;
-	width:300px; 
+	width:270px; 
 	height:600px;
 	z-index: 1;
+	margin-left: 50px;
 	float: left;
 	list-style: none;
 }
 #SNS_Profile_Right{
 	position:relative;
-	width: 870px;
+	width: 830px;
 	height: auto;
 	margin-top: 10px;
 	margin-left: 15px;
@@ -46,8 +47,9 @@
 /* 왼쪽 메뉴 열거 */
 #SNS_Profile_Background{
 	border:1px solid;
-	width: 1100px;
-	height: 450px;
+	width: 1250px;
+	height: 50px;
+	transition: 0.9s;
 	background-image:url(../images/sns_back1.jpg);
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
@@ -55,18 +57,26 @@
 #SNS_Profile_Background_Img{
 	position:relative;
 	z-index:0;
-	width: 1100px;
-	height: 450px;
+	width: 1200px;
+	height:50px;
 	float: left;
+}
+#SNS_Profile_Background:hover{
+	height: 450px;	
+}
+#SNS_Profile_Background:hover #SNS_Profile_Photo{
+	opacity: 0;
 }
 #SNS_Profile_Photo{ /* 프로필 사진*/
 	position:relative;
 	text-align:center;
-	top:35%;
+	top:160px;
+	left: 25px;
 	width:250px; height:250px;
 	border-radius:200px;
 	margin: 15px 30px;
 	z-index: 2;
+	transition: 0.6s;
 }
 #SNS_Profile_Title_Name{
 	width:650px;
@@ -80,7 +90,7 @@
 	padding-top: 10px;
 	position: relative;
 	text-align: center;
-	width:300px; 
+	width:270px; 
 	height:70px;
 	transition: 1.2s;
 	margin-top: 10px;
@@ -90,7 +100,8 @@
 	line-height: 12px;
 	border-radius: 10px;
 }
-#SNS_Profile_Info:hover{/* 애니메이션 효과 */
+/*#SNS_Profile_Info:hover{/* 애니메이션 효과 */
+	/*top:150px;
 	width: 1145px;
 	height:400px;
 	background: #6a67ce;
@@ -100,10 +111,10 @@
 	line-height: 62px;
 	border:1px solid #a3a0e0;
 	border-radius: 55px;
-}
+}*/
 #SNS_Profile_Menu_Button{
 	margin-top: 8px;
-	width:300px;
+	width:270px;
 	height:70px;
 	cursor: pointer;
 	border: none;
@@ -142,9 +153,9 @@
 }
 #SNS_Profile_Image{
 	position: relative;
-	width:250px;
-	height: 250px;
-	margin: 0px 19px 7.5px 7.5px; /* 가로 세로 */
+	width:230px;
+	height: 230px;
+	margin: 17px 19px 17px 7.5px; /* 가로 세로 */
 	text-align: center;
 	z-index: -1;
 	float:left;
@@ -166,6 +177,7 @@
   -ms-transform: translate(-50%, -50%);
   cursor: pointer;
   border: 1px white;
+  margin-top: 10px;
 }
 #SNS_Profile_Image_Like{
 	transition: .2s ease;
@@ -191,7 +203,7 @@
 #SNS_Profile_Image_Center h3{
 	background-color:  #9d8ce2;
 	color: white;
-	font-size: 16px;
+	font-size: 13px;
 	padding: 16px 32px;
 	font-weight: 700;
 	border-radius: 15px;
