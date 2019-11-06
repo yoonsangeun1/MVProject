@@ -12,8 +12,7 @@
 	height: 400px; /* 메인배너 높이 */
 	border: 3px solid black;
 	font-size: 30px;
-	background-color:#eae6fa
-	;
+	background-color:#eae6fa;
 	text-align: center;
 }
 </style>

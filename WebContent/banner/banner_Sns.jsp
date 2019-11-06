@@ -6,19 +6,19 @@
 <title></title>
 <style>
 #bSns_wrap {
-	font-size: 100px;
+	font-size: 200px;
 	float: left;
 	width: 1200px; /* 메인배너 너비 */
 	height: 400px; /* 메인배너 높이 */
-	border: 3px solid black;
+	/* 	border: 3px solid black; */
 	font-size: 30px;
 	text-align: center;
+	background-image: url(../images/banner_sns_img.png);
 }
 </style>
 </head>
 <body>
 	<div id="bSns_wrap" onclick="Move_biSns()">
-		<br />슬라이드 - SNS페이지
 	</div>
 
 </body>
