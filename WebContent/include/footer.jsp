@@ -31,11 +31,12 @@
 					<section id="footer_about">
 						<h4>ABOUT</h4>
 						<ul>
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Our charter</a></li>
-							<li><a href="#">Stats</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Jobs</a></li>
+							<li><a href="../banner/aboutMoving.jsp">About us</a></li>
+							<li><a href="../board/board_notice.jsp">Notice</a></li>
+							<li><a href="../board/board_actors.jsp">Jobs</a></li>
+							<li><a href="../board/board_faq.jsp">FAQ</a></li>
+							<li><a href="../board/board_qna.jsp">Q&A</a></li>
+
 						</ul>
 					</section>
 					<section id="footer_help">

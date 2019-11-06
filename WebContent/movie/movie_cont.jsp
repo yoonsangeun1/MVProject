@@ -6,12 +6,10 @@
 		<div id="movie_cont_video">
 			<%-- 동영상 --%>
 			<div id="video">
-
-				<iframe width="900" height="500"
-					src="https://www.youtube.com/embed/SqV_37jdXS8" frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-
+				<p align="center">
+					<iframe width="900" height="500"
+						src="https://www.youtube.com/embed/SqV_37jdXS8"></iframe>
+				</p>
 			</div>
 
 			<%-- 영상 기본 정보 --%>
@@ -19,13 +17,12 @@
 				<h5 class="subTitle">2층 침대를 점령한 고양이들</h5>
 				<p class="subInfo">조회 수 3,162,480회·2018.04.19.</p>
 				<hr class="my-hr1" />
-				
-				<div id="videoInfo_director">
-					<a href="#"><img src="../images/m_publisher.PNG" width="100" height="100"/></a> &nbsp;<a
-						href="#"><b>크림히어로즈</b></a>
-					<p class="subInfo">구독자 299만명</p>
-				</div>
 
+				<div id="videoInfo_director">
+					<a href="#"><img src="../images/m_publisher.PNG" width="50"
+						height="50" /></a> &nbsp;<a href="#"><b>크림히어로즈</b></a>
+
+				</div>
 				<p class="subCont">
 					밖에 나갔다가 돌아왔더니 고양이들이 저의 2층 침대를 점령했어요!<br /> <br /> BGM<br /> <br />
 					"Montauk Point" Kevin MacLeod(incompetech.com)
@@ -52,8 +49,7 @@
 							<!-- 접속자 이름이 담겨있는 div공간 -->
 							<div id="visitor_name">
 								<!-- 접속한 사람 이름, 접속한 사람 SNS 링크 이동 기능 -->
-								<a
-									href="http://localhost:8071/Moving/movie/movie_categoryList.jsp"><b><em>Hsuckle</em></b></a>
+								<a href="#"><b>Hsuckle</b></a>
 							</div>
 						</div>
 						<div id="comment_box">
@@ -94,11 +90,11 @@
 										<!-- 댓글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
 										<div class="commenterName">
 											<!-- 댓글 단 작성자 -->
-											<a href="#"><em><b>Exe1</b></em></a>
+											<a href="#"><b>Exe1</b></a>
 										</div>
 										<div class="commentDate">
 											<!-- 댓글을 달았던 날짜 -->
-											<em>4일 전</em>
+											4일 전
 										</div>
 									</div>
 									<div class="like_dislike">
@@ -155,11 +151,11 @@
 												<!-- 답글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
 												<div class="replierName">
 													<!-- 답글 단 작성자 -->
-													<a href="#"><em><b>Exe1</b></em></a>
+													<a href="#"><b>Exe1</b></a>
 												</div>
 												<div class="replyDate">
 													<!-- 답글을 달았던 날짜 -->
-													<em>2일 전</em>
+													2일 전
 												</div>
 											</div>
 											<div class="like_dislike">
@@ -213,11 +209,11 @@
 																<!-- 답글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
 																<div class="replierName">
 																	<!-- 답글 단 작성자 -->
-																	<a href="#"><em><b>Exe1</b></em></a>
+																	<a href="#"><b>Exe1</b></a>
 																</div>
 																<div class="replyDate">
 																	<!-- 답글을 달았던 날짜 -->
-																	<em>2일 전</em>
+																	 2일 전 
 																</div>
 															</div>
 															<div class="like_dislike">
@@ -281,11 +277,11 @@
 												<!-- 답글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
 												<div class="replierName">
 													<!-- 답글 단 작성자 -->
-													<a href="#"><em><b>Exe1</b></em></a>
+													<a href="#"> <b>Exe1</b> </a>
 												</div>
 												<div class="replyDate">
 													<!-- 답글을 달았던 날짜 -->
-													<em>2일 전</em>
+													 2일 전 
 												</div>
 											</div>
 											<div class="like_dislike">
@@ -339,11 +335,11 @@
 												<!-- 답글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
 												<div class="replierName">
 													<!-- 답글 단 작성자 -->
-													<a href="#"><em><b>Exe1</b></em></a>
+													<a href="#"> <b>Exe1</b> </a>
 												</div>
 												<div class="replyDate">
 													<!-- 답글을 달았던 날짜 -->
-													<em>2일 전</em>
+													 2일 전 
 												</div>
 											</div>
 											<div class="like_dislike">
@@ -403,11 +399,11 @@
 										<!-- 댓글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
 										<div class="commenterName">
 											<!-- 댓글 단 작성자 -->
-											<a href="#"><em><b>Exe1</b></em></a>
+											<a href="#"> <b>Exe1</b> </a>
 										</div>
 										<div class="commentDate">
 											<!-- 댓글을 달았던 날짜 -->
-											<em>4일 전</em>
+											 4일 전 
 										</div>
 									</div>
 									<div class="like_dislike">
@@ -459,11 +455,11 @@
 										<!-- 댓글 단 작성자, 작성일자만 담겨져 있는 div공간 -->
 										<div class="commenterName">
 											<!-- 댓글 단 작성자 -->
-											<a href="#"><em><b>Exe1</b></em></a>
+											<a href="#"> <b>Exe1</b> </a>
 										</div>
 										<div class="commentDate">
 											<!-- 댓글을 달았던 날짜 -->
-											<em>4일 전</em>
+											 4일 전 
 										</div>
 									</div>
 									<div class="like_dislike">
@@ -503,33 +499,85 @@
 			</div>
 			<%-- comment_and_reBtn--%>
 		</div>
+		
+		
 		<div id="movie_cont_recommendation">
-			<%-- 추가 비디오 목록 --%>
-			<div id="other_Movie">
-				<!-- 다른 동영상들을 담고 있는 div -->
-				<div class="mVideo">
-					<!-- 영화 동영상 각각 div 설정 -->
-					<p class="otherMovieTitle">루루 때문에 고양이들 단체로 목욕하는 날</p>
-					<a href="movie_cont.jsp"><img src="../images/replyuser.png"
-						width="280px" height="200px" /></a>
+			<div class="mBox_item">
+			<!-- 1번 영상 -->
+			<a href="movie_cont.jsp"> <img src="../images/m_sidemirror.jpg"
+				class="image" alt="사물이 거울에 보이는 것보다 가까이 있음">
+				<div class="container">
+					<p>
+						사물이 거울에 보이는 것보다<br />가까이 있음
+					</p>
 				</div>
-				<hr class="my-hr1" />
-				<div class="mVideo">
-					<!-- 영화 동영상 각각 div 설정 -->
-
-					<p class="otherMovieTitle">사물이 거울에 보이는 것보다 가까이 있음</p>
-					<a href="movie_categoryList.jsp"><img
-						src="../images/replyuser.png" width="280px" height="200px" /></a>
-				</div>
-				<hr class="my-hr1" />
-				<div class="mVideo">
-					<!-- 영화 동영상 각각 div 설정 -->
-
-					<p class="otherMovieTitle">고양이들이 너무 좋아해서 2층 침대를 ...</p>
-					<a href="movie_categoryList.jsp"><img
-						src="../images/replyuser.png" width="280px" height="200px" /></a>
+			</a>
+			<div class="woori_zo_fighting">
+				<div class="byYangs">
+					<h4>
+						[감독]<br />신경석
+					</h4>
+					<br />
+					<h4>
+						[배우]<br />권정화, 이요섭
+					</h4>
+					<br />
+					<h5>
+						[Synopsis]<br />인적이 드문 도로에서<br />한 여자의 차가 고장이 났다.
+					</h5>
 				</div>
 			</div>
+		</div>
+
+		<div class="mBox_item">
+			<!-- 2번 영상 -->
+			<a href="movie_cont.jsp"> <img src="../images/m_semiBasement.PNG"
+				class="image" alt="만우절이요">
+				<div class="container">
+					<p>만우절</p>
+				</div>
+			</a>
+			<div class="woori_zo_fighting">
+				<div class="byYangs">
+					<h4>
+						[감독]<br />양형석
+					</h4>
+					<br />
+					<h4>
+						[배우]<br />태우, 김창회, 채혁, 한일규<br />이은호
+					</h4>
+					<br />
+					<h5>
+						[Synopsis]<br />카톡에서 자신의 절친이었던 동기가 사람을 죽였다는 이야기를 듣는다. 그런 그가...
+					</h5>
+				</div>
+			</div>
+		</div>
+
+		<div class="mBox_item">
+			<!-- 3번 영상 -->
+			<a href="movie_cont.jsp"> <img src="../images/m_vroong.jpg"
+				class="image" alt="배달대행">
+				<div class="container">
+					<p>배달대행</p>
+				</div>
+			</a>
+			<div class="woori_zo_fighting">
+				<div class="byYangs">
+					<h4>
+						[감독]<br />양형석
+					</h4>
+					<br />
+					<h4>
+						[배우]<br />김통일, 장대웅
+					</h4>
+					<br />
+					<h5>
+						[Synopsis]<br />도로에서 일어난 사고로<br />의문의 남성에게 배달대행을 지시받게 되는데...
+					</h5>
+				</div>
+			</div>
+		</div>
 		</div>
 	</div>
 
