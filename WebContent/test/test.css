@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+letter-spacing: -.02em;
+-webkit-font-smoothing: antialiased;
+border: 0;
+vertical-align: baseline;
+font: inherit;
+position: relative;
+padding: 40px 16px;
+line-height: 20px;
+color: rgba(0, 0, 0, 0.84);
+font-size: 15px;
+font-weight: 400;
+margin: 0 auto;
+padding-bottom: 96px;
+box-sizing: border-box;
+width: 100%;
+max-width: 400px;
+overflow: hidden;
