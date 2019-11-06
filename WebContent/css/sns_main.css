@@ -343,7 +343,12 @@
 }
 
 #SNS_Content {
+   margin-bottom:10px;
+   padding-top:3px;
+   padding-bottom:15px;
    margin-left: 5px;
+   height: 980px;
+   border-bottom: 1px solid #e8e8e8; 
 }
 
 #SNS_Content_info {
@@ -489,7 +494,7 @@
    border-top: 1px solid #f2f0fb;
    height: auto;
    margin-top: 8px;
-   margin-bottom: 5px;
+   margin-bottom: 35px;
    padding-top: 17px;
 }
 .SNS_Comment_Write_Chat{
