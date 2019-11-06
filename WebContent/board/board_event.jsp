@@ -42,7 +42,7 @@
   
   <div id="bEvent_list"> <%-- 이벤트 목록 list div --%>
   <div class="events" <%--onmouseover="bEvent_events_over(this);" --%>> <%--나중에 js적용해야함 --%>
-   <a href="#" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
+   <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent01.png" />
     </span> <%--이미지 span태그 --%>
@@ -68,7 +68,7 @@
   </div>
   
   <div class="events">
-   <a href="#" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
+   <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent02.png" />
     </span> <%--이미지 span태그 --%>
@@ -94,7 +94,7 @@
   </div>
   
   <div class="events">
-   <a href="#" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
+   <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent03.png" />
     </span> <%--이미지 span태그 --%>
@@ -120,7 +120,7 @@
   </div>
   
   <div class="events">
-   <a href="#" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
+   <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent04.png" />
     </span> <%--이미지 span태그 --%>
@@ -146,7 +146,7 @@
   </div>
   
   <div class="events">
-   <a href="#" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
+   <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent05.png" />
     </span> <%--이미지 span태그 --%>
@@ -172,7 +172,7 @@
   </div>
   
   <div class="events">
-   <a href="#" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
+   <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent06.png" />
     </span> <%--이미지 span태그 --%>
@@ -198,7 +198,7 @@
   </div>
   
   <div class="events">
-   <a href="#" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
+   <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent07.png" />
     </span> <%--이미지 span태그 --%>
@@ -224,7 +224,7 @@
   </div>
   
   <div class="events">
-   <a href="#" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
+   <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent08.png" />
     </span> <%--이미지 span태그 --%>
@@ -250,7 +250,7 @@
   </div>
   
   <div class="events">
-   <a href="#" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
+   <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent09.png" />
     </span> <%--이미지 span태그 --%>
@@ -276,7 +276,7 @@
   </div>
   
   <div class="events">
-   <a href="#" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
+   <a href="http://www.naver.com" target="_blank"> <%--이벤트 클릭 시 이동, 임시로 네이버 지정함 --%>
     <span class="bEvent_image"> <%--이미지 span태그 --%>
      <img src="../images/bEvent10.png" />
     </span> <%--이미지 span태그 --%>

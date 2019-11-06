@@ -88,20 +88,10 @@
 		<%-- 상세 정보 --%>
 		<div id="fCont_leftCont">
 		<h3>About</h3>
-		<img src="../images/fundingCont01.png" width="800" height="1200" alt="fundingCont"/>
 		
 		</div>
-		<div id="fCont_rightCont">
-		<h3>About</h3>
-		<img src="../images/fundingCont01.png" width="800" height="1200" alt="fundingCont"/>
-		
-		</div>
-		
 	</div>
 </div>
-
-
-
 <%@ include file="../include/footer.jsp"%>
 
 

@@ -107,7 +107,6 @@
 				</ul>
 			</div>
 		</div>
-		<div id="SNS_main_rightWrap">		
 		<div id="SNS_main_right">
 			<!-- 우측 프로필, 뉴스, 기타 -->
 			<div id="right_profile">
@@ -166,7 +165,6 @@
 				<li><a href="">2차 프로젝트에 쏟은 기간.."2시간" 보기만 해도 10만원!(이 부과됩니다.)</a></li>
 			</ul>
 		</div>
-	</div>
 	</div>
 
 <%@ include file="../include/sns_footer.jsp"%>

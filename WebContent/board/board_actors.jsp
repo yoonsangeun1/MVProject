@@ -53,12 +53,12 @@
    <div id="bActors_list"> <%-- 배우 목록들 --%>
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model01.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	추정훈
        </a>
@@ -67,12 +67,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model02.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	임정민
        </a>
@@ -81,12 +81,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model03.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	안현진
        </a>
@@ -95,12 +95,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model04.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	박창현
        </a>
@@ -109,12 +109,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model05.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	김민준
        </a>
@@ -123,12 +123,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model06.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	송민혁
        </a>
@@ -137,12 +137,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model07.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	박정언
        </a>
@@ -151,12 +151,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model08.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	진시원
        </a>
@@ -165,12 +165,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model09.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	강정호
        </a>
@@ -179,12 +179,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model10.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	김용준
        </a>
@@ -193,12 +193,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model11.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	이경오
        </a>
@@ -207,12 +207,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model12.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	박서현
        </a>
@@ -221,12 +221,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model13.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	윤선
        </a>
@@ -235,12 +235,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model14.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	백민서
        </a>
@@ -249,12 +249,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model15.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	유창한
        </a>
@@ -263,12 +263,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model16.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	현동현
        </a>
@@ -277,12 +277,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model17.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	노수민
        </a>
@@ -291,12 +291,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model18.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	강진철
        </a>
@@ -305,12 +305,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model19.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	이승훈
        </a>
@@ -319,12 +319,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model20.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	정유현
        </a>
@@ -333,12 +333,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model21.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	김준경
        </a>
@@ -347,12 +347,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model22.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	조용진
        </a>
@@ -361,12 +361,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model23.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	이승우
        </a>
@@ -375,12 +375,12 @@
     
     <div id="bActors_model"> <%--배우들 네모 전체 div --%>
      <div> <%--배우들 사진 --%>
-      <a href="#">
+      <a href="http://www.naver.com">
        <img src="../images/model24.jpg" />
       </a>
      </div> <%--배우들 사진 --%>
       <div id="bActors_name"> <%--배우들 성함 --%>
-       <a href="#">
+       <a href="http://www.naver.com">
         <img src="../images/character.gif" id="character"/>
          	정한수
        </a>
