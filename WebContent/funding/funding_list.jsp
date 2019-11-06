@@ -2,13 +2,13 @@
 <%@ include file="../include/header.jsp"%>
 <link rel="stylesheet" type="text/css" href="../css/funding_list.css" />
 
-<div class="fList_wrap">
+<div id="fList_wrap">
 
 	<%-- MainDIV 1. 카테고리 제목, 설명 --%>
 	<div id="fList_title">
 		<section>
 			<h3>Main</h3>
-			<p>Discover the artists and organizations using Moving to
+			<p>Discover the artists and organizations using Kickstarter to
 				realize ambitious projects in visual art and performance.</p>
 			<%-- 세부 카테고리별 보기 버튼 --%>
 			<div id="title_category_container">
@@ -125,7 +125,7 @@
 			<form>
 				<input id="newsletter-signup-input"
 					placeholder="Enter email address" type="text" value="" />
-				<button type="submit" class="subscribeBtn button_wce8e8e8"id="newsletter-signup-button">Subscribe</button>
+				<button type="submit" id="newsletter-signup-button">Subscribe</button>
 			</form>
 		</div>
 	</div>
