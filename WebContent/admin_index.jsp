@@ -42,10 +42,7 @@
 							</div>
 						</div>
 						<div style="flex-grow: 0.8;">
-							<input name="header_searchbar" placeholder="Search"
-								style="color: white; border: none; background-color: #6a67ce;"
-								size="3">&nbsp;&nbsp; <a href="#"><i
-								class="fas fa-search"></i></a>
+							<a href="./sns/sns_Main.jsp">SNS</a>
 						</div>
 						<div style="flex-grow: 0.6;">
 							<a href="./index.jsp">Main</a>
@@ -119,7 +116,6 @@
 		</div>
 
 	</div>
-	<%@ page contentType="text/html; charset=UTF-8"%>
 
 <div class="clear"></div>
 <%-- 구분선 --%>
