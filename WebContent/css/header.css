@@ -211,10 +211,10 @@ body {
 
 /* 푸터 **************************************************************** 푸터 ***/
 /* 푸터 전체 */
-#global_footer_wrap p, i, nav, nav ul, nav ul li, div, h4, a {
+/* #global_footer_wrap p, i, nav, nav ul, nav ul li, div, h4, a {
 	font: 14px "맑은 고딕" #656969 !important;
 	line-height: 1.7em !important;
-}
+} */
 
 #global_footer_wrap {
 	margin-left: auto;

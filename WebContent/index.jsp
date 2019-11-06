@@ -154,7 +154,7 @@
 						<img class="auto_mySlides" src="./images/0001.jpg" width="1200"
 							height="675" onclick="Move_biMoving()"> <!-- 무빙 -->
 							
-						<img class="auto_mySlides" src="./images/0007.jpg" width="1200"
+						<img class="auto_mySlides" src="./images/01010.png" width="1200"
 							height="675" onclick="Move_biSns()"> <!-- SNS -->
 							
 						<img class="auto_mySlides" src="./images/0011.jpg" width="1200"
